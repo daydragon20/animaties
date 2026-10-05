@@ -2804,7 +2804,7 @@ $("stTop").textContent = `Scout Atlas ${YEAR} · versie 1`;
 $("stDur").textContent = `Film · ${fmt(DUR)} · met geluid`;
 if (VOICE) { $("bVoice").hidden = false; $("stVoice").hidden = false; setVoice(true); }
 
-// testhaakjes: ?t=42 (pauzeer op 42 s) · ?play · ?clean (zonder bediening) · ?nosound · ?data (meteen de verkenner) · ?q=0.6 (lagere 3D-kwaliteit)
+// testhaakjes: ?t=42 (pauzeer op 42 s) · ?play · ?clean (zonder bediening) · ?nosound · ?data (meteen de verkenner) · ?q=0.6 (lagere 3D-kwaliteit) · ?nograin (zonder filmkorrel)
 const audioReady = qs.has("nosound") ? Promise.resolve(null) : (async () => {
   try {
     const r = await renderScore((p) => { ringP.setAttribute("stroke-dashoffset", CIRC * (1 - p)); sndState.textContent = `muziek wordt gecomponeerd… ${Math.round(p * 100)}%`; });
@@ -2822,6 +2822,7 @@ document.fonts.ready.then(() => {
   fit();
   render(0); ui();
   if (qs.has("clean")) document.getElementById("ui").style.display = "none";
+  if (qs.has("nograin")) { const gr = document.getElementById("grain"); if (gr) gr.style.display = "none"; }
   if (qs.has("t")) { startEl.classList.add("gone"); seek(parseFloat(qs.get("t"))); showCtrl(); }
   if (qs.has("data")) { startEl.classList.add("gone"); openExplorer(false); }
   if (qs.has("play")) play();
