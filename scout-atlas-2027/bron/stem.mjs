@@ -2,6 +2,8 @@
 //
 //   1. Zet je API-sleutel in bron/.env  →  FISH_API_KEY=jouw_sleutel
 //      (optioneel: FISH_VOICE_ID=<id van een stem>, FISH_MODEL=s2.1-pro)
+//      Draait Fish Audio/Fish Speech LOKAAL op je pc? Zet dan FISH_URL=http://127.0.0.1:8080 (de poort van jouw server);
+//      een sleutel is dan alleen nodig als je server er een eist.
 //   2. node stem.mjs            maakt alle zinnen die nog niet bestaan (stem/v01.mp3 …)
 //      node stem.mjs --opnieuw  maakt alles opnieuw
 //      node stem.mjs v05 v18    maakt enkel deze zinnen (opnieuw)
@@ -28,8 +30,10 @@ const KEY = process.env.FISH_API_KEY || process.env.FISH_AUDIO_API_KEY;
 // standaardstem: "Rustige Nederlandse Stem" uit de openbare bibliotheek van Fish Audio.
 // Andere ideeën: Vlaamse Vertelstem 1c2edf7e681a46db9ab376a9e538d820 · Polygoonjournaalstem 467f454e4ec14c0b8beb1a5644837549
 //                Epic Game Announcer 92e3ee13d7524fee904324e350a532a0 · of je eigen gekloonde stem.
-const VOICE = process.env.FISH_VOICE_ID || "add4d395494c4ed0ba2018e77b39ea54";
+const VOICE = process.env.FISH_VOICE_ID !== undefined ? process.env.FISH_VOICE_ID : (/^https:\/\/api\.fish\.audio$/i.test((process.env.FISH_URL || "https://api.fish.audio").replace(/\/+$/, "")) ? "add4d395494c4ed0ba2018e77b39ea54" : "");
 const MODEL = process.env.FISH_MODEL || "s2.1-pro";
+const BASE = (process.env.FISH_URL || "https://api.fish.audio").replace(/\/+$/, "");
+const LOKAAL = !/^https:\/\/api\.fish\.audio$/i.test(BASE);
 
 const args = process.argv.slice(2);
 const toon = args.includes("--toon"), opnieuw = args.includes("--opnieuw");
@@ -76,10 +80,11 @@ if (toon) {
   for (const l of lijnen) console.log(`${l.id}  @${String(l.t).padEnd(14)} max ${String(l.max).padEnd(4)} s   ${l.ingevuld}`);
   process.exit(0);
 }
-if (!KEY) {
-  console.error("Geen FISH_API_KEY gevonden. Zet hem in bron/.env (FISH_API_KEY=...) of als omgevingsvariabele.");
+if (!KEY && !LOKAAL) {
+  console.error("Geen FISH_API_KEY gevonden. Zet hem in bron/.env (FISH_API_KEY=...) of als omgevingsvariabele.\nDraait Fish lokaal op je pc? Zet dan FISH_URL=http://127.0.0.1:<poort> in bron/.env.");
   process.exit(1);
 }
+if (LOKAAL) console.log(`Lokale server: ${BASE}${KEY ? " (met sleutel)" : " (zonder sleutel)"}`);
 const duur = (f) => { try { return parseFloat(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString()); } catch (e) { return null; } };
 let ok = 0;
 for (const l of lijnen) {
@@ -87,15 +92,15 @@ for (const l of lijnen) {
   if (alleen.length && !alleen.includes(l.id)) continue;
   if (!alleen.length && !opnieuw && existsSync(out)) { console.log(`${l.id}  bestaat al (gebruik --opnieuw)`); continue; }
   const body = {
-    text: l.ingevuld, reference_id: VOICE, format: "mp3", mp3_bitrate: 192, normalize: true, latency: "normal",
+    text: l.ingevuld, ...(VOICE ? { reference_id: VOICE } : {}), format: "mp3", mp3_bitrate: 192, normalize: true, latency: "normal",
     temperature: 0.7, top_p: 0.7, prosody: { speed: l.snelheid || 1, volume: 0 },
   };
   for (let poging = 1; poging <= 3; poging++) {
-    const r = await fetch("https://api.fish.audio/v1/tts", {
-      method: "POST",
-      headers: { Authorization: `Bearer ${KEY}`, "Content-Type": "application/json", model: MODEL },
-      body: JSON.stringify(body),
-    });
+    const headers = { "Content-Type": "application/json", model: MODEL };
+    if (KEY) headers.Authorization = `Bearer ${KEY}`;
+    let r;
+    try { r = await fetch(`${BASE}/v1/tts`, { method: "POST", headers, body: JSON.stringify(body) }); }
+    catch (e) { console.error(`${l.id}  ✗ geen verbinding met ${BASE}: ${e.message}`); process.exit(1); }
     if (r.ok) {
       writeFileSync(out, Buffer.from(await r.arrayBuffer()));
       const d = duur(out.pathname);

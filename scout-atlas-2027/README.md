@@ -63,6 +63,8 @@ De film werkt zonder stem: de belangrijkste woorden staan in beeld. Met een stem
    node bouw.mjs          # bakt de stem in index.html
    ```
 
+**Draait Fish Audio/Fish Speech lokaal op je pc?** Zet dan in `bron/.env` in plaats van de sleutel: `FISH_URL=http://127.0.0.1:<poort>` (de poort van je server; een sleutel is alleen nodig als je server er een eist). Zonder `FISH_VOICE_ID` gebruikt de server zijn standaardstem.
+
 De zinnen staan in `bron/stem/teksten.json`, met aanwijzingen voor Fish Audio zoals `[whispering]` en `[break]`.
 Getallen en de naam van de winnaar worden uit de data ingevuld. Is een zin te lang voor zijn moment, dan zegt het script welke `snelheid` je moet zetten.
 De muziek wordt automatisch zachter zolang de stem spreekt.
