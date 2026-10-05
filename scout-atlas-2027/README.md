@@ -88,7 +88,7 @@ node bouw.mjs       # bakt alles (data, kaart, lettertypes, three.js, stem) in .
 ```
 
 De film zit in `bron/js/` (één bestand per hoofdstuk), de verkenner in `bron/js/95-verkenner.js`, `bron/verkenner.html` en `bron/verkenner.css`.
-Testhaakjes in de adresbalk: `?t=95` (spring naar 95 s), `?clean` (zonder bediening), `?nosound`, `?data` (meteen de verkenner), `?q=0.6` (lagere 3D-kwaliteit voor trage computers).
+Testhaakjes in de adresbalk: `?t=95` (spring naar 95 s), `?clean` (zonder bediening), `?nosound`, `?data` (meteen de verkenner), `?q=0.6` (lagere 3D-kwaliteit voor trage computers), `?nograin` (zonder filmkorrel; handig voor een kleinere video-export).
 
 ## Inspiratie
 
