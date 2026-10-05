@@ -1,1 +1,29 @@
-{"lijnen":[]}
+{
+  "uitleg": "Stemzinnen voor de film. 't' = wanneer de zin begint: een getal (seconden) of een cue zoals 'ML.weigh+0.2' of 'slot.1'. 'max' = hoeveel seconden er ruimte is. {winnaar}, {n_landen}, {n_vragen}, {n_scores}, {verhouding}, {top1..3}, {gewonnen} worden ingevuld uit de data. Tussen [haken] staan Fish Audio-aanwijzingen: [break], [long-break], [whispering], [soft tone], [excited], [emphasis].",
+  "lijnen": [
+    { "id": "v01", "t": 3.1, "max": 3.8, "tekst": "[soft tone] Volgende zomer trekken we weg." },
+    { "id": "v02", "t": 7.6, "max": 4.2, "tekst": "Tien tot vijftien verkenners. [break] Eén rugzak elk." },
+    { "id": "v03", "t": 12.1, "max": 2.6, "tekst": "[whispering] Maar… waarheen?" },
+    { "id": "v04", "t": "PRO.title+0.7", "max": 2.6, "tekst": "[emphasis] Scout Atlas." },
+    { "id": "v05", "t": "PRO.sub", "max": 2.9, "tekst": "{n_landen} landen. [break] Eén kamp." },
+    { "id": "v06", "t": "ML.helix+0.3", "max": 4.6, "tekst": "We stelden {n_vragen} vragen. [break] Aan elk land." },
+    { "id": "v07", "t": "ML.scores+0.2", "max": 4.4, "tekst": "Samen zijn dat {n_scores} scores." },
+    { "id": "v08", "t": "ML.weigh+0.1", "max": 2.9, "tekst": "Maar niet elke vraag weegt even zwaar." },
+    { "id": "v09", "t": "ML.hl+0.2", "max": 3.6, "tekst": "{top1} weegt het zwaarst. [break] Dan {top2}. Dan {top3}." },
+    { "id": "v10", "t": "ML.fact+0.4", "max": 3.8, "tekst": "Eén vraag over veiligheid weegt {verhouding} keer zoveel als één over geldautomaten." },
+    { "id": "v11", "t": "LS.a+0.1", "max": 3.6, "tekst": "Elke kubus is één score. [break] Elke rij is één land." },
+    { "id": "v12", "t": "LS.b+0.1", "max": 3.8, "tekst": "Samen vormen ze een landschap. [break] Met pieken… en dalen." },
+    { "id": "v13", "t": "LS.sort+0.3", "max": 2.6, "tekst": "En dan: de rangschikking." },
+    { "id": "v14", "t": "T.s3+0.5", "max": 2.2, "tekst": "Van {n_landen_k}… [break] naar één." },
+    { "id": "v15", "t": "T.ten+0.3", "max": 2.4, "tekst": "[whispering] Nog tien over." },
+    { "id": "v16", "t": "T.top3+0.3", "max": 2.4, "tekst": "De top drie." },
+    { "id": "v17", "t": "T.build+0.4", "max": 3.2, "tekst": "[whispering] En op nummer één…" },
+    { "id": "v18", "t": "T.flash+0.7", "max": 2.2, "tekst": "[excited] {winnaar}!" },
+    { "id": "v19", "t": "WH.a+0.3", "max": 3.6, "tekst": "{winnaar} wint {gewonnen}." },
+    { "id": "v20", "t": "WH.b+0.3", "max": 4.2, "tekst": "Maar het zakt ook nergens diep weg. [break] Dat is de kracht." },
+    { "id": "v21", "t": "WH.c+2.5", "max": 3.4, "tekst": "Elk land op deze lijst is een goed kamp." },
+    { "id": "v22", "t": "FIN.v1+0.3", "max": 3.6, "tekst": "Eerlijk is eerlijk: [break] dit is versie één." },
+    { "id": "v23", "t": "FIN.route+0.4", "max": 2.8, "tekst": "Nu begint het echte plannen." },
+    { "id": "v24", "t": "FIN.title+0.9", "max": 4.0, "tekst": "Zomer tweeduizend zevenentwintig. [long-break] {winnaar}." }
+  ]
+}

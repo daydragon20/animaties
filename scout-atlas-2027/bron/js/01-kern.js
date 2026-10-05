@@ -210,6 +210,6 @@ function buildGrain() {
   }
   cv.style.width = "1920px"; cv.style.height = "1080px";
   let last = -1;
-  renders.push((t) => { const f = Math.floor(t * 18) % frames.length; if (f !== last) { g.putImageData(frames[f], 0, 0); last = f; } });
+  renders.push((t) => { const n = frames.length, f = ((Math.floor(t * 18) % n) + n) % n; if (f !== last) { g.putImageData(frames[f], 0, 0); last = f; } });
   el("div", { id: "vig" }, stage);
 }

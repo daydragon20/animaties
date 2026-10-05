@@ -5,7 +5,7 @@ buildGrain();
 
 let t = 0, playing = false, last = 0;
 const DUR = T.end;
-function render(tt) { for (const f of renders) f(tt); }
+function render(tt) { tt = Math.max(0, tt); for (const f of renders) f(tt); }
 function fit() {
   const s = Math.min(innerWidth / 1920, innerHeight / 1080);
   stage.style.transform = `translate(${(innerWidth - 1920 * s) / 2}px,${(innerHeight - 1080 * s) / 2}px) scale(${s})`;
@@ -64,16 +64,17 @@ async function loadVoices() {
     try { voices.push({ t: resolveCue(l.t), buf: await c.decodeAudioData(bin.buffer) }); } catch (e) { console.warn("stem", l.id, e); }
   }
 }
-// tijd van een stemzin: getal, of "cue+offset" (bv. "flash-4.2")
+// tijd van een stemzin: getal, of "cue+offset" (bv. "ML.weigh+0.2", "T.flash-1", "slot.1")
 function resolveCue(x) {
   if (typeof x === "number") return x;
-  const m = String(x).match(/^([a-z0-9]+)(?:\.([a-z0-9]+))?\s*([+-]\s*[\d.]+)?$/i);
+  const CUES = { T, PRO, ML, LS, AF, WH, FIN };
+  const m = String(x).replace(/\s/g, "").match(/^([A-Za-z]+)\.([A-Za-z0-9]+)([+-][\d.]+)?$/);
   if (!m) return parseFloat(x) || 0;
   let base = 0;
   if (m[1] === "slot") base = SLOT[+m[2]].a;
-  else if (T[m[1]] != null) base = T[m[1]];
-  else if (typeof window[m[1]] === "object" && m[2]) base = window[m[1]][m[2]];
-  return base + (m[3] ? parseFloat(m[3].replace(/\s/g, "")) : 0);
+  else if (CUES[m[1]] && typeof CUES[m[1]][m[2]] === "number") base = CUES[m[1]][m[2]];
+  else console.warn("onbekende cue", x);
+  return base + (m[3] ? parseFloat(m[3]) : 0);
 }
 
 /* — bediening — */
@@ -114,10 +115,15 @@ function toggle() { playing ? pause() : play(); }
 function seek(s) { t = clamp(s, 0, DUR); render(t); if (playing) audioStart(); ui(); }
 function setMute(m) { muted = m; if (master) master.gain.value = muted ? 0 : 1; ui(); }
 function setVoice(v) { voiceOn = v; $("stVoice").textContent = "Stem: " + (v ? "aan" : "uit"); $("stVoice").classList.toggle("on", v); if (playing) audioStart(); ui(); }
+// klok: de audioklok als die loopt (perfect synchroon met het geluid), anders de gewone klok
+let ctxSeen = -1, ctxStuck = 0;
 function loop(now) {
   if (playing) {
-    if (srcs.length && actx && actx.state === "running") t = actx.currentTime - aStart;
-    else t += Math.min(0.1, (now - last) / 1000);
+    const dt = Math.min(0.1, (now - last) / 1000);
+    let useCtx = srcs.length && actx && actx.state === "running";
+    if (useCtx) { if (actx.currentTime === ctxSeen) ctxStuck += dt; else { ctxStuck = 0; ctxSeen = actx.currentTime; } if (ctxStuck > 0.25) useCtx = false; }
+    if (useCtx) t = Math.max(0, actx.currentTime - aStart);
+    else t = Math.max(0, t + dt);
     if (t >= DUR) { t = DUR; playing = false; audioStop(); render(t); ui(); openExplorer(true); }
     else { render(t); ui(); }
   }
@@ -199,7 +205,10 @@ addEventListener("keydown", (e) => {
   const stars = Array.from({ length: 160 }, () => [rnd(), rnd(), rnd() * 1.2 + 0.3, rnd() * 6]);
   function frame(now) {
     if (!startEl.classList.contains("gone")) {
-      const w = cv.width = cv.clientWidth * (devicePixelRatio || 1), h = cv.height = cv.clientHeight * (devicePixelRatio || 1);
+      // decoratief: op halve resolutie tekenen, en de canvas alleen vergroten als het venster verandert
+      const q = Math.min(1, devicePixelRatio || 1) * 0.6;
+      const w = Math.round(cv.clientWidth * q), h = Math.round(cv.clientHeight * q);
+      if (cv.width !== w || cv.height !== h) { cv.width = w; cv.height = h; }
       const tt = now / 1000;
       g.fillStyle = "#030607"; g.fillRect(0, 0, w, h);
       const sc = Math.max(w / W, h / H) * 1.25;
@@ -207,7 +216,7 @@ addEventListener("keydown", (e) => {
       g.translate(w / 2, h / 2); g.rotate(Math.sin(tt * 0.03) * 0.04); g.scale(sc, sc);
       g.drawImage(off, -W / 2 + Math.sin(tt * 0.05) * 40, -H / 2 + Math.cos(tt * 0.04) * 30);
       g.restore();
-      for (const s of stars) { g.fillStyle = `rgba(239,233,218,${0.15 + 0.35 * (0.5 + 0.5 * Math.sin(tt * 0.8 + s[3]))})`; g.beginPath(); g.arc(s[0] * w, s[1] * h, s[2] * (devicePixelRatio || 1), 0, 7); g.fill(); }
+      for (const s of stars) { g.fillStyle = `rgba(239,233,218,${0.15 + 0.35 * (0.5 + 0.5 * Math.sin(tt * 0.8 + s[3]))})`; g.fillRect(s[0] * w, s[1] * h, s[2] * q * 1.6, s[2] * q * 1.6); }
       const gr = g.createRadialGradient(w / 2, h / 2, 0, w / 2, h / 2, Math.max(w, h) * 0.6);
       gr.addColorStop(0, "rgba(3,6,7,.55)"); gr.addColorStop(1, "rgba(3,6,7,.15)");
       g.fillStyle = gr; g.fillRect(0, 0, w, h);

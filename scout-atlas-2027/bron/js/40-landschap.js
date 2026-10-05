@@ -64,12 +64,12 @@ const TERRAIN = GL.add((() => {
     gold.emissiveIntensity = 0.25 + 0.9 * E.out(pk) * (0.7 + 0.3 * Math.sin(t * 5));
     // camera: hoog boven het verre einde → laag langs de voorkant → schuin overzicht
     const p1 = E.inOut2(seg(t, LS.grow, LS.b)), p2 = E.inOut2(seg(t, LS.b, LS.sort)), p3 = E.inOut2(seg(t, LS.sort - 0.5, LS.end));
-    let tgt = lerp3([0, 0, -depth * 0.7], [0, 0, -depth * 0.3], p1);
+    let tgt = lerp3([0, 0, -depth * 0.5], [0, 0, -depth * 0.3], p1);
     tgt = lerp3(tgt, [lerp(-4, 4, p2), 0, -depth * 0.26], p2);
-    tgt = lerp3(tgt, [0, 0, -depth * 0.2], p3);
-    let dist = lerp(lerp(170, 70, p1), 62, p2); dist = lerp(dist, 74, p3);
-    let el_ = lerp(lerp(55, 24, p1), 21, p2); el_ = lerp(el_, 30, p3);
-    let az = lerp(lerp(-34, -14, p1), 10, p2); az = lerp(az, 0, p3);
+    tgt = lerp3(tgt, [0, 0, -10], p3);
+    let dist = lerp(lerp(118, 70, p1), 62, p2); dist = lerp(dist, 50, p3);
+    let el_ = lerp(lerp(40, 24, p1), 21, p2); el_ = lerp(el_, 44, p3);
+    let az = lerp(lerp(-26, -14, p1), 10, p2); az = lerp(az, 0, p3);
     aimCam(cam, tgt, dist, el_, az);
     cam.updateProjectionMatrix();
     HUD.tag = `${nl(N, 0)} SCORES`;
@@ -81,6 +81,7 @@ const TERRAIN = GL.add((() => {
 (function () {
   const L = el("div", { class: "L" }, sceneRootEl);
   const box = (top) => el("div", { class: "a", style: `left:150px;top:${top}px;width:760px;white-space:normal` }, L);
+  const _shadeSlot = el("div", { class: "L" }, L);
   const A = box(150), B = box(150);
   el("div", { class: "kick", style: `color:${COL.mint}` }, A, "Lezen zoals een kaart");
   const ah = el("div", { class: "serif", style: "font-size:64px;line-height:1.05;margin-top:16px" }, A);
@@ -94,25 +95,25 @@ const TERRAIN = GL.add((() => {
   const lo = CC.flatMap((c) => c.scores.map((s, i) => ({ s, c, v: V[i] }))).reduce((a, b) => (b.s < a.s ? b : a));
   const bn = el("div", { class: "mono", style: `font-size:19px;color:${COL.soft};margin-top:24px;line-height:1.7` }, B,
     `<span style="color:${COL.gold}">■</span> ${n100} keer een perfecte 100 &nbsp;·&nbsp; laagste: ${nl(lo.s, 1)} (${lo.c.name}, ${escapeHtml(lo.v.name.toLowerCase())})`);
+  const shadeT = el("div", { class: "L", style: "background:linear-gradient(180deg, rgba(4,9,11,.88) 0%, rgba(4,9,11,.6) 20%, rgba(4,9,11,0) 34%)" }, L);
+  const shadeL = el("div", { class: "L", style: "background:linear-gradient(90deg, rgba(4,9,11,.85) 0%, rgba(4,9,11,.5) 30%, rgba(4,9,11,0) 50%)" }, L);
+  _shadeSlot.appendChild(shadeT); _shadeSlot.appendChild(shadeL);
   const C = el("div", { class: "a", style: "left:0;width:1920px;text-align:center;top:118px" }, L);
   el("div", { class: "kick", style: `color:${COL.mint}` }, C, "Gesorteerd op eindscore");
   const ch = el("div", { class: "serif", style: "font-size:56px;margin-top:14px" }, C);
   const cw = words(ch, "Van *beste* links naar laatste rechts.");
   // landlabels aan de voorkant
   const labs = CC.map((c) => {
-    const e = el("div", { class: "a mono", style: "left:0;top:0;font-size:15px;transform-origin:0 50%" }, labLayer);
+    const e = el("div", { class: "a mono", style: "left:0;top:0;font-size:16px;transform-origin:0 50%;text-shadow:0 1px 8px #000" }, labLayer);
     e.textContent = c.name;
     return { c, e };
-  });
-  const catLabs = CATS.map((c, i) => {
-    const e = el("div", { class: "a mono", style: `left:0;top:0;font-size:14px;color:${COL.muted};letter-spacing:.06em;text-transform:uppercase` }, labLayer, short(c));
-    return { c, e, i };
   });
   renders.push((t) => {
     const on = t >= T.s2 && t < T.s3 + 0.1;
     op(L, on ? 1 : 0);
-    labs.forEach((l) => op(l.e, 0)); catLabs.forEach((l) => op(l.e, 0));
+    labs.forEach((l) => op(l.e, 0));
     if (!on) return;
+    op(shadeL, win(t, LS.a - 0.3, LS.sort, 0.8, 0.8)); op(shadeT, win(t, LS.sort, LS.end, 0.8, 0.5));
     inout(A, t, LS.a, LS.b - 0.2, 0.9, 16, 0.6); revealWords(aw, t, LS.a, 0.13, 1.0); revealWords(aw2, t, LS.a + 1.3, 0.13, 1.0);
     inout(B, t, LS.b, LS.sort - 0.2, 0.9, 16, 0.6); revealWords(bw, t, LS.b, 0.13, 1.0);
     inout(C, t, LS.sort + 0.4, LS.end - 0.3, 0.9, 16, 0.5); revealWords(cw, t, LS.sort + 0.4, 0.12, 1.0);
@@ -129,13 +130,6 @@ const TERRAIN = GL.add((() => {
       const done = sp(j) > 0.98;
       l.e.innerHTML = (done ? `<span style="color:${j === 0 ? COL.gold : COL.mint}">${j + 1}</span> ` : "") + escapeHtml(l.c.name);
       l.e.style.color = j === 0 && done ? COL.gold : COL.paper;
-    });
-    const co = E.out(seg(t, LS.sort + 0.6, LS.sort + 1.6)) * (1 - E.inOut(seg(t, LS.end - 0.5, LS.end)));
-    catLabs.forEach((l) => {
-      const [px, py, ok] = project(TERRAIN.cam, (-(CC.length - 1) / 2) * 1.25 - 1.4, 0, TERRAIN.catZ[l.i]);
-      if (!ok) return;
-      op(l.e, co * vis);
-      l.e.style.transform = `translate(${px}px,${py}px) translate(-100%,-50%)`;
     });
   });
 })();
