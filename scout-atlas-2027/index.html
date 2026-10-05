@@ -2604,6 +2604,8 @@ function ctx() {
   }
   return actx;
 }
+// stem staat 5 dB onder wat Fish levert en de muziek zakt 5 dB zolang er gesproken wordt (stem ≈ 10 dB boven de muziek)
+const VOICE_GAIN = 0.56, DUCK = 0.56;
 const VOICE = STEM && STEM.lijnen && STEM.lijnen.length ? STEM.lijnen : null;
 function audioStop() { srcs.forEach((s) => { try { s.stop(); } catch (e) {} s.disconnect(); }); srcs = []; }
 function audioStart() {
@@ -2618,7 +2620,7 @@ function audioStart() {
   m.start(now, Math.min(t, music.duration - 0.01)); srcs.push(m);
   // muziek zachter onder de stem (ducking)
   mGain.gain.cancelScheduledValues(0); mGain.gain.setValueAtTime(1, now);
-  vGain.gain.value = voiceOn ? 1 : 0;
+  vGain.gain.value = voiceOn ? VOICE_GAIN : 0;
   if (voiceOn) for (const v of voices) {
     const a = v.t, b = v.t + v.buf.duration;
     if (b <= t) continue;
@@ -2626,7 +2628,7 @@ function audioStart() {
     if (a >= t) s.start(now + (a - t)); else s.start(now, t - a);
     srcs.push(s);
     const da = now + Math.max(0, a - t), db = now + Math.max(0, b - t);
-    mGain.gain.setTargetAtTime(0.42, Math.max(now, da - 0.25), 0.09);
+    mGain.gain.setTargetAtTime(DUCK, Math.max(now, da - 0.25), 0.09);
     mGain.gain.setTargetAtTime(1, db + 0.1, 0.35);
   }
 }
