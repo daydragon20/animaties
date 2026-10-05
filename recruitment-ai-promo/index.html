@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RecruitmentAI — De lus</title>
+<meta name="description" content="Promofilm van 64 seconden: originaliteit is geen stijl, het is een lus.">
+<link rel="stylesheet" href="assets/fonts.css">
+<style>
+:root{
+  --paper:#E3E4DE; --paper-2:#EEEFEA; --sheet:#F4F4F0; --ink:#14120F; --ink-2:#3B3833; --muted:#5D5A53;
+  --line:rgba(20,18,15,.16); --grid:rgba(20,18,15,.05);
+  --terra:#C2410C; --emerald:#047857; --crimson:#9F1239;
+  --ai-bg:#07070B; --ai-purple:#7C3AED; --ai-cyan:#22D3EE;
+  --cond:'Archivo',system-ui,sans-serif; --mono:'Spline Sans Mono',ui-monospace,monospace; --serif:'Fraunces',Georgia,serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#0d0d0c;overflow:hidden}
+body{font-family:var(--cond);color:var(--ink);-webkit-font-smoothing:antialiased}
+
+/* ---------- stage: 1920×1080, geschaald naar het venster ---------- */
+#viewport{position:fixed;inset:0;overflow:hidden}
+#stage{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;background:var(--paper);transform-origin:0 0}
+.layer{position:absolute;inset:0}
+.abs{position:absolute}
+.mono{font-family:var(--mono);font-weight:500;letter-spacing:.14em;text-transform:uppercase}
+
+/* papier + meetgrid */
+#paper{background-color:var(--paper);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px),
+    linear-gradient(rgba(20,18,15,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(20,18,15,.035) 1px,transparent 1px);
+  background-size:40px 40px,40px 40px,200px 200px,200px 200px;background-position:-1px -1px}
+.reg{position:absolute;width:26px;height:26px}
+.reg::before,.reg::after{content:"";position:absolute;background:var(--ink);opacity:.5}
+.reg::before{left:12px;top:0;width:1.5px;height:26px}.reg::after{top:12px;left:0;height:1.5px;width:26px}
+
+/* ---------- echo (akte I) ---------- */
+#echo{overflow:hidden}
+.cam{position:absolute;left:50%;top:50%;transform-origin:0 0}
+.msg{position:absolute;width:380px;height:150px;background:#fff;border-radius:16px;padding:18px 20px;box-shadow:0 1px 2px rgba(0,0,0,.06),0 8px 24px -12px rgba(0,0,0,.18);font-family:'Inter';display:flex;gap:14px}
+.msg .av{width:40px;height:40px;border-radius:50%;background:#C9CDD3;flex:none}
+.msg b{display:block;font-size:14px;color:#1d2226;margin-bottom:4px}
+.msg p{font-size:13.5px;line-height:1.38;color:#3a3f44}
+.aicard{position:absolute;width:520px;height:330px;border-radius:22px;background:#0F0F17;border:1px solid rgba(255,255,255,.08);overflow:hidden;font-family:'Inter';color:#fff;padding:34px 34px}
+.aicard .glow{position:absolute;left:50%;top:-40%;width:140%;height:120%;transform:translateX(-50%);background:radial-gradient(closest-side,rgba(124,58,237,.75),rgba(34,211,238,.18) 60%,transparent 100%);filter:blur(30px)}
+.aicard .spark{position:relative;width:34px;height:34px;margin-bottom:22px}
+.aicard h4{position:relative;font-size:30px;line-height:1.12;font-weight:700;letter-spacing:-.02em;margin-bottom:10px}
+.aicard p{position:relative;font-size:16px;color:rgba(255,255,255,.62)}
+.aicard .inp{position:absolute;left:34px;right:34px;bottom:30px;height:56px;border-radius:14px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);display:flex;align-items:center;padding:0 18px;font-size:17px;color:rgba(255,255,255,.55)}
+.aicard .inp i{position:absolute;right:8px;top:8px;width:40px;height:40px;border-radius:10px;background:var(--ai-purple)}
+.aicard .typed{color:#fff}
+.caret{display:inline-block;width:2px;height:20px;background:#fff;margin-left:2px;vertical-align:-3px}
+#orb{position:absolute;left:50%;top:50%;width:720px;height:720px;margin:-360px 0 0 -360px;border-radius:50%;
+  background:radial-gradient(circle at 38% 32%,#F5F3FF 0%,#C4B5FD 12%,#7C3AED 42%,#4C1D95 68%,#1E1B4B 100%);
+  box-shadow:0 0 160px 40px rgba(124,58,237,.55),0 0 360px 120px rgba(34,211,238,.18)}
+.echo-cap{position:absolute;left:96px;bottom:96px;padding:22px 34px 26px;background:var(--ink);color:var(--paper);
+  font-family:var(--cond);font-weight:820;font-stretch:72%;font-size:104px;line-height:.92;text-transform:uppercase;letter-spacing:.005em}
+.echo-cap.light{background:var(--paper);color:var(--ink)}
+
+/* ---------- wereld (akte II–IV) ---------- */
+#world{perspective:2400px;perspective-origin:62% 42%}
+.card{position:absolute;background:var(--sheet);border:2px solid var(--ink);border-radius:4px}
+.card.hyp{border-style:dashed}
+.tag{display:inline-block;font-family:var(--mono);font-weight:500;font-size:18px;letter-spacing:.12em;text-transform:uppercase;padding:7px 11px 6px;border:1.5px solid var(--ink);border-radius:999px;white-space:nowrap}
+.tag.dash{border-style:dashed}
+.prov{font-family:var(--mono);font-weight:500;font-size:17px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.stamp{position:absolute;font-family:var(--mono);font-weight:700;letter-spacing:.16em;text-transform:uppercase;border:3.5px solid currentColor;outline:2px solid currentColor;outline-offset:5px;padding:12px 20px 10px;white-space:nowrap;background:rgba(244,244,240,.6)}
+.chip{position:absolute;display:flex;align-items:baseline;gap:14px;padding:14px 20px 13px;background:var(--sheet);border:1.5px solid var(--ink);border-radius:999px;white-space:nowrap}
+.chip b{font-family:var(--cond);font-weight:650;font-stretch:90%;font-size:42px;line-height:1}
+.chip span{font-family:var(--mono);font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.chip.lock{border-width:2.5px}
+
+/* post */
+#post{left:960px;top:200px;width:860px;padding:34px 40px 30px}
+#post .who{display:flex;align-items:center;gap:18px;margin-bottom:22px}
+#post .av{width:62px;height:62px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;font-family:var(--mono);font-weight:600;font-size:20px;letter-spacing:.06em}
+#post .who b{display:block;font-family:var(--cond);font-weight:720;font-stretch:90%;font-size:30px}
+#post .who span{font-family:var(--mono);font-size:17px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+#post .txt{font-family:var(--cond);font-weight:430;font-size:46px;line-height:1.22;letter-spacing:-.005em;position:relative}
+#post .kw{position:relative;white-space:nowrap}
+#post .foot{margin-top:24px;padding-top:16px;border-top:1.5px solid var(--line)}
+
+/* grote zinnen (linkerkolom) */
+.say{position:absolute;left:96px;top:250px;width:760px;font-family:var(--cond);font-weight:780;font-stretch:78%;font-size:96px;line-height:.98;letter-spacing:-.005em;text-transform:none}
+.say .ln{display:block;overflow:hidden;padding-bottom:.08em;margin-bottom:-.08em}
+.say .w{display:inline-block;will-change:transform}
+.say em{font-style:normal;color:var(--terra)}
+.say .human{font-family:var(--serif);font-style:italic;font-weight:400;font-stretch:100%;letter-spacing:-.01em}
+
+/* werkwoord (onderband) */
+.verb{position:absolute;left:70px;bottom:-34px;white-space:nowrap;font-family:var(--cond);font-weight:860;font-stretch:62%;font-size:300px;line-height:1;text-transform:uppercase;letter-spacing:-.005em;color:var(--ink);transform-origin:0 100%}
+.verb .l{display:inline-block}
+
+/* HUD */
+#hud{left:64px;top:52px;display:flex;align-items:center;gap:20px}
+#hud svg{width:66px;height:66px;overflow:visible}
+#hud .k{font-family:var(--mono);font-weight:500;font-size:18px;letter-spacing:.18em;text-transform:uppercase}
+#hud .k b{font-weight:700}
+#clock{right:64px;top:50px;text-align:right}
+#clock .k{font-family:var(--mono);font-size:15px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+#clock .v{font-family:var(--mono);font-weight:600;font-size:30px;letter-spacing:.06em;margin-top:6px;font-variant-numeric:tabular-nums}
+.verb.ghost{color:transparent;-webkit-text-stroke:2px var(--ink)}
+.ruler{position:absolute;height:26px;border-left:2px solid var(--ink);border-right:2px solid var(--ink)}
+.ruler::before{content:"";position:absolute;left:0;right:0;top:12px;height:2px;background:var(--ink)}
+.ruler span{position:absolute;left:50%;top:-30px;transform:translateX(-50%);font-family:var(--mono);font-size:17px;letter-spacing:.12em;background:var(--paper);padding:0 8px;white-space:nowrap}
+
+/* 3D-ontleding */
+.plate{position:absolute;left:0;top:0;width:860px;padding:22px 34px;background:rgba(244,244,240,.94);border:2px solid var(--ink);border-radius:4px;display:flex;align-items:center;justify-content:space-between;gap:18px;backface-visibility:hidden}
+.plate .lab{font-family:var(--mono);font-size:17px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.plate .val{font-family:var(--cond);font-weight:700;font-stretch:88%;font-size:42px;line-height:1}
+
+.hist>div{display:flex;align-items:center;gap:18px;padding:12px 0;border-top:1.5px solid var(--line)}
+.hist b{font-family:var(--cond);font-weight:640;font-size:34px;flex:1}
+.hist .prov{width:170px;flex:none}
+/* graph */
+.node{position:absolute;padding:18px 24px 16px;background:var(--sheet);border:2px solid var(--ink);border-radius:4px;white-space:nowrap}
+.node b{display:block;font-family:var(--cond);font-weight:760;font-stretch:84%;font-size:40px;line-height:1.02}
+.node span{display:block;margin-top:8px;font-family:var(--mono);font-size:16px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.node.hyp{border-style:dashed}
+.node.sales{border-color:var(--emerald)} .node.sales b{color:var(--emerald)}
+.node.recr{border-color:var(--terra)} .node.recr b{color:var(--terra)}
+#edges{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:visible}
+.elab{position:absolute;font-family:var(--mono);font-size:16px;letter-spacing:.14em;text-transform:uppercase;background:var(--paper);padding:4px 8px;color:var(--ink-2)}
+
+/* experiment */
+.lane{position:absolute;top:322px;width:420px;height:470px;padding:22px 24px;background:var(--sheet);border:2px solid var(--ink);border-radius:4px;overflow:hidden}
+.lane h5{font-family:var(--cond);font-weight:800;font-stretch:72%;font-size:44px;line-height:1;text-transform:uppercase}
+.lane .sub{font-family:var(--mono);font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:8px 0 14px}
+.rows{position:relative;height:200px;overflow:hidden}
+.row{display:flex;align-items:center;gap:12px;height:30px;font-family:var(--mono);font-size:14px;letter-spacing:.08em;color:var(--ink-2)}
+.row i{width:16px;height:16px;border:1.5px solid var(--ink);flex:none;display:grid;place-items:center;font-style:normal;font-size:12px;line-height:1}
+.row u{flex:1;height:8px;background:rgba(20,18,15,.12);text-decoration:none}
+.res{position:absolute;left:24px;right:24px;bottom:22px}
+.res .nums{display:flex;gap:18px;font-family:var(--mono);font-size:15px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px}
+.res .nums b{font-family:var(--cond);font-weight:800;font-stretch:80%;font-size:36px;letter-spacing:0;margin-right:4px}
+.bar{height:14px;border:1.5px solid var(--ink);position:relative}
+.bar i{position:absolute;left:0;top:0;bottom:0;background:var(--ink);transform-origin:0 50%}
+.prec{display:flex;justify-content:space-between;align-items:baseline;margin-top:8px}
+.prec b{font-family:var(--cond);font-weight:850;font-stretch:66%;font-size:64px;line-height:1}
+
+/* ochtendbriefing */
+#brief{left:900px;top:150px;width:930px;padding:38px 44px 34px}
+#brief .q{font-family:var(--mono);font-size:16px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+#brief h3{font-family:var(--cond);font-weight:860;font-stretch:64%;font-size:132px;line-height:.86;text-transform:uppercase;margin:16px 0 18px}
+#brief ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px 30px;margin-bottom:26px}
+#brief li{font-family:var(--cond);font-weight:520;font-size:27px;line-height:1.15;padding-left:24px;position:relative}
+#brief li::before{content:"";position:absolute;left:0;top:11px;width:12px;height:3px;background:var(--ink)}
+#brief .scores{display:flex;gap:44px;align-items:flex-end;padding-top:20px;border-top:1.5px solid var(--line)}
+#brief .sc b{display:block;font-family:var(--cond);font-weight:860;font-stretch:66%;font-size:118px;line-height:.84}
+#brief .sc span{display:block;font-family:var(--mono);font-size:14px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-top:10px}
+#brief .act{display:flex;align-items:center;justify-content:space-between;margin-top:26px}
+#brief .act p{font-family:var(--cond);font-weight:600;font-size:28px}
+.btn{font-family:var(--cond);font-weight:760;font-stretch:90%;font-size:28px;padding:14px 26px;background:var(--ink);color:var(--paper);border-radius:4px}
+#cursor{position:absolute;width:44px;height:44px}
+
+/* stapel rondes */
+#stack{position:absolute;left:1340px;top:560px;transform-style:preserve-3d}
+.sheet{position:absolute;left:-330px;top:-210px;width:660px;height:420px;overflow:hidden;background:var(--sheet);border:2px solid var(--ink);border-radius:3px;padding:24px 28px;backface-visibility:hidden}
+.sheet .mono{font-size:15px;color:var(--muted)}
+.sheet b{display:block;font-family:var(--cond);font-weight:860;font-stretch:62%;font-size:110px;line-height:.9;text-transform:uppercase;margin-top:14px}
+
+/* afsluiter */
+.big{position:absolute;left:0;right:0;text-align:center;font-family:var(--cond);font-weight:860;font-stretch:62%;font-size:210px;line-height:.9;text-transform:uppercase}
+#logo{left:50%;top:50%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center}
+#logo .wm{display:flex;align-items:center;gap:30px}
+#logo svg{width:190px;height:190px;overflow:visible}
+#logo .name{font-family:var(--serif);font-weight:560;font-size:196px;letter-spacing:-.025em;line-height:1}
+#logo .desc{margin-top:40px;font-family:var(--mono);font-size:22px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+#logo .tl{margin-top:34px;font-family:var(--serif);font-style:italic;font-size:76px;letter-spacing:-.01em}
+#logo .inv{margin-top:40px;font-size:21px;padding:9px 16px 8px}
+
+/* textuur */
+#vignette{background:radial-gradient(120% 95% at 50% 45%,transparent 58%,rgba(20,18,15,.20) 100%);pointer-events:none}
+#grain{width:1920px;height:1080px;opacity:.07;mix-blend-mode:multiply;pointer-events:none;image-rendering:pixelated}
+
+/* ---------- speler (niet zichtbaar in render) ---------- */
+#ui{position:fixed;left:0;right:0;bottom:0;padding:18px 22px;display:flex;align-items:center;gap:16px;color:#e9e8e2;font:500 13px/1 'Spline Sans Mono',monospace;letter-spacing:.08em;background:linear-gradient(transparent,rgba(0,0,0,.65));opacity:0;transition:opacity .35s}
+body.ui #ui{opacity:1}
+#ui button{all:unset;cursor:pointer;width:42px;height:42px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.35);border-radius:50%}
+#ui button:focus-visible{outline:2px solid #fff;outline-offset:3px}
+#bar{flex:1;height:22px;position:relative;cursor:pointer}
+#bar::before{content:"";position:absolute;left:0;right:0;top:10px;height:2px;background:rgba(255,255,255,.25)}
+#bar i{position:absolute;left:0;top:10px;height:2px;background:#fff}
+#start{position:fixed;inset:0;display:grid;place-items:center;background:rgba(13,13,12,.55);cursor:pointer;color:#E3E4DE;font:500 15px/1.4 'Spline Sans Mono',monospace;letter-spacing:.16em;text-transform:uppercase;text-align:center}
+#start b{display:block;font:860 92px/1 'Archivo';font-stretch:62%;letter-spacing:0;margin-bottom:14px}
+body.render #ui,body.render #start{display:none}
+@media (prefers-reduced-motion:reduce){#ui{transition:none}}
+</style>
+</head>
+<body>
+<div id="viewport"><div id="stage">
+  <div id="paper" class="layer">
+    <i class="reg" style="left:40px;top:40px"></i><i class="reg" style="right:40px;top:40px"></i>
+    <i class="reg" style="left:40px;bottom:40px"></i><i class="reg" style="right:40px;bottom:40px"></i>
+  </div>
+  <div id="world" class="layer"></div>
+  <div id="echo" class="layer"></div>
+  <div id="vignette" class="layer"></div>
+  <canvas id="grain" class="layer" width="960" height="540"></canvas>
+</div></div>
+
+<div id="start" role="button" tabindex="0" aria-label="Film afspelen"><div><b>▶ De lus</b>RecruitmentAI · 64 s · klik of spatie</div></div>
+<div id="ui" aria-label="Bediening">
+  <button id="pp" aria-label="Afspelen of pauzeren">▶</button>
+  <div id="bar" role="slider" aria-label="Tijdlijn" aria-valuemin="0" aria-valuemax="64" tabindex="0"><i></i></div>
+  <span id="tc">00.0 / 64.0</span>
+</div>
+<audio id="audio" src="assets/soundtrack.mp3" preload="auto"></audio>
+
+<script src="assets/gsap.min.js"></script>
+<script src="timeline.js"></script>
+<script src="promo.js"></script>
+</body>
+</html>
