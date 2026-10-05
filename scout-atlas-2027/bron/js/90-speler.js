@@ -9,11 +9,13 @@ function render(tt) { tt = Math.max(0, tt); for (const f of renders) f(tt); }
 function fit() {
   const s = Math.min(innerWidth / 1920, innerHeight / 1080);
   stage.style.transform = `translate(${(innerWidth - 1920 * s) / 2}px,${(innerHeight - 1080 * s) / 2}px) scale(${s})`;
-  const pr = clamp(s * (window.devicePixelRatio || 1), 0.75, 1.5) * QUALITY;
+  const pr = Math.max(0.5, clamp(s * (window.devicePixelRatio || 1), 0.75, 1.5) * QUALITY * autoQ);
   if (Math.abs(pr - renderer.getPixelRatio()) > 0.01) { renderer.setPixelRatio(pr); renderer.setSize(1920, 1080, false); POST.resize(pr); render(t); }
 }
 const qs = new URLSearchParams(location.search);
 const QUALITY = qs.has("q") ? clamp(parseFloat(qs.get("q")), 0.3, 1.5) : 1;
+// automatische kwaliteit: haalt de computer te weinig beelden per seconde, dan zakt de 3D-resolutie (de timing blijft exact)
+let autoQ = 1, fpsN = 0, fpsSum = 0;
 addEventListener("resize", fit);
 
 /* — geluid: muziek (zelf opgewekt) + stem (optioneel, Fish Audio) — */
@@ -119,11 +121,12 @@ function setVoice(v) { voiceOn = v; $("stVoice").textContent = "Stem: " + (v ? "
 let ctxSeen = -1, ctxStuck = 0;
 function loop(now) {
   if (playing) {
-    const dt = Math.min(0.1, (now - last) / 1000);
+    const real = Math.max(0, (now - last) / 1000), dt = Math.min(0.25, real);
     let useCtx = srcs.length && actx && actx.state === "running";
     if (useCtx) { if (actx.currentTime === ctxSeen) ctxStuck += dt; else { ctxStuck = 0; ctxSeen = actx.currentTime; } if (ctxStuck > 0.25) useCtx = false; }
     if (useCtx) t = Math.max(0, actx.currentTime - aStart);
     else t = Math.max(0, t + dt);
+    if (!qs.has("q") && real > 0) { fpsSum += Math.min(real, 1); fpsN++; if (fpsSum >= 1.5) { const avg = fpsSum / fpsN; fpsN = 0; fpsSum = 0; if (avg > 1 / 27 && autoQ > 0.55) { autoQ *= 0.82; fit(); } } }
     if (t >= DUR) { t = DUR; playing = false; audioStop(); render(t); ui(); openExplorer(true); }
     else { render(t); ui(); }
   }
