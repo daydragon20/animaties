@@ -18,7 +18,7 @@ print(f"geluid    {a['codec_name']} {a['sample_rate']} Hz · {a['channels']} kan
 
 r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(mp4), "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True).stderr
 I = re.search(r"Integrated loudness:\s+I:\s+(-?[\d.]+)", r).group(1); TP = re.search(r"True peak:\s+Peak:\s+(-?[\d.]+)", r).group(1)
-LRA = re.search(r"LRA:\s+(-?[\d.]+)", r).group(1)
+LRA = re.findall(r"LRA:\s+(-?[\d.]+)\s+LU", r)[-1]   # de samenvatting staat onderaan
 print(f"loudness  {I} LUFS geïntegreerd · true peak {TP} dBFS · LRA {LRA} LU")
 
 # synchronisatie: zoek per beeldcue de sterkste transiënt binnen ±150 ms
@@ -38,4 +38,10 @@ for name, t in checks.items():
 for name, (t0, t1) in {"harde cut": (C["hard_cut"] + .03, C["hard_cut"] + .27), "loslaten": (C["silence"][0] + .03, C["silence"][1] - .03)}.items():
     seg = x[int(t0 * SR):int(t1 * SR)]
     print(f"stilte    {name:22s} {t0:5.2f}–{t1:5.2f} s → piek {20 * np.log10(np.abs(seg).max() + 1e-9):6.1f} dBFS")
-print(f"grootste sync-afwijking: {worst:.0f} ms (één frame = {1000 / TL['fps']:.1f} ms)")
+print(f"grootste afwijking cue ↔ aanzet: {worst:.0f} ms (één frame = {1000 / TL['fps']:.1f} ms; dichte muziek kan een tel naast de stempel als sterkste aanzet tonen)")
+# exacte A/V-uitlijning: de stiltes beginnen sample-precies op een beeldmoment (harde cut, loslaten)
+for name, t0 in {"harde cut (beeld 8,00 s)": C["hard_cut"], "loslaten (beeld 40,60 s)": C["silence"][0]}.items():
+    seg = np.abs(x[int((t0 - .2) * SR):int((t0 + .1) * SR)])
+    last = np.nonzero(seg > 1e-3)[0]
+    edge = (t0 - .2) + (last[-1] / SR if len(last) else 0)
+    print(f"a/v       {name:26s} geluid valt stil op {edge:.3f} s → {1000 * (edge - t0):+.0f} ms (incl. 12 ms fade)")

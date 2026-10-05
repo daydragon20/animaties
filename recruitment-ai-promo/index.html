@@ -171,7 +171,6 @@ body{font-family:var(--cond);color:var(--ink);-webkit-font-smoothing:antialiased
 
 /* textuur */
 #vignette{background:radial-gradient(120% 95% at 50% 45%,transparent 58%,rgba(20,18,15,.20) 100%);pointer-events:none}
-#grain{width:1920px;height:1080px;opacity:.07;mix-blend-mode:multiply;pointer-events:none;image-rendering:pixelated}
 
 /* ---------- speler (niet zichtbaar in render) ---------- */
 #ui{position:fixed;left:0;right:0;bottom:0;padding:18px 22px;display:flex;align-items:center;gap:16px;color:#e9e8e2;font:500 13px/1 'Spline Sans Mono',monospace;letter-spacing:.08em;background:linear-gradient(transparent,rgba(0,0,0,.65));opacity:0;transition:opacity .35s}
@@ -196,7 +195,6 @@ body.render #ui,body.render #start{display:none}
   <div id="world" class="layer"></div>
   <div id="echo" class="layer"></div>
   <div id="vignette" class="layer"></div>
-  <canvas id="grain" class="layer" width="960" height="540"></canvas>
 </div></div>
 
 <div id="start" role="button" tabindex="0" aria-label="Film afspelen"><div><b>▶ De lus</b>RecruitmentAI · 64 s · klik of spatie</div></div>

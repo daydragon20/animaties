@@ -690,21 +690,6 @@ function buildS9AndOutro() {
 }
 
 // ============================================================================================
-// textuur: korrel (deterministisch)
-// ============================================================================================
-const grain = $('#grain'), gctx = grain.getContext('2d');
-const tiles = [];
-function buildGrain() {
-  for (let k = 0; k < 1; k++) {
-    const r = rng(99 + k), img = gctx.createImageData(960, 540);
-    for (let i = 0; i < img.data.length; i += 4) { const v = 128 + (r() - .5) * 255; img.data[i] = img.data[i + 1] = img.data[i + 2] = v; img.data[i + 3] = 255; }
-    tiles.push(img);
-  }
-}
-// statisch: papier beweegt niet, en bewegende ruis vreet bitrate die platforms toch wegcomprimeren
-proc.push(() => { if (!grain.dataset.f) { gctx.putImageData(tiles[0], 0, 0); grain.dataset.f = '0'; } });
-
-// ============================================================================================
 // opbouw + klok
 // ============================================================================================
 function render(t) {
@@ -723,7 +708,6 @@ function fit() {
 addEventListener('resize', fit);
 
 document.fonts.ready.then(() => {
-  buildGrain();
   buildEchoMsg(); buildEchoAI(); buildHud(); buildClock(); buildPromise();
   buildS1(); buildS2(); buildS3(); buildS4(); buildS5(); buildS6(); buildS7(); buildS8(); buildS9AndOutro();
   render(0);

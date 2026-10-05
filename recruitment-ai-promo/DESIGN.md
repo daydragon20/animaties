@@ -189,8 +189,8 @@ Meting (uit `measure_styles.py`):
   altijd waar hij is.
 - **3D:** CSS-perspectief op echte DOM-lagen (scherpe tekst). Alleen waar ruimte betekenis heeft:
   ontleden (lagen) en herhalen (stapel rondes).
-- **Textuur:** fijn grid (meetpapier), statische papierkorrel en een lichte vignet. Bewegende
-  korrel is getest en geschrapt (zie §9).
+- **Textuur:** fijn grid (meetpapier) en een lichte vignet. **Geen filmkorrel**: eerst bewegend,
+  daarna statisch getest, en uiteindelijk geschrapt omdat ze als ruis wordt gelezen (zie §9).
 
 ## 7. Geluid
 
@@ -238,7 +238,8 @@ Mix: −14 LUFS geïntegreerd, true peak ≤ −1,5 dBTP.
 | De 3D-lagen stonden scheef en de "N" van ONTLEDEN viel weg | Tegenrotatie in de verkeerde volgorde (GSAP doet Z vóór X); de clip-mask knipte uitgeschoven letters af | 3D herontworpen als parallelle lagen in diepte; de mask kreeg ruimte (`inset(… -40% …)`). |
 | In een klein venster stond de film uit het midden | Een grid centreert een item dat groter is dan zijn container "veilig", dus links | Expliciete `translate + scale` in `fit()`. Getest in een venster van 1280×800. |
 | De speler toonde beeld zonder geluid | Chromium speelt AAC (`.m4a`) niet af zonder propriëtaire codecs | Soundtrack als MP3 (speelt overal). Getest: audio 3,76 s ↔ beeld 3,7 s. |
-| Het tussenbestand groeide naar ±28 Mbit/s (±230 MB voor de film) | Bewegende filmkorrel is de duurste inhoud voor een encoder, en LinkedIn vermaalt ze toch | Korrel statisch (papier beweegt niet): 3,5 Mbit/s in het zwaarste fragment. |
+| Het tussenbestand groeide naar ±28 Mbit/s (±230 MB voor de film) | Bewegende filmkorrel is de duurste inhoud voor een encoder, en LinkedIn vermaalt ze toch | Eerst korrel statisch gemaakt (3,5 Mbit/s). |
+| Nathan zag in de film "een soort ruis" | De statische korrel (σ ≈ 4,4 grijswaarden op het papier, gemeten) bleef zichtbaar als ruis, in de browser én in de MP4 | **Korrel helemaal verwijderd** (geen `?grain`-schakelaar). Papier = alleen raster en vignet. Regel: een effect dat de kijker als defect leest, is een defect, ook als het bedoeld was. |
 | Een testrender gaf een verdacht kleine 300 kb/s | Een extra `-ss 0` bij het samenvoegen gooide de videostroom weg: de meting mat alleen audio | Vals groen (bible 27, A2). De render controleert nu het aantal videoframes in de uitvoer. |
 
 ## 10. Geparkeerd (inbox, niet nu)
