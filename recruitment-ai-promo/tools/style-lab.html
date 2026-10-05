@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Stijl-lab</title>
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#777;width:1920px;height:1080px;overflow:hidden}
+.frame{position:relative;width:1920px;height:1080px;overflow:hidden}
+.hud{position:absolute;left:72px;top:60px;display:flex;align-items:center;gap:18px}
+.ring{width:54px;height:54px}
+.hud .k{font:500 15px/1 'Spline Sans Mono';letter-spacing:.18em;text-transform:uppercase}
+.verb{position:absolute;left:64px;bottom:70px;white-space:nowrap}
+.card{position:absolute;right:96px;top:150px;width:780px;padding:34px 38px}
+.post{font-size:30px;line-height:1.35;margin-bottom:26px}
+.field{display:flex;justify-content:space-between;align-items:center;padding:15px 0;font-size:24px}
+.field .lab{font:500 15px/1 'Spline Sans Mono';letter-spacing:.14em;text-transform:uppercase}
+.tag{font:500 14px/1 'Spline Sans Mono';letter-spacing:.12em;text-transform:uppercase;padding:7px 10px;border-radius:999px}
+.stamp{font:700 22px/1 'Spline Sans Mono';letter-spacing:.16em;padding:10px 16px;transform:rotate(-4deg);display:inline-block}
+.prov{position:absolute;left:72px;bottom:28px;font:500 13px/1 'Spline Sans Mono';letter-spacing:.14em;text-transform:uppercase}
+.brief{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:1280px;padding:52px 60px}
+.brief h2{margin-bottom:30px}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:14px 40px;margin:26px 0 34px;font-size:26px}
+.score{display:flex;gap:56px;align-items:flex-end}
+.score .n{font-size:120px;line-height:.9}
+.score .l{font:500 14px/1.2 'Spline Sans Mono';letter-spacing:.14em;text-transform:uppercase;margin-top:10px}
+
+/* ---------- A: product-trouw ---------- */
+.A{background:#FAF7F2;color:#1C1917;font-family:Inter}
+.A .hud .k{color:#736A63}
+.A .verb{font:500 250px/1 'Fraunces';letter-spacing:-.03em;color:#1C1917}
+.A .card,.A .brief{background:#fff;border:1px solid #E7E1D8;border-radius:14px;box-shadow:0 2px 4px rgba(28,25,23,.05),0 14px 34px -18px rgba(28,25,23,.28)}
+.A .post{font-family:Inter}
+.A .field{border-top:1px solid #EFEAE2}
+.A .field .lab{color:#736A63}
+.A .ok{background:#E4EDE6;color:#14532D}
+.A .maybe{background:#F8EDD9;color:#9A4A06}
+.A .stamp{color:#9A3412;border:2px dashed #C2410C;background:#FBEAE0;border-radius:8px}
+.A .prov{color:#736A63}
+.A .brief h2{font:500 46px/1.1 'Fraunces';letter-spacing:-.02em}
+.A .score .n{font-family:Fraunces;font-weight:500;color:#C2410C}
+.A .score .l{color:#736A63}
+
+/* ---------- B: bewijsdossier ---------- */
+.B{background:#E8E6DF;color:#14120F;font-family:Archivo;font-stretch:100%}
+.B::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(20,18,15,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(20,18,15,.055) 1px,transparent 1px);background-size:40px 40px}
+.B .hud .k{color:#14120F}
+.B .verb{font-family:Archivo;font-weight:850;font-stretch:62%;font-size:330px;line-height:.8;letter-spacing:-.01em;text-transform:uppercase;color:#14120F}
+.B .card,.B .brief{background:#F6F5F1;border:1.5px solid #14120F;border-radius:3px;box-shadow:10px 10px 0 rgba(20,18,15,.10)}
+.B .post{font-weight:430}
+.B .field{border-top:1px solid rgba(20,18,15,.18)}
+.B .field .lab{color:#55524B}
+.B .ok{border:1.5px solid #14120F;color:#14120F}
+.B .maybe{border:1.5px dashed #14120F;color:#14120F}
+.B .stamp{color:#14120F;border:2.5px solid #14120F;outline:1.5px solid #14120F;outline-offset:4px}
+.B .prov{color:#55524B}
+.B .brief h2{font-family:Archivo;font-weight:820;font-stretch:72%;font-size:64px;line-height:.95;text-transform:uppercase}
+.B .score .n{font-weight:820;font-stretch:62%}
+.B .sales{color:#047857}.B .recr{color:#C2410C}
+.B .score .l{color:#55524B}
+.B .human{font:italic 400 34px/1 'Fraunces';color:#14120F}
+
+/* ---------- C: donkere console ---------- */
+.C{background:#0B0D10;color:#E6E8EB;font-family:'Spline Sans Mono'}
+.C::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 50% at 70% 30%,rgba(74,222,128,.10),transparent 70%)}
+.C .hud .k{color:#8B95A1}
+.C .verb{font:600 200px/1 'Spline Sans Mono';letter-spacing:-.04em;color:#E6E8EB;text-transform:uppercase}
+.C .card,.C .brief{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:10px;box-shadow:0 0 60px rgba(74,222,128,.08)}
+.C .field{border-top:1px solid rgba(255,255,255,.08)}
+.C .field .lab{color:#8B95A1}
+.C .ok{background:rgba(74,222,128,.12);color:#4ADE80}
+.C .maybe{background:rgba(250,204,21,.12);color:#FACC15}
+.C .stamp{color:#F87171;border:2px solid #F87171}
+.C .prov{color:#8B95A1}
+.C .brief h2{font:600 44px/1.1 'Spline Sans Mono'}
+.C .score .n{color:#4ADE80;text-shadow:0 0 40px rgba(74,222,128,.5)}
+.C .score .l{color:#8B95A1}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const q=new URLSearchParams(location.search);const S=q.get("style")||"A";const F=q.get("frame")||"1";
+const ring=c=>`<svg class="ring" viewBox="0 0 54 54">${Array.from({length:9},(_,i)=>{const a=(i/9)*Math.PI*2-Math.PI/2;const x1=27+Math.cos(a)*19,y1=27+Math.sin(a)*19,x2=27+Math.cos(a)*26,y2=27+Math.sin(a)*26;return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${i<3?c:'rgba(128,128,128,.45)'}" stroke-width="${i==2?5:3}" stroke-linecap="round"/>`}).join("")}</svg>`;
+const ink={A:"#C2410C",B:"#14120F",C:"#4ADE80"}[S];
+let html="";
+if(F==="1"){
+ html=`<div class="frame ${S}">
+  <div class="hud">${ring(ink)}<span class="k">03 / 09 · ontleden</span></div>
+  <div class="card">
+   <div class="post">“Vandaag mijn laatste werkdag bij Bedrijf A. Na 7 jaar tijd voor een nieuw hoofdstuk.”</div>
+   <div class="field"><span class="lab">oude werkgever</span><span>Bedrijf A <span class="tag ok">bevestigd</span></span></div>
+   <div class="field"><span class="lab">functie</span><span>Supply Chain Manager <span class="tag ok">bevestigd</span></span></div>
+   <div class="field"><span class="lab">anciënniteit</span><span>7 jaar <span class="tag maybe">waarschijnlijk</span></span></div>
+   <div class="field"><span class="lab">nieuwe werkgever</span><span class="stamp">UNKNOWN</span></div>
+  </div>
+  <div class="verb">${S==="A"?"Ontleden":"ONTLEDEN"}</div>
+  <div class="prov">bron · publieke post · opgehaald 06:12 · voorbeeld</div>
+ </div>`;
+}else{
+ html=`<div class="frame ${S}">
+  <div class="hud">${ring(ink)}<span class="k">08 / 09 · ontdekken</span></div>
+  <div class="brief">
+   <div class="hud" style="position:static;margin-bottom:18px"><span class="k">ochtendbriefing · voorbeeld</span></div>
+   <h2>Bedrijf A</h2>
+   <div class="why"><div>· Supply Chain Manager vertrokken</div><div>· 4 nieuwe vacatures</div><div>· nieuwe Operations Manager</div><div>· 3 passende kandidaten al in je database</div></div>
+   <div class="score">
+    <div><div class="n sales">94</div><div class="l">sales-opportunity /100</div></div>
+    <div><div class="n recr">89</div><div class="l">recruitment-opportunity /100</div></div>
+    <div><div class="n">91%</div><div class="l">zekerheid beslisser</div></div>
+    <div style="margin-left:auto"><span class="human">jij beslist.</span></div>
+   </div>
+  </div>
+ </div>`;
+}
+document.getElementById("root").innerHTML=html;
+document.fonts.ready.then(()=>document.body.dataset.ready=1);
+</script>
+</body>
+</html>
