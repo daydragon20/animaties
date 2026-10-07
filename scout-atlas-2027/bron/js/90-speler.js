@@ -1,16 +1,12 @@
 /* ═════════════ SPELER: startscherm, bediening, geluid, schalen ═════════════ */
-buildOvergangen();
-buildHud();
-buildGrain();
-
 let t = 0, playing = false, last = 0;
 const DUR = T.end;
 function render(tt) { tt = Math.max(0, tt); for (const f of renders) f(tt); }
 function fit() {
   const s = Math.min(innerWidth / 1920, innerHeight / 1080);
   stage.style.transform = `translate(${(innerWidth - 1920 * s) / 2}px,${(innerHeight - 1080 * s) / 2}px) scale(${s})`;
-  const pr = Math.max(0.5, clamp(s * (window.devicePixelRatio || 1), 0.75, 1.5) * QUALITY * autoQ);
-  if (Math.abs(pr - renderer.getPixelRatio()) > 0.01) { renderer.setPixelRatio(pr); renderer.setSize(1920, 1080, false); POST.resize(pr); render(t); }
+  const pr = Math.max(0.5, clamp(s * (window.devicePixelRatio || 1), 1, 1.5) * QUALITY * autoQ);
+  if (Math.abs(pr - renderer.getPixelRatio()) > 0.01) { renderer.setPixelRatio(pr); renderer.setSize(1920, 1080, false); render(t); }
 }
 const qs = new URLSearchParams(location.search);
 const QUALITY = qs.has("q") ? clamp(parseFloat(qs.get("q")), 0.3, 1.5) : 1;
@@ -18,23 +14,18 @@ const QUALITY = qs.has("q") ? clamp(parseFloat(qs.get("q")), 0.3, 1.5) : 1;
 let autoQ = 1, fpsN = 0, fpsSum = 0;
 addEventListener("resize", fit);
 
-/* — geluid: muziek (zelf opgewekt) + stem (optioneel, Fish Audio) — */
-let actx = null, music = null, voices = [], srcs = [], master = null, mGain = null, vGain = null, aStart = 0;
-let muted = false, voiceOn = true;
+/* — geluid: de muziek is zelf opgewekt (zie 80-muziek.js) — */
+let actx = null, music = null, srcs = [], master = null, aStart = 0;
+let muted = false;
 const sndState = document.getElementById("sndState"), ringP = document.getElementById("ringP"), playBtn = document.getElementById("play");
 const CIRC = 2 * Math.PI * 57;
 function ctx() {
   if (!actx) {
     actx = new (window.AudioContext || window.webkitAudioContext)();
     master = actx.createGain(); master.connect(actx.destination);
-    mGain = actx.createGain(); mGain.connect(master);
-    vGain = actx.createGain(); vGain.connect(master);
   }
   return actx;
 }
-// stem staat 5 dB onder wat Fish levert en de muziek zakt 5 dB zolang er gesproken wordt (stem ≈ 10 dB boven de muziek)
-const VOICE_GAIN = 0.56, DUCK = 0.56;
-const VOICE = STEM && STEM.lijnen && STEM.lijnen.length ? STEM.lijnen : null;
 function audioStop() { srcs.forEach((s) => { try { s.stop(); } catch (e) {} s.disconnect(); }); srcs = []; }
 function audioStart() {
   if (!music) return;
@@ -44,41 +35,8 @@ function audioStart() {
   master.gain.value = muted ? 0 : 1;
   const now = c.currentTime + 0.03;
   aStart = now - t;
-  const m = c.createBufferSource(); m.buffer = music; m.connect(mGain);
+  const m = c.createBufferSource(); m.buffer = music; m.connect(master);
   m.start(now, Math.min(t, music.duration - 0.01)); srcs.push(m);
-  // muziek zachter onder de stem (ducking)
-  mGain.gain.cancelScheduledValues(0); mGain.gain.setValueAtTime(1, now);
-  vGain.gain.value = voiceOn ? VOICE_GAIN : 0;
-  if (voiceOn) for (const v of voices) {
-    const a = v.t, b = v.t + v.buf.duration;
-    if (b <= t) continue;
-    const s = c.createBufferSource(); s.buffer = v.buf; s.connect(vGain);
-    if (a >= t) s.start(now + (a - t)); else s.start(now, t - a);
-    srcs.push(s);
-    const da = now + Math.max(0, a - t), db = now + Math.max(0, b - t);
-    mGain.gain.setTargetAtTime(DUCK, Math.max(now, da - 0.25), 0.09);
-    mGain.gain.setTargetAtTime(1, db + 0.1, 0.35);
-  }
-}
-async function loadVoices() {
-  if (!VOICE) return;
-  const c = ctx();
-  for (const l of VOICE) {
-    const bin = Uint8Array.from(atob(l.mp3), (ch) => ch.charCodeAt(0));
-    try { voices.push({ t: resolveCue(l.t), buf: await c.decodeAudioData(bin.buffer) }); } catch (e) { console.warn("stem", l.id, e); }
-  }
-}
-// tijd van een stemzin: getal, of "cue+offset" (bv. "ML.weigh+0.2", "T.flash-1", "slot.1")
-function resolveCue(x) {
-  if (typeof x === "number") return x;
-  const CUES = { T, PRO, ML, LS, AF, WH, FIN };
-  const m = String(x).replace(/\s/g, "").match(/^([A-Za-z]+)\.([A-Za-z0-9]+)([+-][\d.]+)?$/);
-  if (!m) return parseFloat(x) || 0;
-  let base = 0;
-  if (m[1] === "slot") base = SLOT[+m[2]].a;
-  else if (CUES[m[1]] && typeof CUES[m[1]][m[2]] === "number") base = CUES[m[1]][m[2]];
-  else console.warn("onbekende cue", x);
-  return base + (m[3] ? parseFloat(m[3]) : 0);
 }
 
 /* — bediening — */
@@ -100,8 +58,6 @@ const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(
 function ui() {
   $("bPlay").innerHTML = playing ? ICON.pause : ICON.play;
   $("bMute").innerHTML = muted ? ICON.mute : ICON.snd;
-  $("bVoice").classList.toggle("off", !voiceOn);
-  $("bVoice").innerHTML = `<span class="lbl">stem ${voiceOn ? "aan" : "uit"}</span>`;
   $("time").textContent = `${fmt(t)} / ${fmt(DUR)}`;
   const k = chapterAt(t);
   $("chap").innerHTML = `<b>${String(k + 1).padStart(2, "0")}</b>&nbsp;&nbsp;${CHAPTERS[k][0]}`;
@@ -118,7 +74,6 @@ function pause() { playing = false; audioStop(); showCtrl(); ui(); }
 function toggle() { playing ? pause() : play(); }
 function seek(s) { t = clamp(s, 0, DUR); render(t); if (playing) audioStart(); ui(); }
 function setMute(m) { muted = m; if (master) master.gain.value = muted ? 0 : 1; ui(); }
-function setVoice(v) { voiceOn = v; $("stVoice").textContent = "Stem: " + (v ? "aan" : "uit"); $("stVoice").classList.toggle("on", v); if (playing) audioStart(); ui(); }
 // klok: de audioklok als die loopt (perfect synchroon met het geluid), anders de gewone klok
 let ctxSeen = -1, ctxStuck = 0;
 function loop(now) {
@@ -148,8 +103,6 @@ $("bPlay").onclick = toggle;
 $("bBack").onclick = () => seek(t - 10);
 $("bFwd").onclick = () => seek(t + 10);
 $("bMute").onclick = () => setMute(!muted);
-$("bVoice").onclick = () => setVoice(!voiceOn);
-$("stVoice").onclick = (e) => { e.stopPropagation(); setVoice(!voiceOn); };
 $("bData").onclick = () => { pause(); openExplorer(false); };
 $("stData").onclick = (e) => { e.stopPropagation(); startEl.classList.add("gone"); openExplorer(false); };
 $("bFull").onclick = () => (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen());
@@ -173,7 +126,6 @@ addEventListener("keydown", (e) => {
   else if (e.key === "ArrowLeft") seek(t - 10);
   else if (e.key === "r" || e.key === "R") { seek(0); play(); }
   else if (e.key === "m" || e.key === "M") setMute(!muted);
-  else if ((e.key === "v" || e.key === "V") && VOICE) setVoice(!voiceOn);
   else if (e.key === "f" || e.key === "F") $("bFull").click();
   else if (e.key === "d" || e.key === "D") { pause(); startEl.classList.add("gone"); openExplorer(false); }
   else if (e.key === "h" || e.key === "H") { uiHidden = !uiHidden; ctrl.classList.toggle("hide", uiHidden); }
@@ -233,29 +185,27 @@ addEventListener("keydown", (e) => {
 $("stYear").textContent = YEAR;
 $("stKick").textContent = `Verkenners ${AGES[1] || ""}–${AGES[2] || ""} · zomer ${YEAR}`;
 $("stSub").textContent = `${numWord(CC.length)} landen. ${numWord(V.length).toLowerCase()} vragen. Eén kamp.`.replace(/^./, (c) => c.toUpperCase());
-$("stTop").textContent = `Scout Atlas ${YEAR} · versie 1`;
+$("stTop").textContent = `Scout Atlas ${YEAR}`;
 $("stDur").textContent = `Film · ${fmt(DUR)} · met geluid`;
-if (VOICE) { $("bVoice").hidden = false; $("stVoice").hidden = false; setVoice(true); }
 
-// testhaakjes: ?t=42 (pauzeer op 42 s) · ?play · ?clean (zonder bediening) · ?nosound · ?data (meteen de verkenner) · ?q=0.6 (lagere 3D-kwaliteit) · ?nograin (zonder filmkorrel)
+// testhaakjes: ?t=42 (pauzeer op 42 s) · ?play · ?clean (zonder bediening) · ?nosound · ?data (meteen de verkenner) · ?q=0.6 (lagere 3D-kwaliteit)
 const audioReady = qs.has("nosound") ? Promise.resolve(null) : (async () => {
   try {
     const r = await renderScore((p) => { ringP.setAttribute("stroke-dashoffset", CIRC * (1 - p)); sndState.textContent = `muziek wordt gecomponeerd… ${Math.round(p * 100)}%`; });
     music = r.buf;
-    await loadVoices();
     ringP.setAttribute("stroke-dashoffset", 0);
-    sndState.textContent = VOICE ? "klaar · muziek en stem" : "klaar · zet je geluid aan";
+    sndState.textContent = "klaar · zet je geluid aan";
     playBtn.classList.add("ready");
     if (playing) audioStart();
     return r;
   } catch (e) { sndState.textContent = "geluid niet beschikbaar in deze browser"; console.error(e); return null; }
 })();
-window.__film = { seek, play, pause, get t() { return t; }, DUR, render, T, SLOT, M, audioReady, get music() { return music; } };
+window.__film = { seek, play, pause, get t() { return t; }, DUR, render, T, CUE, M, audioReady, get music() { return music; } };
 document.fonts.ready.then(() => {
+  POD.drawFaces();
   fit();
   render(0); ui();
   if (qs.has("clean")) document.getElementById("ui").style.display = "none";
-  if (qs.has("nograin")) { const gr = document.getElementById("grain"); if (gr) gr.style.display = "none"; }
   if (qs.has("t")) { startEl.classList.add("gone"); seek(parseFloat(qs.get("t"))); showCtrl(); }
   if (qs.has("data")) { startEl.classList.add("gone"); openExplorer(false); }
   if (qs.has("play")) play();

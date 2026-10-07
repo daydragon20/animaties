@@ -1,11 +1,10 @@
-/* ═════════════ 2 · HET LANDSCHAP — 25 × 188 scores als een veld van kubussen ═════════════ */
+/* ═════════════ HET LANDSCHAP (scène 4): alle scores als een veld van kubussen ═════════════ */
 // donkerder schaal voor het landschap (anders wordt het één felle massa): 60 → 100
 const terrCol = (s) => { const p = clamp((s - 60) / 40) * 6; const i = Math.min(5, Math.floor(p)); return hexLerp(RAMP[i], RAMP[i + 1], p - i); };
-const LS = { grow: T.s2 + CARD_DUR, a: T.s2 + 3.0, b: T.s2 + 6.75, peaks: T.s2 + 9.0, sort: T.s2 + 11.25, sortEnd: T.s2 + 14.25, end: T.s3 };
-const TERRAIN = GL.add((() => {
+const LS = CUE.ls;
+const TERRAIN = (() => {
   const scene = new THREE.Scene();
-  scene.background = col(COL.night);
-  scene.fog = new THREE.Fog(col(COL.night), 50, 190);
+  scene.fog = new THREE.Fog(col("#071519"), 60, 210);
   const cam = new THREE.PerspectiveCamera(36, 16 / 9, 0.5, 600);
   scene.add(new THREE.HemisphereLight(0xcfeee4, 0x0a1514, 0.42));
   const sun = new THREE.DirectionalLight(0xffe2b8, 0.95); sun.position.set(-40, 60, 30); scene.add(sun);
@@ -63,60 +62,60 @@ const TERRAIN = GL.add((() => {
     const pk = seg(t, LS.peaks, LS.peaks + 0.8);
     gold.emissiveIntensity = 0.25 + 0.9 * E.out(pk) * (0.7 + 0.3 * Math.sin(t * 5));
     // camera: hoog boven het verre einde → laag langs de voorkant → schuin overzicht
-    const p1 = E.inOut2(seg(t, LS.grow, LS.b)), p2 = E.inOut2(seg(t, LS.b, LS.sort)), p3 = E.inOut2(seg(t, LS.sort - 0.5, LS.end));
+    const p1 = E.inOut2(seg(t, LS.grow, LS.b)), p2 = E.inOut2(seg(t, LS.b, LS.sort)), p3 = E.inOut2(seg(t, LS.sort - 0.5, LS.sort + 3.2));
     let tgt = lerp3([0, 0, -depth * 0.5], [0, 0, -depth * 0.3], p1);
     tgt = lerp3(tgt, [lerp(-4, 4, p2), 0, -depth * 0.26], p2);
     tgt = lerp3(tgt, [0, 0, -10], p3);
-    let dist = lerp(lerp(118, 70, p1), 62, p2); dist = lerp(dist, 50, p3);
+    let dist = lerp(lerp(118, 70, p1), 62, p2); dist = lerp(dist, 44, p3);
     let el_ = lerp(lerp(40, 24, p1), 21, p2); el_ = lerp(el_, 44, p3);
     let az = lerp(lerp(-26, -14, p1), 10, p2); az = lerp(az, 0, p3);
     aimCam(cam, tgt, dist, el_, az);
+    cam.setViewOffset(1920, 1080, 0, 150 * p3, 1920, 1080); // in het overzicht schuift het veld omhoog, zodat de landnamen onderaan passen
     cam.updateProjectionMatrix();
-    HUD.tag = `${nl(N, 0)} SCORES`;
   }
-  const vis = (t) => (t >= LS.grow - 0.1 && t < LS.end ? E.inOut(seg(t, LS.grow - 0.1, LS.grow + 0.8)) : 0);
-  return { scene, cam, update, vis, xA, xB, catZ, depth, post: () => ({ bloom: 0.8, th: 0.6 }) };
-})());
+  const vis = (t) => (t >= T.s4 - 0.1 && t < T.s5 + 0.05 ? E.inOut(seg(t, T.s4 - 0.1, T.s4 + 0.8)) * (1 - E.inOut(seg(t, LS.end - 0.5, LS.end))) : 0);
+  return { scene, cam, update, vis, xA, xB, catZ, depth };
+})();
+GL.add(TERRAIN);
 
 (function () {
-  const L = el("div", { class: "L" }, sceneRootEl);
-  const box = (top) => el("div", { class: "a", style: `left:150px;top:${top}px;width:760px;white-space:normal` }, L);
-  const _shadeSlot = el("div", { class: "L" }, L);
-  const A = box(150), B = box(150);
+  const L = el("div", { class: "L", style: `--hlc:${COL.gold}` }, sceneRoot);
+  const shadeL = el("div", { class: "L", style: "background:linear-gradient(90deg, rgba(4,9,11,.9) 0%, rgba(4,9,11,.62) 34%, rgba(4,9,11,0) 56%)" }, L);
+  const shadeT = el("div", { class: "L", style: "background:linear-gradient(180deg, rgba(4,9,11,.92) 0%, rgba(4,9,11,.66) 22%, rgba(4,9,11,0) 38%)" }, L);
+  const box = () => el("div", { class: "a", style: "left:140px;top:170px;width:820px;white-space:normal" }, L);
+  const A = box(), B = box();
   el("div", { class: "kick", style: `color:${COL.mint}` }, A, "Lezen zoals een kaart");
-  const ah = el("div", { class: "serif", style: "font-size:64px;line-height:1.05;margin-top:16px" }, A);
+  const ah = el("div", { class: "serif", style: "font-size:76px;line-height:1.05;margin-top:22px;color:#efe9da" }, A);
   const aw = words(ah, "Elke kubus is *één score.*");
-  const ah2 = el("div", { class: "serif", style: "font-size:64px;line-height:1.05" }, A);
+  const ah2 = el("div", { class: "serif", style: "font-size:76px;line-height:1.05;color:#efe9da" }, A);
   const aw2 = words(ah2, "Elke rij is *één land.*");
   el("div", { class: "kick", style: `color:${COL.gold}` }, B, "Pieken en dalen");
-  const bh = el("div", { class: "serif", style: "font-size:64px;line-height:1.05;margin-top:16px" }, B);
+  const bh = el("div", { class: "serif", style: "font-size:76px;line-height:1.05;margin-top:22px;color:#efe9da" }, B);
   const bw = words(bh, "Samen vormen ze *een landschap.*");
   const n100 = CC.reduce((a, c) => a + c.scores.filter((s) => s === 100).length, 0);
   const lo = CC.flatMap((c) => c.scores.map((s, i) => ({ s, c, v: V[i] }))).reduce((a, b) => (b.s < a.s ? b : a));
-  const bn = el("div", { class: "mono", style: `font-size:19px;color:${COL.soft};margin-top:24px;line-height:1.7` }, B,
-    `<span style="color:${COL.gold}">■</span> ${n100} keer een perfecte 100 &nbsp;·&nbsp; laagste: ${nl(lo.s, 1)} (${lo.c.name}, ${escapeHtml(lo.v.name.toLowerCase())})`);
-  const shadeT = el("div", { class: "L", style: "background:linear-gradient(180deg, rgba(4,9,11,.88) 0%, rgba(4,9,11,.6) 20%, rgba(4,9,11,0) 34%)" }, L);
-  const shadeL = el("div", { class: "L", style: "background:linear-gradient(90deg, rgba(4,9,11,.85) 0%, rgba(4,9,11,.5) 30%, rgba(4,9,11,0) 50%)" }, L);
-  _shadeSlot.appendChild(shadeT); _shadeSlot.appendChild(shadeL);
-  const C = el("div", { class: "a", style: "left:0;width:1920px;text-align:center;top:118px" }, L);
-  el("div", { class: "kick", style: `color:${COL.mint}` }, C, "Gesorteerd op eindscore");
-  const ch = el("div", { class: "serif", style: "font-size:56px;margin-top:14px" }, C);
+  const bn = el("div", { class: "mono", style: `font-size:28px;color:${COL.soft};margin-top:30px;line-height:1.55` }, B,
+    `<span style="color:${COL.gold}">■</span> ${nl(n100, 0)} keer een perfecte 100<br>laagste score: ${nl(lo.s, 1)}<br><span style="font-size:26px;color:${COL.soft}">${escapeHtml(lo.c.name)} · ${escapeHtml(lo.v.name.toLowerCase())}</span>`);
+  const Cc = el("div", { class: "a", style: "left:0;width:1920px;text-align:center;top:116px" }, L);
+  el("div", { class: "kick", style: `color:${COL.mint}` }, Cc, "Gesorteerd op eindscore");
+  const ch = el("div", { class: "serif", style: "font-size:68px;margin-top:16px;color:#efe9da" }, Cc);
   const cw = words(ch, "Van *beste* links naar laatste rechts.");
   // landlabels aan de voorkant
+  const LABNAME = { "Bosnië en Herzegovina": "Bosnië-Herz.", "Noord-Macedonië": "N.-Macedonië" };
   const labs = CC.map((c) => {
-    const e = el("div", { class: "a mono", style: "left:0;top:0;font-size:16px;transform-origin:0 50%;text-shadow:0 1px 8px #000" }, labLayer);
+    const e = el("div", { class: "a mono", style: "left:0;top:0;font-size:24px;font-weight:600;transform-origin:0 50%;text-shadow:0 1px 8px #000" }, labLayer);
     e.textContent = c.name;
     return { c, e };
   });
   renders.push((t) => {
-    const on = t >= T.s2 && t < T.s3 + 0.1;
+    const on = t >= T.s4 - 0.1 && t < T.s5 + 0.1;
     op(L, on ? 1 : 0);
     labs.forEach((l) => op(l.e, 0));
     if (!on) return;
-    op(shadeL, win(t, LS.a - 0.3, LS.sort, 0.8, 0.8)); op(shadeT, win(t, LS.sort, LS.end, 0.8, 0.5));
-    inout(A, t, LS.a, LS.b - 0.2, 0.9, 16, 0.6); revealWords(aw, t, LS.a, 0.13, 1.0); revealWords(aw2, t, LS.a + 1.3, 0.13, 1.0);
-    inout(B, t, LS.b, LS.sort - 0.2, 0.9, 16, 0.6); revealWords(bw, t, LS.b, 0.13, 1.0);
-    inout(C, t, LS.sort + 0.4, LS.end - 0.3, 0.9, 16, 0.5); revealWords(cw, t, LS.sort + 0.4, 0.12, 1.0);
+    op(shadeL, win(t, LS.a - 0.4, LS.sort, 0.8, 0.8)); op(shadeT, win(t, LS.sort - 0.4, LS.end, 0.8, 0.5));
+    inout(A, t, LS.a, LS.b - 0.3, 0.6, 16); revealWords(aw, t, LS.a, 0.14, 0.7); revealWords(aw2, t, LS.a + 1.8, 0.14, 0.7);
+    inout(B, t, LS.b, LS.sort + 0.1, 0.6, 16); revealWords(bw, t, LS.b, 0.14, 0.7);
+    inout(Cc, t, LS.sort + 0.4, LS.end - 0.3, 0.6, 16); revealWords(cw, t, LS.sort + 0.4, 0.12, 0.7);
     const vis = TERRAIN.vis(t);
     if (vis <= 0) return;
     const sp = (j) => E.inOut(seg(t, LS.sort + j * 0.06, LS.sort + 1.4 + j * 0.06));
@@ -128,7 +127,7 @@ const TERRAIN = GL.add((() => {
       op(l.e, lo_ * vis);
       l.e.style.transform = `translate(${px}px,${py + 12}px) rotate(48deg)`;
       const done = sp(j) > 0.98;
-      l.e.innerHTML = (done ? `<span style="color:${j === 0 ? COL.gold : COL.mint}">${j + 1}</span> ` : "") + escapeHtml(l.c.name);
+      l.e.innerHTML = (done ? `<span style="color:${j === 0 ? COL.gold : COL.mint}">${j + 1}</span> ` : "") + escapeHtml(LABNAME[l.c.name] || l.c.name);
       l.e.style.color = j === 0 && done ? COL.gold : COL.paper;
     });
   });

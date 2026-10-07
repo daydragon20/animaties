@@ -1,5 +1,5 @@
 /* ═════════════ VERKENNER: alle data, verschuifbaar en zoombaar ═════════════
-   Een kaart van alle scores (25 landen × 188 vragen, gegroepeerd per categorie), een ranglijst als tabel,
+   Een kaart van alle scores (alle landen × alle vragen, gegroepeerd per categorie), een ranglijst als tabel,
    en een speelveld voor de gewichten. Opent vanzelf na de film, of met de knop "data" / toets D. */
 const VK = (() => {
   const $v = (id) => document.getElementById(id);
@@ -10,7 +10,7 @@ const VK = (() => {
   const st = { s: 1, ox: 0, oy: 0, collapsed: new Set(), order: CC.slice(), sortBy: null, hover: null, sel: null, q: "", tab: "matrix" };
   let rows = [], rowY = [], rowH = [], totalW = 0, totalH = 0, W = 0, H = 0, dpr = 1, dirty = true, opened = false;
   const catOrder = M.byWeight;
-  const NAME_FONT = "500 13px 'IBM Plex Mono', monospace";
+  const NAME_FONT = "500 15px 'IBM Plex Mono', monospace";
   const lum = (hex) => { const [r, g_, b] = hex2rgb(hex).map((x) => x / 255); return 0.2126 * r + 0.7152 * g_ + 0.0722 * b; };
   const cellCol = (v) => (v === 100 ? COL.gold : scoreCol(v));
   const qMatch = (txt) => !st.q || txt.toLowerCase().includes(st.q);
@@ -102,7 +102,7 @@ const VK = (() => {
         if (showVal || (isCat && cw >= 34 && h >= 15)) {
           const col_ = cellCol(isCat ? Math.round(v * 10) / 10 : v);
           g.fillStyle = lum(col_) > 0.45 ? "#04110d" : "#efe9da";
-          const fs = Math.min(isCat ? 15 : 13, h * 0.5, cw * 0.28);
+          const fs = Math.min(isCat ? 16 : 14, h * 0.5, cw * 0.3);
           g.font = `${isCat ? 600 : 500} ${fs}px 'IBM Plex Mono', monospace`;
           g.fillText(isCat ? nl(v, 1) : v === 100 ? "100" : nl(v, 1), x + cw / 2, y + h / 2 + 0.5);
         }
@@ -127,12 +127,12 @@ const VK = (() => {
       const on = c.name === selName, hov = hv && (hv.zone === "top" || hv.zone === "cell") && hv.col === ci;
       g.textAlign = "center"; g.textBaseline = "alphabetic";
       g.fillStyle = on ? COL.gold : hov ? COL.paper : COL.muted;
-      g.font = `500 ${Math.min(12, Math.max(8, cw * 0.3))}px 'IBM Plex Mono', monospace`;
+      g.font = `500 ${Math.min(14, Math.max(9, cw * 0.32))}px 'IBM Plex Mono', monospace`;
       g.fillText(String(c.rank), xc, 16);
       if (cw >= 9) {
         g.save(); g.translate(xc - 4, TH - (cw >= 40 ? 30 : 12)); g.rotate(-Math.PI / 4.2);
         g.textAlign = "left"; g.fillStyle = on ? COL.gold : hov ? COL.paper : COL.soft;
-        g.font = cw >= 26 ? NAME_FONT : `500 ${Math.max(8, cw * 0.55)}px 'IBM Plex Mono', monospace`;
+        g.font = cw >= 26 ? NAME_FONT : `500 ${Math.max(9, cw * 0.58)}px 'IBM Plex Mono', monospace`;
         g.fillText(HEADNAME[c.name] || c.name, 0, 0, (TH - 56) / Math.sin(Math.PI / 4.2)); g.restore();
       }
       if (cw >= 40) { g.textAlign = "center"; g.fillStyle = on ? COL.gold : COL.mint; g.font = "300 19px 'Big Shoulders Display', sans-serif"; g.fillText(fTot(c), xc, TH - 8); }
@@ -142,7 +142,7 @@ const VK = (() => {
     // kop links: categorieën en vragen
     g.fillStyle = "#05090b"; g.fillRect(0, TH, LW, H - TH);
     g.save(); g.beginPath(); g.rect(0, TH, LW, H - TH); g.clip();
-    const qFs = Math.min(13, QH * s * 0.55);
+    const qFs = Math.min(15, QH * s * 0.6);
     for (let ri = r0; ri <= r1; ri++) {
       const row = rows[ri], y = sy(rowY[ri]), h = rowH[ri] * s;
       g.textBaseline = "middle"; g.textAlign = "left";
@@ -150,11 +150,11 @@ const VK = (() => {
         if (h < 4) continue;
         const coll = st.collapsed.has(row.c);
         g.fillStyle = "rgba(124,240,196,.06)"; g.fillRect(0, y, LW, h);
-        g.fillStyle = COL.mint; g.font = `600 ${Math.min(13, Math.max(9, h * 0.42))}px 'IBM Plex Mono', monospace`;
+        g.fillStyle = COL.mint; g.font = `600 ${Math.min(15, Math.max(11, h * 0.46))}px 'IBM Plex Mono', monospace`;
         const label = (coll ? "▸ " : "▾ ") + (LW < 200 ? short(row.c) : row.c).toUpperCase();
         g.fillText(label, 12, y + h / 2, LW - 70);
         g.textAlign = "right"; g.fillStyle = COL.gold; g.fillText(nl(M.catShare[row.c], 0) + "%", LW - 12, y + h / 2);
-      } else if (qFs >= 6.4) {
+      } else if (qFs >= 7) {
         const sel = selVar === row.v.i, hov = hv && (hv.zone === "left" || hv.zone === "cell") && hv.ri === ri;
         const match = qMatch(row.v.name) || qMatch(row.c);
         g.globalAlpha = match ? 1 : 0.3;
@@ -171,7 +171,7 @@ const VK = (() => {
     g.textAlign = "left"; g.textBaseline = "alphabetic";
     g.fillStyle = COL.paper; g.font = "800 22px 'Big Shoulders Display', sans-serif";
     g.fillText(`${CC.length} landen × ${V.length} vragen`.toUpperCase(), 14, 30);
-    g.fillStyle = COL.muted; g.font = "400 11px 'IBM Plex Mono', monospace";
+    g.fillStyle = COL.muted; g.font = "400 13px 'IBM Plex Mono', monospace";
     const sortTxt = st.sortBy ? `landen gesorteerd op: ${st.sortBy.label}` : "landen in volgorde van de eindstand";
     g.fillText(sortTxt, 14, 52, LW - 24);
     g.fillText("gewicht →", LW - 82, TH - 10);

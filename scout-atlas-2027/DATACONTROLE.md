@@ -7,13 +7,13 @@ Bron: `bron/scout-atlas-2027-data.json` (gegenereerd 2026-10-04). Gecontroleerd 
 | Controle | Resultaat |
 |---|---|
 | Aantal vragen | 188 |
-| Aantal landen | 25 |
+| Aantal landen | 24 |
 | Categorieën | 14 |
 | Elk land heeft 188 scores | ja ✓ |
 | Vraag-id's lopen 1 t/m 188 | ja ✓ |
 | Som van de gewichten | 100,000 (≈ 100 ✓) |
 | Laagste / hoogste score | 50,7 / 100,0 (binnen 0–100 ✓) |
-| Totaal aantal scores | 4700 |
+| Totaal aantal scores | 4512 |
 
 ## 2. Gewicht per categorie (som van de vraaggewichten = aandeel in de eindscore)
 
@@ -43,31 +43,30 @@ Maar door die afronding staan landen met dezelfde "afgeronde" score soms in de v
 
 | Rang (exact) | Land | Exact | JSON | Rang in JSON | |
 |---:|---|---:|---:|---:|---|
-| 1 | Slovenië | 91,275 | 91,3 | 1 | ✓ |
-| 2 | Portugal | 89,958 | 90,0 | 2 | ✓ |
-| 3 | Slowakije | 89,648 | 89,6 | 3 | ✓ |
-| 4 | Kroatië | 89,363 | 89,4 | 4 | ✓ |
-| 5 | Polen | 89,122 | 89,1 | 6 | **volgorde verschilt** |
-| 6 | Oostenrijk | 89,061 | 89,1 | 5 | **volgorde verschilt** |
-| 7 | Tsjechië | 88,623 | 88,6 | 7 | ✓ |
-| 8 | Zwitserland | 88,444 | 88,4 | 8 | ✓ |
-| 9 | Spanje | 88,269 | 88,3 | 9 | ✓ |
-| 10 | Griekenland | 88,156 | 88,2 | 10 | ✓ |
-| 11 | Frankrijk | 88,027 | 88,0 | 12 | **volgorde verschilt** |
-| 12 | Montenegro | 88,013 | 88,0 | 11 | **volgorde verschilt** |
-| 13 | Hongarije | 88,003 | 88,0 | 13 | ✓ |
-| 14 | Italië | 87,354 | 87,4 | 14 | ✓ |
-| 15 | Duitsland | 87,045 | 87,0 | 15 | ✓ |
-| 16 | Albanië | 86,863 | 86,9 | 16 | ✓ |
-| 17 | Bosnië en Herzegovina | 86,725 | 86,7 | 17 | ✓ |
-| 18 | Canada | 86,602 | 86,6 | 18 | ✓ |
-| 19 | Roemenië | 86,350 | 86,3 | 19 | ✓ |
-| 20 | Noord-Macedonië | 86,189 | 86,2 | 20 | ✓ |
-| 21 | Servië | 86,006 | 86,0 | 21 | ✓ |
-| 22 | Bulgarije | 85,504 | 85,5 | 22 | ✓ |
-| 23 | Turkije | 85,366 | 85,4 | 23 | ✓ |
-| 24 | Kosovo | 84,614 | 84,6 | 24 | ✓ |
-| 25 | Georgië | 84,502 | 84,5 | 25 | ✓ |
+| 1 | Portugal | 89,958 | 90,0 | 1 | ✓ |
+| 2 | Slowakije | 89,648 | 89,6 | 2 | ✓ |
+| 3 | Kroatië | 89,363 | 89,4 | 3 | ✓ |
+| 4 | Polen | 89,122 | 89,1 | 5 | **volgorde verschilt** |
+| 5 | Oostenrijk | 89,061 | 89,1 | 4 | **volgorde verschilt** |
+| 6 | Tsjechië | 88,623 | 88,6 | 6 | ✓ |
+| 7 | Zwitserland | 88,444 | 88,4 | 7 | ✓ |
+| 8 | Spanje | 88,269 | 88,3 | 8 | ✓ |
+| 9 | Griekenland | 88,156 | 88,2 | 9 | ✓ |
+| 10 | Frankrijk | 88,027 | 88,0 | 11 | **volgorde verschilt** |
+| 11 | Montenegro | 88,013 | 88,0 | 10 | **volgorde verschilt** |
+| 12 | Hongarije | 88,003 | 88,0 | 12 | ✓ |
+| 13 | Italië | 87,354 | 87,4 | 13 | ✓ |
+| 14 | Duitsland | 87,045 | 87,0 | 14 | ✓ |
+| 15 | Albanië | 86,863 | 86,9 | 15 | ✓ |
+| 16 | Bosnië en Herzegovina | 86,725 | 86,7 | 16 | ✓ |
+| 17 | Canada | 86,602 | 86,6 | 17 | ✓ |
+| 18 | Roemenië | 86,350 | 86,3 | 18 | ✓ |
+| 19 | Noord-Macedonië | 86,189 | 86,2 | 19 | ✓ |
+| 20 | Servië | 86,006 | 86,0 | 20 | ✓ |
+| 21 | Bulgarije | 85,504 | 85,5 | 21 | ✓ |
+| 22 | Turkije | 85,366 | 85,4 | 22 | ✓ |
+| 23 | Kosovo | 84,614 | 84,6 | 23 | ✓ |
+| 24 | Georgië | 84,502 | 84,5 | 24 | ✓ |
 
 Eindscores die niet kloppen met de ruwe data: **0**. Landen op een andere plaats dan in de JSON: **4**.
 
@@ -78,7 +77,7 @@ Eindscores die niet kloppen met de ruwe data: **0**. Landen op een andere plaats
 In de JSON is een categoriescore het **ongewogen** gemiddelde van de vragen in die categorie, terwijl de eindscore **gewogen** is.
 De film gebruikt het gewogen gemiddelde. Dan geldt exact: eindscore = Σ (categoriegewicht × categoriescore) / 100.
 
-Categoriescores die met weging anders uitkomen (≥ 0,1): **156** van 350. Grootste verschil: 0,4 punt.
+Categoriescores die met weging anders uitkomen (≥ 0,1): **151** van 336. Grootste verschil: 0,4 punt.
 
 | Land | Categorie | JSON (ongewogen) | Film (gewogen) | Verschil |
 |---|---|---:|---:|---:|
@@ -90,8 +89,6 @@ Categoriescores die met weging anders uitkomen (≥ 0,1): **156** van 350. Groot
 | Hongarije | Weer & natuur | 83,5 | 83,8 | +0,3 |
 | Roemenië | Landschap & wow-factor | 89,6 | 89,3 | -0,3 |
 | Bulgarije | Weer & natuur | 82,3 | 82,0 | -0,3 |
-| Slovenië | Landschap & wow-factor | 93,2 | 93,4 | +0,2 |
-| Slovenië | Kleine groep | 91,5 | 91,7 | +0,2 |
 | Portugal | Landschap & wow-factor | 90,5 | 90,7 | +0,2 |
 | Slowakije | Vervoer | 95,1 | 95,3 | +0,2 |
 | Kroatië | Weer & natuur | 86,3 | 86,1 | -0,2 |
@@ -116,7 +113,6 @@ Categoriescores die met weging anders uitkomen (≥ 0,1): **156** van 350. Groot
 | Duitsland | Kostprijs | 70,9 | 71,1 | +0,2 |
 | Duitsland | Weer & natuur | 89,1 | 88,9 | -0,2 |
 | Bosnië en Herzegovina | Avontuur & activiteiten | 95,4 | 95,6 | +0,2 |
-| Slovenië | Praktisch | 90,9 | 90,8 | -0,1 |
 | Portugal | Kostprijs | 85,7 | 85,6 | -0,1 |
 | Portugal | Vervoer | 90,2 | 90,1 | -0,1 |
 | Portugal | Groepsdynamiek | 89,9 | 89,8 | -0,1 |
@@ -166,8 +162,6 @@ Categoriescores die met weging anders uitkomen (≥ 0,1): **156** van 350. Groot
 | Georgië | Weer & natuur | 76,6 | 76,7 | +0,1 |
 | Zwitserland | Kostprijs | 55,1 | 55,0 | -0,1 |
 | Canada | Praktisch | 63,3 | 63,4 | +0,1 |
-| Slovenië | Avontuur & activiteiten | 94,6 | 94,5 | -0,1 |
-| Slovenië | Weer & natuur | 90,3 | 90,2 | -0,1 |
 | Portugal | Kleine groep | 88,3 | 88,2 | -0,1 |
 | Slowakije | Landschap & wow-factor | 87,5 | 87,6 | +0,1 |
 | Slowakije | Kostprijs | 83,0 | 82,9 | -0,1 |
@@ -249,11 +243,11 @@ toonden dus iets anders dan de getallen. In de nieuwe film hoort elk getal bij d
 
 ## 6. Feiten die de film vertelt (alle herberekend)
 
-- Winnaar: **Slovenië** 91,28; nummer 2: Portugal 89,96; verschil 1,32.
-- Verschil tussen nummer 1 en nummer 25 (Georgië): 6,77 punten.
-- Slovenië wint 0 van de 14 categorieën. Plaats per categorie: Veiligheid & gezondheid 10, Avontuur & activiteiten 8, Kostprijs 15, Kamp 5, Landschap & wow-factor 13, Vervoer 11, Cultuur 25, Weer & natuur 3, Internationale scouting 9, Kleine groep 9, Uniek tegenover andere groepen 9, Groepsdynamiek 4, Praktisch 9, Eindbeleving 13.
-- Laagste categorie van Slovenië: Kostprijs 84,4. Dat is de 2e hoogste "bodem" van alle 25 landen (hoogste: Portugal 85,6).
+- Winnaar: **Portugal** 89,96; nummer 2: Slowakije 89,65; verschil 0,31.
+- Verschil tussen nummer 1 en nummer 24 (Georgië): 5,46 punten.
+- Portugal wint 0 van de 14 categorieën. Plaats per categorie: Veiligheid & gezondheid 9, Avontuur & activiteiten 19, Kostprijs 14, Kamp 9, Landschap & wow-factor 15, Vervoer 11, Cultuur 5, Weer & natuur 3, Internationale scouting 11, Kleine groep 15, Uniek tegenover andere groepen 13, Groepsdynamiek 16, Praktisch 9, Eindbeleving 15.
+- Laagste categorie van Portugal: Kostprijs 85,6. Dat is de 1e hoogste "bodem" van alle 24 landen (hoogste: Portugal 85,6).
 - Laagste categorie ooit: Zwitserland 55,0.
-- Zekerheid: 15 landen "hoog", 10 "gemiddeld".
+- Zekerheid: 14 landen "hoog", 10 "gemiddeld".
 
 Geen structurele problemen gevonden.
