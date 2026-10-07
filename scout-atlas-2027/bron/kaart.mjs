@@ -9,7 +9,6 @@ const fc = feature(topo, topo.objects.countries);
 
 // Kandidaten: Nederlandse naam (zoals in de JSON) -> Natural Earth-naam + labelpunt (lon, lat)
 const CAND = {
-  "Slovenië": ["Slovenia", 14.8, 46.12],
   "Portugal": ["Portugal", -8.1, 39.7],
   "Slowakije": ["Slovakia", 19.6, 48.7],
   "Kroatië": ["Croatia", 15.9, 45.45],
@@ -57,7 +56,7 @@ for (const f of fc.features) {
   const d = r1(path(f) || "");
   if (!d) continue;
   const cand = Object.entries(CAND).find(([, v]) => v[0] === n);
-  countries.push({ n, nl: cand ? cand[0] : null, home: n === "Belgium", d });
+  countries.push({ nl: cand ? cand[0] : null, home: n === "Belgium", d });
 }
 
 const pts = {};

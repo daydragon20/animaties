@@ -13,7 +13,7 @@ PowerPoint, geen dashboard en geen webpagina om doorheen te scrollen. Hij speelt
 begin tot eind en ik moet hem kunnen schermopnemen.
 
 **Waar gaat het over.** Mijn scoutsgroep (verkenners 14–16 jaar, 10 à 15 leden) kiest waar
-het buitenlandse kamp van zomer 2027 plaatsvindt. We hebben 25 landen beoordeeld op 188
+het buitenlandse kamp van zomer 2027 plaatsvindt. We hebben 24 landen beoordeeld op 188
 variabelen, in 14 categorieën, met een gewicht per variabele. De film moet de groep laten
 voelen *waarom* het ene land wint. De bijgevoegde HTML toont al alle inhoud; de JSON bevat
 de echte cijfers.
@@ -22,10 +22,9 @@ de echte cijfers.
 1. De vraag: waar moet ons beste buitenlandkamp ooit plaatsvinden?
 2. Hoe we kiezen: 188 factoren, niet allemaal even zwaar. Veiligheid, avontuur en
    kampbaarheid wegen zwaarder dan bijvoorbeeld esthetiek.
-3. De 25 kandidaten die strijden, en hoe de eindrangschikking tot stand komt.
-4. De winnaar, Slovenië, en wat hem draagt (en waar hij punten laat liggen, bv. kostprijs).
-5. Een eerlijke afsluiter: dit is een V1. Niet elke score is al bron-per-bron gevalideerd,
-   en de echte keuze moet nog langs kampplaats, vervoer, budget en actuele reisadviezen.
+3. De 24 kandidaten die strijden, en hoe de eindrangschikking tot stand komt.
+4. De winnaar, Portugal, en wat het draagt (en waar het punten laat liggen, bv. kostprijs).
+5. De bestemming: de route van thuis naar de winnaar, en daarna alle data om zelf in te zoeken.
 
 **Richting (niet dwingend).** Iets met het gevoel van een atlas of een expeditie: kaart,
 kompas, route, avontuur. De huidige kleuren (donker met mintgroen en zachtgeel) mogen
@@ -72,10 +71,10 @@ Gevonden bij mensen die Fable 5.1 voor motion design en UI gebruiken:
 
 ## Gegevens die ik uit je bestanden heb gehaald
 
-- 25 landen, 188 variabelen, 14 categorieën (Avontuur & activiteiten telt 25, Kamp 18,
+- 24 landen, 188 variabelen, 14 categorieën (Avontuur & activiteiten telt 25, Kamp 18,
   Kostprijs 15, Veiligheid 15, ...).
-- Top 5: Slovenië 91,3 · Portugal 90,0 · Slowakije 89,6 · Kroatië 89,4 · Oostenrijk 89,1.
-  Laatste: Georgië 84,5.
-- Slovenië: sterkst in Avontuur (94,6) en Landschap (93,2), zwakst in Kostprijs (84,4).
+- Top 5: Portugal 89,96 · Slowakije 89,65 · Kroatië 89,36 · Polen 89,12 · Oostenrijk 89,06.
+  Laatste: Georgië 84,50.
+- Portugal: sterkst in Cultuur (96,0), zwakst in Kostprijs (85,6).
 - De JSON bevat geen bronnen; die staan alleen in de HTML. Wil je ze in de film, geef dan
   mee dat hij ze uit de HTML moet halen.
