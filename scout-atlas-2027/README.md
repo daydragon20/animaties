@@ -1,85 +1,79 @@
-# Scout Atlas 2027: de film (versie 2)
+# Scout Atlas 2027: de film (versie 3)
 
-Een geanimeerde film van 100 seconden (16:9, met geluid) over de keuze van het buitenlandse kamp, zomer 2027.
-De film speelt zelf van begin tot eind en is gemaakt om te schermopnemen.
+Een film van 2 minuten 46 (16:9, met muziek) over de keuze van het buitenlandse kamp, zomer 2027. Na de film opent vanzelf de
+**verkenner**: alle data, elke bron, en de spreiding over de tien onderzoeksrondes.
 
 **Openen:** dubbelklik `index.html`. Het is één bestand en werkt ook zonder internet. Zet je geluid aan.
 
 | Toets | Wat |
 |---|---|
 | spatie | afspelen / pauzeren |
-| ← → | 5 seconden terug / vooruit |
+| ← → | 10 seconden terug / vooruit |
 | R | opnieuw vanaf het begin |
 | M | geluid aan / uit |
+| D | naar de data (verkenner) |
 | F | volledig scherm |
-| H | bedieningsbalk verbergen (voor een schone opname) |
+| H | bediening verbergen (voor een schone schermopname) |
+| Esc | terug van de verkenner naar de film |
 
-De balk en de muiscursor verdwijnen ook vanzelf tijdens het afspelen.
+De bediening en de muiscursor verdwijnen vanzelf tijdens het afspelen. De tijdlijn onderaan is per hoofdstuk opgedeeld.
 
-**Schermopname, zo doe je het:** open de film, druk op F, wacht tot onder de startknop "geluid klaar ♪" staat,
-start je opname met systeemgeluid en druk dan op spatie.
+**Schermopname:** open de film, druk op F, wacht tot onder de startknop "klaar · zet je geluid aan" staat, start je opname met
+systeemgeluid en druk dan op spatie.
 
-## Wat er veranderd is tegenover versie 1
+## Wat er nieuw is tegenover de vorige versies
 
-- **Heel Europa doet mee: 42 landen**, niets extra, niets minder. Erbij: Nederland, Luxemburg, Verenigd Koninkrijk,
-  Ierland, IJsland, Denemarken, Noorwegen, Zweden, Finland, Estland, Letland, Litouwen, Cyprus, Malta, Andorra,
-  Liechtenstein, San Marino, Moldavië, Oekraïne, Belarus, Rusland, Armenië en Azerbeidzjan. Eruit: Canada (geen Europa).
-- **Op vraag van de groep uit de lijst:** Slovenië, Polen, Hongarije, Roemenië en Albanië. Vaticaanstad en Monaco
-  staan er niet in: daar kan geen tentenkamp (0,44 en 2 km²). België is thuis.
-- **Alle scores zijn opnieuw berekend.** De oude scores (alles tussen 84 en 91) waren te vlak om iets te kiezen.
-  Nu komt elke score uit **39 feiten per land** (prijspeil, reisadvies, vredesindex, verkeersdoden, bosbedekking,
-  juli-temperatuur, scouts per 1.000 inwoners, ...). De eindscores lopen van 51 tot 75. Zie `BRONNEN.md`.
-- **164 vragen in plaats van 188:** dubbels samengevoegd (Eten stond er twee keer in, Hitte drie keer),
-  vage vragen geschrapt, en enkele nieuwe toegevoegd (roamingkosten, bosbrandverbod, tekenencefalitis).
-  De gewichten per categorie zijn de prioriteiten van de groep en zijn **niet** veranderd.
-- **Drie landen vallen af vóór de race:** Rusland, Oekraïne en Belarus. De FOD Buitenlandse Zaken raadt alle
-  reizen af. Ze staan wel op de kaart en krijgen een score, maar doen niet mee.
-- **Nieuwe scène "Het speelveld":** alle landen op één veld, kostprijs tegen avontuur. Je ziet in één oogopslag
-  waarom "goedkoop en wild" (Montenegro, Georgië) en "spectaculair maar duur" (Zwitserland, IJsland) het niet halen.
-- **Eerlijker slot:** de film toont zelf welke 15 feiten hard zijn, welke 17 afgeleid, en welke 7 een inschatting.
+- **De data is het product van tien onafhankelijke onderzoeksrondes.** Elke variabele heeft een meter (wat, eenheid, bron, schaal).
+  Per ronde verzamelden Haiku-agents de cijfers en bronnen opnieuw, en berekende een Sonnet-agent de scores. Per cel telt de waarde die het
+  vaakst voorkomt. Zie [`onderzoek/README.md`](onderzoek/README.md) en [`onderzoek/CONSENSUS.md`](onderzoek/CONSENSUS.md).
+- **Nieuwe prioriteiten**: kostprijs en avontuur wegen samen 50 %, kamperen (mag het, zijn er kampplaatsen, is het mooi) 22 %, al de rest 28 %.
+  Elke variabele weegt minstens 1,2 %.
+- **Nieuw ontwerp**, vanaf nul: het begint bij een kampvuur in een miniatuurlandschap, trekt terug naar de wereldbol, en gaat via het
+  diorama van Europa (behouden en verbeterd), de rugzak met drie vakken, de meetlatten, de tien rondes, het kubuslandschap, de race,
+  een 3D-ruimte met drie assen en het podium naar de bestemming. Grote, leesbare tekst, zoals in de tweede versie.
+- **Verkenner met bronnen**: klik op een cel en je ziet de vraag, de meter, de gemeten waarde met eenheid, de bron (klikbaar), de score
+  en de waarden van alle tien rondes. Plus: ranglijst met plaats per ronde, gewichten per tier en per categorie, de rondes, bronnen en meters, CSV.
 
-## Verhaal
+## Het verhaal (tempo 120, 1 tel = 0,5 s)
 
-| Tijd | Scène | Licht | Wat je ziet |
+| Tijd | Hoofdstuk | Licht | Wat je ziet |
 |---|---|---|---|
-| 0–8 s | De vraag | nacht → dag | 3D-wereldbol, de zon komt op boven Europa |
-| 8–21 s | De weging | dag | 164 vragen worden een rugzak: het zwaarste zit onderaan |
-| 21–34 s | De kandidaten | dag | 3D-diorama: 42 landen komen omhoog, drie vallen af, de top 10 springt eruit |
-| 34–56 s | De race | nacht | top 10, categorie per categorie, zwaarste eerst |
-| 56–69 s | Het speelveld | dag | alle landen: kostprijs tegen avontuur, stipgrootte = eindscore |
-| 69–81 s | Het podium | dag | 3D-podium met confetti, en de plaatsen 4 tot 10 |
-| 81–100 s | Eerlijk is eerlijk | nacht → dag | waar de cijfers vandaan komen, wat nog op tafel moet, de route naar de winnaar |
+| 0:00 | Het kamp | nacht → dag | een kampvuur tussen drie tenten; dan de wereldbol met een gloeiend puntje op België; de zon komt op; "Welk land?" |
+| 0:16 | De kandidaten | dag | het 3D-diorama: 42 landen rijzen op; drie zakken terug (alle reizen afgeraden); 39 doen mee |
+| 0:32 | De weging | dag | de rugzak met drie vakken (50 / 22 / 28 %); drie meetlatten met de waarde van de winnaar; tien ranglijsten die samenvallen |
+| 1:00 | Het landschap | nacht | alle scores als kubussen, gesorteerd op eindscore; de top tien gaat door |
+| 1:18 | De race | nacht | top tien, categorie per categorie, zwaarste eerst; tussenstand en volgorde horen bij elkaar |
+| 1:46 | De ruimte | dag | elk land een bol in drie dimensies (kost, avontuur, kamperen); dan het vlakke speelveld met kwadranten |
+| 2:04 | Het podium | dag | top drie met eindscore, sterkste en zwakste categorie, en "x van 10 rondes gewonnen"; plaatsen 4–10 |
+| 2:20 | De bestemming | gouden uur | de route van België naar de winnaar; wat nog uitgezocht moet worden; aftiteling |
+
+Daarna opent de verkenner.
 
 ## Over de getallen
 
-- Alle getallen en namen worden in het bestand zelf uit de JSON gelezen, niet overgetypt. De teksten in de film
-  (wie leidt na welke categorie, wie valt terug, wie zit in welke hoek van het speelveld) worden ook uit de data
-  afgeleid: verandert de data, dan verandert het verhaal mee.
-- Er wordt niets afgerond. De enige opmaak: een Nederlandse komma, en eindscores en categoriescores krijgen
-  minstens één decimaal (`75` wordt `75,0`, dezelfde waarde). Bij gelijke eindscores op één decimaal beslist
-  de exacte waarde (`exact` in de JSON) over de volgorde.
-- In de race zijn de balken de gewogen tussenstand na elke categorie, berekend uit de ruwe scores en gewichten.
-  Na de laatste categorie gelden exact de eindscore en de volgorde uit de JSON.
+- Alles in beeld wordt in het bestand zelf berekend uit `bron/scout-atlas-2027-data.json` (scores per variabele en gewichten).
+  Niets is overgetypt; elke zin over de uitkomst (wie leidt, wie zakt, welk kwadrant) wordt uit de data afgeleid.
+- Eindscores met 1 decimaal in de film, 2 in de verkenner; de volgorde volgt de exacte waarde.
+- `bron/controle.mjs` herberekent onafhankelijk elke celscore uit de ruwe waarde en de schaal, elke categoriescore, eindscore en rang.
+- Landen met een negatief reisadvies (alle reizen afgeraden) krijgen een score maar doen niet mee: knock-out, geen minpunt.
 
 ## Bouwen (alleen nodig als je iets aanpast)
 
-De bron staat in `bron/`:
-
 ```bash
-cd bron
-node bereken.mjs   # feiten.mjs + variabelen.mjs → scout-atlas-2027-data.json (en print de ranglijst)
-node bouw.mjs      # data, kaart, lettertypes en three.js inbakken → ../index.html
+cd onderzoek && node consensus.mjs   # alle rondes → bron/scout-atlas-2027-data.json
+cd ../bron && node controle.mjs      # onafhankelijke controle van de data
+node bouw.mjs                        # data, kaart, lettertypes, three.js en verkenner → ../index.html
 ```
 
-- **Een feit aanpassen?** Open `bron/feiten.mjs`, pas het cijfer aan, draai de twee commando's. Klaar.
-- **Een vraag of gewicht aanpassen?** `bron/variabelen.mjs`.
-- `bron/kaart.mjs` maakt `kaart.json` opnieuw aan (vereist `npm i d3-geo topojson-client world-atlas@2`).
+De film zit in `bron/js/` (één bestand per onderdeel, op volgorde van naam), de verkenner in `bron/js/95-verkenner.js`,
+`bron/verkenner.html` en `bron/verkenner.css`. De kaart komt uit `bron/kaart.mjs` (Natural Earth).
+Testhaakjes in de adresbalk: `?t=95` (spring naar 95 s), `?clean` (zonder bediening), `?nosound`, `?data` (meteen de verkenner),
+`?q=0.6` (lagere 3D-kwaliteit voor trage computers).
 
 ## Bronnen en licenties
 
-- Cijfers en methode: zie `BRONNEN.md`.
+- Cijfers en methode: `onderzoek/` (model, rondes, consensus) en het tabblad "Bronnen en meters" in de verkenner.
 - Kaartdata: Natural Earth (publiek domein), via `world-atlas`.
 - 3D: three.js r149 (MIT, zie `bron/vendor/three-LICENSE.txt`).
 - Lettertypes: Big Shoulders Display, Fraunces, IBM Plex Mono (SIL Open Font License).
-- Muziek en geluidseffecten: zelf opgewekt in het bestand (Web Audio en een kleine synthesizer in JavaScript).
-  Er zit geen stockmateriaal in.
+- Muziek en geluidseffecten: zelf opgewekt in het bestand (een kleine synthesizer in JavaScript). Geen stockmateriaal, geen stem.
