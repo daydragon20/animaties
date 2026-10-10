@@ -1749,47 +1749,47 @@
    },
    "kamp_groepsterrein": {
     "A": {
-     "vervuld": false,
-     "bewijs": "Geen lijst van >=10 Oostenrijkse jeugdkampterreinen geopend; gruppenhaus.de toont maar 3-4 Zeltplätze in Oostenrijk (commerciële kindercamps).",
-     "url": ""
+     "vervuld": true,
+     "bewijs": "Pfadfinder und Pfadfinderinnen Österreichs (nationale scoutsorganisatie) publiceert de pagina 'Austrian Scout Center Network – PfadfinderInnen-Lagerplätze in Österreich' met 11 terreinen/centra: Bundeszentrum Wassergspreng, Landespfadfinderheim Neuburg (Vorarlberg), Tiroler Pfadfinderzentrum Igls (8 Lagerplätze, tot 700 personen), Zellhof, Scout Camp Austria, Techuana, Leibnitz, Pfadfinderzentrum NÖ (Kierling), Dr. Hüttlheim (8000 m2 Lagerplatz), Sparbach, Waldschule Helenenschacht; elk met link naar de eigen site.",
+     "url": "https://ppoe.at/lagerplaetze/"
     },
     "B": {
      "vervuld": true,
-     "bewijs": "Drie Oostenrijkse scoutsterreinen met eigen site, prijs of contact en tentenweide geopend (Zellhof, Techuana, Scout Camp Austria); Bundeszentrum Wassergspreng gaf 503.",
+     "bewijs": "Drie Oostenrijkse scoutsterreinen met eigen site, tentenveld en prijs of contact geopend: Zellhof (Lagerplatz 6,80 EUR p.p./nacht, prijslijst 2026), Scout Camp Austria (7,30 EUR p.p./nacht, tent of huis, prijslijst 2025) en Techuana (e-mail, telefoon, prijslijst- en boekingsformulier).",
      "terreinen": [
       {
        "naam": "Pfadfinderdorf Zellhof (International Scout and Guide Centre)",
-       "plaats": "Mattsee/Grabensee (Salzburg)",
-       "url": "https://www.zellhof.at/",
-       "details": "30 000 m2 lagerplatz + 3 huizen met 150 bedden; 'internationaler Lagerplatz für Pfadfinder und Jugendgruppen'; tent: 2026 6,80 euro, 2027 7,10 euro per persoon per nacht (zellhof.at/preise/)."
+       "plaats": "Mattsee (Salzburg), aan de Grabensee",
+       "url": "https://www.zellhof.at/buchung/preise/",
+       "details": "Lagerplatz 30.000 m2 voor tenten; 6,80 EUR per persoon en nacht (prijzen 2026), huizen 12,30 EUR; lagerplatzküche 34,50 EUR/dag; zellhof@zellhof.at, +43 6217 7066."
       },
       {
-       "naam": "TECHUANA International Scout and Guide Center",
-       "plaats": "Rosegg (Kärnten)",
+       "naam": "Scout Camp Austria (Lagerplatz van de Oberösterreichische Pfadfinder)",
+       "plaats": "Eggenberg, Berg im Attergau (Oberösterreich)",
+       "url": "https://scoutcampaustria.at/preise/",
+       "details": "50.000 m2 vlak Zeltplatz en 3 huizen voor kinder- en jeugdgroepen; 7,30 EUR per persoon en nacht op tentenveld en in huizen (prijslijst 2025); boekingsaanvraag online; sca@ooe.pfadfinder.at; wintersluiting oktober tot mei."
+      },
+      {
+       "naam": "TECHUANA International Scout and Guide Center (Pfadfinder Kärnten)",
+       "plaats": "Rosegg (Kärnten), Techuanaweg 1",
        "url": "https://www.techuana.at/",
-       "details": "Zeltplatz van Pfadfinder Österreichs Landesverband Kärnten; Preisliste en Buchungsformular; tel. +43 680 230 9969, techuana@techuana.at."
-      },
-      {
-       "naam": "Scout Camp Austria (Pfadfinderlager Eggenberg)",
-       "plaats": "Berg im Attergau (Oberösterreich)",
-       "url": "https://scoutcampaustria.at/",
-       "details": "50.000 m2 vlak lagerplatz voor betreute kinder- en jeugdgroepen; Zeltplatz en vier huizen; pagina's Preise, Leihmaterial und Zelte, Buchungsanfrage; office@scoutcampaustria.at; centrum van de OÖ Pfadfinder."
+       "details": "Meer dan 40.000 m2 met afgebakende kampeerplekken in natuur; prijslijst en boekingsformulier op de site; techuana@techuana.at, +43 680 230 9969."
       }
      ],
      "url": ""
     },
     "C": {
      "vervuld": true,
-     "bewijs": "Pfadfinder Österreichs heeft drie SCENES-centra (Zellhof, Techuana, Bundeszentrum Wassergspreng); Zellhof en Techuana ontvangen 'internationale' groepen en zijn geopend.",
+     "bewijs": "Zellhof noemt zich 'internationaler Lagerplatz für Pfadfinder und Jugendgruppen' en ontvangt elk jaar jongeren uit veel landen (mini-jamboree in juli/augustus); Techuana is een 'International Scout and Guide Center'. Eerste pas: beide als SCENES-centra van PPÖ vermeld.",
      "url": "https://www.zellhof.at/"
     },
     "D": {
      "vervuld": false,
-     "bewijs": "Niet onderzocht.",
+     "bewijs": "Niet onderzocht in de tweede pas (geen campingportaal met groepsfilter geopend).",
      "url": ""
     },
-    "voorstel": 50,
-    "opmerking": "Wassergspreng (pfadfinder.at/bzw) gaf 503. Tiroler Pfadfinderzentrum Igls (tent site) komt in een zoekresultaat voor maar is niet geopend. Zoekopdracht: 'Pfadfinder Lagerplatz Österreich Zeltplatz ...'. Niet-vervuld betekent: niet kunnen staven met een geopende bron, niet: bestaat niet."
+    "voorstel": 75,
+    "opmerking": "tweede pas: A en B nu gestaafd (was 25, nu 75). Het derde terrein dat in de eerste pas ontbrak (Wassergspreng gaf 503) is vervangen door Scout Camp Austria en Techuana; ppoe.at/bzw (Wassergspreng) gaf ook nu 503, maar staat wel in de lijst op ppoe.at/lagerplaetze. D niet onderzocht. 0 WebSearch-aanroepen voor dit land."
    }
   },
   "Tsjechië": {
