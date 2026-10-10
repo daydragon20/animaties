@@ -198,7 +198,7 @@ const audioReady = qs.has("nosound") ? Promise.resolve(null) : (async () => {
   } catch (e) { sndState.textContent = "geluid niet beschikbaar in deze browser"; console.error(e); return null; }
 })();
 window.__film = { seek, play, pause, get t() { return t; }, DUR, render, T, CUE, M, audioReady, get music() { return music; } };
-document.fonts.ready.then(() => {
+Promise.all([document.fonts.ready, KB.ready]).then(() => {
   POD.drawFaces();
   fit();
   render(0); ui();

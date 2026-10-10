@@ -1,0 +1,1089 @@
+{
+  "ronde": 6,
+  "pakket": "p10",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "cul_engels": {
+        "waarde": 612,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Portugees, Romaans) · B nee (Latijns) · C nee (rooms-katholiek)."
+      }
+    },
+    "Spanje": {
+      "cul_engels": {
+        "waarde": 540,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Spaans, Romaans; Baskisch alleen regionaal officieel) · B nee · C nee (rooms-katholiek)."
+      }
+    },
+    "Andorra": {
+      "cul_engels": {
+        "waarde": 539.5,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "Ontbrekend-regel cul_engels (model.json): EF 2025 meet dit land niet",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Gemiddelde buurlanden met EF-score: ES 540 en FR 539 = 539,5. 2e bron (List of countries by English-speaking population): % Engelstaligen, andere eenheid, niet omgerekend: 20,63%."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Catalaans, Romaans) · B nee · C nee (rooms-katholiek)."
+      }
+    },
+    "Frankrijk": {
+      "cul_engels": {
+        "waarde": 539,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Frans, Romaans) · B nee · C nee (rooms-katholiek of zonder religie)."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "cul_engels": {
+        "waarde": 640,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "Ontbrekend-regel cul_engels (model.json): EF 2025 meet dit land niet",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Engels is moedertaal/officiële taal, dus ontbrekend-regel 640. 2e bron (List of countries by English-speaking population): % Engelstaligen, andere eenheid, niet omgerekend: 98,28%."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Engels, Germaans; Welsh is alleen regionaal officieel) · B nee · C nee (christelijk, anglicaans/protestants)."
+      }
+    },
+    "Ierland": {
+      "cul_engels": {
+        "waarde": 640,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "Ontbrekend-regel cul_engels (model.json): EF 2025 meet dit land niet",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Engels is officiële taal, dus ontbrekend-regel 640. 2e bron (List of countries by English-speaking population): % Engelstaligen, andere eenheid, niet omgerekend: 97,52%."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja: Iers is naast Engels nationaal officiële taal (Keltisch, niet Germaans/Romaans), zoals Maltees bij MT; Engels is overheersend. Twijfel gemeld (bron: Languages of Ireland) · B nee (Latijns) · C nee (rooms-katholiek)."
+      }
+    },
+    "IJsland": {
+      "cul_engels": {
+        "waarde": 600,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "Ontbrekend-regel cul_engels (model.json): EF 2025 meet dit land niet",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Ontbrekend-regel 600 (Engels bijna universeel). 2e bron (List of countries by English-speaking population): % Engelstaligen, andere eenheid, niet omgerekend: 98,00%."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (IJslands, Germaans) · B nee · C nee (luthers)."
+      }
+    },
+    "Nederland": {
+      "cul_engels": {
+        "waarde": 624,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Nederlands, Germaans) · B nee · C nee (zonder religie grootste groep)."
+      }
+    },
+    "Luxemburg": {
+      "cul_engels": {
+        "waarde": 600,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "Ontbrekend-regel cul_engels (model.json): EF 2025 meet dit land niet",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Ontbrekend-regel 600 (meertalig land). 2e bron (List of countries by English-speaking population): % Engelstaligen, andere eenheid, niet omgerekend: 25,67% (totaal)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Luxemburgs, Germaans; Frans en Duits ook G/R) · B nee · C nee (rooms-katholiek)."
+      }
+    },
+    "Duitsland": {
+      "cul_engels": {
+        "waarde": 615,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Duits, Germaans) · B nee · C nee (zonder religie of christelijk)."
+      }
+    },
+    "Denemarken": {
+      "cul_engels": {
+        "waarde": 611,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Deens, Germaans) · B nee · C nee (luthers)."
+      }
+    },
+    "Noorwegen": {
+      "cul_engels": {
+        "waarde": 613,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Noors, Germaans) · B nee · C nee (luthers)."
+      }
+    },
+    "Zweden": {
+      "cul_engels": {
+        "waarde": 609,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Zweeds, Germaans) · B nee · C nee (luthers)."
+      }
+    },
+    "Finland": {
+      "cul_engels": {
+        "waarde": 603,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Fins, Fins-Oegrisch) · B nee · C nee (luthers grootste groep)."
+      }
+    },
+    "Estland": {
+      "cul_engels": {
+        "waarde": 561,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Ests, Fins-Oegrisch) · B nee · C nee (zonder religie grootste groep; Religion in Estonia: 38,8% ongelovig tegen 23,2% orthodox)."
+      }
+    },
+    "Letland": {
+      "cul_engels": {
+        "waarde": 599,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Lets, Baltisch) · B nee · C nee (luthers grootste groep, 37%; Religion in Latvia)."
+      }
+    },
+    "Litouwen": {
+      "cul_engels": {
+        "waarde": 543,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Litouws, Baltisch) · B nee · C nee (rooms-katholiek)."
+      }
+    },
+    "Zwitserland": {
+      "cul_engels": {
+        "waarde": 564,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Duits, Frans, Italiaans, Reto-Romaans) · B nee · C nee (rooms-katholiek of protestants)."
+      }
+    },
+    "Liechtenstein": {
+      "cul_engels": {
+        "waarde": 590,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "Ontbrekend-regel cul_engels (model.json): EF 2025 meet dit land niet",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Gemiddelde buurlanden met EF-score: CH 564 en AT 616 = 590. 2e bron (List of countries by English-speaking population): % Engelstaligen, andere eenheid, niet omgerekend: 15,11%."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Duits) · B nee · C nee (rooms-katholiek)."
+      }
+    },
+    "Oostenrijk": {
+      "cul_engels": {
+        "waarde": 616,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Duits) · B nee · C nee (rooms-katholiek)."
+      }
+    },
+    "Tsjechië": {
+      "cul_engels": {
+        "waarde": 582,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Tsjechisch, Slavisch) · B nee · C nee (zonder religie of rooms-katholiek grootste groep)."
+      }
+    },
+    "Slowakije": {
+      "cul_engels": {
+        "waarde": 606,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Slowaaks, Slavisch) · B nee · C nee (rooms-katholiek)."
+      }
+    },
+    "Italië": {
+      "cul_engels": {
+        "waarde": 513,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Italiaans, Romaans) · B nee · C nee (rooms-katholiek)."
+      }
+    },
+    "San Marino": {
+      "cul_engels": {
+        "waarde": 513,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "Ontbrekend-regel cul_engels (model.json): EF 2025 meet dit land niet",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Enige buurland is Italië (EF 513), dus 513. San Marino staat niet in de 2e bron."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Italiaans) · B nee · C nee (rooms-katholiek)."
+      }
+    },
+    "Malta": {
+      "cul_engels": {
+        "waarde": 640,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "Ontbrekend-regel cul_engels (model.json): EF 2025 meet dit land niet",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Engels is officiële taal naast Maltees, dus ontbrekend-regel 640. 2e bron (List of countries by English-speaking population): % Engelstaligen, andere eenheid, niet omgerekend: 88,48%."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Maltees, Semitisch, nationaal officieel naast Engels) · B nee (Latijns) · C nee (rooms-katholiek)."
+      }
+    },
+    "Kroatië": {
+      "cul_engels": {
+        "waarde": 617,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Kroatisch, Slavisch) · B nee (Latijns) · C nee (rooms-katholiek)."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "cul_engels": {
+        "waarde": 591,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Bosnisch/Kroatisch/Servisch, Slavisch) · B nee: Latijns overheerst, Cyrillisch vooral in Republika Srpska (Bosnian language) · C ja (islam grootste groep, 50,7%; christenen 45,9%). Languages_of_Bosnia_and_Herzegovina is een redirect; Bosnian_language gebruikt."
+      }
+    },
+    "Montenegro": {
+      "cul_engels": {
+        "waarde": 579.75,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "Ontbrekend-regel cul_engels (model.json): EF 2025 meet dit land niet",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Gemiddelde buurlanden met EF-score: AL 532 (buiten de 42, wel EF-score), BA 591, HR 617, RS 579 = 579,75. Kosovo heeft geen score. Montenegro staat niet in de 2e bron."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "A ja (Montenegrijns, Slavisch) · B nee: twijfel, Latijns en Cyrillisch naast elkaar; de eerste alinea zegt niet dat Cyrillisch overheerst. Bij 'ja' zou dit 100 zijn · C ja (christenen 74,5%, orthodox grootste groep; islam 20%). Religion in Montenegro-denominatie (orthodox) uit kennis."
+      }
+    },
+    "Servië": {
+      "cul_engels": {
+        "waarde": 579,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "A ja (Servisch, Slavisch) · B nee: twijfel, digrafie (Cyrillisch officieel, Latijns even gangbaar); de eerste alinea zegt niet dat Cyrillisch overheerst. Bij 'ja' zou dit 100 zijn · C ja (orthodox grootste groep). Digrafie: Serbian language."
+      }
+    },
+    "Kosovo": {
+      "cul_engels": {
+        "waarde": 568.67,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "Ontbrekend-regel cul_engels (model.json): EF 2025 meet dit land niet",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Gemiddelde buurlanden met EF-score: RS 579, MK 595, AL 532 (buiten de 42, wel EF-score) = 568,67. Montenegro heeft geen score. Kosovo staat niet in de 2e bron."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Albanees, nationaal officieel; Servisch ook officieel) · B nee (Latijns) · C ja (islam grootste groep). Languages_of_Kosovo is een redirect; A/B uit kennis en Albanees als nationale taal."
+      }
+    },
+    "Noord-Macedonië": {
+      "cul_engels": {
+        "waarde": 595,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Macedonisch, Slavisch) · B ja (Cyrillisch) · C ja (orthodox grootste groep)."
+      }
+    },
+    "Griekenland": {
+      "cul_engels": {
+        "waarde": 592,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Grieks) · B ja (Grieks schrift) · C ja (orthodox grootste groep)."
+      }
+    },
+    "Bulgarije": {
+      "cul_engels": {
+        "waarde": 594,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Bulgaars, Slavisch) · B ja (Cyrillisch) · C ja (orthodox grootste groep)."
+      }
+    },
+    "Cyprus": {
+      "cul_engels": {
+        "waarde": 537,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Grieks en Turks officieel) · B ja (Grieks schrift) · C ja (orthodox grootste groep)."
+      }
+    },
+    "Turkije": {
+      "cul_engels": {
+        "waarde": 488,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Turks, Turkse taalfamilie) · B nee (Latijns) · C ja (islam grootste groep)."
+      }
+    },
+    "Moldavië": {
+      "cul_engels": {
+        "waarde": 531,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Roemeens, Romaans; 'Moldavisch' is hetzelfde) · B nee (Latijns sinds 1989; Languages of Moldova) · C ja (orthodox grootste groep)."
+      }
+    },
+    "Oekraïne": {
+      "cul_engels": {
+        "waarde": 526,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Oekraïens, Slavisch) · B ja (Cyrillisch) · C ja (orthodox grootste groep)."
+      }
+    },
+    "Belarus": {
+      "cul_engels": {
+        "waarde": 533,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Wit-Russisch, Slavisch) · B ja (Cyrillisch) · C ja (orthodox grootste groep)."
+      }
+    },
+    "Rusland": {
+      "cul_engels": {
+        "waarde": 521,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Russisch, Slavisch) · B ja (Cyrillisch) · C ja (orthodox grootste groep)."
+      }
+    },
+    "Georgië": {
+      "cul_engels": {
+        "waarde": 541,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Georgisch) · B ja (Georgisch schrift) · C ja (Georgisch-orthodox grootste groep)."
+      }
+    },
+    "Armenië": {
+      "cul_engels": {
+        "waarde": 515,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Armeens) · B ja (Armeens schrift) · C ja (Armeens-apostolisch, oosters-orthodox)."
+      }
+    },
+    "Azerbeidzjan": {
+      "cul_engels": {
+        "waarde": 454,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EF 2025-tabel (raw wikitext) gelezen; geen omrekening."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (10/45/75/100 = 0/1/2/3 ja)",
+        "bron": {
+          "naam": "Wikipedia, Religion in Europe (C, 2e bron) + Languages (A, B)",
+          "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Azerbeidzjaans, Turkse taalfamilie) · B nee (Latijns sinds 1991; Azerbaijani language) · C ja (islam grootste groep)."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "EF English Proficiency Index 2025 (Wikipedia, raw wikitext)",
+      "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+      "wat": "cul_engels: 32 EF 2025-scores uit de country rankings-tabel (123 landen gelezen)"
+    },
+    {
+      "naam": "List of countries by English-speaking population (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population",
+      "wat": "cul_engels 2e bron: gecontroleerd voor de 10 EF-ontbrekende landen; % Engelstaligen, niet als waarde gebruikt; SM, ME, XK niet in tabel"
+    },
+    {
+      "naam": "Religion in Europe (Wikipedia, raw wikitext)",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+      "wat": "cul_buitenland C (2e bron): christelijk/islam/zonder religie per land, steekproef"
+    },
+    {
+      "naam": "Languages of Ireland (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Ireland",
+      "wat": "IE: Iers en Engels als twee officiële talen (criterium A)"
+    },
+    {
+      "naam": "Serbian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Serbian_language",
+      "wat": "RS: digrafie, Cyrillisch en Latijns (criterium B, twijfel)"
+    },
+    {
+      "naam": "Languages of Montenegro (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Montenegro",
+      "wat": "ME: Montenegrijns in Latijns en Cyrillisch (criterium B, twijfel)"
+    },
+    {
+      "naam": "Languages of Moldova (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Moldova",
+      "wat": "MD: Roemeens (Romaans), Latijns schrift sinds 1989"
+    },
+    {
+      "naam": "Azerbaijani language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Azerbaijani_language",
+      "wat": "AZ: Latijns schrift (Azerbeidzjaans)"
+    },
+    {
+      "naam": "Bosnian language (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bosnian_language",
+      "wat": "BA: Latijns overheerst, Cyrillisch vooral in Republika Srpska"
+    },
+    {
+      "naam": "Religion in Latvia (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Latvia",
+      "wat": "LV: luthers grootste groep (37%), criterium C"
+    },
+    {
+      "naam": "Religion in Estonia (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Estonia",
+      "wat": "EE: zonder religie grootste groep, criterium C"
+    },
+    {
+      "naam": "Languages of Serbia (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Serbia",
+      "wat": "RS: officiële taal Servisch; de eerste alinea noemt geen overheersend schrift (twijfelregel B)"
+    }
+  ],
+  "problemen": [
+    "cul_engels: de 2e bron (Engelstaligen-lijst) geeft % Engelstaligen, geen EF-score; daarom niet als waarde gebruikt (geen omrekening in het model). Voor de 10 EF-ontbrekende landen is de ontbrekend-regel toegepast; SM, ME en XK staan niet in de 2e bron.",
+    "cul_engels: 32 landen uit de EF-tabel, conform de meter (2e bron enkel voor EF-ontbrekende landen).",
+    "cul_engels: ME en XK gemiddelden tellen Albanië mee (EF 532, buurland met EF-score, buiten de 42 landen). Zonder Albanië: ME 595,67 en XK 587.",
+    "cul_buitenland: 2e bron (Religion in Europe) gebruikt voor criterium C; die tabel geeft christen/islam/zonder-religie-totalen, dus de orthodox-versus-katholiek-splitsing is voor de orthodoxe landen uit kennis en niet per land opgehaald.",
+    "cul_buitenland: 1e bron (Languages of Europe) is als taalfamilie-tabel bekeken maar niet per land uitgewerkt; A en B zijn per land bepaald uit de nationale officiële taal en het schrift, met Languages-pagina's voor de twijfelgevallen (IE, RS, ME, MD, AZ, BA).",
+    "cul_buitenland twijfel: IE krijgt A=ja (Iers is nationaal officieel naast Engels, zoals Maltees bij MT); ter oriëntatie in het model zei 10. RS en ME hebben B=twijfel (digrafie/twee schriften); volgens de eerste-alinea-voorwaarde van de twijfelregel is B nee, dus 75. Bij B=ja zouden RS en ME 100 worden; de algemene bronregel 'bij twijfel: ja' zou dat geven.",
+    "GB: Welsh is alleen regionaal officieel en telt niet mee voor criterium A.",
+    "Geen CONTROLEGETALLEN in dit pakket gevonden (niet in model.json of README); controle via de 2e bron.",
+    "Languages_of_Bosnia_and_Herzegovina, Languages_of_Latvia en Languages_of_Kosovo zijn redirects en niet gevolgd. Bosnian_language gaf een 429; na 20 s wachten gelukt.",
+    "Opgehaald met curl (User-Agent ScoutAtlas/1.0 (nathan@charut.be)) op de raw wikitext, zodat de cijfers exact zijn en niet door WebFetch zijn samengevat."
+  ]
+}

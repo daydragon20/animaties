@@ -1,0 +1,1557 @@
+{
+  "ronde": 3,
+  "pakket": "p10",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "cul_engels": {
+        "waarde": 612,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Portugees, Romaans); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Spanje": {
+      "cul_engels": {
+        "waarde": 540,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Spaans, Romaans); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Andorra": {
+      "cul_engels": {
+        "waarde": 539.5,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Gemiddelde buurlanden met EF-score: FR 539 en ES 540. Tweede bron geeft sprekersaandelen, geen EPI-score; niet omgerekend."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Catalaans, Romaans); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Frankrijk": {
+      "cul_engels": {
+        "waarde": 539,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Frans, Romaans); B nee (Latijns); C nee (rooms-katholiek/zonder religie)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "cul_engels": {
+        "waarde": 640,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Ontbrekend-regel: moedertaal/officieel Engels = 640. Tweede bron geeft sprekersaandelen, geen EPI-score; niet omgerekend."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Engels, Germaans); B nee (Latijns); C nee (christelijk/zonder religie)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Ierland": {
+      "cul_engels": {
+        "waarde": 640,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Ontbrekend-regel: moedertaal/officieel Engels = 640. Tweede bron geeft sprekersaandelen, geen EPI-score; niet omgerekend."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee: Iers is officieel maar Engels (Germaans) overheerst in het dagelijks leven; twijfel genoteerd. B nee; C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "IJsland": {
+      "cul_engels": {
+        "waarde": 600,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Ontbrekend-regel: Engels bijna universeel = 600. Tweede bron geeft sprekersaandelen, geen EPI-score; niet omgerekend."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (IJslands, Germaans); B nee (Latijns); C nee (lutheraans)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Nederland": {
+      "cul_engels": {
+        "waarde": 624,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Nederlands, Germaans); B nee (Latijns); C nee (zonder religie)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Luxemburg": {
+      "cul_engels": {
+        "waarde": 600,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Ontbrekend-regel: meertalig = 600. Tweede bron geeft sprekersaandelen, geen EPI-score; niet omgerekend."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Luxemburgs/Frans/Duits); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Duitsland": {
+      "cul_engels": {
+        "waarde": 615,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Duits, Germaans); B nee (Latijns); C nee (christelijk/zonder religie)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Denemarken": {
+      "cul_engels": {
+        "waarde": 611,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Deens, Germaans); B nee (Latijns); C nee (lutheraans)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Noorwegen": {
+      "cul_engels": {
+        "waarde": 613,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Noors, Germaans); B nee (Latijns); C nee (lutheraans)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Zweden": {
+      "cul_engels": {
+        "waarde": 609,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Zweeds, Germaans); B nee (Latijns); C nee (lutheraans/zonder religie)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Finland": {
+      "cul_engels": {
+        "waarde": 603,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Fins, Fins-Oegrisch); B nee (Latijns); C nee (lutheraans)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Estland": {
+      "cul_engels": {
+        "waarde": 561,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Ests, Fins-Oegrisch); B nee (Latijns); C nee (zonder religie grootste groep)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Letland": {
+      "cul_engels": {
+        "waarde": 599,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Lets, Baltisch); B nee (Latijns); C nee: grootste groep is lutheraans (36,5 %, Wikipedia Religion in Latvia)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Litouwen": {
+      "cul_engels": {
+        "waarde": 543,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Litouws, Baltisch); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Zwitserland": {
+      "cul_engels": {
+        "waarde": 564,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Duits/Frans/Italiaans/Reto-Romaans); B nee (Latijns); C nee (rooms-katholiek/protestants)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Liechtenstein": {
+      "cul_engels": {
+        "waarde": 590,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Gemiddelde buurlanden met EF-score: CH 564 en AT 616. Tweede bron geeft sprekersaandelen, geen EPI-score; niet omgerekend."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Duits); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Oostenrijk": {
+      "cul_engels": {
+        "waarde": 616,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Duits); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Tsjechië": {
+      "cul_engels": {
+        "waarde": 582,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Tsjechisch, Slavisch); B nee (Latijns); C nee (zonder religie grootste groep)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Slowakije": {
+      "cul_engels": {
+        "waarde": 606,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Slowaaks, Slavisch); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Italië": {
+      "cul_engels": {
+        "waarde": 513,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Italiaans, Romaans); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "San Marino": {
+      "cul_engels": {
+        "waarde": 513,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Gemiddelde buurlanden met EF-score: alleen IT 513 (enige buur). Tweede bron geeft sprekersaandelen, geen EPI-score; niet omgerekend."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee (Italiaans, Romaans); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Malta": {
+      "cul_engels": {
+        "waarde": 640,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Ontbrekend-regel: moedertaal/officieel Engels = 640. Tweede bron geeft sprekersaandelen, geen EPI-score; niet omgerekend."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Maltees, Semitisch); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Kroatië": {
+      "cul_engels": {
+        "waarde": 617,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Kroatisch, Slavisch); B nee (Latijns); C nee (rooms-katholiek)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "cul_engels": {
+        "waarde": 591,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Bosnisch, Slavisch); B nee: Latijns overheerst in het dagelijks leven (Cyrillisch vooral in Republika Srpska; Wikipedia Bosnian language); C ja (islam grootste groep)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Montenegro": {
+      "cul_engels": {
+        "waarde": 595.67,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Gemiddelde buurlanden met EF-score: HR 617, BA 591, RS 579 (XK en AL niet meegerekend). Tweede bron geeft sprekersaandelen, geen EPI-score; niet omgerekend."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "A ja (Montenegrijns, Slavisch); B twijfel: Latijns en Cyrillisch beide in gebruik, bron geeft geen eenduidig dagelijks overheersend schrift; regel 'bij twijfel: ja' toegepast (zonder deze regel 75); C ja (oosters-orthodox 71,1 %, census 2023; Wikipedia Religion in Montenegro)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Servië": {
+      "cul_engels": {
+        "waarde": 579,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "A ja (Servisch, Slavisch); B twijfel: Cyrillisch is grondwettelijk officieel, Latijns is in een peiling uit 2014 vaker gebruikt (47 % tegen 36 %); regel 'bij twijfel: ja' toegepast (zonder deze regel 75); C ja (oosters-orthodox)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Kosovo": {
+      "cul_engels": {
+        "waarde": 587,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in EF-tabel. Gemiddelde buurlanden met EF-score: RS 579 en MK 595 (ME heeft geen EF-score). Tweede bron geeft sprekersaandelen, geen EPI-score; niet omgerekend."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Albanees, eigen tak); B nee (Latijns); C ja (islam is de meerderheid; Wikipedia Religion in Europe)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Noord-Macedonië": {
+      "cul_engels": {
+        "waarde": 595,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Macedonisch, Slavisch); B ja (Cyrillisch); C ja (oosters-orthodox)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Griekenland": {
+      "cul_engels": {
+        "waarde": 592,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Grieks); B ja (Grieks alfabet); C ja (oosters-orthodox)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Bulgarije": {
+      "cul_engels": {
+        "waarde": 594,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Bulgaars, Slavisch); B ja (Cyrillisch); C ja (oosters-orthodox)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Cyprus": {
+      "cul_engels": {
+        "waarde": 537,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Grieks overheerst); B ja (Grieks alfabet); C ja (oosters-orthodox)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Turkije": {
+      "cul_engels": {
+        "waarde": 488,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Turks); B nee (Latijns); C ja (islam)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Moldavië": {
+      "cul_engels": {
+        "waarde": 531,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A nee: Moldavisch/Roemeens is Romaans; twijfel genoteerd. B nee (Latijns); C ja (oosters-orthodox)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Oekraïne": {
+      "cul_engels": {
+        "waarde": 526,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Oekraïens, Slavisch); B ja (Cyrillisch); C ja (oosters-orthodox)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Belarus": {
+      "cul_engels": {
+        "waarde": 533,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Wit-Russisch/Russisch, Slavisch); B ja (Cyrillisch); C ja (oosters-orthodox)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Rusland": {
+      "cul_engels": {
+        "waarde": 521,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Russisch, Slavisch); B ja (Cyrillisch); C ja (oosters-orthodox)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Georgië": {
+      "cul_engels": {
+        "waarde": 541,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Georgisch, Kartvelisch); B ja (Georgisch schrift); C ja (oosters-orthodox)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Armenië": {
+      "cul_engels": {
+        "waarde": 515,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Armeens); B ja (Armeens schrift); C ja (Armeens-apostolisch, oosters)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    },
+    "Azerbeidzjan": {
+      "cul_engels": {
+        "waarde": 454,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Score uit de EF-tabel 2025 (Wikipedia, gelezen via samenvatting van de tabel)."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriek-niveau (score 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Europe en Religion in Europe",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "A ja (Azerbeidzjaans, Turks); B nee (Latijns sinds 1991); C ja (islam)."
+      },
+      "cul_gastvrij": {
+        "waarde": null,
+        "eenheid": "score 1 tot 7 (WEF)",
+        "bron": {
+          "naam": "World Economic Forum, Travel & Tourism Competitiveness Report 2019",
+          "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bereikbare bron: WEF-publicatiepagina 403; WEF-PDF 2019 bereikbaar maar indicator 'Attitude of population toward foreign visitors' staat niet in het rapport; WEF-PDF 2017 en 2015 504; TCdata360 503; CAF 2024 landentabel niet gevonden. Geen waarde ingevuld."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Wikipedia, EF English Proficiency Index",
+      "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+      "wat": "cul_engels: EF EPI 2025 per land (32 landen); overige 10 via ontbrekend-regel"
+    },
+    {
+      "naam": "Wikipedia, List of countries by English-speaking population",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population",
+      "wat": "tweede bron cul_engels: sprekersaandelen, geen EPI-score; niet omgerekend, dus niet gebruikt voor waarden"
+    },
+    {
+      "naam": "Wikipedia, Languages of Europe",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Europe",
+      "wat": "cul_buitenland criterium A en B (taalfamilie en schrift), deels via bekende feiten"
+    },
+    {
+      "naam": "Wikipedia, Religion in Europe",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+      "wat": "cul_buitenland criterium C (grootste religieuze groep), deels via bekende feiten"
+    },
+    {
+      "naam": "Wikipedia, Religion in Latvia",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Latvia",
+      "wat": "cul_buitenland C Letland: lutheraans grootste groep"
+    },
+    {
+      "naam": "Wikipedia, Religion in Montenegro",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Montenegro",
+      "wat": "cul_buitenland C Montenegro: oosters-orthodox 71,1 %"
+    },
+    {
+      "naam": "Wikipedia, Montenegrin language",
+      "url": "https://en.wikipedia.org/wiki/Montenegrin_language",
+      "wat": "cul_buitenland B Montenegro: geen eenduidig dagelijks schrift"
+    },
+    {
+      "naam": "Wikipedia, Bosnian language",
+      "url": "https://en.wikipedia.org/wiki/Bosnian_language",
+      "wat": "cul_buitenland B Bosnië: Latijns overheerst"
+    },
+    {
+      "naam": "Wikipedia, Serbian language",
+      "url": "https://en.wikipedia.org/wiki/Serbian_language",
+      "wat": "cul_buitenland B Servië: Cyrillisch officieel, Latijns in peiling 2014 vaker gebruikt"
+    },
+    {
+      "naam": "World Economic Forum, TTCR 2019 publicatiepagina",
+      "url": "https://www.weforum.org/publications/travel-and-tourism-competitiveness-report-2019/",
+      "wat": "cul_gastvrij: 403, niet bereikt"
+    },
+    {
+      "naam": "World Economic Forum, TTCR 2019 PDF (spiegel)",
+      "url": "https://www3.weforum.org/docs/WEF_TTCR_2019.pdf",
+      "wat": "cul_gastvrij: bereikbaar en doorzocht; indicator niet in tekst aangetroffen"
+    },
+    {
+      "naam": "World Economic Forum, TTCR 2017 en 2015 PDF (spiegel)",
+      "url": "https://www3.weforum.org/docs/WEF_TTCR_2017.pdf",
+      "wat": "cul_gastvrij: 504 Gateway Timeout (2017 tweemaal, 2015 eenmaal)"
+    },
+    {
+      "naam": "TCdata360 (World Bank)",
+      "url": "https://tcdata360.worldbank.org/",
+      "wat": "cul_gastvrij: 503 Service Unavailable; indicator niet gevonden via zoekopdracht"
+    },
+    {
+      "naam": "CAF World Giving Report 2024",
+      "url": "https://www.cafonline.org/about-us/research/world-giving-report-2024",
+      "wat": "cul_gastvrij alternatief: 404; geen landentabel gevonden"
+    }
+  ],
+  "problemen": [
+    "cul_gastvrij: geen bereikbare bron. WEF 2019 publicatiepagina 403, TCdata360 503, WEF PDF 2017 en 2015 504, CAF 404 en geen landentabel. De WEF PDF 2019 is wel gelezen (pdftotext), maar de indicator 'Attitude of population toward foreign visitors' staat er niet in. Alle 42 landen dus null met zekerheid laag; de scoringsagent sluit cul_gastvrij uit.",
+    "cul_engels: de EF-scores (32 landen) zijn overgenomen uit een WebFetch-samenvatting van de Wikipedia-tabel en niet regel voor regel naar de bron geverifieerd. Montenegro, GB, IE, IS, LU en MT staan niet in de tabel. Ontbrekend-regel toegepast: GB, IE, MT 640; IS, LU 600; AD 539,5; LI 590; SM 513; ME 595,67; XK 587 (gemiddelde van buurlanden met EF-score), zekerheid laag.",
+    "cul_engels tweede bron: List of countries by English-speaking population geeft sprekersaandelen in procenten, geen EPI-score; de opdracht geeft geen omrekening, dus niet gebruikt.",
+    "cul_buitenland: de samenvattingen van Languages of Europe en Religion in Europe waren te grof en onvolledig (tekst afgekapt) voor een per-land-tabel. A en B zijn bepaald met de talen en schriften per land, C met de grootste religieuze groep; voor de meeste landen is dat een algemeen bekende meerderheid. Nagekeken op eigen pagina: Letland, Montenegro, Bosnië, Servië en Montenegrijns schrift.",
+    "cul_buitenland twijfel: Montenegro (schrift niet eenduidig, 'ja' volgens de regel: 100 in plaats van 75) en Servië (Cyrillisch officieel, Latijns in peiling 2014 vaker gebruikt; 'ja' volgens de regel: 100 in plaats van 75), beide zekerheid laag. Ierland (A nee: Engels overheerst). Moldavië (A nee: Roemeens is Romaans).",
+    "Geen CONTROLEGETALLEN voor dit pakket gevonden in model.json. De waarden zijn daarom niet tegen controlegetallen gecheckt, alleen tegen de bronnen en de regels."
+  ]
+}

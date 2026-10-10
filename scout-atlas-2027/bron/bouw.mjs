@@ -7,6 +7,19 @@ const read = (p, enc = "utf8") => readFileSync(here(p), enc);
 
 const data = JSON.parse(read("./scout-atlas-2027-data.json"));
 const kaart = JSON.parse(read("./kaart.json"));
+// het kampbeeld: per land uit de top 3 een JSON (activiteiten, kampplaatsen, foto's) in kampbeeld/, de foto's in foto/ (ingebakken als data-URI)
+import { existsSync } from "node:fs";
+const kamp = { landen: {} };
+if (existsSync(here("./kampbeeld/"))) {
+  for (const f of readdirSync(here("./kampbeeld/")).filter((x) => x.endsWith(".json")).sort()) {
+    const k = JSON.parse(read("./kampbeeld/" + f));
+    for (const foto of k.fotos || []) {
+      const fp = here("./foto/" + foto.bestand);
+      if (existsSync(fp)) foto.data = "data:image/jpeg;base64," + readFileSync(fp).toString("base64"); else console.warn("foto ontbreekt:", foto.bestand);
+    }
+    kamp.landen[k.iso2] = k;
+  }
+}
 
 const font = (file, family, style, weight) =>
   `@font-face{font-family:'${family}';font-style:${style};font-weight:${weight};font-display:block;` +
@@ -34,8 +47,9 @@ swap("/*__VERKENNER_CSS__*/", read("./verkenner.css"));
 swap("<!--__VERKENNER_HTML__-->", read("./verkenner.html"));
 swap("/*__DATA__*/null", JSON.stringify(data));
 swap("/*__MAP__*/null", JSON.stringify(kaart));
+swap("/*__KAMP__*/null", JSON.stringify(kamp));
 swap("/*__JS__*/", js);
 swap("<!--__THREE__-->", "<script>" + read("./vendor/three.min.js") + "</script>");
 
 writeFileSync(here("../index.html"), html);
-console.log("index.html geschreven:", (html.length / 1024).toFixed(0), "KB ·", data.countries.length, "landen ·", data.variables.length, "variabelen ·", data.aantal_rondes, "rondes");
+console.log("index.html geschreven:", (html.length / 1024).toFixed(0), "KB ·", data.countries.length, "landen ·", data.variables.length, "variabelen ·", data.aantal_rondes, "rondes ·", Object.keys(kamp.landen).length, "kampbeelden");

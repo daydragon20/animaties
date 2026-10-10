@@ -1,6 +1,6 @@
-/* ═════════════ 8 · DE BESTEMMING (140–166 s): de route, het plannen, de aftiteling ═════════════ */
+/* ═════════════ 9 · DE BESTEMMING (178–204 s): de route, het plannen, de aftiteling ═════════════ */
 (function () {
-  const t0 = T.s8;
+  const t0 = T.s9;
   const L = el("div", { class: "L", style: `color:${D.ink};--hlc:${D.mint}` }, sceneRoot);
   el("div", { class: "L", style: "background:linear-gradient(90deg, rgba(239,231,212,0) 50%, rgba(239,231,212,.85) 62%, rgba(239,231,212,.94) 100%)" }, L);
   const fin = el("div", { class: "a", style: "left:1090px;top:200px;width:790px;white-space:normal" }, L);

@@ -165,7 +165,7 @@ const DIO = (() => {
   }
   // de bestemming: gouden uur, route van thuis naar de winnaar
   function updateS8(t) {
-    const lt = t - T.s8;
+    const lt = t - T.s9;
     const rp = E.inOut(seg(t, CUE.route, CUE.routeEnd));
     const fly = E.inOut2(seg(lt, 0, 11));
     const tA = [MAP.pts["België"][0] - 960 + 60, 0, MAP.pts["België"][1] - 540 + 40];
@@ -197,11 +197,11 @@ const DIO = (() => {
   }
   function update(t) {
     if (!placed) placeLabels();
-    if (t < T.s8 - 1) updateS2(t); else updateS8(t);
+    if (t < T.s9 - 1) updateS2(t); else updateS8(t);
   }
   function hideLabels() { for (const n of pinOrder) op(labs[n].w, 0); op(home, 0); }
   return { scene, cam, update, hideLabels };
 })();
 GL.add({ scene: DIO.scene, cam: DIO.cam, update: DIO.update, hide: DIO.hideLabels, vis: (t) =>
   t >= T.s2 - 0.2 && t < T.s3 + 0.1 ? E.inOut(seg(t, T.s2 - 0.2, T.s2 + 0.5)) * (1 - E.inOut(seg(t, T.s3 - 0.5, T.s3 + 0.1)))
-  : t >= T.s8 - 1.0 ? E.inOut(seg(t, T.s8 - 1.0, T.s8)) : 0 });
+  : t >= T.s9 - 1.0 ? E.inOut(seg(t, T.s9 - 1.0, T.s9)) : 0 });

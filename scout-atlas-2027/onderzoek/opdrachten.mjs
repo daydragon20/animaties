@@ -39,6 +39,40 @@ ${bronnen || "      (geen opgegeven; zoek zelf een dataset)"}
 `;
 };
 
+// referenties: eenmalig grondig verzamelde bronnen per land (model/referenties-kamperen.json) voor variabelen met meter.referenties
+const refCache = {};
+const laadRef = (p) => { if (!(p in refCache)) { try { refCache[p] = leesJson(hier + p); } catch { refCache[p] = null; } } return refCache[p]; };
+const kort = (s, n = 320) => { s = String(s || "").replace(/\s+/g, " ").trim(); return s.length > n ? s.slice(0, n - 1) + "…" : s; };
+const bronRegel = (b) => `${b.naam || ""}${b.url ? " — " + b.url : ""}${b.jaar ? " (" + b.jaar + ")" : ""}${b.bereikbaar === "nee" ? " [was onbereikbaar]" : ""}${b.wat_staat_er ? ": " + kort(b.wat_staat_er) : ""}`;
+function referentieTekst(vars) {
+  const metRef = vars.filter((v) => v.meter && v.meter.referenties);
+  if (!metRef.length) return "";
+  const out = ["## Referenties per land (eenmalig grondig verzameld; jij controleert ze en bepaalt zelf het niveau)"];
+  for (const v of metRef) {
+    const ref = laadRef(v.meter.referenties);
+    out.push(`\n### Referenties voor ${v.id}`);
+    if (!ref) { out.push(`(Het referentiebestand ${v.meter.referenties} ontbreekt nog: werk dan volgens de bronnen en zoektips van de meter en zet zekerheid op laag waar je geen officiële bron leest.)`); continue; }
+    for (const l of model.landen) {
+      const r = ((ref.landen || {})[l.naam] || {})[v.id];
+      if (!r) { out.push(`- **${l.naam}**: geen referentie (meest vergelijkbare buurland, zekerheid laag)`); continue; }
+      const even2 = even ? "" : "";
+      let regel = `- **${l.naam}** · voorstel ${r.voorstel}`;
+      if (v.id === "kamp_groepsterrein") {
+        regel += ["A", "B", "C", "D"].map((k) => {
+          const c = r[k] || {}; const terr = (c.terreinen || []).map((t) => `${t.naam}${t.plaats ? " (" + t.plaats + ")" : ""}${t.url ? " " + t.url : ""}${t.details ? " · " + kort(t.details, 120) : ""}`).join("; ");
+          return `\n    - ${k}: ${c.vervuld ? "ja" : "nee"}${c.bewijs ? " · " + kort(c.bewijs, 200) : ""}${c.url ? " · " + c.url : ""}${terr ? " · terreinen: " + terr : ""}`;
+        }).join("");
+      } else {
+        regel += `${r.regeling ? " · " + kort(r.regeling, 240) : ""}${r.regionaal ? " · regionaal: " + kort(r.regionaal, 160) : ""}${r.groepen ? " · groepen: " + kort(r.groepen, 160) : ""}`;
+        (r.bronnen || []).forEach((b, i) => (regel += `\n    - bron ${i + 1}: ${bronRegel(b)}`));
+      }
+      if (r.opmerking) regel += `\n    - opmerking: ${kort(r.opmerking, 200)}`;
+      out.push(regel + even2);
+    }
+  }
+  return out.join("\n") + "\n";
+}
+
 for (const p of model.pakketten || []) {
   const vars = p.variabelen.map((id) => varById[id]);
   const uit = `${rdir}pakket-${p.id}.json`;
@@ -59,7 +93,7 @@ Gebruik WebFetch om datasets en tabellen te lezen en WebSearch om landen te vind
 
 ## De variabelen en hun meters
 ${vars.map(meterTekst).join("\n")}
-
+${referentieTekst(vars)}
 ## Werkwijze
 1. Open per variabele de voorkeursbron en lees de tabel; noteer per land de waarde in de gevraagde eenheid (reken om als de bron een andere eenheid gebruikt, en zeg dat in de opmerking).
 2. Landen die in de bron ontbreken: zoek een tweede bron; lukt dat niet, pas dan de "als een land ontbreekt"-regel toe en zet \`zekerheid\` op "laag" met een opmerking die zegt hoe je schatte.

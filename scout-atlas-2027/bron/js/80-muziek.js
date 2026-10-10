@@ -124,10 +124,26 @@ function buildScore() {
   for (let t = CUE.podium[2]; t < T.s8 - 0.6; t += 0.25) bass(t, 0.22, 38, 0.12);
   [74, 78, 81, 86, 90].forEach((m, i) => pluck(CUE.podium[2] + 0.05 + i * 0.07, m, 0.07, (i - 2) * 0.3, 0.9, 1.6));
   for (let t = CUE.podium[2] + 1; t < T.s8 - 0.6; t += 0.125) { const i = Math.round((t - CUE.podium[2]) / 0.125); pluck(t, [62, 66, 69, 74][i % 4] + 12, 0.028, i % 2 ? 0.5 : -0.5, 0.4, 0.2); }
-  // 8 · de bestemming: rustig, de route, de lijst, het slotakkoord
-  pad(T.s8, 3, [46, 50, 53, 58], 0.045, 0.8);
-  pad(T.s8 + 2.6, 2.4, [41, 48, 53, 57], 0.045, 0.8);
-  [69, 67, 65, 62].forEach((m, i) => pluck(T.s8 + 0.4 + i * 0.4, m, 0.06, (i - 1.5) * 0.3, 0.7, 1.2));
+  // 8 · het kamp daar: warm en licht, een wandelritme, vuur op de achtergrond; elke activiteit een eigen tik
+  { const KB = CUE.kb, ch = chordIn(T.s8);
+    const MAJ = [[50, 57, 62, 66], [55, 59, 62, 67], [47, 54, 59, 62], [52, 57, 61, 64]]; // D  G  Bm  A (in D-groot)
+    const MROOT = [38, 43, 35, 33];
+    boom(T.s8, 0.35);
+    crackle(T.s8 + 0.2, T.s9 - 0.6, 0.07);
+    for (let t = T.s8; t < T.s9 - 0.4; t += 4) pad(t, Math.min(4, T.s9 - 0.4 - t), MAJ[ch(t)], 0.045, 1.1);
+    for (let t = T.s8 + 2; t < T.s9 - 0.6; t += 1) kick(t, 0.26);
+    for (let t = T.s8 + 2.5; t < T.s9 - 0.6; t += 0.5) hat(t, 0.035, Math.round((t - T.s8) / 0.5) % 4 === 3, t % 1 ? 0.35 : -0.35);
+    for (let t = T.s8 + 2; t < T.s9 - 0.6; t += 0.5) bass(t, 0.4, MROOT[ch(t)], 0.07);
+    for (let t = T.s8 + 2; t < KB.sleep - 0.2; t += 0.25) { const i = Math.round((t - T.s8) / 0.25); if (i % 8 === 1 || i % 8 === 4 || i % 8 === 6) pluck(t, MAJ[ch(t)][[0, 2, 1, 3][i % 4]] + 12, 0.024, i % 2 ? 0.45 : -0.45, 0.55, 0.35); }
+    [74, 78, 81, 86].forEach((m, i) => pluck(KB.title + i * 0.14, m, 0.055, (i - 1.5) * 0.3, 0.9, 2.0));
+    KB.acts.forEach((a, i) => { tick(a, 0.09, 2200 + i * 160); pluck(a + 0.05, [69, 74, 78, 81, 86][i], 0.06, 0.2, 0.8, 1.6); });
+    [62, 66, 69].forEach((m, i) => pluck(KB.sleep + 0.2 + i * 0.3, m, 0.05, (i - 1) * 0.4, 0.9, 2.2));
+    [74, 71].forEach((m, i) => pluck(KB.others + 0.3 + i * 0.5, m, 0.05, i ? 0.4 : -0.4, 0.8, 1.6));
+    riser(T.s9 - 1.4, T.s9, 0.12); }
+  // 9 · de bestemming: rustig, de route, de lijst, het slotakkoord
+  pad(T.s9, 3, [46, 50, 53, 58], 0.045, 0.8);
+  pad(T.s9 + 2.6, 2.4, [41, 48, 53, 57], 0.045, 0.8);
+  [69, 67, 65, 62].forEach((m, i) => pluck(T.s9 + 0.4 + i * 0.4, m, 0.06, (i - 1.5) * 0.3, 0.7, 1.2));
   for (let t = CUE.route; t < CUE.routeEnd; t += 0.25) pluck(t, [62, 66, 69, 74, 78, 74, 69, 66][Math.round((t - CUE.route) / 0.25) % 8], 0.035, 0.3, 0.6, 0.4);
   [74, 78, 81, 86].forEach((m, i) => pluck(CUE.routeEnd - 0.2 + i * 0.12, m, 0.07, (i - 1.5) * 0.3, 1.0, 2.5));
   boom(CUE.routeEnd - 0.2, 0.4);

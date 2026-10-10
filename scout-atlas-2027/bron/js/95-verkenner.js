@@ -561,7 +561,39 @@ const VK = (() => {
   };
 
   /* tabs */
-  let built = { rank: false, rounds: false, sources: false }, fitted = false;
+  /* het kamp daar: de top 3 met activiteiten (elk aan één variabele gehangen), foto's met licentie, en kampplaatsen */
+  function kamp() {
+    const licHtml = (f) => `${escapeHtml(f.auteur || "onbekende maker")} · ${escapeHtml(f.licentie || "")}${f.bron_url ? ` · <a href="${escapeHtml(f.bron_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ""}`;
+    const h = ELIG.slice(0, 3).map((c, i) => {
+      const kb = KB.kampVan(c), kaarten = KB.kaartenVoor(c, kb && kb.activiteiten ? Math.max(6, kb.activiteiten.length) : 6);
+      const fotos = (kb && kb.fotos ? kb.fotos : []).filter((f) => f.data);
+      const plekken = kb && kb.kampplaatsen ? kb.kampplaatsen : [];
+      const kampVars = ["kamp_groepsterrein", "kamp_wild", "kamp_vuur"].map((id) => V.find((v) => v.id === id)).filter(Boolean);
+      return `<article class="vk-kland">
+        <div class="hd"><span class="rk">${i + 1}</span><h2>${escapeHtml(c.name)}</h2><span class="pts">${fTot2(c)}</span><span class="vk-muted">punten · ${c.rondes && NR ? `${c.rondes.wins} van ${NR} rondes gewonnen` : ""}</span></div>
+        ${kb && kb.slogan ? `<p class="slogan">${escapeHtml(kb.slogan)}</p>` : ""}
+        ${kb ? "" : `<p class="note">Voor dit land is nog geen kampbeeld onderzocht (activiteiten, plekken en foto's). Wat hieronder staat is afgeleid uit de sterkste cijfers; de titels zijn algemeen.</p>`}
+        ${fotos.length ? `<div class="vk-fotos">${fotos.map((f) => `<figure class="vk-foto"><img src="${f.data}" alt="${escapeHtml(f.bijschrift || "")}" loading="lazy"><figcaption><b>${escapeHtml(f.bijschrift || "")}</b>${licHtml(f)}</figcaption></figure>`).join("")}</div>` : ""}
+        <div class="kk">Wat je er kunt doen, en het cijfer erachter</div>
+        <div class="vk-acts">${kaarten.map((k) => {
+          const sc = c.scores[k.v.i], f = c.feiten[k.v.id], rank = M.varRank[k.v.i][c.name];
+          const src = k.bron && (k.bron.naam || k.bron.url) ? k.bron : f && f.bron ? f.bron : null;
+          return `<div class="vk-act"><div class="sc" style="color:${sc == null ? "#5a6c6a" : sc === 100 ? COL.gold : scoreCol(sc)}">${fv(sc, 0)}<small>op 100${rank ? ` · nr ${rank}` : ""}</small></div>
+            <div><h3>${escapeHtml(k.titel)}</h3>${k.plek ? `<div class="pl">${escapeHtml(k.plek)}</div>` : ""}
+            <div class="ft">${escapeHtml(k.v.naam)}: <b>${escapeHtml(KB.fmtRaw(f, k.v)) || "geen waarde"}</b> · ${escapeHtml(catName(k.v.categorie))} · gewicht ${nl(k.v.gewicht, 1)} %</div>
+            ${k.uitleg ? `<div class="ex">${escapeHtml(k.uitleg)}</div>` : ""}
+            ${src ? `<div class="src">Bron: ${srcHtml(src)}</div>` : ""}</div></div>`;
+        }).join("")}</div>
+        <div class="kk">Waar we kunnen slapen</div>
+        ${plekken.length ? `<div class="vk-plekken">${plekken.map((p) => `<div class="vk-plek"><b>${escapeHtml(p.naam)}</b>${p.plaats ? `<span class="d">${escapeHtml(p.plaats)}</span>` : ""}${p.details ? `<div class="m">${escapeHtml(p.details)}</div>` : ""}${p.url ? `<div class="m"><a href="${escapeHtml(p.url)}" target="_blank" rel="noopener">${escapeHtml(p.url.replace(/^https?:\/\//, "").slice(0, 60))}</a></div>` : ""}</div>`).join("")}</div>`
+          : `<div class="vk-plekken">${kampVars.map((v) => { const f = c.feiten[v.id]; return `<div class="vk-plek"><b>${escapeHtml(v.naam)}</b><span class="d">score ${fv(c.scores[v.i], 0)} op 100 · ${escapeHtml(KB.fmtRaw(f, v))}</span>${f && f.opmerking ? `<div class="m">${escapeHtml(String(f.opmerking).slice(0, 260))}</div>` : ""}</div>`; }).join("")}</div>`}
+        ${kb && kb.bronnen && kb.bronnen.length ? `<div class="kk">Bronnen van het kampbeeld</div><div class="vk-kbron">${kb.bronnen.map((b) => (b.url ? `<a href="${escapeHtml(b.url)}" target="_blank" rel="noopener">${escapeHtml(b.naam || b.url)}</a>` : escapeHtml(b.naam || ""))).join(" · ")}</div>` : ""}
+      </article>`;
+    }).join("");
+    $v("vkKamp").innerHTML = `<div class="vk-intro">De drie beste landen, concreet gemaakt: elke activiteit hangt aan <b>één variabele</b> uit het model, met de gemeten waarde, de score en de bron. Foto's komen van Wikimedia Commons (vrije licentie, maker vermeld). Kampplaatsen zijn startpunten om te bellen, geen boekingen.</div>` + h;
+  }
+
+  let built = { rank: false, rounds: false, sources: false, kamp: false }, fitted = false;
   function setTab(k) {
     st.tab = k;
     root.querySelectorAll(".vk-tabs button").forEach((b) => b.classList.toggle("on", b.dataset.tab === k));
@@ -571,6 +603,7 @@ const VK = (() => {
     if (k === "weights") weights();
     if (k === "rounds" && !built.rounds) { rounds(); built.rounds = true; }
     if (k === "sources" && !built.sources) { sources(); built.sources = true; }
+    if (k === "kamp" && !built.kamp) { kamp(); built.kamp = true; }
   }
   root.querySelectorAll(".vk-tabs button").forEach((b) => (b.onclick = () => setTab(b.dataset.tab)));
   $v("vkFilm").onclick = () => { close(); seek(0); play(); };

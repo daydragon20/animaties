@@ -1,0 +1,72 @@
+# Referenties kamperen (versie 1, 2026-10-10)
+
+Voorstellen per land voor `kamp_wild`, `kamp_vuur` en `kamp_groepsterrein`, met de belangrijkste bron. De voorstellen zijn niveaus uit `model.json`; de rondes lezen de bronnen opnieuw en beslissen zelf. Zie `referenties-kamperen.json` voor regeling, groepsregels en alle bronnen.
+
+| Land | Wild | Bron wild | Vuur | Bron vuur | Terrein | Criteria (A/B/C/D) | Terreinen (B) |
+|---|---|---|---|---|---|---|---|
+| Portugal | – | | – | | – | | |
+| Spanje | – | | – | | – | | |
+| Andorra | – | | – | | – | | |
+| Frankrijk | 55 | [Département de la Savoie, Bivouac et droit de l'urbanisme (j](https://www.savoie.fr/upload/docs/application/pdf/2025-07/analyse_juridique_urbanisme.pdf) | 75 | [Préfecture du Val-de-Marne, Arrêté n° 2026-02594 (restrictio](https://www.villecresnes.fr/UserFiles/File/arretes/ap-2026-02594-restrictions-pour-prevention-et-protection-forets-signe.pdf) | 50 | ·BC· | Domaine de Jambville (Scouts et Guides de France); Pfadfinder Kanucamp Tarnschlucht; Camp Allemand |
+| Verenigd Koninkrijk | 80 | [NatureScot, Scottish Outdoor Access Code: Camping](https://www.outdooraccess-scotland.scot/practical-guide-all/camping) | 100 | [NatureScot, Scottish Outdoor Access Code: Camping (vuur)](https://www.outdooraccess-scotland.scot/practical-guide-all/camping) | 25 | ··C· | Great Tower Scout Camp |
+| Ierland | 55 | [Wikipedia, Freedom to roam (landsecties)](https://en.wikipedia.org/wiki/Freedom_to_roam) | 100 | [Irish Statute Book, Wildlife Act 1976, section 40](https://www.irishstatutebook.ie/eli/1976/act/39/section/40/enacted/en/html) | 50 | ·BC· | Larch Hill International Scout and Guide Centre; Lough Dan Scout and Eco Centre; Castle Saunderson International Scout Centre |
+| IJsland | 80 | [Althingi, Lög um náttúruvernd nr. 60/2013, art. 22-24](https://www.althingi.is/lagas/nuna/2013060.html) | 50 | [Althingi, Lög um náttúruvernd nr. 60/2013, art. 28 (Meðferð ](https://www.althingi.is/lagas/nuna/2013060.html) | 25 | ··C· | Úlfljótsvatn Scout Centre (Bandalag íslenskra skáta) |
+| Nederland | 55 | [Wikipedia (nl), Wildkamperen](https://nl.wikipedia.org/wiki/Wildkamperen) | 75 | [Brandweer Nederland, Natuurbrandrisico](https://www.brandweer.nl/natuurbrandrisico/) | 50 | ·BC· | Gilwell Ada's Hoeve; Scouting Kampeerterrein Staelduin; Scouting Campsite St. Walrick |
+| Luxemburg | – | | – | | – | | |
+| Duitsland | 55 | [gesetze-im-internet.de, § 59 BNatSchG Betreten der freien La](https://www.gesetze-im-internet.de/bnatschg_2009/__59.html) | 75 | [Bayern.Recht, Bayerisches Waldgesetz (BayWaldG) Art. 17 Feue](https://www.gesetze-bayern.de/Content/Document/BayWaldG-17) | 75 | ABC· | VCP Bundeszeltplatz Großzerlang; Zentrum Pfadfinden Immenhausen (Bundeszentrum BdP); DPSG Bundeszentrum Westernohe |
+| Denemarken | 55 | [Naturstyrelsen, Overnat og spis i naturen](https://naturstyrelsen.dk/aktiviteter-i-naturen/overnat-og-spis-i-naturen) | 50 | [Naturstyrelsen, Må jeg bruge åben ild i naturen?](https://naturstyrelsen.dk/regler-og-tilladelser/maa-jeg-bruge-aaben-ild-i-naturen) | 50 | ·BC· | Houens Odde International Scout Centre; Næsbycentret; Trevældcentret |
+| Noorwegen | 100 | [Lovdata, Lov om friluftslivet (friluftsloven) LOV-1957-06-28](https://lovdata.no/dokument/NL/lov/1957-06-28-16) | 50 | [Lovdata, Forskrift om brannforebygging §3](https://lovdata.no/dokument/SF/forskrift/2015-12-17-1710) | 0 | ···· | Kvamsøy Leirsted (Hordaland krins, Norges Speiderforbund) |
+| Zweden | 100 | [Riksdagen, Regeringsformen (SFS 1974:152) 2 kap. 15 §](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/kungorelse-1974152-om-beslutad-ny-regeringsform_sfs-1974-152/) | 100 | [Riksdagen, Lag (2003:778) om skydd mot olyckor](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2003778-om-skydd-mot-olyckor_sfs-2003-778/) | 50 | A·C· |  |
+| Finland | 100 | [Luontoon.fi (Metsähallitus), Jokaisenoikeudet](https://www.luontoon.fi/fi/lajit/retkeily-ja-ulkoilu/jokaisenoikeudet) | 100 | [Finlex, Rescue Act 379/2011 (Engelse vertaling, pdf via de F](https://www.finlex.fi/en/legislation/translations/2011/eng/379) | 0 | ···· |  |
+| Estland | 80 | [RMK (Riigimetsa Majandamise Keskus), Igaüheõigus](https://rmk.ee/looduses-liikumine/juhised/igauheoigus/) | 75 | [RMK, Igaüheõigus](https://rmk.ee/looduses-liikumine/juhised/igauheoigus/) | 25 | ··C· | Tagametsa Jahiloss ja Skaudilaagrikeskus (Eesti Skautide Ühing) |
+| Letland | 100 | [likumi.lv, Meža likums, 5. pants (tiesības uzturēties mežā)](https://likumi.lv/ta/id/2825-meza-likums) | 75 | [Cēsis Municipality, Campfire in Nature (verwijst naar LVM)](https://visit.cesis.lv/en/campfire-in-nature/) | 0 | ···· |  |
+| Litouwen | 55 | [VMU (Valstybinių miškų urėdija), FAQ: Where can I stay or ca](https://vmu.lt/en/frequently-asked-questions/) | 75 | [VMU, FAQ: Is it allowed to make a fire in the forest?](https://vmu.lt/en/frequently-asked-questions/) | 25 | ··C· | Skautų slėnis / Scout Valley (Woodside en Lakeside) |
+| Zwitserland | 55 | [Beobachter/TCS, Wild campen: Wo das erlaubt ist - der schwei](https://www.beobachter.ch/arbeit-bildung/freizeit/hier-konnen-sie-in-ruhe-ihr-zelt-aufschlagen-624417) | 75 | [BAFU, waldbrandgefahr.ch (aktuelle Gefahrenlage en Massnahme](https://www.waldbrandgefahr.ch/) | 25 | ··C· | Kandersteg International Scout Centre (KISC) |
+| Liechtenstein | – | | – | | – | | |
+| Oostenrijk | 55 | [RIS (Bundeskanzleramt), Forstgesetz 1975 § 33 Betreten des W](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010371&Artikel=&Paragraf=33&Anlage=&Uebergangsrecht=) | 75 | [RIS, Forstgesetz 1975 § 40 Feuerentzünden im Wald](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010371&Artikel=&Paragraf=40&Anlage=&Uebergangsrecht=) | 25 | ··C· | Pfadfinderdorf Zellhof (International Scout and Guide Centre); TECHUANA International Scout and Guide Center |
+| Tsjechië | 55 | [zakonyprolidi.cz, Zákon č. 289/1995 Sb. o lesích (lesní záko](https://www.zakonyprolidi.cz/cs/1995-289) | 75 | [zakonyprolidi.cz, Zákon č. 289/1995 Sb. o lesích § 20](https://www.zakonyprolidi.cz/cs/1995-289) | 50 | A·C· | Kaprálův mlýn (skautská základna a centrum ekologické výchovy) |
+| Slowakije | 30 | [Slovenský skauting, Skautské tábory (Miesta na táborenie; bi](https://skauting.sk/ustredie/administrativa/skautske-tabory/) | 50 | [Slovenský skauting, Skautské tábory](https://skauting.sk/ustredie/administrativa/skautske-tabory/) | 25 | ··C· | Skautské táborisko Hodruša; Chata Kanné pri Fričovciach |
+| Italië | – | | – | | – | | |
+| San Marino | – | | – | | – | | |
+| Malta | – | | – | | – | | |
+| Kroatië | – | | – | | – | | |
+| Bosnië en Herzegovina | – | | – | | – | | |
+| Montenegro | – | | – | | – | | |
+| Servië | – | | – | | – | | |
+| Kosovo | – | | – | | – | | |
+| Noord-Macedonië | – | | – | | – | | |
+| Griekenland | – | | – | | – | | |
+| Bulgarije | – | | – | | – | | |
+| Cyprus | – | | – | | – | | |
+| Turkije | – | | – | | – | | |
+| Moldavië | – | | – | | – | | |
+| Oekraïne | – | | – | | – | | |
+| Belarus | – | | – | | – | | |
+| Rusland | – | | – | | – | | |
+| Georgië | – | | – | | – | | |
+| Armenië | – | | – | | – | | |
+| Azerbeidzjan | – | | – | | – | | |
+
+## Landen waar ik twijfel
+
+- **Frankrijk**: wild 55 steunt op een departementsdocument (Savoie) dat het Code de l'urbanisme citeert; Légifrance geblokkeerd. Vuur 75 vs 50: sterk afhankelijk van het departement. Terrein: A en D niet gestaafd.
+- **Verenigd Koninkrijk**: wild 80 is een gemiddelde van Schotland (100) en Engeland/Wales (55) volgens de meter, maar de keuze 55 voor Engeland is een inschatting (strenger: 30). Vuur 100 vs 75. Terrein: scouts.org.uk-lijst niet kunnen openen (403); criteria A/B/D onbeslist.
+- **Ierland**: wild 55 is afgeleid zonder officiële bron (Cloudflare 403 op de Ierse pagina's); vuur 100 vs 75 onzeker. Terrein: B en C zeker, A niet gestaafd (7 terreinen in de HTML).
+- **IJsland**: wild 80 vs 55 en vuur 50 (25-75 mogelijk): de wet laat tenten toe tot drie en één nacht in bewoond gebied, met toestemming daarboven; vuur is wettelijk alleen beperkt bij gevaar. Terrein: alleen Úlfljótsvatn.
+- **Nederland**: wild 55 vs 30: Wikipedia noemt boete 150 euro en afgeschafte paalkampeerplaatsen, geen overheidstekst geopend. Vuur 75: natuurbrandrisico-fases en terreineigenaren. Terrein 50: A en D niet gestaafd (lijst dynamisch).
+- **Duitsland**: wild 55 zonder citeerbare verbodswet (het federale recht zwijgt); vuur 75 steunt op één deelstaat (Beieren) en DWD. Terrein: D niet beoordeeld, waardoor 75 (A,B,C).
+- **Denemarken**: wild 55: staatsbossen 1-2-3-regel past niet bij 5-6 tenten; groepsplaatsen moeten geboekt worden; vuur 50 vs 75. Terrein 50: A (lijst) en D niet gestaafd.
+- **Noorwegen**: kamp_groepsterrein staat op 0 omdat ik geen enkele criterium met een geopende bron kon staven (speiding.no is een JS-app, 1 terrein gevonden); in werkelijkheid zeker hoger. Vuur 50 is zeker (15 apr-15 sep), wild 100 is zeker voor 1-2 nachten buiten 150 m van huizen.
+- **Zweden**: wild 100 vs 80: de wet garandeert allemansrätten, maar voor een groep met 5-6 tenten verwijst Naturvårdsverket zelf naar toestemming van de grondeigenaar. Vuur 100 vs 75: eldningsförbud komen in droge zomers voor maar zijn tijdelijk. Terrein: A en C steunen op de verklaring van Scouterna (±1000 scoutstugor), B niet gestaafd.
+- **Finland**: kamp_groepsterrein 0 is een gebrek aan bewijs (partioaitta.fi en ym.fi gaven 403), geen bewijs van afwezigheid. Wild en vuur 100: zeker voor jokaisenoikeudet, maar grote groepen vragen in de praktijk toestemming.
+- **Estland**: wild 80 vs 100: slechts 1 etmaal zonder toestemming; vuur 75: lokale toestemming + landelijke tuleohtlik aeg in droge zomers (bron is persbericht). Terrein: slechts Tagametsa gevonden.
+- **Letland**: wild 100 vs 80: de wet geeft het recht om te 'verblijven', LVM zegt via LSM dat overnachten met tent overal mag (groepen >50 toestemming). Vuur 75: aangewezen plaatsen tijdens brandperiodes. Terrein: niets gestaafd.
+- **Litouwen**: wild 55 vs 80/100: de bosdienst beperkt tot aangewezen kampeerplaatsen, ÖAMTC zegt ruimer. Terrein: Scout Valley (SCENES) is er, maar B en A niet gestaafd.
+- **Zwitserland**: wild 55: afhankelijk van het kanton, geen enkele kantonale wettekst geopend (alleen een persoverzicht van Beobachter/TCS); terrein 25 door het gebrek aan een bereikbare lijst (pfadiheime.ch 403).
+- **Oostenrijk**: wild 55 vs 30/80 (streng/soepel regime verschilt per deelstaat); vuur 75: wettelijk verbod in het bos met toestemming van de eigenaar; terrein 25 omdat B op een derde terrein strandde (Wassergspreng 503).
+- **Tsjechië**: wild 55 vs 30; vuur 75 vs 50 (permanent verbod in/bij bos, uitzondering door de eigenaar). Terrein 50: A en C goed gestaafd, B niet (1 terrein).
+- **Slowakije**: wild 30 vs 0/55: ÖAMTC zegt strikt verboden, de Slowaakse scouts beschrijven een toestemmingsprocedure met meerdere autoriteiten; vuur 50 steunt op een wet uit het geheugen (niet geopend).
+
+## Werkwijze
+
+Per land eerst de wet of officiele overheids-/natuurbeheerpagina gezocht en met WebFetch of curl geopend (Lovdata, Riksdagen, Finlex, Althingi, likumi.lv, legislation.gov.uk, RMK, VMU, Naturvardsverket enz.), daarna toerismesites en Wikipedia/Wikivoyage. Voor criterium C is de SCENES-lijst van WOSM gebruikt (scout.org/SCENES) en elke genoemde centrumsite apart geopend; voor A/B/D gruppenhaus.de (Jugendzeltplatz-categorie, per land een eigen pagina) en nationale scoutssites. Bronnen die niet opengingen (Cloudflare 403, Varnish 405, 502 van de proxy) zijn met bereikbaar "nee" genoteerd of weggelaten; ik heb geen beveiliging omzeild. Criteria die ik niet kon staven zijn als niet vervuld gerekend (geen gok naar boven). Geen zoekmachine via curl gebruikt; WebSearch hoogstens het afgesproken aantal keer.

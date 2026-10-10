@@ -66,9 +66,9 @@ De **schaal** is absoluut en hangt niet af van wie meedoet: `ankers` (lineair tu
 | **Openbaar vervoer ter plaatse** (`reis_ov`, Reis en vervoer) | 1,5 % | % van het personenvervoer per bus of trein (Eurostat, 2024) | Eurostat, tran_hv_psmod (modal split van het personenvervoer) | midden |
 | **Temperatuur in juli** (`weer_temp`, Weer in de zomer) | 1,8 % | Gemiddeld dagmaximum in juli in de hoofdstad (°C, 1991-2020) | Wikipedia, klimaattabel van de hoofdstad (normalen 1991-2020) | hoog |
 | **Neerslag in juli** (`weer_regen`, Weer in de zomer) | 1,6 % | Neerslag in juli in de hoofdstad (mm, 1991-2020) | Wikipedia, klimaattabel van de hoofdstad (normalen 1991-2020) | hoog |
-| **Engels spreken** (`cul_engels`, Cultuur en mensen) | 1,5 % | EF English Proficiency Index 2025 | EF English Proficiency Index 2025 (via Wikipedia-tabel) | hoog |
+| **Engels spreken** (`cul_engels`, Cultuur en mensen) | 2,8 % | EF English Proficiency Index 2025 | EF English Proficiency Index 2025 (via Wikipedia-tabel) | hoog |
 | **Echt buitenland-gevoel** (`cul_buitenland`, Cultuur en mensen) | 1,7 % | Telling van 3 kenmerken: taalfamilie, schrift, religie (0 tot 3) | Wikipedia, Languages of [land] en Religion in [land] | midden |
-| **Gastvrijheid** (`cul_gastvrij`, Cultuur en mensen) | 1,3 % | WEF-score 'attitude of population toward foreign visitors' (1 tot 7) | World Economic Forum, Travel & Tourism Competitiveness Report (landenprofielen en datatabellen) | laag |
+| ~~Gastvrijheid~~ (`cul_gastvrij`) | geschrapt op 10-10-2026 | WEF-, tcdata360- en CAF-bron in drie rondes onbereikbaar (403/503/404); het gewicht ging naar Engels spreken | | |
 | **Scouts per 1.000 inwoners** (`scout_leden`, Scoutingnetwerk) | 2,2 % | WOSM-leden per 1.000 inwoners (census 2019), logschaal | Wikipedia, List of World Organization of the Scout Movement members (WOSM-census 2019) | hoog |
 | **Reisdocumenten** (`prak_documenten`, Praktisch) | 1,3 % | Rubriek reisdocumenten voor Belgen (ID-kaart tot visum) | FOD Buitenlandse Zaken, Reizen naar [land]: praktische info (reisdocumenten, visum) | hoog |
 | **Roaming en bereik** (`prak_roaming`, Praktisch) | 1,2 % | Rubriek roaming: EU-regeling, dagpas van Belgische operatoren | Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden | midden |
@@ -442,7 +442,7 @@ Elk pakket is één opdracht voor één onderzoeksagent, die voor alle 42 landen
 | p07 | Veiligheid: vrede, verkeer, gezondheidszorg en bosbrand (datasets) | `vei_vrede`, `vei_verkeer`, `vei_zorg`, `vei_brand` | 15 |
 | p08 | Teken, rechtstreekse verbinding en openbaar vervoer | `vei_teken`, `reis_direct`, `reis_ov` | 100 |
 | p09 | Klimaat in juli: de hoofdsteden | `weer_temp`, `weer_regen` | 45 |
-| p10 | Cultuur en mensen: Engels, echt buitenland en gastvrijheid | `cul_engels`, `cul_buitenland`, `cul_gastvrij` | 70 |
+| p10 | Cultuur en mensen: Engels en echt buitenland | `cul_engels`, `cul_buitenland` | 50 |
 | p11 | Scouting en toeristische druk | `scout_leden`, `uniek_toerisme` | 8 |
 | p12 | Praktisch: reisdocumenten, roaming en betalen | `prak_documenten`, `prak_roaming`, `prak_betalen` | 120 |
 
@@ -517,3 +517,15 @@ Ik opende elke dataset-bron die ik vermeld en telde hoeveel van de 42 landen eri
 3. Dat gebeurt 10 keer onafhankelijk; de mediaan van de eindscores per land beslist. Daarom zijn edities en jaren vastgezet en staan alle ontbrekend-regels in `model.json`, zodat twee rondes niet door een andere keuze tot een ander cijfer komen.
 4. Rusland, Oekraïne en Belarus krijgen een score maar doen niet mee aan de rangschikking.
 
+
+## Wijzigingen na de eerste rondes (10-10-2026)
+
+1. **`cul_gastvrij` geschrapt.** In drie rondes bleek geen enkele bron bereikbaar (WEF 403, tcdata360 503, CAF 404), precies de uitstapregel
+   uit beslissing 12. Het gewicht (1,3 %) ging naar `cul_engels` (nu 2,8 %), de variabele die het dichtst bij "hoe makkelijk praat je met
+   de mensen" ligt. De tier- en categorietotalen blijven gelijk. Het model telt nu 32 variabelen.
+2. **Kampeerregels en kampterreinen via een referentiebestand.** De onderzoeksagents delen één zoekbudget; dat was in elke ronde op voordat
+   de wetten en kampterreinen gevonden waren, waardoor `kamp_wild`, `kamp_vuur` en `kamp_groepsterrein` (samen 17,5 %) vooral uit
+   buurland-schattingen bestonden. Daarom is er nu één grondig, eenmalig referentieonderzoek (`model/referenties-kamperen.json`, Sonnet,
+   met de wet of de officiële regeling per land en de kampterreinen met URL). Elke ronde krijgt die referenties in de opdracht, opent de
+   bronnen zelf opnieuw en bepaalt zelf het niveau; het voorstel uit de referentie is geen score maar een wegwijzer. De rondes blijven zo
+   onafhankelijk in hun lezing, maar meten wel allemaal dezelfde wet.

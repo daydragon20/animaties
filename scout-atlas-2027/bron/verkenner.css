@@ -132,3 +132,38 @@
   .vk-hint{display:none}
 }
 @media (max-width:560px){ .vk-top{gap:10px;padding:10px 12px} .vk-actions{width:100%} .vk-search{flex:1} .vk-search input{width:100%} .vk-legend .ramp{width:120px} }
+/* ── het kamp daar: top 3 met activiteiten, foto's en kampplaatsen ── */
+.vk-kamp{max-width:1500px}
+.vk-kland{border:1px solid var(--line);border-radius:14px;padding:22px 24px 26px;margin:0 0 22px;background:var(--panel)}
+.vk-kland .hd{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap}
+.vk-kland .rk{font-family:var(--disp);font-weight:800;font-size:54px;line-height:1;color:var(--mint)}
+.vk-kland h2{margin:0;font-family:var(--disp);font-weight:800;font-size:40px;line-height:1;text-transform:uppercase;letter-spacing:.01em}
+.vk-kland .pts{font-family:var(--disp);font-weight:200;font-size:40px;line-height:1;color:var(--gold)}
+.vk-kland .slogan{font-family:var(--serif);font-style:italic;font-size:21px;color:var(--soft);margin:8px 0 0;max-width:900px}
+.vk-kland .note{font-size:13px;color:var(--muted);margin:10px 0 0;line-height:1.6;max-width:900px}
+.vk-fotos{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin:18px 0 6px}
+.vk-foto img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;display:block;background:#1a2224}
+.vk-foto figcaption{font-size:12.5px;line-height:1.5;color:var(--muted);margin-top:6px}
+.vk-foto figcaption b{color:var(--soft);font-weight:500;display:block}
+.vk-foto a{color:var(--mint);text-decoration:none}
+.vk-kamp .kk{font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin:22px 0 10px}
+.vk-acts{display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:12px}
+.vk-act{display:grid;grid-template-columns:84px 1fr;gap:14px;align-items:start;padding:14px 16px;border:1px solid var(--line);border-radius:10px}
+.vk-act .sc{font-family:var(--disp);font-weight:200;font-size:54px;line-height:.9}
+.vk-act .sc small{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.vk-act h3{margin:0;font-family:var(--serif);font-weight:400;font-size:22px;line-height:1.15}
+.vk-act .pl{font-size:13.5px;color:var(--soft);margin-top:3px}
+.vk-act .ft{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.5}
+.vk-act .ft b{color:var(--paper);font-weight:500}
+.vk-act .ex{font-family:var(--serif);font-size:16px;line-height:1.4;color:var(--soft);margin-top:8px}
+.vk-act .src{font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.5;word-break:break-word}
+.vk-act .src a{color:var(--mint);text-decoration:none;border-bottom:1px solid rgba(124,240,196,.4)}
+.vk-plekken{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
+.vk-plek{padding:12px 16px;border:1px solid var(--line);border-radius:10px;font-size:14px;line-height:1.5}
+.vk-plek b{display:block;font-family:var(--serif);font-weight:400;font-size:20px;color:var(--paper)}
+.vk-plek a{color:var(--mint);text-decoration:none;border-bottom:1px solid rgba(124,240,196,.4)}
+.vk-plek .d{color:var(--soft)}
+.vk-plek .m{color:var(--muted);font-size:12.5px;margin-top:4px}
+.vk-kbron{font-size:13px;line-height:1.7;color:var(--muted);margin-top:8px;max-width:1100px}
+.vk-kbron a{color:var(--mint);text-decoration:none}
+@media (max-width:700px){.vk-act{grid-template-columns:64px 1fr}.vk-kland h2{font-size:30px}.vk-kland .rk,.vk-kland .pts{font-size:36px}}

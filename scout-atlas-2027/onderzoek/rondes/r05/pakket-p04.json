@@ -1,0 +1,1999 @@
+{
+  "ronde": 5,
+  "pakket": "p04",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "av_rivieren": {
+        "waarde": 414.8,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 38 mld m³ ÷ 91605.6 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 116.75,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 23,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 36.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Spanje": {
+      "av_rivieren": {
+        "waarde": 222.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 111.2 mld m³ ÷ 499685.509 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 97.76,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 28.1,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 38.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Andorra": {
+      "av_rivieren": {
+        "waarde": 674.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 0.3156 mld m³ ÷ 468 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 175.08,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 27.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 38.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Frankrijk": {
+      "av_rivieren": {
+        "waarde": 371.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 200 mld m³ ÷ 538950 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 127.19,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 28.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 32.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "av_rivieren": {
+        "waarde": 599.3,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 145 mld m³ ÷ 241930 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 286.37,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 28.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 13.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Ierland": {
+      "av_rivieren": {
+        "waarde": 711.3,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 49 mld m³ ÷ 68890 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 78.32,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 14.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 12.0,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "IJsland": {
+      "av_rivieren": {
+        "waarde": 1686.0,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 170 mld m³ ÷ 100830 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 3.83,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 20.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 0.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Nederland": {
+      "av_rivieren": {
+        "waarde": 326.7,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 11 mld m³ ÷ 33670 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 534.41,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 22.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 11.0,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Luxemburg": {
+      "av_rivieren": {
+        "waarde": 388.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 1 mld m³ ÷ 2574.46 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 262.97,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 39.1,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 34.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Duitsland": {
+      "av_rivieren": {
+        "waarde": 306.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 107 mld m³ ÷ 349430 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 239.01,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 39.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 32.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Denemarken": {
+      "av_rivieren": {
+        "waarde": 150.0,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 6 mld m³ ÷ 40000 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 149.42,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 16.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 16.0,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Noorwegen": {
+      "av_rivieren": {
+        "waarde": 1048.7,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 382 mld m³ ÷ 364270 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 15.3,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 17.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 33.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Zweden": {
+      "av_rivieren": {
+        "waarde": 419.9,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 171 mld m³ ÷ 407270 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 25.95,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 15.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 68.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Finland": {
+      "av_rivieren": {
+        "waarde": 352.0,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 107 mld m³ ÷ 304000 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 18.49,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 13.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 74.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Estland": {
+      "av_rivieren": {
+        "waarde": 297.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 12.71 mld m³ ÷ 42730 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 32.12,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 21.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 57.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Letland": {
+      "av_rivieren": {
+        "waarde": 272.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 16.94 mld m³ ÷ 62230 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 29.99,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 18.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 55.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Litouwen": {
+      "av_rivieren": {
+        "waarde": 247.0,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 15.46 mld m³ ÷ 62590 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 46.15,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 18,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 35.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Zwitserland": {
+      "av_rivieren": {
+        "waarde": 1022.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 40.4 mld m³ ÷ 39509.63 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 227.93,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 12.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 32.0,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Liechtenstein": {
+      "av_rivieren": {
+        "waarde": 1022.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (waarde van buurland CHE)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Liechtenstein ontbreekt in de WB-waterdata; waarde van Zwitserland overgenomen (LI = CH volgens de meter). Zekerheid laag."
+      },
+      "av_ruimte": {
+        "waarde": 252.81,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 44.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 36.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Oostenrijk": {
+      "av_rivieren": {
+        "waarde": 666.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 55 mld m³ ÷ 82520 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 111.22,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 29.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 47.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Tsjechië": {
+      "av_rivieren": {
+        "waarde": 170.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 13.15 mld m³ ÷ 77155.54 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 141.34,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 21.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 38.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Slowakije": {
+      "av_rivieren": {
+        "waarde": 262.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 12.6 mld m³ ÷ 48080 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 112.77,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 37.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 40.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Italië": {
+      "av_rivieren": {
+        "waarde": 617.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 182.5 mld m³ ÷ 295720 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 199.35,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 21.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 31.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "San Marino": {
+      "av_rivieren": {
+        "waarde": 617.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (waarde van buurland ITA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "laag",
+        "opmerking": "San Marino ontbreekt in de WB-waterdata; waarde van Italië overgenomen (SM = IT volgens de meter). Zekerheid laag."
+      },
+      "av_ruimte": {
+        "waarde": 555.18,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 21.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (waarde van Italië)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "San Marino ontbreekt in WB ER.LND.PTLD.ZS; waarde van Italië overgenomen (SM = IT volgens de meter). Zekerheid laag."
+      },
+      "kamp_bos": {
+        "waarde": 16.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Malta": {
+      "av_rivieren": {
+        "waarde": 160.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 0.0505 mld m³ ÷ 315.15 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 1805.0,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 29,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 1.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Kroatië": {
+      "av_rivieren": {
+        "waarde": 673.7,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 37.7 mld m³ ÷ 55960 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 69.09,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 38.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 34.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "av_rivieren": {
+        "waarde": 693.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 35.5 mld m³ ÷ 51200 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 61.8,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 9.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 42.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Montenegro": {
+      "av_rivieren": {
+        "waarde": 487.7,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 (buurlanden HRV, BIH, SRB; schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (buurlanden)"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Montenegro ontbreekt in de WB-waterdata. FAO AQUASTAT-profiel niet leesbaar zonder JavaScript. Gemiddelde van de buurlanden met een WB-waarde (HR, BA, RS); schatting, zekerheid laag, kan ver afwijken van het landenprofiel."
+      },
+      "av_ruimte": {
+        "waarde": 46.36,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 22.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 61.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Servië": {
+      "av_rivieren": {
+        "waarde": 96.0,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 8.407 mld m³ ÷ 87588.7 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 75.2,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 14,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 39.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Kosovo": {
+      "av_rivieren": {
+        "waarde": 155.0,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 (buurlanden SRB, MKD; schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (buurlanden)"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Kosovo ontbreekt in de WB-waterdata. FAO AQUASTAT niet leesbaar zonder JavaScript. Gemiddelde van de buurlanden met een WB-waarde (RS, MK); ME heeft geen WB-waarde. Schatting, zekerheid laag."
+      },
+      "av_ruimte": {
+        "waarde": 154.56,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI SP.POP.TOTL (bevolking 2023) ÷ oppervlakte 10.887 km² (uit opdracht)",
+          "url": "https://api.worldbank.org/v2/country/XKX/indicator/SP.POP.TOTL?format=json&date=2023:2023",
+          "jaar": "2023"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Ontbreekt in WB EN.POP.DNST; berekend uit bevolking 2023 (1.682.668, bevestigd via WB-API) ÷ 10.887 km². Oppervlakte komt uit de opdracht en is niet door mij geverifieerd. Opdracht noemt ≈155. WB geeft voor 2024 1.594.353 en 2025 1.576.876; meter-jaar 2023 aangehouden."
+      },
+      "kamp_beschermd": {
+        "waarde": 21.7,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (gemiddelde ME, MK, RS; schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025 (buurlanden)"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Kosovo ontbreekt in WB ER.LND.PTLD.ZS; gemiddelde van ME, MK en RS volgens de meter. Zekerheid laag. Protected Planet-landenpagina toont zonder JavaScript geen percentages en is niet gebruikt."
+      },
+      "kamp_bos": {
+        "waarde": 41.0,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wikipedia, Kosovo (sectie Economie: 'forest and forestry land')",
+          "url": "https://en.wikipedia.org/wiki/Kosovo",
+          "jaar": "onbekend (geen jaar in bron)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Ontbreekt in WB AG.LND.FRST.ZS. Het artikel 'Kosovo' noemt 41 % 'forest and forestry land' zonder jaar; het zelfde artikel noemt elders 'at least 39 %' (biodiversiteit). Geografiepagina en FAO FRA-portaal gaven geen bruikbaar cijfer. Meter-richtwaarde 41 gebruikt, zekerheid midden."
+      }
+    },
+    "Noord-Macedonië": {
+      "av_rivieren": {
+        "waarde": 214.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 5.4 mld m³ ÷ 25220 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 72.34,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 29,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 40.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Griekenland": {
+      "av_rivieren": {
+        "waarde": 450.0,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 58 mld m³ ÷ 128900 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 80.72,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 35,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 36.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Bulgarije": {
+      "av_rivieren": {
+        "waarde": 193.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 21 mld m³ ÷ 108560 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 59.34,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 44.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 36.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Cyprus": {
+      "av_rivieren": {
+        "waarde": 84.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 0.78 mld m³ ÷ 9240 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 147.0,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 38.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 18.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Turkije": {
+      "av_rivieren": {
+        "waarde": 294.9,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 227 mld m³ ÷ 769630 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 111.12,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 7,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 29.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Moldavië": {
+      "av_rivieren": {
+        "waarde": 49.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 1.62 mld m³ ÷ 32930 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 83.51,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 11.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 11.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Oekraïne": {
+      "av_rivieren": {
+        "waarde": 95.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 55.1 mld m³ ÷ 579400 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 65.34,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 17.1,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 17.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Belarus": {
+      "av_rivieren": {
+        "waarde": 167.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 34 mld m³ ÷ 202976 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 44.99,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 9.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 44.1,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Rusland": {
+      "av_rivieren": {
+        "waarde": 263.3,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 4312 mld m³ ÷ 16376870 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 8.77,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rusland telt als 8,77 door Siberië; bewust volgens de opdracht."
+      },
+      "kamp_beschermd": {
+        "waarde": 11.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 50.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Georgië": {
+      "av_rivieren": {
+        "waarde": 836.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 58.13 mld m³ ÷ 69490 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 66.7,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 22.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 44.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Armenië": {
+      "av_rivieren": {
+        "waarde": 243.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 6.859 mld m³ ÷ 28199.4 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 107.57,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 38.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 11.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    },
+    "Azerbeidzjan": {
+      "av_rivieren": {
+        "waarde": 98.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 ÷ AG.LND.TOTL.K2 (berekend)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (water) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid (berekend): 8.115 mld m³ ÷ 82650 km² × 1.000.000 mm; zekerheid midden volgens de regels."
+      },
+      "av_ruimte": {
+        "waarde": 123.45,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_beschermd": {
+        "waarde": 22.1,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "kamp_bos": {
+        "waarde": 14.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO FRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Wereldbank WDI ER.H2O.INTR.K3 (hernieuwbare interne zoetwatervoorraden)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+      "wat": "Teller afvoerdiepte; 38 van 42 landen, jaar 2022"
+    },
+    {
+      "naam": "Wereldbank WDI AG.LND.TOTL.K2 (landoppervlakte)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.TOTL.K2?format=json&date=2018:2024&mrnev=1&per_page=100",
+      "wat": "Noemer afvoerdiepte; 41 van 42 (XK ontbreekt), jaar 2024"
+    },
+    {
+      "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+      "wat": "av_ruimte; 41 van 42 (XK ontbreekt), jaar 2024"
+    },
+    {
+      "naam": "Wereldbank WDI ER.LND.PTLD.ZS (beschermd landgebied, Protected Planet)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+      "wat": "kamp_beschermd; 40 van 42 (SM en XK ontbreken), jaar 2025"
+    },
+    {
+      "naam": "Wereldbank WDI AG.LND.FRST.ZS (bosoppervlak, FAO FRA)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+      "wat": "kamp_bos; 41 van 42 (XK ontbreekt), jaar 2024"
+    },
+    {
+      "naam": "Wereldbank WDI SP.POP.TOTL (bevolking Kosovo, controle)",
+      "url": "https://api.worldbank.org/v2/country/XKX/indicator/SP.POP.TOTL?format=json&date=2023:2023",
+      "wat": "Bevestigt 2023 = 1.682.668 voor de XK-dichtheid"
+    },
+    {
+      "naam": "Wikipedia, Kosovo",
+      "url": "https://en.wikipedia.org/wiki/Kosovo",
+      "wat": "kamp_bos XK: 41 % forest and forestry land, zonder jaar; secundaire bron, zekerheid midden"
+    },
+    {
+      "naam": "FAO AQUASTAT (niet bruikbaar: vereist JavaScript)",
+      "url": "https://data.apps.fao.org/aquastat/",
+      "wat": "Geen Montenegro- of Kosovo-cijfers leesbaar; ME en XK via buurlanden geschat"
+    },
+    {
+      "naam": "FAO Global Forest Resources Assessment 2025 (geen Kosovo-cijfer)",
+      "url": "https://www.fao.org/forest-resources-assessment/en/",
+      "wat": "Geen Kosovo-vermelding op de pagina; verwijst naar fra-data.fao.org (niet gelezen)"
+    },
+    {
+      "naam": "Wikipedia, Geography of Kosovo (geen percentage gevonden)",
+      "url": "https://en.wikipedia.org/wiki/Geography_of_Kosovo",
+      "wat": "Geen bosoppervlakte-percentage in de gelezen tekst"
+    }
+  ],
+  "problemen": [
+    "av_rivieren: FAO AQUASTAT is niet leesbaar zonder JavaScript. ME en XK zijn geschat uit buurlanden met een WB-waarde (ME: HR, BA, RS; XK: RS, MK); zekerheid laag, de schatting kan ver naast het werkelijke landenprofiel zitten.",
+    "av_rivieren: LI = CH en SM = IT volgens de meter; zekerheid laag.",
+    "av_ruimte: XK-bevolking 1.682.668 (2023) is via de WB-API bevestigd. WB geeft voor 2024 1.594.353 en 2025 1.576.876; meter-jaar 2023 aangehouden. Oppervlakte 10.887 km² komt uit de opdracht en is niet door mij geverifieerd.",
+    "kamp_beschermd: SM = waarde van IT en XK = gemiddelde van ME, MK en RS (meter); zekerheid laag. Protected Planet-landenpagina's tonen zonder JavaScript geen percentages en zijn niet gebruikt.",
+    "kamp_bos: XK 41 % komt uit het Wikipedia-artikel 'Kosovo' (sectie Economie), zonder jaar. Hetzelfde artikel noemt elders 'at least 39 %'. Zekerheid midden.",
+    "Controlegetallen: alle 10 kloppen met de WB-API (zoet NO 382 en IS 170; oppervlakte NO 364.270; dichtheid NO 15,30, IS 3,83, MT 1805,00; beschermd BG 44,3 en TR 7,0; bos FI 74,2 en IS 0,6)."
+  ]
+}

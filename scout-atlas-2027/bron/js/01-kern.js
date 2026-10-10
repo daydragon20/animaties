@@ -144,8 +144,8 @@ const RACE = (() => {
 })();
 
 /* ───────────── tijdlijn (120 BPM: 1 tel = 0,5 s, 1 maat = 2 s) ───────────── */
-const T = { s1: 0, s2: 16, s3: 32, s4: 60, s5: 78, s6: 106, s7: 124, s8: 140, end: 166 };
-const CHAPTERS = [["Het kamp", T.s1], ["De kandidaten", T.s2], ["De weging", T.s3], ["Het landschap", T.s4], ["De race", T.s5], ["De ruimte", T.s6], ["Het podium", T.s7], ["De bestemming", T.s8]];
+const T = { s1: 0, s2: 16, s3: 32, s4: 60, s5: 78, s6: 106, s7: 124, s8: 140, s9: 178, end: 204 };
+const CHAPTERS = [["Het kamp", T.s1], ["De kandidaten", T.s2], ["De weging", T.s3], ["Het landschap", T.s4], ["De race", T.s5], ["De ruimte", T.s6], ["Het podium", T.s7], ["Het kamp daar", T.s8], ["De bestemming", T.s9]];
 const chapterAt = (t) => { let k = 0; CHAPTERS.forEach(([, a], i) => { if (t >= a) k = i; }); return k; };
 const CUE = {
   // 1 · het kamp: vuur, terugtrekken, snede naar de bol, zonsopgang, duik naar Europa
@@ -162,8 +162,10 @@ const CUE = {
   ru: { axes: T.s6 + 0.4, dots: T.s6 + 1.6, orbit: [T.s6 + 2.0, T.s6 + 9.0], flat: [T.s6 + 9.0, T.s6 + 11.0], focus: [T.s6 + 11.4, T.s6 + 14.2, T.s6 + 16.4], end: T.s7 },
   // 7 · het podium
   podium: [T.s7 + 1.0, T.s7 + 3.0, T.s7 + 6.4], rest: T.s7 + 8.6, wins: T.s7 + 9.6,
-  // 8 · de bestemming
-  route: T.s8 + 2.0, routeEnd: T.s8 + 6.0, list: T.s8 + 9.0, credits: T.s8 + 18.0,
+  // 8 · het kamp daar: titel, vijf activiteiten (elk 4,6 s), de slaapplaats, nummer 2 en 3
+  kb: { title: T.s8 + 0.6, acts: [0, 1, 2, 3, 4].map((i) => T.s8 + 3.0 + i * 4.6), actD: 4.6, sleep: T.s8 + 26.0, others: T.s8 + 31.0, end: T.s9 },
+  // 9 · de bestemming
+  route: T.s9 + 2.0, routeEnd: T.s9 + 6.0, list: T.s9 + 9.0, credits: T.s9 + 18.0,
 };
 // race-tijden: de eerste drie categorieën krijgen 3,4 s, de rest 1,6 s; het geheel past in de scène
 (() => {
