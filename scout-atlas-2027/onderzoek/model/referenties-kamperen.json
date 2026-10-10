@@ -1275,27 +1275,27 @@
    "kamp_groepsterrein": {
     "A": {
      "vervuld": false,
-     "bewijs": "partio.fi en scouts.fi geopend (200) maar geen lijst van >=10 terreinen gevonden; partiotilat.fi en suomen-partio.fi niet bereikbaar (DNS), partioaitta.fi geeft 403.",
-     "url": ""
+     "bewijs": "Geen lijst van 10 Finse leirialueet geopend: partio.fi/lippukunnille/partio-ohjelma/leirit/ (geopend, 200) bevat geen terreinlijst; partioaitta.fi gaf 403 ('Access Temporarily Restricted'); leirialueet./tilat.partio.fi, partiotilat.fi, hameenpartiopiiri.fi, evonleirialue.fi bestaan niet of gaven een proxyfout (502/DNS).",
+     "url": "https://www.partio.fi/lippukunnille/partio-ohjelma/leirit/"
     },
     "B": {
      "vervuld": false,
-     "bewijs": "Geen drie Finse terreinen met naam, prijs of contact geopend.",
+     "bewijs": "Geen enkel Fins terrein met eigen pagina, prijs of contact geopend.",
      "terreinen": [],
      "url": ""
     },
     "C": {
-     "vervuld": false,
-     "bewijs": "Geen SCENES-centrum in Finland; geen centrum voor buitenlandse groepen geopend.",
-     "url": ""
+     "vervuld": true,
+     "bewijs": "Evon retkeilyalue bij Lammi/Hämeenlinna is voor Suomen Partiolaiset 'pysyvä leirialue' (Yle, 15.7.2022: services voor 13.500 scouts; Kajo-grootkamp met 750 internationale scouts uit 20 landen). Hämeenlinna meldt dat het Finnjamboree-grootkamp Roihu 2016 ca. 3000 buitenlandse scouts telde. Dit is evenementbewijs, geen verhuurpagina voor buitenlandse groepen (ruim gelezen).",
+     "url": "https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/ulkoilu-ja-retkeily/evon-ja-taruksen-retkeilyalueet/"
     },
     "D": {
      "vervuld": false,
-     "bewijs": "Niet onderzocht.",
+     "bewijs": "Niet onderzocht (geen Fins campingportaal met groepsfilter geopend).",
      "url": ""
     },
-    "voorstel": 0,
-    "opmerking": "Zoekopdracht: 'partiolaisten leirikeskus leirialue vuokrattavissa ...'. Gevonden maar niet als criterium geteld: Evo (Lammi/Hämeenlinna) is een permanent leirialue voor Finse scouts (Yle 2022: Kajo-suurleiri, 13.500 scouts uit 20 landen; https://yle.fi/a/3-12538745) en het gemeentelijke Naumi-Isorannan leirikeskus (Sysmä, Lahti; telttapaikat). Beide zijn geen bevestigde verhuur aan buitenlandse jeugdgroepen. Niet-vervuld betekent: niet kunnen staven met een geopende bron, niet: bestaat niet."
+    "voorstel": 25,
+    "opmerking": "tweede pas: C ruim gelezen (was 0, nu 25) via Evo (Yle + stad Hämeenlinna); dit blijft het zwakste bewijs van alle tweede-pas-verbeteringen. A en B niet gestaafd omdat de scoutssites van de partiopiirit niet te bereiken waren; Finland heeft aantoonbaar veel leirialueet, dus 'niet gevonden' is hier geen 'bestaat niet'. 2 WebSearch-aanroepen voor dit land (1 zonder bruikbaar resultaat)."
    }
   },
   "Estland": {
