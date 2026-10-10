@@ -1,0 +1,1534 @@
+{
+  "ronde": 9,
+  "pakket": "p12",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/portugal/reizen-naar-portugal-reisadvies/praktische-info-voor-portugal",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: 'Uw Belgische identiteitskaart volstaat om te reizen'. Schengen, geen visum."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Spanje": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/spanje/reizen-naar-spanje-reisadvies/praktische-info-voor-spanje",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina zonder documentregel; reisdocumentendatabank FOD: identiteitskaart of paspoort geldig bij inreis. Ouderlijke toestemming aanbevolen, niet verplicht."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Andorra": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/andorra/reizen-naar-andorra-reisadvies/praktische-info-voor-andorra",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: geldig paspoort of identiteitskaart; Belgen vrijgesteld van visum tot 90 dagen."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus, roamingzones en Daily Roaming Pass (zone-tabel)",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Proximus: Andorra in EU-Zone, geen extra roamingkosten. Telenet: Andorra valt onder pas 'Zone EU Complete' (prijs niet vastgesteld). Niet in EU-regeling."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro via formele overeenkomst met EU; ook FOD-pagina noemt euro."
+      }
+    },
+    "Frankrijk": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/frankrijk/reizen-naar-frankrijk-reisadvies/praktische-info-voor-frankrijk",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: Belgische identiteitskaart of paspoort volstaat."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "prak_documenten": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/verenigd-koninkrijk/reizen-naar-het-verenigd-koninkrijk-reisadvies/praktische-info-voor-het-verenigd-koninkrijk",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: paspoort vereist en elektronische reistoelating (ETA) sinds 2-4-2025, aan te vragen via app/GOV.UK. Meter-voorbeeld 30."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus, roamingzones en Daily Roaming Pass (zone-tabel)",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Proximus: Verenigd Koninkrijk in EU-Zone, geen extra roamingkosten (tarief als in België). Telenet rekent VK als buiten EU-tariefzone; cheapest optie gebruikt. Niet in EU-regeling."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/verenigd-koninkrijk/reizen-naar-het-verenigd-koninkrijk-reisadvies/praktische-info-voor-het-verenigd-koninkrijk",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Pond sterling; geldautomaten en winkels met Maestro, Visa, Mastercard (FOD)."
+      }
+    },
+    "Ierland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/ierland/reizen-naar-ierland-reisadvies/praktische-info-voor-ierland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina verwijst naar reisdocumentenpagina; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "IJsland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/ijsland/reizen-naar-ijsland-reisadvies/praktische-info-voor-ijsland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: identiteitskaart of paspoort volstaan om het land binnen te komen."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/ijsland/reizen-naar-ijsland-reisadvies/praktische-info-voor-ijsland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "IJslandse kroon (FOD); kaartacceptatie niet expliciet vermeld; niveau volgens meter-voorbeeld."
+      }
+    },
+    "Nederland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/nederland/reizen-naar-nederland-reisadvies/praktische-info-voor-nederland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina zonder documentregel; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Luxemburg": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/luxemburg/reizen-naar-luxemburg-reisadvies/praktische-info-voor-luxemburg",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina verwijst naar reisdocumentensectie; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Duitsland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/duitsland/reizen-naar-duitsland-reisadvies/praktische-info-voor-duitsland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina verwijst naar reisdocumentenpagina; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Denemarken": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/denemarken/reizen-naar-denemarken-reisadvies/praktische-info-voor-denemarken",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Vasteland: reisdocumentendatabank FOD: identiteitskaart of paspoort. Praktische pagina noemt ID alleen voor Færøer (Groenland vereist paspoort, niet gescoord)."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/denemarken/reizen-naar-denemarken-reisadvies/praktische-info-voor-denemarken",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Deense kroon; contant weinig gebruikt, Visa/Mastercard en maestro-geldautomaten (FOD)."
+      }
+    },
+    "Noorwegen": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/noorwegen/reizen-naar-noorwegen-reisadvies/praktische-info-voor-noorwegen",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Vasteland: reisdocumentendatabank FOD: identiteitskaart of paspoort. Praktische pagina noemt ID voor Svalbard."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/noorwegen/reizen-naar-noorwegen-reisadvies/praktische-info-voor-noorwegen",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Noorse kroon; contactloos of kaart is de norm (FOD)."
+      }
+    },
+    "Zweden": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/zweden/reizen-naar-zweden-reisadvies/praktische-info-voor-zweden",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina zonder documentregel; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/zweden/reizen-naar-zweden-reisadvies/praktische-info-voor-zweden",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Zweedse kroon; cash niet overal, in sommige winkels enkel kaart (FOD)."
+      }
+    },
+    "Finland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/finland/reizen-naar-finland-reisadvies/praktische-info-voor-finland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina zonder documentregel; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Estland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/estland/reizen-naar-estland-reisadvies/praktische-info-voor-estland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina zonder documentregel; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Letland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/letland/reizen-naar-letland-reisadvies/praktische-info-voor-letland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina zonder documentregel; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Litouwen": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/litouwen/reizen-naar-litouwen-reisadvies/praktische-info-voor-litouwen",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina zonder documentregel; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro sinds 1-1-2015 (eurozone)."
+      }
+    },
+    "Zwitserland": {
+      "prak_documenten": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/zwitserland/reizen-naar-zwitserland-reisadvies/praktische-info-voor-zwitserland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Identiteitskaart volstaat (reisdocumentendatabank FOD). Praktische info: minderjarigen zonder ouders moeten een ouderlijke toelating (formulier) bij zich hebben, dus niveau 75."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Orange Belgium, Daily Travel (1 GB per gebruiksdag, 4 euro)",
+          "url": "https://www.orange.be/nl/dailytravel",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Orange Daily Travel 4 euro/dag (Zwitserland in lijst, data-only). Proximus Zone A 7,49 euro/dag (abonnement) of 5 euro/dag (prepaid). Telenet: pas 'Zone EU Complete' (geldig in Zwitserland)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/zwitserland/reizen-naar-zwitserland-reisadvies/praktische-info-voor-zwitserland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Zwitserse frank; de in België gangbare bankkaarten worden aanvaard (FOD)."
+      }
+    },
+    "Liechtenstein": {
+      "prak_documenten": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/liechtenstein/reizen-naar-liechtenstein-reisadvies/praktische-info-voor-liechtenstein",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Identiteitskaart volstaat (reisdocumentendatabank FOD). Praktische info: minderjarigen zonder ouders moeten een ouderlijke toelating hebben, dus niveau 75."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/liechtenstein/reizen-naar-liechtenstein-reisadvies/praktische-info-voor-liechtenstein",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Zwitserse frank (FOD); kaartacceptatie niet vermeld; niveau volgens meter-voorbeeld."
+      }
+    },
+    "Oostenrijk": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/oostenrijk/reizen-naar-oostenrijk-reisadvies/praktische-info-voor-oostenrijk",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische info: 'Een visum is niet nodig'; identiteitskaart volgens reisdocumentendatabank FOD."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Tsjechië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/tsjechie/reizen-naar-tsjechie-reisadvies/praktische-info-voor-tsjechie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: 'uw identiteitskaart volstaat' (EU-lidstaat)."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/tsjechie/reizen-naar-tsjechie-reisadvies/praktische-info-voor-tsjechie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tsjechische kroon; kredietkaart wijdverspreid, maestro-geldautomaten (FOD)."
+      }
+    },
+    "Slowakije": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/slovakije/reizen-naar-slovakije-reisadvies/praktische-info-voor-slovakije",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina noemt alleen rijbewijs; reisdocumentendatabank FOD: identiteitskaart of paspoort. URL met slug 'slovakije' (slowakije geeft 404)."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Italië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/italie/reizen-naar-italie-reisadvies/praktische-info-voor-italie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische info: eID geldt als reisdocument in de EU. Schriftelijke ouderlijke toestemming kan nodig zijn als kind alleen of met een van de ouders reist (niet gescoord)."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "San Marino": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/san-marino/reizen-naar-san-marino-reisadvies/praktische-info-voor-san-marino",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: geldig paspoort of identiteitskaart volstaat (geen Schengen, grenzen met Italië open)."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus, roamingzones en Daily Roaming Pass (zone-tabel)",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Proximus: San Marino in EU-Zone, geen extra roamingkosten. Telenet/Orange niet per land gecontroleerd. Niet in EU-regeling."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro via formele overeenkomst met EU."
+      }
+    },
+    "Malta": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/malta/reizen-naar-malta-reisadvies/praktische-info-voor-malta",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina verwijst naar reisdocumentenpagina; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Kroatië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/kroatie/reizen-naar-kroatie-reisadvies/praktische-info-voor-kroatie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: identiteitsdocument met foto (paspoort of identiteitskaart) volstaat; Kids-ID/paspoort geldt voor kinderen onder 12 jaar."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro sinds 1-1-2023 (eurozone)."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/bosnie-en-herzegovina/reizen-naar-bosnie-en-herzegovina-reisadvies/praktische-info-voor-bosnie-en-herzegovina",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: geldige identiteitskaart of paspoort; geen visum tot 90 dagen."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Orange Belgium, Daily Travel (1 GB per gebruiksdag, 4 euro)",
+          "url": "https://www.orange.be/nl/dailytravel",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Orange Daily Travel 4 euro/dag (Bosnië-Herzegovina in lijst, data-only). Proximus Zone A 7,49 euro/dag. Geen EU-akkoord met Westelijke Balkan (EC: enkel voorstel tot onderhandelen)."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/bosnie-en-herzegovina/reizen-naar-bosnie-en-herzegovina-reisadvies/praktische-info-voor-bosnie-en-herzegovina",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Convertibele mark; geldautomaten vooral in steden; kredietkaart in Sarajevo nog niet veralgemeend (FOD)."
+      }
+    },
+    "Montenegro": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/montenegro/reizen-naar-montenegro-reisadvies/praktische-info-voor-montenegro",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: identiteitskaart toegelaten voor verblijf tot 30 dagen (reis van 10 dagen); paspoort aanbevolen."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Orange Belgium, Daily Travel (1 GB per gebruiksdag, 4 euro)",
+          "url": "https://www.orange.be/nl/dailytravel",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Orange Daily Travel 4 euro/dag (Montenegro in lijst, data-only). Proximus Zone A 7,49 euro/dag. Geen EU-akkoord met Westelijke Balkan (EC: enkel voorstel tot onderhandelen)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro eenzijdig als feitelijk betaalmiddel (Wikipedia)."
+      }
+    },
+    "Servië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/servie/reizen-naar-servie-reisadvies/praktische-info-voor-servie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: elektronische identiteitskaart of paspoort nodig; inreis met Belgische identiteitskaart toegelaten, ook voor minderjarigen."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Orange Belgium, Daily Travel (1 GB per gebruiksdag, 4 euro)",
+          "url": "https://www.orange.be/nl/dailytravel",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Orange Daily Travel 4 euro/dag (Servië in lijst, data-only). Proximus Zone A 7,49 euro/dag. Geen EU-akkoord met Westelijke Balkan (EC: enkel voorstel tot onderhandelen)."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/servie/reizen-naar-servie-reisadvies/praktische-info-voor-servie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Servische dinar; kaarten algemeen aanvaard in Belgrado. Niveau 40 volgens meter-voorbeeld (contant buiten grote steden)."
+      }
+    },
+    "Kosovo": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/kosovo/reizen-naar-kosovo-reisadvies/praktische-info-voor-kosovo",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: elektronische identiteitskaart voldoende; geen visum nodig."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus, roamingzones en Daily Roaming Pass (zone-tabel)",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Proximus Zone B: 13,49 euro/dag (Kosovo in zone B). Niet in Orange Daily Travel. Geen EU-akkoord (EC: enkel voorstel tot onderhandelen)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro eenzijdig als officiële munt (FOD-pagina en Wikipedia)."
+      }
+    },
+    "Noord-Macedonië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/noord-macedonie/reizen-naar-noord-macedonie-reisadvies/praktische-info-voor-noord-macedonie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisdocumentendatabank FOD: identiteitskaart of paspoort geldig. Praktische info raadt paspoort aan bij eerder verloren/gestolen ID."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Orange Belgium, Daily Travel (1 GB per gebruiksdag, 4 euro)",
+          "url": "https://www.orange.be/nl/dailytravel",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Orange Daily Travel 4 euro/dag (Noord-Macedonië in lijst, data-only). Proximus Zone A 7,49 euro/dag. Geen EU-akkoord met Westelijke Balkan (EC: enkel voorstel tot onderhandelen)."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/noord-macedonie/reizen-naar-noord-macedonie-reisadvies/praktische-info-voor-noord-macedonie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Denar; FOD geeft geen kaartinfo. Niveau 40 volgens meter-voorbeeld."
+      }
+    },
+    "Griekenland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/griekenland/reizen-naar-griekenland-reisadvies/praktische-info-voor-griekenland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Conflict: praktische info noemt 'Europees paspoort', reisdocumentendatabank FOD: identiteitskaart of paspoort. Gekozen: ID volstaat."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro (eurozone)."
+      }
+    },
+    "Bulgarije": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/bulgarije/reizen-naar-bulgarije-reisadvies/praktische-info-voor-bulgarije",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische pagina noemt alleen rijbewijs; reisdocumentendatabank FOD: identiteitskaart of paspoort."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Euro sinds 1-1-2026 (eurozone); bevestigd op FOD-pagina."
+      }
+    },
+    "Cyprus": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/cyprus/reizen-naar-cyprus-reisadvies/praktische-info-voor-cyprus",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Republiek Cyprus, reisdocumentendatabank FOD: identiteitskaart of paspoort. Noord-Cyprus (ID of paspoort, 2 maanden geldig) niet apart gescoord."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-roamingverordening: Roam Like at Home (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Republiek Cyprus gebruikt de euro; noordelijk deel (TRY) niet gescoord."
+      }
+    },
+    "Turkije": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/turkije/reizen-naar-turkije-reisadvies/praktische-info-voor-turkije",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische info: Belgische toeristen hebben geen visum nodig tot 90 dagen; reisdocumentendatabank FOD: geldig paspoort OF eID."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Orange Belgium, Daily Travel (1 GB per gebruiksdag, 4 euro)",
+          "url": "https://www.orange.be/nl/dailytravel",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Orange Daily Travel 4 euro/dag (Turkije in lijst, data-only). Proximus Zone A 7,49 euro/dag."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/turkije/reizen-naar-turkije-reisadvies/praktische-info-voor-turkije",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Turkse lira; FOD: kaarten 'in het algemeen' aanvaard, geldautomaten breed. Niveau 40 volgens meter-voorbeeld (contant buiten steden)."
+      }
+    },
+    "Moldavië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/moldavie/reizen-naar-moldavie-reisadvies/praktische-info-voor-moldavie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisdocumentendatabank FOD: paspoort of eID, minstens 3 maanden geldig. Praktische pagina zegt hierover niets."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU Roam Like at Home, sinds 1-1-2026 uitgebreid naar Oekraïne en Moldavië (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/moldavie/reizen-naar-moldavie-reisadvies/praktische-info-voor-moldavie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Leu; FOD: kredietkaart in restaurants en vele winkels. Niveau 40 volgens meter-voorbeeld."
+      }
+    },
+    "Oekraïne": {
+      "prak_documenten": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/oekraine/reizen-naar-oekraine-reisadvies/praktische-info-voor-oekraine",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische info: internationaal paspoort verplicht; wie alleen met ID aankomt, wordt niet toegelaten. Visumvrijheid niet expliciet vermeld in bron."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam Like at Home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU Roam Like at Home, sinds 1-1-2026 uitgebreid naar Oekraïne en Moldavië (EC-pagina, geverifieerd)."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/oekraine/reizen-naar-oekraine-reisadvies/praktische-info-voor-oekraine",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Hryvnia; kaarten en contactloos breed, maar reserve aan contant geld aanbevolen buiten grote steden (FOD)."
+      }
+    },
+    "Belarus": {
+      "prak_documenten": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/belarus/reizen-naar-belarus-reisadvies/praktische-info-voor-belarus",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische info: paspoort vereist, ID volstaat niet. Visumvrij tot 30 dagen alleen bij inreis via bepaalde luchthavens; bij inreis over land visum (0). Registratie bij verblijf >10 dagen niet gescoord."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Orange Belgium, Daily Travel (1 GB per gebruiksdag, 4 euro)",
+          "url": "https://www.orange.be/nl/dailytravel",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Orange Daily Travel 4 euro/dag (Wit-Rusland in lijst, data-only). Proximus Zone A 7,49 euro/dag."
+      },
+      "prak_betalen": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/belarus/reizen-naar-belarus-reisadvies/praktische-info-voor-belarus",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD-pagina bevat geen betaalinfo. Niveau 0 volgens meter-voorbeeld (sancties); niet extern bevestigd."
+      }
+    },
+    "Rusland": {
+      "prak_documenten": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/rusland/reizen-naar-rusland-reisadvies/praktische-info-voor-rusland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praktische info: visum vereist (ambassade). E-visum (max. 15 dagen) bestaat maar alleen via bepaalde grensovergangen; niveau 0 volgens meter-voorbeeld (Rusland)."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Orange Belgium, Daily Travel (1 GB per gebruiksdag, 4 euro)",
+          "url": "https://www.orange.be/nl/dailytravel",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Orange Daily Travel 4 euro/dag (Rusland in lijst, data-only). Proximus Zone A 7,49 euro/dag."
+      },
+      "prak_betalen": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/rusland/reizen-naar-rusland-reisadvies/praktische-info-voor-rusland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: Westerse betaalkaarten (Mastercard, Visa) werken niet meer in Rusland. Visa en Mastercard hebben hun activiteiten in Rusland stopgezet (Wikipedia)."
+      }
+    },
+    "Georgië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: 'Een geldige Belgische identiteitskaart volstaat'; geen visum tot 1 jaar."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus, roamingzones en Daily Roaming Pass (zone-tabel)",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Proximus Zone B: 13,49 euro/dag. Niet in Orange Daily Travel; Telenet-tarief niet vastgesteld."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Lari; kaarten steeds gangbaarder, cash nuttig vooral in afgelegen regio's (FOD)."
+      }
+    },
+    "Armenië": {
+      "prak_documenten": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/armenie/reizen-naar-armenie-reisadvies/praktische-info-voor-armenie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisdocumentendatabank FOD: geldig paspoort. Praktische info: EU-burgers visumvrij tot 90 dagen (sinds 2013). Geen ID-regel in bron gevonden."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Orange Belgium, Daily Travel (1 GB per gebruiksdag, 4 euro)",
+          "url": "https://www.orange.be/nl/dailytravel",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Orange Daily Travel 4 euro/dag (Armenië in lijst, data-only). Proximus Zone B 13,49 euro/dag."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/armenie/reizen-naar-armenie-reisadvies/praktische-info-voor-armenie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Dram; kaarten en geldautomaten in Jerevan, buiten de hoofdstad is kaartgebruik beperkt (FOD)."
+      }
+    },
+    "Azerbeidzjan": {
+      "prak_documenten": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info (reisdocumenten, visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/azerbeidzjan/reizen-naar-azerbeidzjan-reisadvies/praktische-info-voor-azerbeidzjan",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Praktische info: visum verplicht, online aan te vragen (e-visa); paspoort minimaal 3 maanden langer geldig dan visum. Meter-voorbeeld 30."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus, roamingzones en Daily Roaming Pass (zone-tabel)",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Proximus Zone B: 13,49 euro/dag. Niet in Orange Daily Travel; Telenet-tarief niet vastgesteld."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info (betalen en geld opnemen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/azerbeidzjan/reizen-naar-azerbeidzjan-reisadvies/praktische-info-voor-azerbeidzjan",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Manat; FOD: internationale kredietkaarten voor geldafhaling, wisselen enkel bij de bank. Niveau 40 volgens meter-voorbeeld."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "FOD Buitenlandse Zaken, praktische info per land (42 pagina's)",
+      "url": "https://diplomatie.belgium.be/nl/landen/<land>/reizen-naar-<land>-reisadvies/praktische-info-voor-<land>",
+      "wat": "Reisdocumenten, visum, betaalmiddelen per land; voorkeursbron prak_documenten en prak_betalen. GB en SK met aangepaste slug."
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, reisdocumentendatabank (API, ISO3)",
+      "url": "https://publicapps.diplomatie.be/api/travelDocuments/getByCountryIso?language=NL&countryIso=PRT",
+      "wat": "Controle en aanvulling van de inreisregel (identiteitskaart/paspoort/visum) per land waar de praktische pagina geen regel noemt."
+    },
+    {
+      "naam": "Europese Commissie, EU roaming (Roam Like at Home)",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+      "wat": "EU-regeling: EU, IJsland, Noorwegen, Liechtenstein; Oekraïne en Moldavië sinds 1-1-2026; geen akkoord Westelijke Balkan."
+    },
+    {
+      "naam": "Proximus, roamingzones en Daily Roaming Pass",
+      "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+      "wat": "Zonetabel: EU-Zone (VK, AD, SM geen extra kosten), Zone A 7,49 euro/dag (prepaid 5 euro), Zone B 13,49 euro/dag (o.a. Kosovo, Georgië, Azerbeidzjan, Armenië)."
+    },
+    {
+      "naam": "Orange Belgium, Daily Travel",
+      "url": "https://www.orange.be/nl/dailytravel",
+      "wat": "Dagprijs 4 euro per gebruiksdag (1 GB, data-only) in TOP50-landen buiten de EU: o.a. CH, TR, RS, BA, ME, MK, RU, BY, AM."
+    },
+    {
+      "naam": "Orange Belgium, roaming-opties en passen",
+      "url": "https://www.orange.be/nl/opties-en-diensten/internationaal-roaming/roaming-opties",
+      "wat": "Passen met meerdaagse looptijd (Western Balkan Pass 14 euro/40 dagen); niet als dagpas gerekend."
+    },
+    {
+      "naam": "Telenet, roaming en roaming pass",
+      "url": "https://www.telenet.be/nl/mobiel/roaming",
+      "wat": "Zones buiten EU-tariefzone (o.a. Andorra, Monaco, Zwitserland, VK en andere niet-EU-landen); pas 'Zone EU Complete'. Prijzen per land niet in de statische pagina."
+    },
+    {
+      "naam": "Wikipedia, Eurozone",
+      "url": "https://en.wikipedia.org/wiki/Eurozone",
+      "wat": "Landen met de euro: eurozone, formele overeenkomsten (AD, SM), eenzijdig (ME, XK); Bulgarije sinds 1-1-2026."
+    },
+    {
+      "naam": "Wikipedia, Visa Inc. en Mastercard",
+      "url": "https://en.wikipedia.org/wiki/Visa_Inc.",
+      "wat": "Bevestigt opschorting van activiteiten van Visa en Mastercard in Rusland (2022); Belarus niet vermeld."
+    }
+  ],
+  "problemen": [
+    "GB: opdracht-URL 'verenigd-koninkrijk' geeft 404; werkende FOD-pagina gebruikt 'het-verenigd-koninkrijk'. SK: 'slowakije' geeft 404; gebruikt 'slovakije'.",
+    "Praktische-info-pagina's bevatten voor veel landen geen expliciete inreisregel (vaak alleen een verwijzing naar 'Reisdocumenten'). De regel is daarom aangevuld uit de FOD-reisdocumentendatabank; die niveaus staan op zekerheid 'midden'.",
+    "Rusland: meter-voorbeeld 0 gevolgd, terwijl de FOD ook een e-visum (max. 15 dagen, alleen via bepaalde grensovergangen) noemt. Bij gebruik van zo'n grensovergang zou het niveau 30 zijn.",
+    "Belarus: FOD-pagina heeft geen betaalinfo; betalen=0 volgt het meter-voorbeeld en is niet extern bevestigd. Visumvrijheid (50) geldt alleen bij inreis via bepaalde luchthavens.",
+    "Wikipedia-pagina 'List_of_countries_using_the_euro_unilaterally' uit de opdracht geeft HTTP 404; ME en XK zijn bevestigd via https://en.wikipedia.org/wiki/Eurozone.",
+    "Orange en Telenet tonen hun tarieven per land via JavaScript; niet alle landen konden per land gecontroleerd worden (Telenet-prijzen en Orange-tarieven voor AD, SM, GB, GE, AZ, XK niet vastgesteld).",
+    "Opdracht noemt CONTROLEGETALLEN van het pakket, maar in opdracht en model.json voor p12 staan geen controlegetallen; niet toegepast.",
+    "De reisdocumentendatabank-API geeft voor sommige landen een verouderde 'Update'-datum (2023); de FOD-regel is toch overgenomen omdat de praktische pagina 2026 is."
+  ]
+}

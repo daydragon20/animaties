@@ -409,14 +409,26 @@
      "url": ""
     },
     "B": {
-     "vervuld": false,
-     "bewijs": "Alleen Great Tower Scout Camp (greattower.org.uk) geopend; de pagina verwijst naar Scout Adventures (scoutadventures.org.uk gaf 403 Cloudflare) zodat prijs en capaciteit niet gelezen zijn.",
+     "vervuld": true,
+     "bewijs": "Drie scoutskampterreinen met kampeerveld en prijs-/boekingspagina's geopend: Fordell Firs en Meggernie (Scouts Scotland / Scout Adventures) en Great Tower (Lake District).",
      "terreinen": [
       {
+       "naam": "Fordell Firs (Scout Adventures, Scouts Scotland)",
+       "plaats": "Fife, nabij Edinburgh",
+       "url": "https://scouts.scot/outdoor-centres/fordell-firs/",
+       "details": "48 acres; 'Onsite camping: woodland and grass camping spaces'; indoor dorms; >20 activiteiten; speciale pagina 'Scouts and Youth groups' met prijzen en zelfverzorging; 'Enquire now'."
+      },
+      {
+       "naam": "Meggernie (Scout Adventures, Scouts Scotland)",
+       "plaats": "Perthshire (Glen Lyon)",
+       "url": "https://scouts.scot/outdoor-centres/meggernie/",
+       "details": "'Pitch a tent under the stars'; traditioneel kamperen en bushcraft; zelfverzorgend; prijspagina voor Scouts en jeugdgroepen (BTW-wijziging 1 april 2025)."
+      },
+      {
        "naam": "Great Tower Scout Camp",
-       "plaats": "Windermere (Lake District)",
+       "plaats": "Lake Windermere (Lake District)",
        "url": "https://www.greattower.org.uk/",
-       "details": "250 acres bos en rotsterrein bij Lake Windermere (tussen Bowness en Newby Bridge); menu met Camping, Price List, Booking en Nights Away; verhuist naar Scout Adventures; prijs niet gelezen."
+       "details": "250 acres bos en rotsterrein bij Lake Windermere; menu Camping, Price List, Booking, Nights Away; verhuist naar scoutadventures.org.uk (403 Cloudflare)."
       }
      ],
      "url": ""
@@ -431,8 +443,8 @@
      "bewijs": "Niet onderzocht (pitchup.com en ukcampsite.co.uk gaven 403).",
      "url": ""
     },
-    "voorstel": 25,
-    "opmerking": "Gilwell Park en Blackland Farm niet bereikbaar via de proxy (502). C steunt alleen op de vermelding in de SCENES-lijst. Het Britse aanbod is in werkelijkheid groot (honderden scoutscampsites)."
+    "voorstel": 50,
+    "opmerking": "Gilwell Park en Blackland Farm niet bereikbaar via de proxy (502); scoutadventures.org.uk en scouts.org.uk gaven 403 (Cloudflare). C steunt op SCENES (Brownsea Island, inhoud niet gelezen) en op het netwerk Scout Adventures. Het Britse aanbod is in werkelijkheid groot (honderden scoutscampsites)."
    }
   },
   "Ierland": {
@@ -1052,29 +1064,35 @@
     },
     "B": {
      "vervuld": false,
-     "bewijs": "Slechts 1 terrein met naam, plaats, prijs en capaciteit geopend (Kvamsøy); er moeten 3 zijn.",
+     "bewijs": "Twee terreinen met naam, plaats, prijs en capaciteit geopend (Kvamsøy en Nordtangen); er moeten 3 zijn.",
      "terreinen": [
+      {
+       "naam": "Nordtangen speidersenter (KFUK-KFUM-speiderne)",
+       "plaats": "Jarenvatnet bij Gran, Hadeland",
+       "url": "https://kmspeider.no/kontakt-oss/nordtangen/",
+       "details": "90 mål tomt; leirområde voor 800 personen met leirbål, badeplaats en sanitair; hoofdhuis 35-40 plaatsen; verhuur aan leden (korting) en anderen; prijzen (okt 2024): alle huizen weekend 6750 kr (leden) / 9300 kr (niet-leden); post@kmspeider.no."
+      },
       {
        "naam": "Kvamsøy Leirsted (Hordaland krins, Norges Speiderforbund)",
        "plaats": "Kvamsøy bij Øystese (Hordaland)",
        "url": "https://ut.no/hytte/101111465",
-       "details": "Eigendom van Hordaland krins; speiders 60 NOK p.p. per nacht, minimum 1800 NOK per weekend (incl. boot); ruimte voor tenten voor minstens 200 personen; huis met ~25 bedden; bereikbaar per boot."
+       "details": "Speiders 60 NOK p.p. per nacht, minimum 1800 NOK per weekend (incl. boot); ruimte voor tenten voor minstens 200 personen; huis met ~25 bedden; bereikbaar per boot."
       }
      ],
      "url": ""
     },
     "C": {
-     "vervuld": false,
-     "bewijs": "Geen SCENES-centrum in Noorwegen; geen geopende pagina van Norges Speiderforbund die een centrum voor buitenlandse groepen toont.",
-     "url": ""
+     "vervuld": true,
+     "bewijs": "Nordtangen speidersenter van KFUK-KFUM-speiderne (WOSM/WAGGGS-organisatie) verhuurt het leirområde (800 plasser) aan leden en 'andre'; buitenlandse groepen worden niet apart genoemd (ruim gelezen). Er is geen SCENES-centrum in Noorwegen.",
+     "url": "https://kmspeider.no/kontakt-oss/nordtangen/"
     },
     "D": {
      "vervuld": false,
      "bewijs": "Geen campingportaal met groepsfilter bereikbaar gevonden (niet gezocht op camping.no).",
      "url": ""
     },
-    "voorstel": 0,
-    "opmerking": "Zoekopdrachten: 'speiderhytter leirsteder oversikt Norge utleie telt speidergrupper', 'Norges Speiderforbund leirplass utleie speidergrupper telt'. Niet-vervuld betekent: niet kunnen staven met een geopende bron, niet: bestaat niet. Norway heeft ~600 speidergrupper (speiderne.no) dus in werkelijkheid waarschijnlijk veel meer terreinen; criteria A en C zijn onbeslist, geen bewijs van afwezigheid."
+    "voorstel": 25,
+    "opmerking": "Zoekopdrachten (4): speiderhytter/leirsteder Norge, Norges Speiderforbund leirplass, speidersenter leirsted; de bruikbare vondsten kwamen van kmspeider.no en ut.no. Niet-vervuld betekent: niet kunnen staven met een geopende bron, niet: bestaat niet. Noorwegen heeft ~600 speidergrupper (speiderne.no); er zijn in werkelijkheid veel meer terreinen; A, B (derde terrein) en D zijn onbeslist, geen bewijs van afwezigheid."
    }
   },
   "Zweden": {
@@ -1259,7 +1277,7 @@
      "url": ""
     },
     "voorstel": 0,
-    "opmerking": "Finse scoutskampen gebruiken veel 'partioaitta' en leirialueet maar ik kon er geen met een geopende bron staven. Niet-vervuld betekent: niet kunnen staven met een geopende bron, niet: bestaat niet."
+    "opmerking": "Zoekopdracht: 'partiolaisten leirikeskus leirialue vuokrattavissa ...'. Gevonden maar niet als criterium geteld: Evo (Lammi/Hämeenlinna) is een permanent leirialue voor Finse scouts (Yle 2022: Kajo-suurleiri, 13.500 scouts uit 20 landen; https://yle.fi/a/3-12538745) en het gemeentelijke Naumi-Isorannan leirikeskus (Sysmä, Lahti; telttapaikat). Beide zijn geen bevestigde verhuur aan buitenlandse jeugdgroepen. Niet-vervuld betekent: niet kunnen staven met een geopende bron, niet: bestaat niet."
    }
   },
   "Estland": {
@@ -1940,10 +1958,18 @@
   },
   "Italië": {
    "kamp_wild": {
-    "voorstel": 30,
-    "regeling": "Geen algemeen struinrecht (Cassazione 1999); campeggio libero is in de meeste regio's verboden buiten aangewezen plaatsen, met uitzonderingen voor bivak in de bergen; gemeenten en regio's bepalen",
-    "regionaal": "Regionale wetten verschillen (bv. bivacco in Trentino/Alto Adige onder voorwaarden).",
+    "voorstel": 55,
+    "regeling": "Geen algemeen struinrecht (Cassazione 1999); campeggio libero is een regionale bevoegdheid die vaak aan provincies en gemeenten wordt gedelegeerd: toegestaan waar geen lokale beperking geldt en met respect voor privé-eigendom, strenger in parken en beschermde gebieden en op stranden; bivak in de bergen vaak gedoogd",
+    "regionaal": "Regionaal/gemeentelijk verschillend; stranden en beschermde gebieden verboden.",
     "bronnen": [
+     {
+      "naam": "Studio Cataldi, Campeggio: tutte le regole (Avv. Valeria Zeppilli)",
+      "url": "https://www.studiocataldi.it/articoli/42007-campeggio-tutte-le-regole.asp",
+      "jaar": "2026",
+      "taal": "it",
+      "bereikbaar": "ja",
+      "wat_staat_er": "'Il campeggio libero è di competenza delle Regioni che, di norma, demandano ... alle Province o ai Comuni'; 'in assenza di specifici limiti (e salvo ... il rispetto della proprietà privata), il campeggio è sempre possibile'; regels strenger in parken."
+     },
      {
       "naam": "Wikipedia, Freedom to roam (landsecties)",
       "url": "https://en.wikipedia.org/wiki/Freedom_to_roam",
@@ -1961,8 +1987,8 @@
       "wat_staat_er": "Persbericht: Kroatië, Slowakije, Slovenië, Hongarije, Portugal en Griekenland verbieden wildkamperen buiten gemarkeerde plaatsen strikt; in Italië, Zwitserland en Polen vooraf bij de plaatselijke overheid vragen."
      }
     ],
-    "groepen": "Voor een groep van 10-15 personen is toestemming van gemeente/eigenaar of een campeggio/base scout nodig.",
-    "opmerking": "Geen Italiaanse wettekst voor kamperen geopend. Niveau 30 (verboden, in de praktijk gedoogd buiten natuurparken) is een inschatting; ÖAMTC adviseert vooraf bij de plaatselijke overheid te vragen."
+    "groepen": "Voor een groep van 10-15 personen met 5-6 tenten: toestemming van de eigenaar (zoals bij Campi Scout La Selva) of een base scout/campeggio.",
+    "opmerking": "Juridisch artikel van een advocate, geen regionale wettekst. Niveau 55 (toestemming van de eigenaar); twijfel 30 (strenger) tot 80."
    },
    "kamp_vuur": {
     "voorstel": 75,
