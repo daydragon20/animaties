@@ -98,7 +98,16 @@ const out = {
   tiers: model.tiers, categories: model.categorieen, variables, countries, rondeOverzicht,
   consensus: { winnaar: ranglijst[0].naam, modaleWinnaar: modaleWinnaar ? modaleWinnaar[0] : null, keerGewonnen: modaleWinnaar ? modaleWinnaar[1] : 0, winTelling },
   bronTelling: Object.entries(bronTelling).sort((a, b) => b[1] - a[1]).map(([naam, n]) => ({ naam, n })),
-  buiten: model.buiten || [],
+  buiten: model.buiten || [
+    { land: "België", reden: "thuis" },
+    { land: "Slovenië", reden: "op vraag van de groep uit de lijst gehaald" },
+    { land: "Polen", reden: "op vraag van de groep uit de lijst gehaald" },
+    { land: "Hongarije", reden: "op vraag van de groep uit de lijst gehaald" },
+    { land: "Roemenië", reden: "op vraag van de groep uit de lijst gehaald" },
+    { land: "Albanië", reden: "op vraag van de groep uit de lijst gehaald" },
+    { land: "Vaticaanstad", reden: "geen kampplaats mogelijk" },
+    { land: "Monaco", reden: "geen kampplaats mogelijk" },
+  ],
 };
 writeFileSync(hier("../bron/scout-atlas-2027-data.json"), JSON.stringify(out, null, 1));
 
