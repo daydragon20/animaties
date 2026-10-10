@@ -1659,27 +1659,46 @@
    "kamp_groepsterrein": {
     "A": {
      "vervuld": false,
-     "bewijs": "Niet onderzocht.",
-     "url": ""
+     "bewijs": "Pfadfinder und Pfadfinderinnen Liechtensteins (PPL) publiceert wel een lijst 'Heime/Lagerplätze' met 17 vermeldingen (Pfadiheime Balzers, Triesen, Triesenberg, Letzi, Spoerry, Auf Berg, Schellenberg, Malbun, Schmetta, Vereinshäuser Gamprin en Ruggell, Lagerplätze Oberäckerle, Triesen, Dux, Obere Burg enz.), maar slechts 4 daarvan zijn kampeervelden voor tenten; de rest zijn clubhuizen. Strikt gelezen dus geen lijst van 10 kampterreinen.",
+     "url": "https://pfadi.li/organisation/lagerplaetzeheime/pfadfinderheim-balzers"
     },
     "B": {
-     "vervuld": false,
-     "bewijs": "Niet onderzocht.",
-     "terreinen": [],
+     "vervuld": true,
+     "bewijs": "Drie Liechtensteinse Lagerplätze die uitdrukkelijk aan (scouts)groepen worden verhuurd, met prijs of contact op de PPL-pagina: Oberäckerle (CHF 3 p.p./nacht), Dux (CHF 40-80 per dag, e-mail) en Obere Burg (max. 80 jongeren, reservatieaanvraag via gemeente). Lagerplatz Triesen (Vermietung: nein) is niet meegeteld.",
+     "terreinen": [
+      {
+       "naam": "Lagerplatz Oberäckerle (Gemeinde Balzers)",
+       "plaats": "boven Balzers/Mäls, 560 m",
+       "url": "https://pfadi.li/organisation/lagerplaetzeheime/lagerplatz-oberaeckerle",
+       "details": "Vermietung: ja; CHF 3 per persoon en nacht (nutzungsgebühren); Gesuch, Nutzungsreglement en Regeln als link; Pinksteren gereserveerd voor Pfadi Balzers; info@balzers.li, +423 388 05 00."
+      },
+      {
+       "naam": "Lagerplatz Dux (Pfadfinderabteilung Schaan/Planken)",
+       "plaats": "boven Schaan, bij de sport- en vrijetijdsaccommodatie Dux",
+       "url": "https://pfadi.li/organisation/lagerplaetzeheime/lagerplatz-dux",
+       "details": "Wird vermietet, alleen voor groepslagers (geen individuelen), max. 50 personen; dagtarief CHF 40 (tot 20 pers.), 60 (20-40), 80 (vanaf 40); blokhut met sanitair en fontein; lagerplatz@schmetta.li."
+      },
+      {
+       "naam": "Lagerplatz Obere Burg (Gemeinde Schellenberg)",
+       "plaats": "Schellenberg, 650 m",
+       "url": "https://pfadi.li/organisation/lagerplaetzeheime/lagerplatz-obere-burg",
+       "details": "Vermietung: ja; plaats voor max. 80 jongeren; drinkwater, brandhout op aanvraag; brochure, reservatieaanvraag en reglement; gemeinde@schellenberg.li, +423 399 20 30; prijs bij gemeente navragen."
+      }
+     ],
      "url": ""
     },
     "C": {
      "vervuld": false,
-     "bewijs": "Niet onderzocht.",
+     "bewijs": "Geen scoutscentrum van PPL gevonden dat expliciet aan buitenlandse groepen verhuurt; de Lagerplätze zijn gemeentelijk of van een afdeling.",
      "url": ""
     },
     "D": {
      "vervuld": false,
-     "bewijs": "Niet onderzocht.",
+     "bewijs": "Niet onderzocht; Liechtenstein heeft nauwelijks campings.",
      "url": ""
     },
-    "voorstel": 0,
-    "opmerking": "Niet onderzocht (microstaat)."
+    "voorstel": 25,
+    "opmerking": "tweede pas: B nu gestaafd (was 0, nu 25) via de eigen lijst van de nationale scoutsorganisatie. Alle gegevens komen van pfadi.li (geopend, 200). A strikt als niet vervuld gerekend (4 van 17 vermeldingen zijn tentenvelden). Een beoordelaar die de hele lijst als 'kampterreinen voor jeugdgroepen' leest zou A als vervuld tellen (dan 50). 0 WebSearch-aanroepen."
    }
   },
   "Oostenrijk": {
@@ -2151,27 +2170,40 @@
    "kamp_groepsterrein": {
     "A": {
      "vervuld": false,
-     "bewijs": "Niet onderzocht.",
-     "url": ""
+     "bewijs": "Pagina 'Where to Stay' van The Scout Association of Malta noemt maar 2 centra (Għajn Tuffieħa en Rinella); geen lijst van 10.",
+     "url": "https://scouts.mt/about-us/where-to-stay/"
     },
     "B": {
      "vervuld": false,
-     "bewijs": "Niet onderzocht.",
-     "terreinen": [],
+     "bewijs": "Twee terreinen met kampeerruimte en contact (Għajn Tuffieħa, Rinella); een derde met naam en contact is niet gevonden (Malta heeft weinig scoutsterreinen).",
+     "terreinen": [
+      {
+       "naam": "Għajn Tuffieħa International Scout Centre (Scout Association of Malta)",
+       "plaats": "Għajn Tuffieħa / Manikata (Mellieħa), Malta",
+       "url": "https://scouts.mt/about-us/where-to-stay/",
+       "details": "Ca. 15,6 acres, grootste kampterrein van de Maltese eilanden; subkampen met eigen water en stroom, 2 sanitaire blokken met warm water, amfitheater met kampvuurplaats; reservaties via de link op de pagina (campsite.scoutkeeper.net, gaf DNS-fout); wheretostay@scouts.mt."
+      },
+      {
+       "naam": "Rinella Scout Centre (South District)",
+       "plaats": "Rinella Creek, Grand Harbour (bij de Three Cities)",
+       "url": "https://scouts.mt/about-us/where-to-stay/",
+       "details": "2100 m2 kampeerterrein, zaal van 100 m2, 2 slaapzalen van 12, keuken, sanitair met warm water; voor lokale en internationale scouts en gidsen; Martin Bonnici +356 9943 2002, rinella@scouts.mt."
+      }
+     ],
      "url": ""
     },
     "C": {
-     "vervuld": false,
-     "bewijs": "Niet onderzocht.",
-     "url": ""
+     "vervuld": true,
+     "bewijs": "The Scout Association of Malta (WOSM-lid) noemt Għajn Tuffieħa 'International Scout Centre' en zegt dat Rinella is omgebouwd tot een scoutsactiviteitencentrum 'for the local and International Scouts and Guides'; buitenlandse bezoekers worden naar de International Commissioner (ic@scouts.mt) verwezen.",
+     "url": "https://scouts.mt/about-us/where-to-stay/"
     },
     "D": {
      "vervuld": false,
-     "bewijs": "Niet onderzocht.",
+     "bewijs": "Niet onderzocht; Malta heeft slechts enkele campings.",
      "url": ""
     },
-    "voorstel": 0,
-    "opmerking": "Niet onderzocht (klein eiland; The Scout Association of Malta niet geraadpleegd)."
+    "voorstel": 25,
+    "opmerking": "tweede pas: C nu gestaafd (was 0, nu 25). Alles komt van scouts.mt/about-us/where-to-stay (geopend, 200). B strandt op het aantal: slechts 2 terreinen. Het boekingssysteem campsite.scoutkeeper.net gaf een DNS-fout. 0 WebSearch-aanroepen."
    }
   },
   "Kroatië": {
