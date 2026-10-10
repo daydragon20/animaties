@@ -29,6 +29,7 @@ svg text{font-family:var(--mono)}
 .lab3{position:absolute;left:0;top:0;pointer-events:none}
 .lab3 .dot{position:absolute;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:#12876a;border:2px solid #f8f3e6;box-shadow:0 2px 6px rgba(16,38,44,.35)}
 .lab3 .pill{position:absolute;padding:3px 9px;border-radius:5px;font:600 18px var(--mono);white-space:nowrap;background:rgba(248,243,230,.92);color:#10262c;box-shadow:0 2px 8px rgba(16,38,44,.18)}
+.chip{display:inline-block;padding:3px 10px;border-radius:5px;font:500 17px var(--mono);margin:0 8px 8px 0;white-space:nowrap}
 
 /* bediening (hoort niet bij de film zelf) */
 #ui{position:fixed;inset:0;pointer-events:none;font-family:var(--mono);color:#ede6d1}
@@ -132,7 +133,7 @@ const hexLerp = (h1, h2, p) => {
   return "#" + a.map((v, i) => Math.round(lerp(v, b[i], clamp(p))).toString(16).padStart(2, "0")).join("");
 };
 // Getallen exact zoals in de JSON, enkel met Nederlandse komma.
-// Totalen en categoriescores tonen we met minstens één decimaal (90 → "90,0"): zelfde waarde, niet afgerond.
+// Totalen en categoriescores tonen we met minstens één decimaal (75 → "75,0"): zelfde waarde, niet afgerond.
 function nl(x, minDec = 1) {
   let s = String(x);
   if (minDec > 0 && !s.includes(".")) s += "." + "0".repeat(minDec);
@@ -154,27 +155,29 @@ function revealWords(ws, t, a, step = 0.06, dur = 0.4) {
     w.style.opacity = p;
   });
 }
+const lijst = (arr) => arr.length <= 1 ? arr.join("") : arr.slice(0, -1).join(", ") + " en " + arr[arr.length - 1];
 
 /* ───────────── kleuren: nacht (donker) en dag (atlaspapier) ───────────── */
 const N = { bg: "#071519", paper: "#ede6d1", mint: "#7cf0c4", sun: "#f6e6a2", coral: "#ff8b66", muted: "#7f9d9a", soft: "#a9bdb9" };
 const D = { bg: "#efe7d4", ink: "#10262c", mint: "#12876a", mintL: "#5cc79c", ochre: "#b47a0a", coral: "#d24a2a", sub: "#55706a", soft: "#6f8580", card: "#f8f3e6" };
 
 /* ───────────── data ───────────── */
-const V = DATA.variables, R = DATA.ranking;
+const V = DATA.variables, R = DATA.ranking, IND = DATA.indicators;
 const CATS = [...new Set(V.map((v) => v.category))];
 const catW = {};
 V.forEach((v) => { catW[v.category] = (catW[v.category] || 0) + v.weight; });
 const byWeight = [...CATS].sort((a, b) => catW[b] - catW[a]);
 const C = (name) => { const r = R.find((x) => x.country === name); if (!r) throw new Error("Land ontbreekt: " + name); return r; };
-const TOP = R.slice(0, 10);
+const ELIG = R.filter((r) => r.status === "ok");           // doet mee aan de race
+const RED = R.filter((r) => r.status !== "ok");             // negatief reisadvies: valt af
+const TOP = ELIG.slice(0, 10);
 const isTop = (n) => TOP.some((r) => r.country === n);
-const WIN = R[0];
+const isRed = (n) => RED.some((r) => r.country === n);
+const WIN = ELIG[0];
 const heaviest = V.reduce((a, b) => (b.weight > a.weight ? b : a));
 const lightest = V.reduce((a, b) => (b.weight < a.weight ? b : a));
 const topMax = {}, topMin = {};
 CATS.forEach((c) => { topMax[c] = Math.max(...TOP.map((r) => r.categories[c])); topMin[c] = Math.min(...TOP.map((r) => r.categories[c])); });
-const bestIn = (r) => CATS.filter((c) => r.categories[c] === topMax[c]);
-const worstIn = (r) => CATS.filter((c) => r.categories[c] === topMin[c]);
 const lowestCat = (r) => CATS.reduce((a, c) => (r.categories[c] < r.categories[a] ? c : a), CATS[0]);
 const highestCat = (r) => CATS.reduce((a, c) => (r.categories[c] > r.categories[a] ? c : a), CATS[0]);
 const YEAR = (DATA.scope.match(/(20\d\d)/) || [])[1];
@@ -183,6 +186,12 @@ const [gy, gm, gd] = DATA.generated.split("-").map(Number);
 const GEN = `${gd} ${MONTHS[gm - 1]} ${gy}`;
 const pinOrder = Object.keys(MAP.pts).filter((n) => n !== "België").sort((a, b) => MAP.pts[a][0] - MAP.pts[b][0]);
 pinOrder.forEach((n) => C(n)); // controle: elke kaartnaam bestaat in de JSON
+if (pinOrder.length !== R.length) throw new Error(`Kaart: ${pinOrder.length} punten, JSON: ${R.length} landen`);
+const SHORT = { "Veiligheid & gezondheid": "veiligheid", "Avontuur & activiteiten": "avontuur", "Kostprijs": "de kostprijs", "Kamp": "kamperen", "Landschap & wow-factor": "landschap", "Vervoer": "vervoer", "Cultuur": "cultuur", "Weer & natuur": "weer", "Kleine groep": "kleine groep", "Internationale scouting": "scouting", "Uniek tegenover andere groepen": "uniek", "Groepsdynamiek": "groepsdynamiek", "Praktisch": "praktisch", "Eindbeleving": "eindbeleving" };
+const short = (c) => SHORT[c] || c.toLowerCase();
+const ZEK = DATA.zekerheid;
+const BUITEN_GROEP = (DATA.buiten || []).filter((b) => /groep/.test(b.reden)).map((b) => b.land);
+const BUITEN_KLEIN = (DATA.buiten || []).filter((b) => /kampplaats/.test(b.reden)).map((b) => b.land);
 
 // Race: gewogen tussenstand van de top 10 na elke categorie (zwaarste eerst), op de ruwe scores.
 // Na de laatste categorie gebruiken we exact de eindscore en volgorde uit de JSON.
@@ -199,20 +208,21 @@ const RACE = (() => {
 })();
 
 /* ───────────── tijdlijn ───────────── */
-const T = { s1: 0, s2: 8, s3: 22, s4: 30, s5: 52, s6: 66, s7: 76, end: 88 };
-const CHAPTERS = [["De vraag", T.s1], ["De weging", T.s2], ["De kandidaten", T.s3], ["De race", T.s4], ["Het vergelijk", T.s5], ["Het podium", T.s6], ["Eerlijk is eerlijk", T.s7]];
+const T = { s1: 0, s2: 8, s3: 21, s4: 34, s5: 56, s6: 69, s7: 81, end: 100 };
+const CHAPTERS = [["De vraag", T.s1], ["De weging", T.s2], ["De kandidaten", T.s3], ["De race", T.s4], ["Het speelveld", T.s5], ["Het podium", T.s6], ["Eerlijk is eerlijk", T.s7]];
 const CUE = {
   hook: [2.0, 3.9, 5.9], sunrise: [3.4, 4.2], push: 6.5,
   countA: T.s2 + 0.2, countB: T.s2 + 1.6,
   grow: T.s2 + 2.9, fly: T.s2 + 4.9,
   fillA: T.s2 + 6.0, fillB: T.s2 + 8.0,
-  hl: T.s2 + 8.6, coral: T.s2 + 11.2,
-  pinA: T.s3 + 0.8, pinStep: 0.12, focus: T.s3 + 4.5,
+  hl: T.s2 + 8.6, coral: T.s2 + 11.0,
+  pinA: T.s3 + 0.8, pinStep: 0.1, red: T.s3 + 5.6, focus: T.s3 + 8.8,
   race: [1.6, 4.0, 6.4, 9.6, 10.4, 11.2, 12.0, 12.8, 13.6, 14.4, 15.2, 16.0, 16.8, 17.6].map((x) => T.s4 + x),
   finalLabel: T.s4 + 18.2,
-  gridFocus: [T.s5 + 3.2, T.s5 + 5.4, T.s5 + 8.6, T.s5 + 11.4],
-  podium: [T.s6 + 0.6, T.s6 + 1.4, T.s6 + 3.0],
-  route: T.s7 + 5.6, routeEnd: T.s7 + 8.4,
+  veldDots: T.s5 + 1.2, veld: [T.s5 + 4.6, T.s5 + 6.4, T.s5 + 8.6, T.s5 + 10.6],
+  podium: [T.s6 + 0.6, T.s6 + 1.4, T.s6 + 3.0], rest: T.s6 + 6.2,
+  card1: T.s7 + 1.4, card2: T.s7 + 5.8, dawn: T.s7 + 9.6,
+  route: T.s7 + 11.4, routeEnd: T.s7 + 14.4,
 };
 // licht (1) of donker (0) per moment: dag in de meeste scènes, nacht voor de race en het eerlijke moment
 function lightAt(t) {
@@ -220,8 +230,8 @@ function lightAt(t) {
   if (t < T.s4 - 0.5) return 1;
   if (t < T.s5 - 0.5) return 1 - E.inOut(seg(t, T.s4 - 0.5, T.s4 + 0.05));
   if (t < T.s7 - 0.4) return E.inOut(seg(t, T.s5 - 0.5, T.s5 + 0.05));
-  if (t < T.s7 + 4.6) return 1 - E.inOut(seg(t, T.s7 - 0.4, T.s7 + 0.1));
-  return E.inOut(seg(t, T.s7 + 4.6, T.s7 + 5.4));
+  if (t < CUE.dawn) return 1 - E.inOut(seg(t, T.s7 - 0.4, T.s7 + 0.1));
+  return E.inOut(seg(t, CUE.dawn, CUE.dawn + 0.8));
 }
 
 const stage = document.getElementById("stage");
@@ -282,7 +292,7 @@ const vigDay = el("div", { class: "L", style: "background:radial-gradient(ellips
 renders.push((t) => {
   const l = lightAt(t);
   stage.style.background = hexLerp(N.bg, D.bg, l);
-  const tr = `translate(${-40 * Math.sin(t / 30)}px,${-t * 1.3}px)`;
+  const tr = `translate(${-40 * Math.sin(t / 30)}px,${-t * 1.2}px)`;
   contNight.style.transform = tr; contDay.style.transform = tr;
   contNight.style.opacity = (1 - l) * (0.3 + 0.7 * E.out(seg(t, 0, 2.4)));
   contDay.style.opacity = l;
@@ -327,7 +337,7 @@ const GLOBE = (() => {
   g.strokeStyle = "rgba(16,38,44,.14)"; g.lineWidth = 1; g.stroke(new Path2D(MAP.grat));
   for (const c of MAP.globe) {
     const p = new Path2D(c.d);
-    g.fillStyle = c.home ? "#e3bd52" : c.nl ? (isTop(c.nl) ? "#5cc79c" : "#9edcc1") : "#f3ead4";
+    g.fillStyle = c.home ? "#e3bd52" : c.nl ? (isTop(c.nl) ? "#5cc79c" : isRed(c.nl) ? "#d9c7b4" : "#9edcc1") : "#f3ead4";
     g.fill(p); g.strokeStyle = "rgba(16,38,44,.45)"; g.lineWidth = 0.7; g.stroke(p);
   }
   const tex = new THREE.CanvasTexture(cv);
@@ -348,7 +358,7 @@ const GLOBE = (() => {
   const hemi = new THREE.HemisphereLight(0xfff8ea, 0x7f9f98, 0); scene.add(hemi);
   function update(t) {
     const p = E.inOut(seg(t, 0, 6.4));
-    const lon = lerp(-80, 13, p), lat = lerp(18, 46, E.inOut(seg(t, 0.6, 6.4)));
+    const lon = lerp(-80, 15, p), lat = lerp(18, 50, E.inOut(seg(t, 0.6, 6.4)));
     const phi = ((lon + 180) / 180) * Math.PI;
     spin.rotation.y = Math.PI / 2 - phi;
     tilt.rotation.x = (lat * Math.PI) / 180;
@@ -360,7 +370,7 @@ const GLOBE = (() => {
     haloMat.uniforms.k.value = lerp(0.65, 0.4, l);
     // camera: bol rechts, op het einde duik naar Europa
     const push = E.in(seg(t, CUE.push, 8.1));
-    const dist = lerp(6.4, 1.55, E.inOut2(seg(t, CUE.push, 8.1)));
+    const dist = lerp(6.4, 1.5, E.inOut2(seg(t, CUE.push, 8.1)));
     cam.position.set(0, 0, dist); cam.lookAt(0, 0, 0);
     cam.setViewOffset(1920, 1080, lerp(-440, 0, E.inOut(seg(t, CUE.push - 0.4, 7.6))), 0, 1920, 1080);
     cam.updateProjectionMatrix();
@@ -384,6 +394,8 @@ function parseRings(d) {
   if (cur && cur.length > 2) rings.push(cur);
   return rings.map((r) => { const a = r[0], b = r[r.length - 1]; if (a[0] === b[0] && a[1] === b[1]) r.pop(); return r; });
 }
+// Natural Earth-namen van de landen die op vraag van de groep buiten de race staan (voor een stille kleur op de kaart)
+const NE_BUITEN = { "Slovenië": "Slovenia", "Polen": "Poland", "Hongarije": "Hungary", "Roemenië": "Romania", "Albanië": "Albania" };
 const DIO = (() => {
   const scene = new THREE.Scene();
   const cam = new THREE.PerspectiveCamera(32, 16 / 9, 10, 9000);
@@ -391,13 +403,14 @@ const DIO = (() => {
   const sun = new THREE.DirectionalLight(0xfff0d8, 0.95);
   sun.castShadow = true;
   sun.shadow.mapSize.set(2048, 2048);
-  Object.assign(sun.shadow.camera, { left: -1150, right: 1150, top: 800, bottom: -800, near: 10, far: 4000 });
+  Object.assign(sun.shadow.camera, { left: -1250, right: 1250, top: 850, bottom: -850, near: 10, far: 4500 });
   sun.shadow.bias = -0.0006;
   scene.add(hemi, sun, sun.target);
-  const board = new THREE.Mesh(new THREE.BoxGeometry(2000, 30, 1160), new THREE.MeshStandardMaterial({ color: col("#86b9b3"), roughness: 1 }));
+  const board = new THREE.Mesh(new THREE.BoxGeometry(2100, 30, 1240), new THREE.MeshStandardMaterial({ color: col("#86b9b3"), roughness: 1 }));
   board.position.y = -15; board.receiveShadow = true; scene.add(board);
   const lineMat = new THREE.LineBasicMaterial({ color: col("#10262c"), transparent: true, opacity: 0.32 });
   const list = [], by = {};
+  const buitenNE = new Set(Object.values(NE_BUITEN));
   for (const c of MAP.countries) {
     const rings = parseRings(c.d);
     if (!rings.length) continue;
@@ -412,7 +425,7 @@ const DIO = (() => {
     const lg = new THREE.BufferGeometry(); lg.setAttribute("position", new THREE.Float32BufferAttribute(pts, 3));
     const grp = new THREE.Group(); grp.add(mesh, new THREE.LineSegments(lg, lineMat)); scene.add(grp);
     const name = c.nl || (c.home ? "België" : null);
-    const rec = { name, grp, mat, cand: !!c.nl, top: c.nl ? isTop(c.nl) : false, home: !!c.home };
+    const rec = { name, grp, mat, cand: !!c.nl, top: c.nl ? isTop(c.nl) : false, red: c.nl ? isRed(c.nl) : false, home: !!c.home, buiten: buitenNE.has(c.n) };
     list.push(rec); if (name) by[name] = rec;
   }
   // route België → winnaar
@@ -428,14 +441,19 @@ const DIO = (() => {
   tent.rotation.y = Math.PI / 4; tent.castShadow = true; scene.add(tent);
   const tentAt = P(WIN.country, 42 + 16);
 
-  // labels (DOM) per kandidaat
-  const LABEL = { // [dx, dy, anker]
-    "Portugal": [-14, 0, "end"], "Spanje": [14, 0, "start"], "Frankrijk": [14, 0, "start"], "Zwitserland": [-14, 14, "end"],
-    "Duitsland": [14, 0, "start"], "Italië": [-14, 16, "end"], "Oostenrijk": [-14, -12, "end"], "Tsjechië": [14, -6, "start"],
-    "Polen": [14, 0, "start"], "Slowakije": [14, -8, "start"], "Hongarije": [14, 2, "start"], "Slovenië": [-14, 8, "end"],
-    "Kroatië": [-14, 30, "end"], "Bosnië en Herzegovina": [-16, 34, "end"], "Servië": [14, -10, "start"], "Montenegro": [-14, 6, "end"],
-    "Kosovo": [14, -4, "start"], "Albanië": [-14, 18, "end"], "Noord-Macedonië": [14, 12, "start"], "Griekenland": [14, 16, "start"],
-    "Bulgarije": [14, 2, "start"], "Roemenië": [14, 2, "start"], "Turkije": [14, 0, "start"], "Georgië": [-14, -14, "end"],
+  // labels (DOM) per kandidaat: [dx, dy, anker]
+  const LABEL = {
+    "Portugal": [-14, 0, "end"], "Spanje": [14, 10, "start"], "Andorra": [14, 16, "start"], "Frankrijk": [-14, -10, "end"],
+    "Verenigd Koninkrijk": [-14, 20, "end"], "Ierland": [-14, -16, "end"], "IJsland": [14, 0, "start"], "Nederland": [14, -14, "start"],
+    "Luxemburg": [14, 12, "start"], "Duitsland": [14, -4, "start"], "Denemarken": [14, -8, "start"], "Noorwegen": [-14, -6, "end"],
+    "Zweden": [14, -4, "start"], "Finland": [14, 0, "start"], "Estland": [14, -6, "start"], "Letland": [14, 0, "start"],
+    "Litouwen": [-14, 6, "end"], "Zwitserland": [-14, 24, "end"], "Liechtenstein": [14, -16, "start"], "Oostenrijk": [14, 6, "start"],
+    "Tsjechië": [14, -12, "start"], "Slowakije": [14, -8, "start"], "Italië": [-14, 16, "end"], "San Marino": [14, -14, "start"],
+    "Malta": [14, 0, "start"], "Kroatië": [-14, -12, "end"], "Bosnië en Herzegovina": [-14, 12, "end"], "Montenegro": [-14, 16, "end"],
+    "Servië": [14, -16, "start"], "Kosovo": [14, 24, "start"], "Noord-Macedonië": [14, 30, "start"], "Griekenland": [14, 14, "start"],
+    "Bulgarije": [14, -8, "start"], "Cyprus": [14, 0, "start"], "Turkije": [14, 0, "start"], "Moldavië": [14, -8, "start"],
+    "Oekraïne": [14, 0, "start"], "Belarus": [14, -4, "start"], "Rusland": [14, 0, "start"], "Georgië": [-14, -16, "end"],
+    "Armenië": [-14, 16, "end"], "Azerbeidzjan": [14, 8, "start"],
   };
   const labs = {};
   for (const n of pinOrder) {
@@ -445,8 +463,9 @@ const DIO = (() => {
     labs[n] = { w, dot, pill, cfg: LABEL[n] || [14, 0, "start"] };
   }
   const home = el("div", { class: "lab3" }, labLayer, `<div class="pill" style="background:#e3bd52;color:#10262c;transform:translate(-50%,-150%)">thuis</div>`);
-  const canada = el("div", { class: "a mono", style: "left:70px;top:290px;font-size:19px;font-weight:600;color:#10262c" }, labLayer,
-    `<span style="color:#12876a">◀</span> ${C("Canada").country} <span style="font-weight:400;color:#55706a">· over de oceaan</span>`);
+  // doel van de camera in de focus: het zwaartepunt van de top 10
+  const cx = TOP.reduce((s, r) => s + MAP.pts[r.country][0], 0) / TOP.length - 960;
+  const cz = TOP.reduce((s, r) => s + MAP.pts[r.country][1], 0) / TOP.length - 540;
 
   const BASE = 6;
   function heightsS3(t, n, rec) {
@@ -454,19 +473,21 @@ const DIO = (() => {
     const i = pinOrder.indexOf(n);
     const a = CUE.pinA + i * CUE.pinStep;
     const rise = E.back(seg(t, a, a + 0.5));
-    const f = E.inOut(seg(t, CUE.focus, CUE.focus + 0.8));
-    return BASE + 22 * rise + (rec.top ? 38 * f : -10 * f);
+    const sink = rec.red ? E.inOut(seg(t, CUE.red + 0.3, CUE.red + 1.3)) : 0;
+    const f = E.inOut(seg(t, CUE.focus, CUE.focus + 0.9));
+    return BASE + 22 * rise - 20 * sink + (rec.top ? 40 * f : rec.red ? 0 : -10 * f);
   }
   function update(t) {
     const inS3 = t < T.s4 + 1;
     labLayer.style.visibility = "visible";
     if (inS3) {
       const lt = t - T.s3;
-      const f = E.inOut(seg(t, CUE.focus, CUE.focus + 0.8));
-      // camera: van hoog overzicht naar dichter bij Centraal-Europa
-      const p1 = E.inOut(seg(lt, 0, 4.6)), p2 = E.inOut(seg(lt, 4.2, 8.4));
-      const target = lerp3(lerp3([20, 0, 10], [0, 0, 40], p1), [-60, 0, 90], p2);
-      aimCam(cam, target, lerp(lerp(2500, 2250, p1), 1750, p2), lerp(lerp(64, 56, p1), 47, p2), lerp(lerp(-8, -2, p1), 5, p2));
+      const f = E.inOut(seg(t, CUE.focus, CUE.focus + 0.9));
+      const redP = E.inOut(seg(t, CUE.red + 0.3, CUE.red + 1.3));
+      // camera: van hoog overzicht over heel Europa naar het zwaartepunt van de top 10
+      const p1 = E.inOut(seg(lt, 0, 5.2)), p2 = E.inOut(seg(lt, 8.6, 12.6));
+      const target = lerp3(lerp3([40, 0, 20], [0, 0, 60], p1), [cx, 0, cz + 70], p2);
+      aimCam(cam, target, lerp(lerp(2750, 2550, p1), 1950, p2), lerp(lerp(66, 58, p1), 50, p2), lerp(lerp(-6, -2, p1), 4, p2));
       cam.clearViewOffset(); cam.updateProjectionMatrix();
       hemi.intensity = 0.58; hemi.color.set("#fff8ea");
       sun.color.set("#fff0d8"); sun.intensity = 0.85; sun.position.set(-700, 1100, 650); sun.target.position.set(0, 0, 0);
@@ -478,44 +499,51 @@ const DIO = (() => {
         else if (rec.cand) {
           const i = pinOrder.indexOf(rec.name), r = seg(t, CUE.pinA + i * CUE.pinStep, CUE.pinA + i * CUE.pinStep + 0.3);
           c = hexLerp("#e4dac0", "#bfe3cf", r);
-          c = rec.top ? hexLerp(c, "#4fc093", f) : hexLerp(c, "#ddd8c5", f);
-        } else c = hexLerp("#e4dac0", "#e4dcc6", f);
+          if (rec.red) c = hexLerp(c, "#b9a79a", redP);
+          else c = rec.top ? hexLerp(c, "#4fc093", f) : hexLerp(c, "#ddd8c5", f);
+        } else if (rec.buiten) c = "#d9d2bd";
+        else c = hexLerp("#e4dac0", "#e4dcc6", f);
         rec.mat.color.set(c); rec.mat.emissive.set("#000000");
       }
       tube.visible = false; hiker.visible = false; tent.visible = false;
-      // labels
+      // labels: elk label licht kort op als zijn land omhoog komt; de top 10 blijft; de drie rode krijgen hun reden
       for (const n of pinOrder) {
         const L = labs[n], rec = by[n];
         const i = pinOrder.indexOf(n), a = CUE.pinA + i * CUE.pinStep;
         const [x, y] = project(cam, MAP.pts[n][0] - 960, rec.grp.scale.y, MAP.pts[n][1] - 540);
-        const o = clamp(seg(t, a + 0.1, a + 0.35)) * (rec.top ? 1 : 1 - f);
+        let o = clamp(seg(t, a + 0.1, a + 0.35));
+        if (rec.top) o *= 1;
+        else if (rec.red) o *= Math.max(1 - E.inOut(seg(t, a + 1.5, a + 2.1)), E.inOut(seg(t, CUE.red + 0.2 + i * 0.01, CUE.red + 0.6))) * (1 - E.inOut(seg(t, CUE.focus + 1.2, CUE.focus + 1.8)));
+        else o *= 1 - E.inOut(seg(t, a + 1.5, a + 2.1));
         op(L.w, o);
         L.w.style.transform = `translate(${x}px,${y}px)`;
         const [dx, dy, anc] = L.cfg;
         L.pill.style.transform = `translate(${anc === "end" ? "-100%" : "0"},-50%) translate(${dx}px,${dy}px)`;
         const hot = rec.top && f > 0.5;
-        L.pill.style.background = hot ? "#12876a" : "rgba(248,243,230,.92)";
-        L.pill.style.color = hot ? "#f8f3e6" : "#10262c";
+        const redLab = rec.red && t > CUE.red + 0.2;
+        L.pill.style.background = hot ? "#12876a" : redLab ? "#d24a2a" : "rgba(248,243,230,.92)";
+        L.pill.style.color = hot || redLab ? "#f8f3e6" : "#10262c";
         L.pill.style.fontSize = hot ? "20px" : "17px";
-        L.dot.style.background = hot ? "#e3bd52" : "#12876a";
+        L.pill.textContent = redLab ? n + " · alle reizen afgeraden" : n;
+        L.dot.style.background = hot ? "#e3bd52" : redLab ? "#d24a2a" : "#12876a";
       }
       const [hx, hy] = project(cam, MAP.pts["België"][0] - 960, by["België"].grp.scale.y, MAP.pts["België"][1] - 540);
       home.style.transform = `translate(${hx}px,${hy}px)`;
-      op(home, win(lt, 1.0, 8.4, 0.3, 0.3));
-      op(canada, win(lt, 1.2, 8.4, 0.3, 0.3) * (1 - 0.7 * f));
+      op(home, win(lt, 1.0, 12.4, 0.3, 0.3));
     } else {
       // het slot: gouden uur, route van thuis naar de winnaar
       const lt = t - T.s7;
       const rp = E.inOut(seg(t, CUE.route, CUE.routeEnd));
-      const fly = E.inOut2(seg(lt, 4.8, 11.5));
+      const fly = E.inOut2(seg(t, CUE.dawn - 0.4, CUE.routeEnd + 2.4));
       const tA = [MAP.pts["België"][0] - 960 + 60, 0, MAP.pts["België"][1] - 540 + 40];
-      const tB = [MAP.pts[WIN.country][0] - 960 - 70, 20, MAP.pts[WIN.country][1] - 540 - 60];
-      aimCam(cam, lerp3(tA, tB, fly), lerp(1150, 900, fly), lerp(58, 40, fly), lerp(-28, 12, fly));
+      const tB = [(MAP.pts["België"][0] + MAP.pts[WIN.country][0]) / 2 - 960 - 40, 20, (MAP.pts["België"][1] + MAP.pts[WIN.country][1]) / 2 - 540 - 40];
+      const span = Math.hypot(MAP.pts["België"][0] - MAP.pts[WIN.country][0], MAP.pts["België"][1] - MAP.pts[WIN.country][1]);
+      aimCam(cam, lerp3(tA, tB, fly), lerp(1150, Math.max(1150, span * 2.9), fly), lerp(58, 44, fly), lerp(-28, 10, fly));
       cam.setViewOffset(1920, 1080, lerp(120, 380, fly), lerp(0, 20, fly), 1920, 1080);
       cam.updateProjectionMatrix();
       hemi.intensity = 0.55; hemi.color.set("#fff1dc");
       sun.color.set("#ffdcaa"); sun.intensity = 1.0; sun.position.set(-1200, 520, 240); sun.target.position.set(0, 0, 0);
-      const up = E.back(seg(lt, 5.0, 5.8));
+      const up = E.back(seg(t, CUE.dawn + 0.2, CUE.dawn + 1.0));
       for (const rec of list) {
         let h = BASE, c = "#e4dac0", em = "#000000";
         if (rec.name === WIN.country) { h = lerp(BASE, 42, up); c = "#4fc093"; em = hexLerp("#000000", "#0d4a39", up); }
@@ -531,13 +559,12 @@ const DIO = (() => {
       const tp = E.back(seg(t, CUE.routeEnd - 0.2, CUE.routeEnd + 0.4));
       tent.visible = tp > 0.001; tent.scale.setScalar(Math.max(0.001, tp)); tent.position.copy(tentAt);
       for (const n of pinOrder) op(labs[n].w, 0);
-      op(canada, 0);
       const [hx, hy] = project(cam, MAP.pts["België"][0] - 960, 20, MAP.pts["België"][1] - 540);
       home.style.transform = `translate(${hx}px,${hy}px)`;
-      op(home, E.out(seg(lt, 5.2, 5.8)));
+      op(home, E.out(seg(t, CUE.dawn + 0.4, CUE.dawn + 1.0)));
     }
   }
-  function hideLabels() { for (const n of pinOrder) op(labs[n].w, 0); op(home, 0); op(canada, 0); }
+  function hideLabels() { for (const n of pinOrder) op(labs[n].w, 0); op(home, 0); }
   return { scene, cam, update, hideLabels };
 })();
 
@@ -556,10 +583,10 @@ const POD = (() => {
   scene.add(hemi, sun, spot, spot.target);
   const floor = new THREE.Mesh(new THREE.PlaneGeometry(9000, 9000), new THREE.MeshStandardMaterial({ color: col("#ece3cd"), roughness: 1 }));
   floor.rotation.x = -Math.PI / 2; floor.receiveShadow = true; scene.add(floor);
-  const spots = [{ r: R[1], x: -315, rank: 2, c: "#d8cfb6" }, { r: R[0], x: 0, rank: 1, c: "#4fc093" }, { r: R[2], x: 315, rank: 3, c: "#cdbf9c" }];
+  const spots = [{ r: ELIG[1], x: -315, rank: 2, c: "#d8cfb6" }, { r: ELIG[0], x: 0, rank: 1, c: "#4fc093" }, { r: ELIG[2], x: 315, rank: 3, c: "#cdbf9c" }];
   const faces = [];
   const blocks = spots.map((s) => {
-    const h = 130 + (s.r.total - R[2].total) * 130;
+    const h = 130 + (s.r.total - ELIG[2].total) * 130;
     const cv = document.createElement("canvas"); cv.width = 512; cv.height = 512;
     const tex = new THREE.CanvasTexture(cv); tex.encoding = THREE.sRGBEncoding;
     faces.push({ cv, tex, s });
@@ -610,8 +637,9 @@ const POD = (() => {
   const when = { 3: CUE.podium[0], 2: CUE.podium[1], 1: CUE.podium[2] };
   function update(t) {
     const lt = t - T.s6;
-    const orbit = lerp(-9, 7, E.inOut2(seg(lt, 0, 10)));
-    aimCam(cam, [0, 255, 0], lerp(1600, 1440, E.inOut2(seg(lt, 0, 10))), lerp(7, 11, seg(lt, 0, 10)), orbit);
+    const orbit = lerp(-9, 7, E.inOut2(seg(lt, 0, 12)));
+    aimCam(cam, [0, 255, 0], lerp(1600, 1440, E.inOut2(seg(lt, 0, 12))), lerp(7, 11, seg(lt, 0, 12)), orbit);
+    cam.setViewOffset(1920, 1080, lerp(0, -170, E.inOut(seg(t, CUE.rest - 0.3, CUE.rest + 0.6))), 0, 1920, 1080);
     cam.updateProjectionMatrix();
     blocks.forEach((b, i) => {
       const a = when[b.s.rank];
@@ -662,9 +690,9 @@ renders.push((t) => {
     o = E.inOut(seg(t, T.s6 - 0.2, T.s6 + 0.3)) * (1 - E.inOut(seg(t, T.s7 - 0.4, T.s7 + 0.1)));
     op(labLayer, 1);
     renderer.render(POD.scene, POD.cam);
-  } else if (t >= T.s7 + 4.4) {
+  } else if (t >= CUE.dawn - 0.4) {
     DIO.update(t);
-    o = E.inOut(seg(t, T.s7 + 4.4, T.s7 + 5.4));
+    o = E.inOut(seg(t, CUE.dawn - 0.4, CUE.dawn + 0.6));
     op(labLayer, o);
     renderer.render(DIO.scene, DIO.cam);
   }
@@ -764,7 +792,7 @@ renders.push((t) => {
   });
 })();
 
-/* ═════════════ 2 · DE WEGING (8–22 s) — licht ═════════════ */
+/* ═════════════ 2 · DE WEGING (8–21 s) — licht ═════════════ */
 (function () {
   const t0 = T.s2;
   const L = el("div", { class: "L", style: `color:${D.ink}` }, sceneRoot);
@@ -772,7 +800,7 @@ renders.push((t) => {
   const kick = el("div", { class: "a kick", style: `left:140px;top:170px;color:${D.mint}` }, L, "Hoe kies je eerlijk?");
   const big = el("div", { class: "a disp", style: `left:128px;top:222px;font-size:300px;color:${D.ink};transform-origin:0 70%` }, L, String(V.length));
   const bigLab = el("div", { class: "a serif", style: `left:146px;top:500px;font-size:70px;color:${D.mint}` }, L, "vragen per land");
-  const bigSub = el("div", { class: "a mono", style: `left:146px;top:600px;font-size:28px;color:${D.sub};letter-spacing:.04em` }, L, `verdeeld over ${CATS.length} categorieën`);
+  const bigSub = el("div", { class: "a mono", style: `left:146px;top:600px;font-size:28px;color:${D.sub};letter-spacing:.04em` }, L, `verdeeld over ${CATS.length} categorieën · berekend uit ${IND.length} feiten`);
   const hA = el("div", { class: "a serif", style: "left:140px;top:240px;font-size:86px;line-height:1.04;white-space:normal;width:680px" }, L);
   const wA = words(hA, "Niet elke vraag weegt even zwaar.");
   const hB = el("div", { class: "a serif", style: "left:140px;top:240px;font-size:86px;line-height:1.04;white-space:normal;width:680px" }, L);
@@ -787,7 +815,7 @@ renders.push((t) => {
 
   const tilesG = sv("g", {}, svg);
   const maxW = heaviest.weight;
-  const cols = 17, cell = 54, gx = 870, gy = 210;
+  const cols = 16, cell = 56, gx = 880, gy = 220;
   const rnd = mulberry32(7);
   const tiles = V.map((v, i) => ({ v, r: sv("rect", { rx: 3 }, tilesG), gx: gx + (i % cols) * cell + cell / 2, gy: gy + Math.floor(i / cols) * cell + cell / 2, delay: rnd(), jx: rnd(), jy: rnd() }));
   const callG = sv("g", {}, svg);
@@ -802,8 +830,9 @@ renders.push((t) => {
     sv("text", { x: ex + (dx > 0 ? 10 : -10), y: ey + 25, "text-anchor": anc, "font-size": 22, "font-weight": 600, fill: color, "paint-order": "stroke", stroke: D.bg, "stroke-width": 6 }, g, "gewicht " + nl(v.weight, 0));
     return g;
   }
-  const callHeavy = callout(heaviest, -110, -400, D.mint);
-  const callLight = callout(lightest, -170, 130, D.sub);
+  const heavyTile = tiles.find((x) => x.v === heaviest), lightTile = tiles.find((x) => x.v === lightest);
+  const callHeavy = callout(heaviest, heavyTile.gx > 1300 ? -140 : 140, heavyTile.gy > 500 ? -360 : 380, D.mint);
+  const callLight = callout(lightest, lightTile.gx > 1300 ? -160 : 160, lightTile.gy > 500 ? -170 : 150, D.sub);
 
   // rugzak
   const pack = sv("g", {}, svg);
@@ -847,16 +876,16 @@ renders.push((t) => {
     op(L, o);
     if (o <= 0) return;
     const lt = t - t0;
-    L.style.transform = `scale(${1 + 0.02 * seg(lt, 0, 14)})`; L.style.transformOrigin = "960px 540px";
-    inout(kick, lt, 0.1, 13.6, 0.35, 12);
+    L.style.transform = `scale(${1 + 0.02 * seg(lt, 0, 13)})`; L.style.transformOrigin = "960px 540px";
+    inout(kick, lt, 0.1, 12.7, 0.35, 12);
     { const pi = E.back(seg(t, CUE.countA, CUE.countA + 0.45)), po = E.in(seg(lt, 2.7, 3.0)); set(big, clamp(pi * 3) * (1 - po), 0, -po * 40, lerp(1.6, 1, clamp(pi))); }
     inout(bigLab, lt, 0.8, 3.0, 0.35, 24);
     inout(bigSub, lt, 1.3, 3.0, 0.35, 18);
     set(hA, 1 - E.in(seg(lt, 5.6, 5.9)), 0, -E.in(seg(lt, 5.6, 5.9)) * 30); revealWords(wA, lt, 2.9, 0.07, 0.4);
     set(hB, 1 - E.in(seg(lt, 8.3, 8.6)), 0, -E.in(seg(lt, 8.3, 8.6)) * 30); revealWords(wB, lt, 6.0, 0.07, 0.4);
     set(hC, 1); revealWords(wC, lt, 8.7, 0.06, 0.4);
-    inout(subC, lt, 9.9, 15, 0.4, 16);
-    inout(note, lt, 11.3, 15, 0.4, 16);
+    inout(subC, lt, 9.9, 13, 0.4, 16);
+    inout(note, lt, 11.1, 13, 0.4, 16);
     const grow = E.inOut(seg(t, CUE.grow, CUE.grow + 0.7));
     const fly = E.inOut(seg(t, CUE.fly, CUE.fly + 1.2));
     tiles.forEach((k) => {
@@ -897,30 +926,43 @@ renders.push((t) => {
   });
 })();
 
-/* ═════════════ 3 · DE KANDIDATEN (22–30 s) — 3D-diorama ═════════════ */
+/* ═════════════ 3 · DE KANDIDATEN (21–34 s) — 3D-diorama ═════════════ */
 (function () {
   const t0 = T.s3;
   const L = el("div", { class: "L", style: `color:${D.ink}` }, sceneRoot);
   el("div", { class: "L", style: "background:linear-gradient(180deg, rgba(239,231,212,.96) 0%, rgba(239,231,212,.6) 18%, rgba(239,231,212,0) 32%)" }, L);
+  el("div", { class: "L", style: "background:linear-gradient(0deg, rgba(239,231,212,.9) 0%, rgba(239,231,212,.5) 10%, rgba(239,231,212,0) 20%)" }, L);
   const kick = el("div", { class: "a kick", style: `left:140px;top:110px;color:${D.mint}` }, L, "De kandidaten");
   const hA = el("div", { class: "a serif", style: "left:140px;top:146px;font-size:80px" }, L);
-  const wA = words(hA, `${R.length} landen op de kaart.`);
-  wA[0].style.color = D.mint;
+  const wA = words(hA, `Heel Europa op de kaart: ${R.length} landen.`);
+  wA[wA.length - 2].style.color = D.mint;
   const hB = el("div", { class: "a serif", style: "left:140px;top:146px;font-size:80px" }, L);
-  const wB = words(hB, "Tien springen eruit.");
-  wB[0].style.color = D.mint;
+  const wB = words(hB, `${["Nul", "Eén", "Twee", "Drie", "Vier", "Vijf"][RED.length] || RED.length} vallen meteen af.`);
+  wB[0].style.color = D.coral;
+  const hBsub = el("div", { class: "a mono", style: `left:140px;top:250px;font-size:26px;color:${D.coral};font-weight:500` }, L,
+    `${lijst(RED.map((r) => r.country))}: alle reizen afgeraden.`);
+  const hC = el("div", { class: "a serif", style: "left:140px;top:146px;font-size:80px" }, L);
+  const wC = words(hC, "Tien springen eruit.");
+  wC[0].style.color = D.mint;
+  const buiten = el("div", { class: "a mono", style: `left:140px;top:980px;font-size:19px;color:${D.sub};font-weight:500;letter-spacing:.02em` }, L,
+    `Buiten de race op vraag van de groep: ${lijst(BUITEN_GROEP)}. Thuis: België.`);
   renders.push((t) => {
     const lt = t - t0;
     const o = win(t, t0 - 0.05, T.s4, 0.01, 0.5);
     op(L, o);
     if (o <= 0) return;
-    inout(kick, lt, 0.2, 8, 0.35, 10);
-    set(hA, 1 - E.in(seg(lt, 4.2, 4.5)), 0, -E.in(seg(lt, 4.2, 4.5)) * 30); revealWords(wA, lt, 0.3, 0.07, 0.4);
-    set(hB, 1); revealWords(wB, lt, 4.5, 0.07, 0.4);
+    inout(kick, lt, 0.2, 13, 0.35, 10);
+    const outA = E.in(seg(t, CUE.red - 0.3, CUE.red));
+    set(hA, 1 - outA, 0, -outA * 30); revealWords(wA, lt, 0.3, 0.07, 0.4);
+    const outB = E.in(seg(t, CUE.focus - 0.3, CUE.focus));
+    set(hB, 1 - outB, 0, -outB * 30); revealWords(wB, t, CUE.red, 0.07, 0.4);
+    inout(hBsub, t, CUE.red + 0.5, CUE.focus, 0.3, 10);
+    set(hC, 1); revealWords(wC, t, CUE.focus, 0.07, 0.4);
+    inout(buiten, lt, 2.4, 12.8, 0.4, 8);
   });
 })();
 
-/* ═════════════ 4 · DE RACE (30–52 s) — nacht ═════════════ */
+/* ═════════════ 4 · DE RACE (34–56 s) — nacht ═════════════ */
 (function () {
   const t0 = T.s4;
   const L = el("div", { class: "L" }, sceneRoot);
@@ -937,11 +979,22 @@ renders.push((t) => {
   const s0 = RACE[0], s1 = RACE[1], s2 = RACE[2];
   const dj = TOP.map((_, j) => j).reduce((a, j) => (s2.pos[j] - s1.pos[j] > s2.pos[a] - s1.pos[a] ? j : a), 0);
   const dropper = TOP[dj];
-  say(CUE.race[0] + 0.3, CUE.race[1], `Na veiligheid staat <b style="color:${N.mint}">${s0.leader.country}</b> vooraan.`);
-  say(CUE.race[1] + 0.3, CUE.race[2], `Avontuur erbij: <b style="color:${N.mint}">${s1.leader.country}</b> neemt over.`);
+  const keeps = RACE.slice(2).every((s) => s.leader === s2.leader);
+  say(CUE.race[0] + 0.3, CUE.race[1], `Na ${short(s0.c)}: <b style="color:${N.mint}">${s0.leader.country}</b> vooraan.`);
+  say(CUE.race[1] + 0.3, CUE.race[2], s1.leader === s0.leader
+    ? `${short(s1.c)[0].toUpperCase() + short(s1.c).slice(1)} erbij: <b style="color:${N.mint}">${s1.leader.country}</b> blijft vooraan.`
+    : `${short(s1.c)[0].toUpperCase() + short(s1.c).slice(1)} erbij: <b style="color:${N.mint}">${s1.leader.country}</b> neemt over.`);
   say(CUE.race[2] + 0.3, CUE.race[3] + 0.2,
     `Dan komt de rekening.<br><b style="color:${N.coral}">${dropper.country}: ${nl(dropper.categories[s2.c])}</b><br>van plek ${s1.pos[dj] + 1} naar plek ${s2.pos[dj] + 1}.`);
-  say(CUE.race[3] + 0.2, CUE.race[13], `<b style="color:${N.mint}">${s2.leader.country}</b> pakt de leiding.<br>En geeft ze niet meer af.`);
+  // wie neemt daarna nog over? (eerste leiderswissel na de kostprijs)
+  const k1 = RACE.findIndex((s, k) => k > 2 && s.leader !== s2.leader);
+  if (keeps || k1 < 0) {
+    say(CUE.race[3] + 0.2, CUE.race[13], `<b style="color:${N.mint}">${s2.leader.country}</b> ${s2.leader === s1.leader ? "houdt de leiding." : "pakt de leiding."}<br>En geeft ze niet meer af.`);
+  } else {
+    const later = RACE.slice(k1 + 1).some((s) => s.leader !== RACE[k1].leader);
+    say(CUE.race[3] + 0.2, CUE.race[k1], `<b style="color:${N.mint}">${s2.leader.country}</b> ${s2.leader === s1.leader ? "houdt de leiding." : "pakt de leiding."}<br>Maar niet voor lang.`);
+    say(CUE.race[k1] + 0.2, CUE.race[13], `Bij ${short(RACE[k1].c)} neemt <b style="color:${N.mint}">${RACE[k1].leader.country}</b> over.<br>${later ? "En het blijft spannend tot het eind." : "En geeft de leiding niet meer af."}`);
+  }
   say(CUE.finalLabel, T.s5, `Alle ${V.length} vragen gewogen.<br>Dit is de eindstand van de top 10.`, N.soft);
   const finalHead = el("div", { class: "a disp", style: `left:140px;top:340px;font-size:84px;color:${N.mint}` }, L, "Eindstand");
   const stackG = sv("svg", { width: 120, height: 330, style: "position:absolute;left:140px;top:690px;overflow:visible" }, L);
@@ -953,13 +1006,15 @@ renders.push((t) => {
   });
   sv("text", { x: 58, y: 296, "font-size": 15, fill: N.muted }, stackG, "zwaar");
   sv("text", { x: 58, y: 12, "font-size": 15, fill: N.muted }, stackG, "licht");
-  const RX = 700, RY = 172, RH = 78, BX = 1210, BW = 540, CHX = 1000, BASE = 80, TOPV = 97;
+  const RX = 700, RY = 172, RH = 78, BX = 1210, BW = 540, CHX = 1000;
+  const allVals = RACE.flatMap((s) => s.val);
+  const BASE = Math.floor(Math.min(...allVals) / 5) * 5 - 5, TOPV = Math.max(...allVals) + 1;
   const bw = (v) => clamp((v - BASE) / (TOPV - BASE), 0, 1) * BW;
   const rows = TOP.map((r, j) => {
     const row = el("div", { class: "a", style: `left:${RX}px;top:0;width:1120px;height:${RH}px` }, L);
     const plate = el("div", { class: "a", style: `left:-14px;top:6px;width:1110px;height:${RH - 12}px;border-radius:8px` }, row);
     const num = el("div", { class: "a mono", style: `left:0;top:20px;width:40px;text-align:right;font-size:24px;color:${N.muted}` }, row, "");
-    const name = el("div", { class: "a mono", style: "left:64px;top:16px;font-size:31px;font-weight:500" }, row, r.country);
+    const name = el("div", { class: "a mono", style: `left:64px;top:${r.country.length > 12 ? 19 : 16}px;font-size:${r.country.length > 12 ? 24 : 31}px;font-weight:500` }, row, r.country);
     const bar = el("div", { class: "a", style: `left:${BX - RX}px;top:24px;height:28px;border-radius:3px` }, row);
     const chip = el("div", { class: "a disp", style: `left:${CHX - RX}px;width:150px;text-align:right;top:12px;font-size:44px;font-weight:700` }, row, "");
     return { r, j, row, plate, num, name, bar, chip };
@@ -1023,71 +1078,145 @@ renders.push((t) => {
   });
 })();
 
-/* ═════════════ 5 · HET VERGELIJK (52–66 s) — licht ═════════════ */
+/* ═════════════ 5 · HET SPEELVELD (56–69 s) — licht: kost tegen avontuur, alle landen ═════════════ */
 (function () {
   const t0 = T.s5;
   const L = el("div", { class: "L", style: `color:${D.ink}` }, sceneRoot);
-  const kick = el("div", { class: "a kick", style: `left:140px;top:110px;color:${D.mint}` }, L, "De top 10 naast elkaar");
-  const head = el("div", { class: "a serif", style: "left:140px;top:142px;font-size:60px" }, L);
-  const wH = words(head, "Niemand is overal de beste.");
-  const GX = 540, GY = 332, CW = 128, GH = 47;
-  const rowsC = byWeight;
-  const colHead = TOP.map((r, j) => el("div", { class: "a mono", style: `left:${GX + j * CW}px;top:${GY - 40}px;width:${CW}px;text-align:center;font-size:19px;font-weight:600` }, L, r.country));
-  const rowHead = rowsC.map((c, i) => el("div", { class: "a mono", style: `left:140px;top:${GY + i * GH + 11}px;width:380px;font-size:20px;color:${D.sub}` }, L, c));
-  const lo = 55, hi = 99;
-  const cells = [];
-  rowsC.forEach((c, i) => TOP.forEach((r, j) => {
-    const v = r.categories[c];
-    const k = clamp((v - lo) / (hi - lo));
-    const bgc = `rgba(18,135,106,${(0.05 + 0.85 * k * k * k).toFixed(3)})`;
-    const e = el("div", { class: "a", style: `left:${GX + j * CW + 3}px;top:${GY + i * GH + 3}px;width:${CW - 6}px;height:${GH - 6}px;border-radius:4px;background:${bgc};display:flex;align-items:center;justify-content:center` }, L,
-      `<span class="disp" style="font-size:30px;font-weight:700;color:${k > 0.8 ? "#f8f3e6" : D.ink}">${nl(v)}</span>`);
-    const ring = el("div", { class: "a", style: `left:${GX + j * CW}px;top:${GY + i * GH}px;width:${CW}px;height:${GH}px;border-radius:6px;border:3.5px solid ${v === topMax[c] ? "#e0a616" : D.coral}` }, L);
-    cells.push({ e, ring, i, j, c, r, best: v === topMax[c], worst: v === topMin[c] });
-  }));
-  const legend = el("div", { class: "a mono", style: `left:${GX}px;top:${GY + rowsC.length * GH + 14}px;font-size:18px;color:${D.sub}` }, L,
-    `<span style="color:#e0a616">■</span> beste van de tien   <span style="color:${D.coral}">■</span> zwakste van de tien   · zwaarste categorie bovenaan`);
-  const sw = C("Zwitserland"), pt = R[1];
+  const svg = sv("svg", { width: 1920, height: 1080, style: "position:absolute;left:0;top:0;overflow:visible" }, L);
+  const kick = el("div", { class: "a kick", style: `left:140px;top:110px;color:${D.mint}` }, L, "Het speelveld");
+  const head = el("div", { class: "a serif", style: "left:140px;top:146px;font-size:60px;line-height:1.05;white-space:normal;width:420px" }, L);
+  const wH = words(head, "Goedkoop én avontuurlijk?");
+  const XC = "Kostprijs", YA = "Avontuur & activiteiten", YB = "Landschap & wow-factor";
+  const px = (r) => r.categories[XC], py = (r) => (r.categories[YA] + r.categories[YB]) / 2;
+  const PX0 = 600, PX1 = 1780, PY0 = 230, PY1 = 900;
+  const xs = R.map(px), ys = R.map(py);
+  const xmin = Math.floor((Math.min(...xs) - 4) / 10) * 10, xmax = Math.ceil((Math.max(...xs) + 4) / 10) * 10;
+  const ymin = Math.floor((Math.min(...ys) - 4) / 10) * 10, ymax = Math.ceil((Math.max(...ys) + 4) / 10) * 10;
+  const X = (v) => PX0 + ((v - xmin) / (xmax - xmin)) * (PX1 - PX0), Y = (v) => PY1 - ((v - ymin) / (ymax - ymin)) * (PY1 - PY0);
+  const tmin = Math.min(...ELIG.map((r) => r.total)), tmax = Math.max(...ELIG.map((r) => r.total));
+  const rad = (r) => 6 + ((r.total - tmin) / (tmax - tmin)) * 15;
+  // assen
+  const axG = sv("g", {}, svg);
+  const axX = sv("line", { x1: PX0, y1: PY1, x2: PX1, y2: PY1, stroke: D.ink, "stroke-width": 2 }, axG);
+  const axY = sv("line", { x1: PX0, y1: PY1, x2: PX0, y2: PY0, stroke: D.ink, "stroke-width": 2 }, axG);
+  const grid = [];
+  for (let v = xmin; v <= xmax; v += 10) { grid.push(sv("line", { x1: X(v), y1: PY0, x2: X(v), y2: PY1, stroke: "rgba(16,38,44,.1)", "stroke-width": 1 }, axG)); sv("text", { x: X(v), y: PY1 + 28, "text-anchor": "middle", "font-size": 16, fill: D.sub }, axG, String(v)); }
+  for (let v = ymin; v <= ymax; v += 10) { grid.push(sv("line", { x1: PX0, y1: Y(v), x2: PX1, y2: Y(v), stroke: "rgba(16,38,44,.1)", "stroke-width": 1 }, axG)); sv("text", { x: PX0 - 14, y: Y(v) + 6, "text-anchor": "end", "font-size": 16, fill: D.sub }, axG, String(v)); }
+  sv("text", { x: PX1, y: PY1 + 62, "text-anchor": "end", "font-size": 19, "font-weight": 600, fill: D.ink, "letter-spacing": ".08em" }, axG, "KOSTPRIJS-SCORE → GOEDKOPER");
+  sv("text", { x: PX0 - 52, y: PY0 - 2, "text-anchor": "end", "font-size": 19, "font-weight": 600, fill: D.ink, "letter-spacing": ".08em", transform: `rotate(-90 ${PX0 - 52} ${PY0 - 2})` }, axG, "AVONTUUR & LANDSCHAP ↑");
+  // kwadranten
+  const qTL = sv("text", { x: PX0 + 24, y: PY0 + 36, "font-size": 30, fill: D.sub, style: "font-family:var(--serif);font-style:italic" }, svg, "spectaculair, maar duur");
+  const qTR = sv("text", { x: PX1 - 24, y: PY0 + 36, "text-anchor": "end", "font-size": 30, fill: D.sub, style: "font-family:var(--serif);font-style:italic" }, svg, "goedkoop en wild");
+  const qBR = sv("text", { x: PX1 - 24, y: PY1 - 22, "text-anchor": "end", "font-size": 30, fill: D.sub, style: "font-family:var(--serif);font-style:italic" }, svg, "goedkoop, weinig avontuur");
+  const qBL = sv("text", { x: PX0 + 24, y: PY1 - 22, "font-size": 30, fill: D.sub, style: "font-family:var(--serif);font-style:italic" }, svg, "duur, weinig avontuur");
+  // stippen: eerst de laagste in de ranking, de winnaar laatst (bovenop)
+  const dotsG = sv("g", {}, svg);
+  const order = [...R].reverse();
+  const dots = order.map((r, i) => {
+    const g = sv("g", {}, dotsG);
+    const x = X(px(r)), y = Y(py(r)), red = r.status !== "ok", top = isTop(r.country), win = r === WIN;
+    const rr = red ? 7 : rad(r);
+    const c = sv("circle", { cx: x, cy: y, r: rr, fill: red ? "none" : win ? D.ochre : top ? D.mint : "rgba(16,38,44,.28)", stroke: red ? D.coral : "#f8f3e6", "stroke-width": red ? 2 : 2 }, g);
+    if (red) { sv("line", { x1: x - 5, y1: y - 5, x2: x + 5, y2: y + 5, stroke: D.coral, "stroke-width": 2 }, g); sv("line", { x1: x - 5, y1: y + 5, x2: x + 5, y2: y - 5, stroke: D.coral, "stroke-width": 2 }, g); }
+    const ring = sv("circle", { cx: x, cy: y, r: rr + 9, fill: "none", stroke: D.ochre, "stroke-width": 3, opacity: 0 }, g);
+    return { r, g, c, ring, x, y, rr, red, top, win, delay: (R.length - 1 - i) * 0.06 };
+  });
+  // labels: top 10 + de uitersten, met een simpele botsingscorrectie
+  const extremes = new Set([
+    ELIG.reduce((a, b) => (px(b) < px(a) ? b : a)).country, ELIG.reduce((a, b) => (px(b) > px(a) ? b : a)).country,
+    ELIG.reduce((a, b) => (py(b) > py(a) ? b : a)).country, ELIG.reduce((a, b) => (py(b) < py(a) ? b : a)).country,
+  ]);
+  // labels: eerst de winnaar, dan de top 10 op volgorde, dan de uitersten en de rode; elk label zoekt een vrije plek
+  const prio = (d) => (d.win ? 0 : d.top ? 1 + TOP.indexOf(d.r) : d.red ? 30 : 20);
+  const labelled = dots.filter((d) => d.top || extremes.has(d.r.country) || d.red).sort((a, b) => prio(a) - prio(b));
+  const labG = sv("g", {}, svg);
+  const boxes = dots.map((d) => ({ x0: d.x - d.rr - 2, x1: d.x + d.rr + 2, y0: d.y - d.rr - 2, y1: d.y + d.rr + 2 }));
+  const hits = (b) => boxes.some((o) => b.x0 < o.x1 && b.x1 > o.x0 && b.y0 < o.y1 && b.y1 > o.y0) || b.x0 < PX0 - 40 || b.x1 > PX1 + 20 || b.y0 < PY0 - 10 || b.y1 > PY1;
+  const labels = labelled.map((d) => {
+    const fs = d.win ? 22 : 18, w = d.r.country.length * fs * 0.6, h = fs;
+    const g = d.rr + 7;
+    const cands = [
+      [d.x + g, d.y + h * 0.35, "start"], [d.x - g, d.y + h * 0.35, "end"],
+      [d.x, d.y - g - 4, "middle"], [d.x, d.y + g + h, "middle"],
+      [d.x + g, d.y - g, "start"], [d.x - g, d.y - g, "end"], [d.x + g, d.y + g + h * 0.6, "start"], [d.x - g, d.y + g + h * 0.6, "end"],
+    ];
+    let pick = cands[0];
+    for (const c of cands) {
+      const x0 = c[2] === "start" ? c[0] : c[2] === "end" ? c[0] - w : c[0] - w / 2;
+      const b = { x0, x1: x0 + w, y0: c[1] - h, y1: c[1] + 3 };
+      if (!hits(b)) { pick = c; boxes.push(b); break; }
+    }
+    const t = sv("text", { x: pick[0], y: pick[1], "text-anchor": pick[2], "font-size": fs, "font-weight": d.win || d.top ? 600 : 500, fill: d.red ? D.coral : d.win ? D.ochre : d.top ? D.ink : D.sub, "paint-order": "stroke", stroke: D.bg, "stroke-width": 5 }, labG, d.r.country);
+    return { d, t };
+  });
+  const legend = el("div", { class: "a mono", style: `left:${PX0}px;top:${PY1 + 80}px;font-size:18px;color:${D.sub}` }, L,
+    `grootte van de stip = eindscore · <span style="color:${D.mint}">●</span> top 10 · <span style="color:${D.ochre}">●</span> nummer 1 · <span style="color:${D.coral}">✕</span> alle reizen afgeraden`);
+  // focuslijnen (data-gestuurd)
+  const dear = ELIG.filter((r) => px(r) < 45 && py(r) > 70).sort((a, b) => py(b) - py(a)).slice(0, 3);
+  const wild = ELIG.filter((r) => px(r) > 70 && py(r) > 75).sort((a, b) => py(b) - py(a)).slice(0, 3);
+  const SAFE = "Veiligheid & gezondheid", TRANS = "Vervoer";
   const focus = [
-    { r: sw, a: CUE.gridFocus[1], b: CUE.gridFocus[2],
-      html: `<b>${sw.country}</b>: ${bestIn(sw).length}× de beste van de tien… en ${worstIn(sw).length}× de zwakste. Kostprijs: <b style="color:${D.coral}">${nl(sw.categories["Kostprijs"])}</b>.` },
-    { r: WIN, a: CUE.gridFocus[2], b: CUE.gridFocus[3],
-      html: `<b style="color:${D.mint}">${WIN.country}</b>: zelden de beste, nooit diep. Laagste score: <b>${nl(WIN.categories[lowestCat(WIN)])}</b>. Sterk waar het zwaar weegt.` },
-    { r: pt, a: CUE.gridFocus[3], b: T.s6,
-      html: `<b>${pt.country}</b>: nog stabieler (laagste: ${nl(pt.categories[lowestCat(pt)])}), maar minder avontuur: <b>${nl(pt.categories["Avontuur & activiteiten"])}</b>.` },
+    { a: CUE.veld[0], b: CUE.veld[1], sel: () => [], html: `Twee van de ${CATS.length} categorieën. Elke stip is een land. Hoe groter, hoe hoger de eindscore.` },
+    { a: CUE.veld[1], b: CUE.veld[2], sel: () => dear, html: dear.length
+        ? `<b>Spectaculair, maar de rekening:</b> ${lijst(dear.map((r) => r.country))}. ${dear[0].country} scoort op kostprijs <b style="color:${D.coral}">${nl(dear[0].categories[XC])}</b>.`
+        : `Links boven is leeg: niemand is tegelijk heel duur en heel spectaculair.` },
+    { a: CUE.veld[2], b: CUE.veld[3], sel: () => wild, html: wild.length
+        ? `<b>Goedkoop en wild:</b> ${lijst(wild.map((r) => r.country))}. Maar ${short(SAFE)} weegt het zwaarst, en daar scoort ${wild[0].country} <b style="color:${D.coral}">${nl(wild[0].categories[SAFE])}</b>.`
+        : `Rechts boven is leeg: goedkoop en wild gaan zelden samen.` },
+    { a: CUE.veld[3], b: T.s6, sel: () => [WIN], html: `<b style="color:${D.ochre}">${WIN.country}</b>: niet het goedkoopst, niet het wildst. Wel de beste som: ${short(SAFE)} <b>${nl(WIN.categories[SAFE])}</b>, ${short(TRANS)} <b>${nl(WIN.categories[TRANS])}</b>, kamperen <b>${nl(WIN.categories["Kamp"])}</b>.` },
   ];
-  focus.forEach((f) => (f.e = el("div", { class: "a mono", style: `left:140px;top:226px;width:1700px;white-space:normal;font-size:25px;color:${D.ink}` }, L, f.html)));
+  focus.forEach((f) => (f.e = el("div", { class: "a mono", style: `left:140px;top:300px;width:400px;white-space:normal;font-size:25px;line-height:1.45;color:${D.ink}` }, L, f.html)));
   renders.push((t) => {
     const o = win(t, t0 - 0.1, T.s6, 0.01, 0.5);
     op(L, o);
     if (o <= 0) return;
     const lt = t - t0;
-    inout(kick, lt, 0.1, 14, 0.35, 10);
+    inout(kick, lt, 0.1, 13, 0.35, 10);
     set(head, 1); revealWords(wH, lt, 0.2, 0.07, 0.4);
-    colHead.forEach((e, j) => inout(e, lt, 0.5 + j * 0.05, 14.2, 0.3, 12));
-    rowHead.forEach((e, i) => inout(e, lt, 0.6 + i * 0.04, 14.2, 0.3, 0));
-    const marks = E.out(seg(t, CUE.gridFocus[0], CUE.gridFocus[0] + 0.4));
+    const ax = E.out(seg(lt, 0.3, 1.3));
+    axX.setAttribute("x2", lerp(PX0, PX1, ax)); axY.setAttribute("y2", lerp(PY1, PY0, ax));
+    op(axG, E.out(seg(lt, 0.2, 0.6)));
+    grid.forEach((g) => (g.style.opacity = E.out(seg(lt, 0.9, 1.5))));
     let fIdx = -1; focus.forEach((f, i) => { if (t >= f.a) fIdx = i; });
-    const fj = fIdx >= 0 ? TOP.indexOf(focus[fIdx].r) : -1;
-    const fP = fIdx >= 0 ? E.out(seg(t, focus[fIdx].a, focus[fIdx].a + 0.3)) : 0;
-    cells.forEach((c) => {
-      const d = 0.8 + (c.i + c.j) * 0.045;
-      const p = E.out5(seg(lt, d, d + 0.35));
-      const dim = fj >= 0 ? (c.j === fj ? 1 : lerp(1, 0.18, fP)) : 1;
-      set(c.e, p * dim, 0, (1 - p) * 14, lerp(0.85, 1, p) * (fj === c.j ? lerp(1, 1.04, fP) : 1));
-      op(c.ring, (c.best || c.worst ? marks * (fj < 0 || c.j === fj ? 1 : lerp(1, 0.15, fP)) : 0) * p);
+    const sel = fIdx >= 0 ? focus[fIdx].sel() : [];
+    const fP = fIdx >= 0 ? E.out(seg(t, focus[fIdx].a, focus[fIdx].a + 0.35)) : 0;
+    const dimming = sel.length > 0;
+    dots.forEach((d) => {
+      const pin = E.back(seg(t, CUE.veldDots + d.delay, CUE.veldDots + d.delay + 0.4));
+      const inSel = sel.includes(d.r);
+      const dim = dimming ? (inSel ? 1 : lerp(1, 0.22, fP)) : 1;
+      d.g.style.opacity = pin * dim;
+      d.g.style.transformOrigin = `${d.x}px ${d.y}px`;
+      d.g.style.transform = `scale(${Math.max(0.001, pin) * (inSel ? lerp(1, 1.25, fP) : 1)})`;
+      d.ring.setAttribute("opacity", inSel ? fP : 0);
     });
-    colHead.forEach((e, j) => (e.style.color = fj === j && fP > 0.5 ? D.mint : D.ink));
-    op(legend, E.out(seg(t, CUE.gridFocus[0] + 0.2, CUE.gridFocus[0] + 0.6)));
+    labels.forEach(({ d, t: tx }) => {
+      const pin = E.out(seg(t, CUE.veldDots + d.delay + 0.3, CUE.veldDots + d.delay + 0.7));
+      const inSel = sel.includes(d.r);
+      tx.style.opacity = pin * (dimming ? (inSel ? 1 : lerp(1, 0.25, fP)) : 1);
+    });
+    [qTL, qTR, qBR, qBL].forEach((q, i) => (q.style.opacity = win(t, CUE.veld[0] - 0.4 + i * 0.1, T.s6, 0.4, 0.3) * 0.9));
+    op(legend, win(t, CUE.veldDots + 1.6, T.s6, 0.4, 0.3));
     focus.forEach((f) => inout(f.e, t, f.a, f.b, 0.3, 10));
   });
 })();
 
-/* ═════════════ 6 · HET PODIUM (66–76 s) — 3D, licht ═════════════ */
+/* ═════════════ 6 · HET PODIUM (69–81 s) — 3D, licht ═════════════ */
 (function () {
   const L = el("div", { class: "L", style: `color:${D.ink}` }, sceneRoot);
-  const line = el("div", { class: "a serif", style: `left:0;width:1920px;text-align:center;top:950px;font-size:50px;color:${D.ink}` }, L, "Avontuur waar het telt. Geen diepe dalen.");
+  const line = el("div", { class: "a serif", style: `left:0;width:1920px;text-align:center;top:950px;font-size:50px;color:${D.ink}` }, L,
+    `De beste som van ${V.length} vragen. Sterk waar het zwaar weegt.`);
   const flash = el("div", { class: "L", style: "background:radial-gradient(circle at 50% 55%, rgba(255,255,255,.85), rgba(255,255,255,0) 55%)" }, L);
+  // de rest van de top 10, links
+  const rest = el("div", { class: "a", style: "left:110px;top:300px;width:300px" }, L);
+  el("div", { class: "kick", style: `color:${D.mint};font-size:16px;margin-bottom:10px` }, rest, "En daarna");
+  const restRows = ELIG.slice(3, 10).map((r, i) => {
+    const row = el("div", { class: "a", style: `left:0;top:${40 + i * 46}px;width:300px;height:40px;border-bottom:1.5px solid rgba(16,38,44,.14)` }, rest);
+    el("div", { class: "mono", style: `position:absolute;left:0;top:9px;font-size:18px;color:${D.sub}` }, row, String(i + 4));
+    el("div", { class: "mono", style: `position:absolute;left:36px;top:7px;font-size:${r.country.length > 12 ? 17 : 21}px;font-weight:500;color:${D.ink}` }, row, r.country);
+    el("div", { class: "disp", style: `position:absolute;right:0;top:4px;font-size:30px;color:${D.ochre}` }, row, nl(r.total));
+    return row;
+  });
   renders.push((t) => {
     const o = win(t, T.s6 - 0.1, T.s7, 0.01, 0.5);
     op(L, o);
@@ -1095,54 +1224,85 @@ renders.push((t) => {
     const tb = t - CUE.podium[2];
     op(flash, tb >= 0 ? Math.max(0, 1 - tb / 1.0) * 0.9 : 0);
     inout(line, t, CUE.podium[2] + 2.2, T.s7 + 0.2, 0.4, 14);
+    op(rest, E.out(seg(t, CUE.rest, CUE.rest + 0.3)) * (1 - E.in(seg(t, T.s7 - 0.4, T.s7))));
+    restRows.forEach((row, i) => { const p = E.out5(seg(t, CUE.rest + i * 0.12, CUE.rest + 0.4 + i * 0.12)); set(row, p * (1 - E.in(seg(t, T.s7 - 0.4, T.s7))), (1 - p) * -30, 40 + i * 46); });
   });
 })();
 
-/* ═════════════ 7 · EERLIJK IS EERLIJK (76–88 s) ═════════════ */
+/* ═════════════ 7 · EERLIJK IS EERLIJK (81–100 s) ═════════════ */
 (function () {
   const t0 = T.s7;
   const L = el("div", { class: "L" }, sceneRoot);
   const A = el("div", { class: "a", style: "left:0;top:0;width:1920px;height:1080px" }, L);
-  const aKick = el("div", { class: "a kick", style: `left:140px;top:240px;color:${N.sun}` }, A, "Eerlijk is eerlijk");
-  const aBig = el("div", { class: "a disp", style: `left:132px;top:290px;font-size:170px;color:${N.sun}` }, A, "Dit is versie 1.");
-  const aSub = el("div", { class: "a serif", style: "left:140px;top:470px;font-size:50px;line-height:1.15;white-space:normal;width:820px" }, A,
-    "Een eerste kaart. Nog niet elk cijfer is nagetrokken.");
-  const card = el("div", { class: "a", style: "left:1110px;top:230px;width:660px;height:580px;background:#ede6d1;border-radius:6px;color:#0b1d21;box-shadow:0 30px 80px rgba(0,0,0,.45)" }, A);
-  el("div", { class: "a", style: "left:0;top:0;width:660px;height:580px;background:repeating-linear-gradient(180deg, transparent 0 63px, rgba(61,156,127,.28) 63px 65px);border-radius:6px" }, card);
-  el("div", { class: "a", style: "left:70px;top:0;width:2px;height:580px;background:rgba(255,139,102,.55)" }, card);
-  el("div", { class: "a serif", style: "left:100px;top:40px;font-size:40px;font-weight:600;color:#0b1d21" }, card, "Nog uitzoeken:");
-  const ITEMS = ["Waar slaan we onze tenten op?", "Hoe geraken we daar?", "Wat kost het per persoon?", "Wat zegt het reisadvies dan?"];
+  const aKick = el("div", { class: "a kick", style: `left:140px;top:220px;color:${N.sun}` }, A, "Eerlijk is eerlijk");
+  const aBig = el("div", { class: "a disp", style: `left:132px;top:270px;font-size:150px;color:${N.sun}` }, A, `Versie ${DATA.version || 2}.`);
+  const aSub = el("div", { class: "a serif", style: "left:140px;top:430px;font-size:46px;line-height:1.15;white-space:normal;width:760px" }, A,
+    `Elke score is berekend uit ${IND.length} feiten per land. Geen buikgevoel.`);
+  const aSub2 = el("div", { class: "a serif", style: "left:140px;top:430px;font-size:46px;line-height:1.15;white-space:normal;width:760px" }, A,
+    "Een lijst is geen beslissing. Dit moet nog op tafel:");
+  // kaart 1: waar de cijfers vandaan komen
+  const card = el("div", { class: "a", style: "left:990px;top:150px;width:800px;height:780px;background:#ede6d1;border-radius:6px;color:#0b1d21;box-shadow:0 30px 80px rgba(0,0,0,.45);overflow:hidden" }, A);
+  el("div", { class: "a", style: "left:0;top:0;width:800px;height:780px;background:repeating-linear-gradient(180deg, transparent 0 39px, rgba(61,156,127,.22) 39px 41px)" }, card);
+  el("div", { class: "a", style: "left:56px;top:0;width:2px;height:780px;background:rgba(255,139,102,.55)" }, card);
+  el("div", { class: "a serif", style: "left:84px;top:26px;font-size:36px;font-weight:600;color:#0b1d21" }, card, "Waar de cijfers vandaan komen");
+  const groups = [
+    { k: "hoog", t: `${ZEK.hoog} harde feiten`, c: "#12876a", sub: "uit datasets en officiële pagina's" },
+    { k: "midden", t: `${ZEK.midden} afgeleid`, c: "#b47a0a", sub: "uit meerdere bronnen samengebracht" },
+    { k: "laag", t: `${ZEK.laag} geschat`, c: "#d24a2a", sub: "expertoordeel, geen dataset: deze kijken we nog na" },
+  ];
+  const flow = el("div", { class: "a", style: "left:84px;top:88px;width:690px;white-space:normal" }, card);
+  const groupEls = groups.map((g) => {
+    const box = el("div", { style: "position:relative;margin-bottom:14px" }, flow);
+    el("div", { style: `font-family:var(--disp);font-size:34px;color:${g.c};line-height:1;display:inline-block` }, box, g.t);
+    el("div", { class: "mono", style: `font-size:15px;color:#55706a;display:inline-block;margin-left:12px` }, box, g.sub);
+    const chips = el("div", { style: "line-height:1;margin-top:8px" }, box);
+    IND.filter((x) => x.zekerheid === g.k).forEach((x) => el("span", { class: "chip", style: `background:rgba(16,38,44,.06);color:#10262c;border:1.5px solid ${g.c}66;font-size:13.5px;padding:2px 7px;margin:0 5px 6px 0` }, chips, x.naam));
+    return box;
+  });
+  // kaart 2: nog uitzoeken
+  const card2 = el("div", { class: "a", style: "left:1110px;top:230px;width:660px;height:620px;background:#ede6d1;border-radius:6px;color:#0b1d21;box-shadow:0 30px 80px rgba(0,0,0,.45)" }, A);
+  el("div", { class: "a", style: "left:0;top:0;width:660px;height:620px;background:repeating-linear-gradient(180deg, transparent 0 63px, rgba(61,156,127,.28) 63px 65px);border-radius:6px" }, card2);
+  el("div", { class: "a", style: "left:70px;top:0;width:2px;height:620px;background:rgba(255,139,102,.55)" }, card2);
+  el("div", { class: "a serif", style: "left:100px;top:40px;font-size:40px;font-weight:600;color:#0b1d21" }, card2, "Nog uitzoeken:");
+  const ITEMS = ["Welke kampplaats, en is ze vrij?", "Trein, bus of vliegtuig?", "Wat kost het per persoon?", "Het reisadvies vlak voor vertrek", `De ${ZEK.laag} geschatte feiten nakijken`];
   const items = ITEMS.map((txt, i) => {
-    const row = el("div", { class: "a", style: `left:100px;top:${148 + i * 100}px;width:540px;height:70px` }, card);
+    const row = el("div", { class: "a", style: `left:100px;top:${140 + i * 92}px;width:540px;height:70px` }, card2);
     el("div", { class: "a", style: "left:0;top:8px;width:40px;height:40px;border:3px solid #0b1d21;border-radius:5px" }, row);
-    el("div", { class: "a disp", style: "left:60px;top:6px;font-size:44px;color:#0b1d21;font-weight:700;text-transform:none" }, row, txt);
+    el("div", { class: "a disp", style: "left:60px;top:6px;font-size:40px;color:#0b1d21;font-weight:700;text-transform:none" }, row, txt);
     return row;
   });
   const B = el("div", { class: "a", style: `left:0;top:0;width:1920px;height:1080px;color:${D.ink}` }, L);
   el("div", { class: "L", style: "background:linear-gradient(90deg, rgba(239,231,212,0) 52%, rgba(239,231,212,.85) 64%, rgba(239,231,212,.92) 100%)" }, B);
-  const fin = el("div", { class: "a", style: "left:1180px;top:300px;width:700px;white-space:normal" }, B);
+  const fin = el("div", { class: "a", style: "left:1090px;top:300px;width:790px;white-space:normal" }, B);
   const fKick = el("div", { class: "kick", style: `color:${D.mint}` }, fin, "Bovenaan de lijst");
-  const fName = el("div", { class: "disp", style: `font-size:190px;margin-top:16px;color:${D.ink}` }, fin, WIN.country + ".");
+  const nameSize = WIN.country.length <= 7 ? 190 : WIN.country.length <= 10 ? 140 : WIN.country.length <= 13 ? 108 : 96;
+  const fName = el("div", { class: "disp", style: `font-size:${nameSize}px;margin-top:16px;color:${D.ink};line-height:.92` }, fin, WIN.country + ".");
   const fLine = el("div", { class: "serif", style: `font-size:56px;margin-top:22px;color:${D.mint};line-height:1.1` }, fin, "Nu begint het echte plannen.");
-  const credits = el("div", { class: "a mono", style: `left:1186px;width:660px;top:900px;font-size:16px;line-height:1.8;font-weight:500;color:${D.sub};letter-spacing:.12em;white-space:normal` }, B,
-    `SCOUT ATLAS ${YEAR} · VERSIE 1 · DATA VAN ${GEN.toUpperCase()}<br>${R.length} LANDEN · ${V.length} VRAGEN · ${CATS.length} CATEGORIEËN`);
+  const credits = el("div", { class: "a mono", style: `left:1186px;width:680px;top:900px;font-size:15px;line-height:1.8;font-weight:500;color:${D.sub};letter-spacing:.1em;white-space:normal` }, B,
+    `SCOUT ATLAS ${YEAR} · VERSIE ${DATA.version || 2} · DATA VAN ${GEN.toUpperCase()}<br>${R.length} LANDEN · ${V.length} VRAGEN · ${CATS.length} CATEGORIEËN · ${IND.length} FEITEN PER LAND<br>` +
+    `BUITEN DE RACE: ${BUITEN_GROEP.join(", ").toUpperCase()} (OP VRAAG VAN DE GROEP) · ${BUITEN_KLEIN.join(", ").toUpperCase()} (GEEN KAMPPLAATS)`);
   renders.push((t) => {
     const lt = t - t0;
     const o = win(t, t0 - 0.05, T.end + 5, 0.01, 0.01);
     op(L, o);
     if (o <= 0) return;
-    op(A, win(lt, 0.1, 5.2, 0.3, 0.4));
-    inout(aKick, lt, 0.2, 6, 0.35, 10);
-    inout(aBig, lt, 0.4, 6, 0.4, 40);
-    inout(aSub, lt, 1.0, 6, 0.4, 16);
-    const cp = E.out5(seg(lt, 1.2, 1.8));
-    set(card, cp, (1 - cp) * 100, 0, 1, lerp(5, -2.5, cp));
-    items.forEach((r, i) => set(r, E.out5(seg(lt, 1.8 + i * 0.4, 2.2 + i * 0.4)), (1 - E.out5(seg(lt, 1.8 + i * 0.4, 2.2 + i * 0.4))) * -16, 0));
-    op(B, E.out(seg(lt, 4.8, 5.6)));
-    inout(fKick, lt, 6.0, 99, 0.35, 10);
-    inout(fName, lt, 6.3, 99, 0.45, 40);
-    inout(fLine, lt, 8.6, 99, 0.4, 16);
-    inout(credits, lt, 9.6, 99, 0.4, 0);
+    op(A, win(t, t0 + 0.1, CUE.dawn + 0.3, 0.3, 0.4));
+    inout(aKick, lt, 0.2, 99, 0.35, 10);
+    inout(aBig, lt, 0.4, 99, 0.4, 40);
+    const swap = E.inOut(seg(t, CUE.card2 - 0.3, CUE.card2 + 0.1));
+    inout(aSub, lt, 1.0, CUE.card2 - t0 - 0.1, 0.4, 16);
+    inout(aSub2, t, CUE.card2, 99, 0.4, 16);
+    const c1 = E.out5(seg(t, CUE.card1, CUE.card1 + 0.6)) * (1 - E.in(seg(t, CUE.card2 - 0.5, CUE.card2 - 0.1)));
+    set(card, c1, (1 - c1) * 100, 0, 1, lerp(4, -2, c1));
+    groupEls.forEach((g, i) => set(g, E.out5(seg(t, CUE.card1 + 0.5 + i * 0.35, CUE.card1 + 0.9 + i * 0.35)), (1 - E.out5(seg(t, CUE.card1 + 0.5 + i * 0.35, CUE.card1 + 0.9 + i * 0.35))) * -16, 0));
+    const c2 = E.out5(seg(t, CUE.card2, CUE.card2 + 0.6));
+    set(card2, c2, (1 - c2) * 100, 0, 1, lerp(5, -2.5, c2));
+    items.forEach((r, i) => set(r, E.out5(seg(t, CUE.card2 + 0.5 + i * 0.3, CUE.card2 + 0.9 + i * 0.3)), (1 - E.out5(seg(t, CUE.card2 + 0.5 + i * 0.3, CUE.card2 + 0.9 + i * 0.3))) * -16, 0));
+    op(B, E.out(seg(t, CUE.dawn, CUE.dawn + 0.8)));
+    inout(fKick, t, CUE.dawn + 1.2, 999, 0.35, 10);
+    inout(fName, t, CUE.dawn + 1.5, 999, 0.45, 40);
+    inout(fLine, t, CUE.routeEnd, 999, 0.4, 16);
+    inout(credits, t, CUE.routeEnd + 1.0, 999, 0.4, 0);
   });
 })();
 
@@ -1184,7 +1344,7 @@ function buildScore() {
   for (let t = T.s2; t < T.s3; t += 4) pad(t, 4, PROG[chordAt(t)], 0.045, 0.9);
   for (let t = T.s2; t < T.s3 - 0.1; t += 1) kick(t, 0.45);
   for (let t = T.s2 + 0.5; t < T.s3 - 0.1; t += 1) hat(t, 0.05);
-  kick(CUE.countA, 0.7); pluck(CUE.countA, 62, 0.08, 0, 0.6, 1.0); // 188 slaat in
+  kick(CUE.countA, 0.7); pluck(CUE.countA, 62, 0.08, 0, 0.6, 1.0); // het aantal vragen slaat in
   for (let t = CUE.countA + 0.1; t < CUE.countB; t += 0.05) tick(t, 0.05, 2200 + (t - CUE.countA) * 900); // tegels verschijnen
   [62, 65, 69, 74].forEach((m, i) => pluck(CUE.grow + i * 0.08, m, 0.06, 0, 0.5, 0.5));
   whoosh(CUE.fly - 0.1, 1.1, 0.18, false);
@@ -1198,9 +1358,14 @@ function buildScore() {
   for (let t = T.s3; t < T.s4 - 0.1; t += 1) kick(t, 0.45);
   for (let t = T.s3 + 0.5; t < T.s4 - 0.1; t += 0.5) hat(t, 0.045, false, t % 1 ? 0.3 : -0.3);
   const penta = [62, 65, 67, 69, 72, 74, 77, 79, 81, 84];
-  pinOrder.forEach((n, i) => pluck(CUE.pinA + i * CUE.pinStep, penta[i % penta.length] - (i >= 10 ? 12 : 0), 0.055, (MAP.pts[n][0] - 960) / 960, 0.5, 0.5));
+  pinOrder.forEach((n, i) => pluck(CUE.pinA + i * CUE.pinStep, penta[i % penta.length] - (i % 20 >= 10 ? 12 : 0), 0.045, (MAP.pts[n][0] - 960) / 960, 0.5, 0.45));
+  // drie vallen af: een lage klap en drie dalende tonen
+  boom(CUE.red, 0.45);
+  pad(CUE.red, 2.6, [46, 49, 53, 58], 0.04, 0.7);
+  [57, 53, 50].forEach((m, i) => pluck(CUE.red + 0.35 + i * 0.3, m, 0.09, (i - 1) * 0.5, 0.6, 1.2));
   whoosh(CUE.focus - 0.2, 0.8, 0.16, false);
   [69, 74, 78].forEach((m) => pluck(CUE.focus + 0.2, m, 0.06, 0, 0.8, 1.6));
+  TOP.forEach((r, i) => pluck(CUE.focus + 0.25 + i * 0.07, 74 + [0, 2, 4, 7, 9][i % 5], 0.04, (MAP.pts[r.country][0] - 960) / 960, 0.6, 0.6));
   riser(T.s4 - 1.8, T.s4, 0.3);
   // 4 · de race (volle groove)
   boom(T.s4, 0.6);
@@ -1221,14 +1386,15 @@ function buildScore() {
   boom(CUE.race[13], 0.6);
   pad(CUE.race[13], 3.2, [50, 57, 62, 65, 69], 0.04, 1.8);
   riser(T.s5 - 1.6, T.s5, 0.2);
-  // 5 · het vergelijk (lichter)
+  // 5 · het speelveld (lichter)
   for (let t = T.s5; t < T.s6; t += 4) pad(t, 4, PROG[chordAt(t)], 0.05, 0.8);
   for (let t = T.s5; t < T.s6 - 0.1; t += 0.5) hat(t + 0.25, 0.045);
   for (let t = T.s5; t < T.s6 - 0.1; t += 1) kick(t, 0.32);
   for (let t = T.s5; t < T.s6 - 0.1; t += 0.25) { const i = Math.round((t - T.s5) / 0.25); pluck(t, PROG[chordAt(t)][[0, 2, 1, 3][i % 4]] + 12, 0.025, i % 2 ? 0.5 : -0.5, 0.5, 0.3); }
   for (let t = T.s5; t < T.s6 - 0.1; t += 0.5) bass(t, 0.45, ROOT[chordAt(t)], 0.08);
-  for (let i = 0; i < 40; i++) tick(T.s5 + 0.8 + i * 0.045, 0.025, 1800 + i * 40);
-  CUE.gridFocus.forEach((t, i) => { pluck(t, [74, 77, 81, 78][i], 0.08, 0, 0.8, 1.3); whoosh(t - 0.15, 0.3, 0.07); });
+  R.forEach((r, i) => tick(CUE.veldDots + (R.length - 1 - i) * 0.06, 0.03, 1500 + i * 30)); // elke stip een tik, hoog voor de top
+  CUE.veld.forEach((t, i) => { pluck(t, [74, 77, 81, 78][i], 0.08, 0, 0.8, 1.3); whoosh(t - 0.15, 0.3, 0.07); });
+  pad(CUE.veld[3], 2.4, [50, 57, 62, 66], 0.04, 1.4);
   // 6 · het podium: roffel, klap, D-groot
   boom(T.s6, 0.45);
   pad(T.s6, 2, [46, 50, 53, 58], 0.05, 1.2);
@@ -1244,13 +1410,17 @@ function buildScore() {
   for (let t = CUE.podium[2]; t < T.s7 - 0.6; t += 0.25) bass(t, 0.22, 38, 0.12);
   [74, 78, 81, 86, 90].forEach((m, i) => pluck(CUE.podium[2] + 0.05 + i * 0.07, m, 0.07, (i - 2) * 0.3, 0.9, 1.6));
   for (let t = CUE.podium[2] + 1; t < T.s7 - 0.6; t += 0.125) { const i = Math.round((t - CUE.podium[2]) / 0.125); pluck(t, [62, 66, 69, 74][i % 4] + 12, 0.028, i % 2 ? 0.5 : -0.5, 0.4, 0.2); }
+  for (let i = 0; i < 7; i++) tick(CUE.rest + i * 0.12, 0.04, 2400 + i * 120);
   // 7 · eerlijk is eerlijk: rustig, dan het slotakkoord
   pad(T.s7, 3, [46, 50, 53, 58], 0.045, 0.8);
-  pad(T.s7 + 2.6, 2.4, [41, 48, 53, 57], 0.045, 0.8);
+  pad(T.s7 + 2.6, 3.2, [41, 48, 53, 57], 0.045, 0.8);
+  pad(CUE.card2, 3.6, [46, 50, 53, 58], 0.045, 0.8);
   [69, 67, 65, 62].forEach((m, i) => pluck(T.s7 + 1.8 + i * 0.4, m, 0.06, (i - 1.5) * 0.3, 0.7, 1.2));
-  riser(T.s7 + 3.8, T.s7 + 5.0, 0.15);
-  boom(T.s7 + 5.0, 0.5);
-  pad(T.s7 + 5.0, 1.8, [48, 52, 55, 60], 0.05, 1.0);
+  for (let i = 0; i < 3; i++) pluck(CUE.card1 + 0.6 + i * 0.35, [62, 65, 69][i], 0.05, 0.4, 0.6, 0.8);
+  for (let i = 0; i < 5; i++) tick(CUE.card2 + 0.6 + i * 0.3, 0.05, 2000);
+  riser(CUE.dawn - 1.2, CUE.dawn, 0.15);
+  boom(CUE.dawn, 0.5);
+  pad(CUE.dawn, 1.8, [48, 52, 55, 60], 0.05, 1.0);
   pad(CUE.routeEnd - 0.4, T.end - CUE.routeEnd + 0.2, [38, 50, 54, 57, 62, 66, 69], 0.06, 1.5);
   for (let t = CUE.route; t < CUE.routeEnd; t += 0.25) pluck(t, [62, 66, 69, 74, 78, 74, 69, 66][Math.round((t - CUE.route) / 0.25) % 8], 0.035, 0.3, 0.6, 0.4);
   [74, 78, 81, 86].forEach((m, i) => pluck(CUE.routeEnd - 0.2 + i * 0.12, m, 0.07, (i - 1.5) * 0.3, 1.0, 2.5));
@@ -1604,6 +1774,7 @@ document.fonts.ready.then(() => {
   if (qs.has("t")) { startEl.classList.add("gone"); seek(parseFloat(qs.get("t"))); }
   if (qs.has("play")) play();
   requestAnimationFrame(loop);
+  document.body.dataset.ready = "1";
 });
 </script>
 </body>
