@@ -31,7 +31,8 @@ Drie keer een andere winnaar. Daarom is deze versie eerst een **dataproject** en
 | 5 | 1:18–1:46 | **De race** | nacht | Top 10, categorie per categorie, zwaarste eerst. Tussenstand en volgorde kloppen met elkaar (les uit v3). De teksten (wie leidt, wie zakt) komen uit de data. | — (2D, groot) |
 | 6 | 1:46–2:04 | **De ruimte** | dag | Een 3D-ruimte met drie assen: kostprijs, avontuur, kamperen. Elk land is een bol, grootte = eindscore. De camera draait; de winnaar zit in de goede hoek. Dan kijkt de camera recht van voren: kost × avontuur, met de kwadranten "goedkoop en wild", "spectaculair maar duur". | 3D-puntenwolk |
 | 7 | 2:04–2:20 | **Het podium** | dag | 3D-podium, top 3 met eindscore en hun sterkste en zwakste categorie; confetti; "won X van 10 rondes"; plaatsen 4–10 ernaast. | podium |
-| 8 | 2:20–2:45 | **De bestemming** | gouden uur | Route van België naar de winnaar over het diorama; de tent staat op. "Nu begint het echte plannen": kampplaats, vervoer, budget, reisadvies vlak voor vertrek. Aftiteling met de cijfers van het onderzoek. Daarna opent de verkenner. | diorama + route |
+| 8 | 2:20–2:58 | **Het kamp daar** | dag | De kamptafel (3D, hout, kaart, kompas): polaroids van de winnaar liggen klaar. Per activiteit komt er één omhoog: titel, plek, de variabele met gemeten waarde, de score en de plaats onder de landen, de bron en de fotomaker. Daarna de slaapplaats (kampterreinen met naam) en de troef van nummer 2 en 3. Zonder kampbeeld toont de film de sterkste variabelen met een getekend kaartje. | kamptafel |
+| 9 | 2:58–3:24 | **De bestemming** | gouden uur | Route van België naar de winnaar over het diorama; de tent staat op. "Nu begint het echte plannen": kampplaats, vervoer, budget, reisadvies vlak voor vertrek. Aftiteling met de cijfers van het onderzoek. Daarna opent de verkenner. | diorama + route |
 
 ## Beeldtaal
 

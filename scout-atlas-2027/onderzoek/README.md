@@ -11,6 +11,10 @@ Drie eerdere versies gaven drie verschillende winnaars. Daarom is de data in dez
 - `MODEL.md`: de uitleg en de keuzes, geschreven door de ontwerpagent (Sonnet).
 - Tiers: **tier 1** kostprijs en avontuur (50 %), **tier 2** kamperen (22 %), **tier 3** de rest (28 %). Geen variabele onder 1,2 %.
 - `node valideer-model.mjs` controleert de structuur en de gewichten.
+- `referenties-kamperen.json` (+ `REFERENTIES-KAMPEREN.md`): één grondig referentieonderzoek (Sonnet) naar de wet op vrij kamperen,
+  de zomerregels voor vuur en de kampterreinen per land, met bronnen. De rondes zoeken dat niet elke keer opnieuw (de agents delen één
+  zoekbudget, dat was telkens op): ze krijgen de bronnen in hun opdracht, openen ze zelf en bepalen zelf het niveau.
+  `node valideer-referenties.mjs` controleert het bestand.
 
 ## Eén ronde (`rondes/rNN/`)
 
@@ -45,6 +49,13 @@ en hoeveel rondes de winnaar won.
 De film en de verkenner lezen uitsluitend `bron/scout-atlas-2027-data.json`; `bron/controle.mjs` herberekent daaruit onafhankelijk elke
 score, categoriescore, eindscore en rang.
 
+## Het kampbeeld (`kampbeeld/`)
+
+Na de consensus schrijft `node kampbeeld-opdrachten.mjs` per land uit de top 3 een opdracht: concrete activiteiten (elk aan één variabele
+en één plek gehangen, met bron), kampplaatsen met URL, en foto's van Wikimedia Commons onder vrije licentie (met maker). Eén Sonnet-agent
+per land schrijft `bron/kampbeeld/<iso2>.json` en de foto's in `bron/foto/`; `node valideer-kampbeeld.mjs <iso2>` controleert licenties,
+bestanden, afmetingen en de koppeling aan de variabelen. De film (hoofdstuk 8) en de verkenner (tabblad "Het kamp daar") lezen dat.
+
 ## Bestanden
 
 | Bestand | Wat |
@@ -57,3 +68,6 @@ score, categoriescore, eindscore en rang.
 | `merge-pakketten.mjs` | pakketten → `feiten.json` |
 | `scoor.mjs` | `feiten.json` → `scores.json` |
 | `consensus.mjs` | alle rondes → data-JSON van de film + `CONSENSUS.md` |
+| `valideer-referenties.mjs` | controle van `model/referenties-kamperen.json` |
+| `kampbeeld-opdrachten.mjs` | opdrachten voor het kampbeeld van de top 3 |
+| `valideer-kampbeeld.mjs` | controle van `bron/kampbeeld/<iso2>.json` en de foto's |

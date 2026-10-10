@@ -1,0 +1,1995 @@
+{
+  "ronde": 8,
+  "pakket": "p01",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "kost_voeding": {
+        "waarde": 56.6,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 101.5 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 47.5."
+      },
+      "kost_kampplaats": {
+        "waarde": 23.97,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 85.9,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 80.6,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Spanje": {
+      "kost_voeding": {
+        "waarde": 53.1,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 95.2 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 51.9."
+      },
+      "kost_kampplaats": {
+        "waarde": 34.82,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 94.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 81.5,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Andorra": {
+      "kost_voeding": {
+        "waarde": 57.2,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Afgeleid van ES/FR (Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100))",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor Andorra; waarde = gemiddelde van ES en FR (regel 'ontbreekt in bron'). Zekerheid laag."
+      },
+      "kost_kampplaats": {
+        "waarde": 30.62,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Afgeleid van ES/FR (camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh))",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor Andorra; waarde = gemiddelde van ES en FR (regel 'ontbreekt in bron'). Zekerheid laag."
+      },
+      "kost_activiteiten": {
+        "waarde": 100.0,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Afgeleid van ES/FR (Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100))",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor Andorra; waarde = gemiddelde van ES en FR (regel 'ontbreekt in bron'). Zekerheid laag."
+      },
+      "kost_vervoer": {
+        "waarde": 98.9,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Afgeleid van ES/FR (Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100))",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor Andorra; waarde = gemiddelde van ES en FR (regel 'ontbreekt in bron'). Zekerheid laag."
+      }
+    },
+    "Frankrijk": {
+      "kost_voeding": {
+        "waarde": 61.4,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 110.1 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 73.8."
+      },
+      "kost_kampplaats": {
+        "waarde": 26.42,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 105.7,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 116.3,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "kost_voeding": {
+        "waarde": 64.8,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Numbeo, Cost of Living Index by Country 2026 Mid-Year (Groceries Index)",
+          "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026-mid",
+          "jaar": "2026-mid"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Niet in Eurostat A0101; Numbeo 2026-mid Groceries Index direct gebruikt (eerste bron)."
+      },
+      "kost_kampplaats": {
+        "waarde": 26.52,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 109.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A0109",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "OECD (tweede bron, enkel GB) gaf 403; Eurostat dekt het VK niet. Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL GB = 68.2 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): DE: waarde 107.0, CoL 68.0; FI: waarde 124.2, CoL 68.5; FR: waarde 105.7, CoL 66.9; AT: waarde 118.3, CoL 70.8; IE: waarde 113.4, CoL 70.8; mediaan(waarde÷CoL) = 1.6017, x 68.2."
+      },
+      "kost_vervoer": {
+        "waarde": 118.6,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A010703",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL GB = 68.2 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): DE: waarde 118.7, CoL 68.0; FI: waarde 141.2, CoL 68.5; FR: waarde 116.3, CoL 66.9; AT: waarde 118.2, CoL 70.8; IE: waarde 115.1, CoL 70.8; mediaan(waarde÷CoL) = 1.7384, x 68.2."
+      }
+    },
+    "Ierland": {
+      "kost_voeding": {
+        "waarde": 63.8,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 114.5 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 70.6."
+      },
+      "kost_kampplaats": {
+        "waarde": 25.56,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 113.4,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 115.1,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "IJsland": {
+      "kost_voeding": {
+        "waarde": 80.2,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 143.9 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 106.3."
+      },
+      "kost_kampplaats": {
+        "waarde": 24.81,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 154.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 169.6,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Nederland": {
+      "kost_voeding": {
+        "waarde": 55.1,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 98.9 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 67.4."
+      },
+      "kost_kampplaats": {
+        "waarde": 25.59,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 112.4,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 118.4,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Luxemburg": {
+      "kost_voeding": {
+        "waarde": 69.6,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 124.8 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 78.1."
+      },
+      "kost_kampplaats": {
+        "waarde": 27.95,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting. Bedrag is identiek aan het andere land (27,95); niet onafhankelijk gecontroleerd (origineel camping.info 403)."
+      },
+      "kost_activiteiten": {
+        "waarde": 116.8,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 98.4,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Duitsland": {
+      "kost_voeding": {
+        "waarde": 57.2,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 102.7 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 64.6."
+      },
+      "kost_kampplaats": {
+        "waarde": 30.27,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 107.0,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 118.7,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Denemarken": {
+      "kost_voeding": {
+        "waarde": 67.0,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 120.2 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 74.3."
+      },
+      "kost_kampplaats": {
+        "waarde": 34.35,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 136.7,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 159.9,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Noorwegen": {
+      "kost_voeding": {
+        "waarde": 73.1,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 131.2 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 89.4."
+      },
+      "kost_kampplaats": {
+        "waarde": 27.29,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 138.5,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 161.6,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Zweden": {
+      "kost_voeding": {
+        "waarde": 59.3,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 106.4 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 67.5."
+      },
+      "kost_kampplaats": {
+        "waarde": 27.19,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 118.0,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 144.1,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Finland": {
+      "kost_voeding": {
+        "waarde": 61.2,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 109.8 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 69.3."
+      },
+      "kost_kampplaats": {
+        "waarde": 27.95,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting. Bedrag is identiek aan het andere land (27,95); niet onafhankelijk gecontroleerd (origineel camping.info 403)."
+      },
+      "kost_activiteiten": {
+        "waarde": 124.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 141.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Estland": {
+      "kost_voeding": {
+        "waarde": 59.2,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 106.2 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 55.3."
+      },
+      "kost_kampplaats": {
+        "waarde": 21.16,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 102.1,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 97.9,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Letland": {
+      "kost_voeding": {
+        "waarde": 58.8,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 105.4 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 48.4."
+      },
+      "kost_kampplaats": {
+        "waarde": 20.54,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 91.5,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 71.5,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Litouwen": {
+      "kost_voeding": {
+        "waarde": 56.4,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 101.2 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 47.1."
+      },
+      "kost_kampplaats": {
+        "waarde": 22.43,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 82.1,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 77.4,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Zwitserland": {
+      "kost_voeding": {
+        "waarde": 88.4,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 158.5 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 109.5."
+      },
+      "kost_kampplaats": {
+        "waarde": 40.68,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 160.6,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 151.7,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Liechtenstein": {
+      "kost_voeding": {
+        "waarde": 88.4,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Afgeleid van CH (Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100))",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor Liechtenstein; waarde = gelijk aan Zwitserland (CH) (regel 'ontbreekt in bron'). Zekerheid laag."
+      },
+      "kost_kampplaats": {
+        "waarde": 40.68,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Afgeleid van CH (camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh))",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor Liechtenstein; waarde = gelijk aan Zwitserland (CH) (regel 'ontbreekt in bron'). Zekerheid laag."
+      },
+      "kost_activiteiten": {
+        "waarde": 160.6,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Afgeleid van CH (Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100))",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor Liechtenstein; waarde = gelijk aan Zwitserland (CH) (regel 'ontbreekt in bron'). Zekerheid laag."
+      },
+      "kost_vervoer": {
+        "waarde": 151.7,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Afgeleid van CH (Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100))",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor Liechtenstein; waarde = gelijk aan Zwitserland (CH) (regel 'ontbreekt in bron'). Zekerheid laag."
+      }
+    },
+    "Oostenrijk": {
+      "kost_voeding": {
+        "waarde": 61.6,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 110.5 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 72.1."
+      },
+      "kost_kampplaats": {
+        "waarde": 40.56,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 118.3,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 118.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Tsjechië": {
+      "kost_voeding": {
+        "waarde": 49.6,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 89.0 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 50.7."
+      },
+      "kost_kampplaats": {
+        "waarde": 20.15,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 84.4,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 73.6,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Slowakije": {
+      "kost_voeding": {
+        "waarde": 46.5,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 83.4 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 50.0."
+      },
+      "kost_kampplaats": {
+        "waarde": 22.9,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 81.7,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 91.0,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Italië": {
+      "kost_voeding": {
+        "waarde": 56.7,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 101.7 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 63.8."
+      },
+      "kost_kampplaats": {
+        "waarde": 41.21,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 93.9,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 84.8,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "San Marino": {
+      "kost_voeding": {
+        "waarde": 56.7,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Afgeleid van IT (Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100))",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor San Marino; waarde = gelijk aan Italië (IT) (regel 'ontbreekt in bron'). Zekerheid laag."
+      },
+      "kost_kampplaats": {
+        "waarde": 41.21,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Afgeleid van IT (camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh))",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor San Marino; waarde = gelijk aan Italië (IT) (regel 'ontbreekt in bron'). Zekerheid laag."
+      },
+      "kost_activiteiten": {
+        "waarde": 93.9,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Afgeleid van IT (Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100))",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor San Marino; waarde = gelijk aan Italië (IT) (regel 'ontbreekt in bron'). Zekerheid laag."
+      },
+      "kost_vervoer": {
+        "waarde": 84.8,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Afgeleid van IT (Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100))",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen bron voor San Marino; waarde = gelijk aan Italië (IT) (regel 'ontbreekt in bron'). Zekerheid laag."
+      }
+    },
+    "Malta": {
+      "kost_voeding": {
+        "waarde": 62.5,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 112.2 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 57.2."
+      },
+      "kost_kampplaats": {
+        "waarde": 27.53,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL MT = 56.9 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): EE: waarde 21.16, CoL 59.4; GR: waarde 25.79, CoL 53.3; IT: waarde 41.21, CoL 61.3; CZ: waarde 20.15, CoL 52.0; ES: waarde 34.82, CoL 51.4; mediaan(waarde÷CoL) = 0.4839, x 56.9."
+      },
+      "kost_activiteiten": {
+        "waarde": 94.5,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 89.8,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Kroatië": {
+      "kost_voeding": {
+        "waarde": 57.8,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 103.7 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 49.7."
+      },
+      "kost_kampplaats": {
+        "waarde": 41.26,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 86.3,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 87.0,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "kost_voeding": {
+        "waarde": 46.4,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 83.2 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 39.3."
+      },
+      "kost_kampplaats": {
+        "waarde": 19.37,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 75.7,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 118.4,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100. Waarde 118,4 is opvallend hoog voor een goedkoop land; ongecorrigeerd overgenomen."
+      }
+    },
+    "Montenegro": {
+      "kost_voeding": {
+        "waarde": 47.0,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 84.4 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 40.7."
+      },
+      "kost_kampplaats": {
+        "waarde": 20.84,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL ME = 42.8 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): RS: waarde 20.69, CoL 42.5; BG: waarde 21.06, CoL 42.0; TR: waarde 15.04, CoL 40.2; BA: waarde 19.37, CoL 38.3; SK: waarde 22.9, CoL 48.5; mediaan(waarde÷CoL) = 0.4868, x 42.8."
+      },
+      "kost_activiteiten": {
+        "waarde": 75.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 72.0,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Servië": {
+      "kost_voeding": {
+        "waarde": 53.7,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 96.4 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 39.8."
+      },
+      "kost_kampplaats": {
+        "waarde": 20.69,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 74.9,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 77.4,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Kosovo": {
+      "kost_voeding": {
+        "waarde": 35.1,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Numbeo, Cost of Living Index by Country 2026 Mid-Year (Groceries Index)",
+          "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026-mid",
+          "jaar": "2026-mid"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Niet in Eurostat A0101; Numbeo 2026-mid Groceries Index direct gebruikt (eerste bron)."
+      },
+      "kost_kampplaats": {
+        "waarde": 15.64,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL XK = 31.2 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 18.53, CoL 34.6; BA: waarde 19.37, CoL 38.3; TR: waarde 15.04, CoL 40.2; BG: waarde 21.06, CoL 42.0; RS: waarde 20.69, CoL 42.5; mediaan(waarde÷CoL) = 0.5014, x 31.2."
+      },
+      "kost_activiteiten": {
+        "waarde": 55.0,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A0109",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL XK = 31.2 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 62.6, CoL 34.6; BA: waarde 75.7, CoL 38.3; TR: waarde 54.2, CoL 40.2; BG: waarde 68.2, CoL 42.0; RS: waarde 74.9, CoL 42.5; mediaan(waarde÷CoL) = 1.7624, x 31.2."
+      },
+      "kost_vervoer": {
+        "waarde": 49.8,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A010703",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL XK = 31.2 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 55.2, CoL 34.6; BA: waarde 118.4, CoL 38.3; TR: waarde 63.5, CoL 40.2; BG: waarde 57.2, CoL 42.0; RS: waarde 77.4, CoL 42.5; mediaan(waarde÷CoL) = 1.5954, x 31.2."
+      }
+    },
+    "Noord-Macedonië": {
+      "kost_voeding": {
+        "waarde": 40.9,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 73.4 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 34.6."
+      },
+      "kost_kampplaats": {
+        "waarde": 18.53,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 62.6,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 55.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Griekenland": {
+      "kost_voeding": {
+        "waarde": 59.0,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 105.8 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 51.7."
+      },
+      "kost_kampplaats": {
+        "waarde": 25.79,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 86.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 89.5,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Bulgarije": {
+      "kost_voeding": {
+        "waarde": 49.5,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 88.8 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 44.0."
+      },
+      "kost_kampplaats": {
+        "waarde": 21.06,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 68.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 57.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Cyprus": {
+      "kost_voeding": {
+        "waarde": 58.4,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 104.7 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 54.5."
+      },
+      "kost_kampplaats": {
+        "waarde": 27.77,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL CY = 57.4 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): EE: waarde 21.16, CoL 59.4; IT: waarde 41.21, CoL 61.3; GR: waarde 25.79, CoL 53.3; CZ: waarde 20.15, CoL 52.0; ES: waarde 34.82, CoL 51.4; mediaan(waarde÷CoL) = 0.4839, x 57.4."
+      },
+      "kost_activiteiten": {
+        "waarde": 88.4,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 97.3,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Turkije": {
+      "kost_voeding": {
+        "waarde": 42.8,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostat A0101 2024 = 76.7 (EU27 = 100), omgerekend met vaste factor 0.5574 (mediaan Numbeo÷Eurostat over 30 landen) naar NYC-schaal. Numbeo 2026-mid Groceries ter vergelijking: 40.0."
+      },
+      "kost_kampplaats": {
+        "waarde": 15.04,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reisefroh-tabel (camping.info 2026), 2 personen + standplaats, inclusief toeristenbelasting."
+      },
+      "kost_activiteiten": {
+        "waarde": 54.2,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A0109 2024, EU27 = 100."
+      },
+      "kost_vervoer": {
+        "waarde": 63.5,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Eurostat A010703 2024, EU27 = 100."
+      }
+    },
+    "Moldavië": {
+      "kost_voeding": {
+        "waarde": 33.1,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Numbeo, Cost of Living Index by Country 2026 Mid-Year (Groceries Index)",
+          "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026-mid",
+          "jaar": "2026-mid"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Niet in Eurostat A0101; Numbeo 2026-mid Groceries Index direct gebruikt (eerste bron)."
+      },
+      "kost_kampplaats": {
+        "waarde": 17.9,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL MD = 35.7 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 18.53, CoL 34.6; BA: waarde 19.37, CoL 38.3; TR: waarde 15.04, CoL 40.2; BG: waarde 21.06, CoL 42.0; RS: waarde 20.69, CoL 42.5; mediaan(waarde÷CoL) = 0.5014, x 35.7."
+      },
+      "kost_activiteiten": {
+        "waarde": 62.9,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A0109",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL MD = 35.7 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 62.6, CoL 34.6; BA: waarde 75.7, CoL 38.3; TR: waarde 54.2, CoL 40.2; BG: waarde 68.2, CoL 42.0; RS: waarde 74.9, CoL 42.5; mediaan(waarde÷CoL) = 1.7624, x 35.7."
+      },
+      "kost_vervoer": {
+        "waarde": 57.0,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A010703",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL MD = 35.7 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 55.2, CoL 34.6; BA: waarde 118.4, CoL 38.3; TR: waarde 63.5, CoL 40.2; BG: waarde 57.2, CoL 42.0; RS: waarde 77.4, CoL 42.5; mediaan(waarde÷CoL) = 1.5954, x 35.7."
+      }
+    },
+    "Oekraïne": {
+      "kost_voeding": {
+        "waarde": 30.2,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Numbeo, Cost of Living Index by Country 2026 Mid-Year (Groceries Index)",
+          "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026-mid",
+          "jaar": "2026-mid"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Niet in Eurostat A0101; Numbeo 2026-mid Groceries Index direct gebruikt (eerste bron)."
+      },
+      "kost_kampplaats": {
+        "waarde": 14.54,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL UA = 29.0 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 18.53, CoL 34.6; BA: waarde 19.37, CoL 38.3; TR: waarde 15.04, CoL 40.2; BG: waarde 21.06, CoL 42.0; RS: waarde 20.69, CoL 42.5; mediaan(waarde÷CoL) = 0.5014, x 29.0."
+      },
+      "kost_activiteiten": {
+        "waarde": 51.1,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A0109",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL UA = 29.0 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 62.6, CoL 34.6; BA: waarde 75.7, CoL 38.3; TR: waarde 54.2, CoL 40.2; BG: waarde 68.2, CoL 42.0; RS: waarde 74.9, CoL 42.5; mediaan(waarde÷CoL) = 1.7624, x 29.0."
+      },
+      "kost_vervoer": {
+        "waarde": 46.3,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A010703",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL UA = 29.0 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 55.2, CoL 34.6; BA: waarde 118.4, CoL 38.3; TR: waarde 63.5, CoL 40.2; BG: waarde 57.2, CoL 42.0; RS: waarde 77.4, CoL 42.5; mediaan(waarde÷CoL) = 1.5954, x 29.0."
+      }
+    },
+    "Belarus": {
+      "kost_voeding": {
+        "waarde": 33.5,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Numbeo, Cost of Living Index by Country 2026 Mid-Year (Groceries Index)",
+          "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026-mid",
+          "jaar": "2026-mid"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Niet in Eurostat A0101; Numbeo 2026-mid Groceries Index direct gebruikt (eerste bron)."
+      },
+      "kost_kampplaats": {
+        "waarde": 16.2,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL BY = 32.3 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 18.53, CoL 34.6; BA: waarde 19.37, CoL 38.3; TR: waarde 15.04, CoL 40.2; BG: waarde 21.06, CoL 42.0; RS: waarde 20.69, CoL 42.5; mediaan(waarde÷CoL) = 0.5014, x 32.3."
+      },
+      "kost_activiteiten": {
+        "waarde": 56.9,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A0109",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL BY = 32.3 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 62.6, CoL 34.6; BA: waarde 75.7, CoL 38.3; TR: waarde 54.2, CoL 40.2; BG: waarde 68.2, CoL 42.0; RS: waarde 74.9, CoL 42.5; mediaan(waarde÷CoL) = 1.7624, x 32.3."
+      },
+      "kost_vervoer": {
+        "waarde": 51.5,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A010703",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL BY = 32.3 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 55.2, CoL 34.6; BA: waarde 118.4, CoL 38.3; TR: waarde 63.5, CoL 40.2; BG: waarde 57.2, CoL 42.0; RS: waarde 77.4, CoL 42.5; mediaan(waarde÷CoL) = 1.5954, x 32.3."
+      }
+    },
+    "Rusland": {
+      "kost_voeding": {
+        "waarde": 39.4,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Numbeo, Cost of Living Index by Country 2026 Mid-Year (Groceries Index)",
+          "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026-mid",
+          "jaar": "2026-mid"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Niet in Eurostat A0101; Numbeo 2026-mid Groceries Index direct gebruikt (eerste bron)."
+      },
+      "kost_kampplaats": {
+        "waarde": 19.71,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL RU = 39.3 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): TR: waarde 15.04, CoL 40.2; BA: waarde 19.37, CoL 38.3; BG: waarde 21.06, CoL 42.0; RS: waarde 20.69, CoL 42.5; MK: waarde 18.53, CoL 34.6; mediaan(waarde÷CoL) = 0.5014, x 39.3."
+      },
+      "kost_activiteiten": {
+        "waarde": 69.1,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A0109",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL RU = 39.3 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): TR: waarde 54.2, CoL 40.2; BA: waarde 75.7, CoL 38.3; BG: waarde 68.2, CoL 42.0; RS: waarde 74.9, CoL 42.5; ME: waarde 75.2, CoL 42.8; mediaan(waarde÷CoL) = 1.7570, x 39.3."
+      },
+      "kost_vervoer": {
+        "waarde": 66.1,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A010703",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL RU = 39.3 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): TR: waarde 63.5, CoL 40.2; BA: waarde 118.4, CoL 38.3; BG: waarde 57.2, CoL 42.0; RS: waarde 77.4, CoL 42.5; ME: waarde 72.0, CoL 42.8; mediaan(waarde÷CoL) = 1.6822, x 39.3."
+      }
+    },
+    "Georgië": {
+      "kost_voeding": {
+        "waarde": 35.1,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Numbeo, Cost of Living Index by Country 2026 Mid-Year (Groceries Index)",
+          "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026-mid",
+          "jaar": "2026-mid"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Niet in Eurostat A0101; Numbeo 2026-mid Groceries Index direct gebruikt (eerste bron)."
+      },
+      "kost_kampplaats": {
+        "waarde": 17.5,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL GE = 34.9 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 18.53, CoL 34.6; BA: waarde 19.37, CoL 38.3; TR: waarde 15.04, CoL 40.2; BG: waarde 21.06, CoL 42.0; RS: waarde 20.69, CoL 42.5; mediaan(waarde÷CoL) = 0.5014, x 34.9."
+      },
+      "kost_activiteiten": {
+        "waarde": 61.5,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A0109",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL GE = 34.9 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 62.6, CoL 34.6; BA: waarde 75.7, CoL 38.3; TR: waarde 54.2, CoL 40.2; BG: waarde 68.2, CoL 42.0; RS: waarde 74.9, CoL 42.5; mediaan(waarde÷CoL) = 1.7624, x 34.9."
+      },
+      "kost_vervoer": {
+        "waarde": 55.7,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A010703",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL GE = 34.9 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 55.2, CoL 34.6; BA: waarde 118.4, CoL 38.3; TR: waarde 63.5, CoL 40.2; BG: waarde 57.2, CoL 42.0; RS: waarde 77.4, CoL 42.5; mediaan(waarde÷CoL) = 1.5954, x 34.9."
+      }
+    },
+    "Armenië": {
+      "kost_voeding": {
+        "waarde": 38.4,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Numbeo, Cost of Living Index by Country 2026 Mid-Year (Groceries Index)",
+          "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026-mid",
+          "jaar": "2026-mid"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Niet in Eurostat A0101; Numbeo 2026-mid Groceries Index direct gebruikt (eerste bron)."
+      },
+      "kost_kampplaats": {
+        "waarde": 20.51,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL AM = 40.9 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): TR: waarde 15.04, CoL 40.2; BG: waarde 21.06, CoL 42.0; RS: waarde 20.69, CoL 42.5; BA: waarde 19.37, CoL 38.3; MK: waarde 18.53, CoL 34.6; mediaan(waarde÷CoL) = 0.5014, x 40.9."
+      },
+      "kost_activiteiten": {
+        "waarde": 71.9,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A0109",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL AM = 40.9 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): TR: waarde 54.2, CoL 40.2; BG: waarde 68.2, CoL 42.0; RS: waarde 74.9, CoL 42.5; ME: waarde 75.2, CoL 42.8; BA: waarde 75.7, CoL 38.3; mediaan(waarde÷CoL) = 1.7570, x 40.9."
+      },
+      "kost_vervoer": {
+        "waarde": 68.8,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A010703",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL AM = 40.9 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): TR: waarde 63.5, CoL 40.2; BG: waarde 57.2, CoL 42.0; RS: waarde 77.4, CoL 42.5; ME: waarde 72.0, CoL 42.8; BA: waarde 118.4, CoL 38.3; mediaan(waarde÷CoL) = 1.6822, x 40.9."
+      }
+    },
+    "Azerbeidzjan": {
+      "kost_voeding": {
+        "waarde": 30.3,
+        "eenheid": "indexpunten (New York = 100)",
+        "bron": {
+          "naam": "Numbeo, Cost of Living Index by Country 2026 Mid-Year (Groceries Index)",
+          "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026-mid",
+          "jaar": "2026-mid"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Niet in Eurostat A0101; Numbeo 2026-mid Groceries Index direct gebruikt (eerste bron)."
+      },
+      "kost_kampplaats": {
+        "waarde": 15.59,
+        "eenheid": "euro per nacht (2 personen + standplaats)",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op camping.info-tabel",
+          "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+          "jaar": "2026 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL AZ = 31.1 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 18.53, CoL 34.6; BA: waarde 19.37, CoL 38.3; TR: waarde 15.04, CoL 40.2; BG: waarde 21.06, CoL 42.0; RS: waarde 20.69, CoL 42.5; mediaan(waarde÷CoL) = 0.5014, x 31.1."
+      },
+      "kost_activiteiten": {
+        "waarde": 54.8,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A0109",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL AZ = 31.1 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 62.6, CoL 34.6; BA: waarde 75.7, CoL 38.3; TR: waarde 54.2, CoL 40.2; BG: waarde 68.2, CoL 42.0; RS: waarde 74.9, CoL 42.5; mediaan(waarde÷CoL) = 1.7624, x 31.1."
+      },
+      "kost_vervoer": {
+        "waarde": 49.6,
+        "eenheid": "EU27 = 100",
+        "bron": {
+          "naam": "Geschat via Numbeo-verhouding (CoL 2026-mid) op Eurostat A010703",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+          "jaar": "2024 / 2026-mid"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen waarde in de bron. Schatting met Numbeo-verhouding: CoL AZ = 31.1 (Numbeo 2026-mid). Referenties (5 met waarde en CoL het dichtst bij): MK: waarde 55.2, CoL 34.6; BA: waarde 118.4, CoL 38.3; TR: waarde 63.5, CoL 40.2; BG: waarde 57.2, CoL 42.0; RS: waarde 77.4, CoL 42.5; mediaan(waarde÷CoL) = 1.5954, x 31.1."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Numbeo, Cost of Living Index by Country 2026 Mid-Year (Groceries Index)",
+      "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026-mid",
+      "wat": "kost_voeding (fallback voor landen zonder Eurostat-waarde); Cost of Living Index als referentie voor schattingen; editie 2026-mid"
+    },
+    {
+      "naam": "Eurostat prc_ppp_ind, A0101 voeding en niet-alcoholische dranken (EU27 = 100)",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0101&time=2024",
+      "wat": "kost_voeding, eerste bron voor deze even ronde (omgerekend naar NYC-schaal), 2024"
+    },
+    {
+      "naam": "Eurostat prc_ppp_ind, A0109 recreatie en cultuur (EU27 = 100)",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A0109&time=2024",
+      "wat": "kost_activiteiten, 2024"
+    },
+    {
+      "naam": "Eurostat prc_ppp_ind, A010703 vervoersdiensten (EU27 = 100)",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&na_item=PLI_EU27_2020&ppp_cat=A010703&time=2024",
+      "wat": "kost_vervoer, 2024"
+    },
+    {
+      "naam": "camping.info Preisvergleich 2026, tabel 'Durchschnittlicher Preis pro Nacht' (overgenomen door Reisefroh)",
+      "url": "https://reisefroh.de/news/campingpreise-in-europa-2025/",
+      "wat": "kost_kampplaats, 2026 (secundaire bron voor camping.info)"
+    },
+    {
+      "naam": "PiNCAMP (ADAC), Price Analysis 2026",
+      "url": "https://business.pincamp.com/news/pincamp-price-analysis-2026/",
+      "wat": "rangcontrole 12 landen voor kost_kampplaats; andere definitie, niet als waarde gebruikt"
+    },
+    {
+      "naam": "OECD, Comparative price levels",
+      "url": "https://www.oecd.org/en/data/indicators/comparative-price-levels.html",
+      "wat": "poging voor GB (kost_activiteiten): HTTP 403, niet bereikt"
+    },
+    {
+      "naam": "camping.info Preisvergleich (origineel)",
+      "url": "https://www.camping.info/de/magazin/a/preisvergleich-so-viel-kostet-camping-in-europa",
+      "wat": "HTTP 403, niet bereikt; Reisefroh-tabel gebruikt"
+    },
+    {
+      "naam": "GlobalPetrolPrices, Europe",
+      "url": "https://www.globalpetrolprices.com/gasoline_prices/Europe/",
+      "wat": "bereikbaar (HTTP 200), niet gebruikt: benzineprijzen, geen vervoersdienstenindex"
+    }
+  ],
+  "problemen": [
+    "kost_voeding (even ronde, tweede bron eerst): Eurostat A0101 gebruikt voor 30 landen, omgerekend met vaste factor 0.5574 naar de NYC-schaal; de overige landen direct uit Numbeo. Die omgerekende waarden wijken sterk af van Numbeo (rangcorrelatie Spearman 0.88 over 30 landen); de Numbeo-waarde staat per land in de opmerking. Bij twijfel is Numbeo de voorgeschreven primaire bron.",
+    "kost_kampplaats: PiNCAMP (tweede bron) niet als waarde gebruikt: andere definitie (gezin van 3, caravan, hoogseizoen) en de bron mag niet met camping.info gemengd worden. Rangcontrole op de 12 gedeelde landen: Spearman 0.77. camping.info-origineel geeft 403; waarden uit de Reisefroh-tabel (secundaire bron, zekerheid midden). Luxemburg en Finland staan beide op 27,95: niet onafhankelijk gecontroleerd, bewaard zoals gepubliceerd.",
+    "kost_activiteiten: OECD (tweede bron, enkel voor GB) gaf 403; teruggevallen op Eurostat A0109 (30 landen). GB en de andere landen zonder Eurostat-waarde via de Numbeo-verhouding (zekerheid laag).",
+    "kost_vervoer: GlobalPetrolPrices (tweede bron) is bereikbaar (HTTP 200), maar meet benzineprijzen en geen vervoersdienstenindex. De bronregel gebruikt die alleen als de Numbeo-verhouding mislukt; dat was niet het geval, dus niet gebruikt. Bosnië (Eurostat 118,4) ongecorrigeerd overgenomen.",
+    "Controlegetallen geslaagd: Eurostat BE A0101 105,3 / A0109 106,3 / A010703 118,1; PT A0109 85,9; NO A010703 161,6; CH A0109 160,6. Numbeo PT Groceries 47,5, NO 89,4, GE 35,1. Numbeo-titel 'Cost of Living Index by Country 2026 Mid-Year' bevestigd.",
+    "AD, LI en SM staan in geen enkele bron en volgen de vaste regels (AD = gemiddelde ES/FR, LI = CH, SM = IT); zekerheid laag.",
+    "Geen waarden null: elk ontbrekend land kreeg een waarde via de vaste regels (Numbeo-verhouding met 5 referentielanden, of AD/LI/SM-regel). Bij de Numbeo-verhouding is de zekerheid laag."
+  ]
+}
