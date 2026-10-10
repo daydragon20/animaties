@@ -1,0 +1,573 @@
+{
+  "ronde": 3,
+  "pakket": "p02",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "kost_reis": {
+        "waarde": 244,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 2043 km × 0,08 = 326,9 €; vlucht: 90 + 0,09 × 1712 km = 244,1 €; goedkoopste: vlucht (244 €), hoofdstad Lissabon."
+      }
+    },
+    "Spanje": {
+      "kost_reis": {
+        "waarde": 208,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1576 km × 0,08 = 252,2 €; vlucht: 90 + 0,09 × 1316 km = 208,4 €; OSRM-controle 10-10-2026: 1575.97 km, tabel 1576 km, afwijking < 0,1 %; goedkoopste: vlucht (208 €), hoofdstad Madrid."
+      }
+    },
+    "Andorra": {
+      "kost_reis": {
+        "waarde": 187,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;1.5218,42.5063?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1167 km × 0,08 = 186,7 €; goedkoopste: weg (187 €), hoofdstad Andorra la Vella."
+      }
+    },
+    "Frankrijk": {
+      "kost_reis": {
+        "waarde": 49,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;2.3522,48.8566?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 307 km × 0,08 = 49,1 €; vlucht: 90 + 0,09 × 264 km = 113,8 €; goedkoopste: weg (49 €), hoofdstad Parijs."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "kost_reis": {
+        "waarde": 109,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;-0.1278,51.5074?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 369 km × 0,08 + 50 (Kanaal) = 109,0 €; vlucht: 90 + 0,09 × 321 km = 118,9 €; goedkoopste: weg (109 €), hoofdstad Londen."
+      }
+    },
+    "Ierland": {
+      "kost_reis": {
+        "waarde": 160,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg (935 km) niet meegerekend: veerboot; alleen vlucht; vlucht: 90 + 0,09 × 776 km = 159,8 €; goedkoopste: vlucht (160 €), hoofdstad Dublin."
+      }
+    },
+    "IJsland": {
+      "kost_reis": {
+        "waarde": 282,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "geen wegroute (eiland/zee); alleen vlucht; vlucht: 90 + 0,09 × 2129 km = 281,6 €; goedkoopste: vlucht (282 €), hoofdstad Reykjavik."
+      }
+    },
+    "Nederland": {
+      "kost_reis": {
+        "waarde": 34,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;4.9041,52.3676?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 211 km × 0,08 = 33,8 €; vlucht: 90 + 0,09 × 173 km = 105,6 €; goedkoopste: weg (34 €), hoofdstad Amsterdam."
+      }
+    },
+    "Luxemburg": {
+      "kost_reis": {
+        "waarde": 34,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;6.1319,49.6116?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 215 km × 0,08 = 34,4 €; vlucht: 90 + 0,09 × 187 km = 106,8 €; goedkoopste: weg (34 €), hoofdstad Luxemburg."
+      }
+    },
+    "Duitsland": {
+      "kost_reis": {
+        "waarde": 121,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;13.405,52.52?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 759 km × 0,08 = 121,4 €; vlucht: 90 + 0,09 × 651 km = 148,6 €; goedkoopste: weg (121 €), hoofdstad Berlijn."
+      }
+    },
+    "Denemarken": {
+      "kost_reis": {
+        "waarde": 159,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1061 km × 0,08 = 169,8 €; vlucht: 90 + 0,09 × 765 km = 158,8 €; OSRM-controle 10-10-2026: 1061.36 km, tabel 1061 km, afwijking < 0,1 %; goedkoopste: vlucht (159 €), hoofdstad Kopenhagen."
+      }
+    },
+    "Noorwegen": {
+      "kost_reis": {
+        "waarde": 188,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1660 km × 0,08 = 265,6 €; vlucht: 90 + 0,09 × 1085 km = 187,6 €; goedkoopste: vlucht (188 €), hoofdstad Oslo."
+      }
+    },
+    "Zweden": {
+      "kost_reis": {
+        "waarde": 205,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1708 km × 0,08 = 273,3 €; vlucht: 90 + 0,09 × 1280 km = 205,2 €; goedkoopste: vlucht (205 €), hoofdstad Stockholm."
+      }
+    },
+    "Finland": {
+      "kost_reis": {
+        "waarde": 238,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 3466 km × 0,08 = 554,6 €; vlucht: 90 + 0,09 × 1648 km = 238,3 €; goedkoopste: vlucht (238 €), hoofdstad Helsinki."
+      }
+    },
+    "Estland": {
+      "kost_reis": {
+        "waarde": 234,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 2266 km × 0,08 = 362,6 €; vlucht: 90 + 0,09 × 1600 km = 234,0 €; goedkoopste: vlucht (234 €), hoofdstad Tallinn."
+      }
+    },
+    "Letland": {
+      "kost_reis": {
+        "waarde": 221,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1957 km × 0,08 = 313,1 €; vlucht: 90 + 0,09 × 1454 km = 220,9 €; goedkoopste: vlucht (221 €), hoofdstad Riga."
+      }
+    },
+    "Litouwen": {
+      "kost_reis": {
+        "waarde": 222,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1799 km × 0,08 = 287,8 €; vlucht: 90 + 0,09 × 1465 km = 221,8 €; goedkoopste: vlucht (222 €), hoofdstad Vilnius."
+      }
+    },
+    "Zwitserland": {
+      "kost_reis": {
+        "waarde": 105,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;7.4474,46.948?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 659 km × 0,08 = 105,4 €; vlucht: 90 + 0,09 × 489 km = 134,0 €; goedkoopste: weg (105 €), hoofdstad Bern."
+      }
+    },
+    "Liechtenstein": {
+      "kost_reis": {
+        "waarde": 132,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;9.5209,47.141?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 824 km × 0,08 = 131,8 €; goedkoopste: weg (132 €), hoofdstad Vaduz."
+      }
+    },
+    "Oostenrijk": {
+      "kost_reis": {
+        "waarde": 172,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1109 km × 0,08 = 177,4 €; vlucht: 90 + 0,09 × 915 km = 172,3 €; goedkoopste: vlucht (172 €), hoofdstad Wenen."
+      }
+    },
+    "Tsjechië": {
+      "kost_reis": {
+        "waarde": 145,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;14.4378,50.0755?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 904 km × 0,08 = 144,6 €; vlucht: 90 + 0,09 × 718 km = 154,6 €; goedkoopste: weg (145 €), hoofdstad Praag."
+      }
+    },
+    "Slowakije": {
+      "kost_reis": {
+        "waarde": 177,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1194 km × 0,08 = 191,0 €; vlucht: 90 + 0,09 × 967 km = 177,0 €; goedkoopste: vlucht (177 €), hoofdstad Bratislava."
+      }
+    },
+    "Italië": {
+      "kost_reis": {
+        "waarde": 196,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1475 km × 0,08 = 236,0 €; vlucht: 90 + 0,09 × 1173 km = 195,6 €; goedkoopste: vlucht (196 €), hoofdstad Rome."
+      }
+    },
+    "San Marino": {
+      "kost_reis": {
+        "waarde": 199,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;12.4578,43.9424?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1246 km × 0,08 = 199,4 €; goedkoopste: weg (199 €), hoofdstad San Marino."
+      }
+    },
+    "Malta": {
+      "kost_reis": {
+        "waarde": 256,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "geen wegroute (eiland/zee); alleen vlucht; vlucht: 90 + 0,09 × 1850 km = 256,5 €; rekenkundig 256,5; tabelwaarde 256 gehouden (afronding); goedkoopste: vlucht (256 €), hoofdstad Valletta."
+      }
+    },
+    "Kroatië": {
+      "kost_reis": {
+        "waarde": 182,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1291 km × 0,08 = 206,6 €; vlucht: 90 + 0,09 × 1024 km = 182,2 €; goedkoopste: vlucht (182 €), hoofdstad Zagreb."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "kost_reis": {
+        "waarde": 208,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1692 km × 0,08 = 270,7 €; vlucht: 90 + 0,09 × 1310 km = 207,9 €; goedkoopste: vlucht (208 €), hoofdstad Sarajevo."
+      }
+    },
+    "Montenegro": {
+      "kost_reis": {
+        "waarde": 222,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1958 km × 0,08 = 313,3 €; vlucht: 90 + 0,09 × 1469 km = 222,2 €; goedkoopste: vlucht (222 €), hoofdstad Podgorica."
+      }
+    },
+    "Servië": {
+      "kost_reis": {
+        "waarde": 214,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1684 km × 0,08 = 269,4 €; vlucht: 90 + 0,09 × 1374 km = 213,7 €; goedkoopste: vlucht (214 €), hoofdstad Belgrado."
+      }
+    },
+    "Kosovo": {
+      "kost_reis": {
+        "waarde": 231,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 2057 km × 0,08 = 329,1 €; vlucht: 90 + 0,09 × 1565 km = 230,8 €; goedkoopste: vlucht (231 €), hoofdstad Pristina."
+      }
+    },
+    "Noord-Macedonië": {
+      "kost_reis": {
+        "waarde": 237,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 2114 km × 0,08 = 338,2 €; vlucht: 90 + 0,09 × 1631 km = 236,8 €; goedkoopste: vlucht (237 €), hoofdstad Skopje."
+      }
+    },
+    "Griekenland": {
+      "kost_reis": {
+        "waarde": 278,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 2776 km × 0,08 = 444,2 €; vlucht: 90 + 0,09 × 2089 km = 278,0 €; OSRM-controle 10-10-2026: 2776.1 km, tabel 2776 km, afwijking < 0,1 %; goedkoopste: vlucht (278 €), hoofdstad Athene."
+      }
+    },
+    "Bulgarije": {
+      "kost_reis": {
+        "waarde": 243,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 2078 km × 0,08 = 332,5 €; vlucht: 90 + 0,09 × 1698 km = 242,8 €; goedkoopste: vlucht (243 €), hoofdstad Sofia."
+      }
+    },
+    "Cyprus": {
+      "kost_reis": {
+        "waarde": 351,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "geen wegroute (eiland/zee); alleen vlucht; vlucht: 90 + 0,09 × 2902 km = 351,2 €; goedkoopste: vlucht (351 €), hoofdstad Nicosia."
+      }
+    },
+    "Turkije": {
+      "kost_reis": {
+        "waarde": 316,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 3079 km × 0,08 = 492,6 €; vlucht: 90 + 0,09 × 2513 km = 316,2 €; goedkoopste: vlucht (316 €), hoofdstad Ankara."
+      }
+    },
+    "Moldavië": {
+      "kost_reis": {
+        "waarde": 255,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 2189 km × 0,08 = 350,2 €; vlucht: 90 + 0,09 × 1832 km = 254,9 €; goedkoopste: vlucht (255 €), hoofdstad Chisinau."
+      }
+    },
+    "Oekraïne": {
+      "kost_reis": {
+        "waarde": 331,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;30.5234,50.4501?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 2069 km × 0,08 = 331,0 €; goedkoopste: weg (331 €), hoofdstad Kiev."
+      }
+    },
+    "Belarus": {
+      "kost_reis": {
+        "waarde": 295,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;27.559,53.9006?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 1846 km × 0,08 = 295,4 €; goedkoopste: weg (295 €), hoofdstad Minsk."
+      }
+    },
+    "Rusland": {
+      "kost_reis": {
+        "waarde": 409,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (Open Source Routing Machine), publieke demoserver: wegafstand en rijtijd",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;37.6173,55.7558?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 2554 km × 0,08 = 408,6 €; goedkoopste: weg (409 €), hoofdstad Moskou."
+      }
+    },
+    "Georgië": {
+      "kost_reis": {
+        "waarde": 380,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 4257 km × 0,08 = 681,1 €; vlucht: 90 + 0,09 × 3226 km = 380,3 €; goedkoopste: vlucht (380 €), hoofdstad Tbilisi."
+      }
+    },
+    "Armenië": {
+      "kost_reis": {
+        "waarde": 387,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 4327 km × 0,08 = 692,3 €; vlucht: 90 + 0,09 × 3297 km = 386,7 €; goedkoopste: vlucht (387 €), hoofdstad Jerevan."
+      }
+    },
+    "Azerbeidzjan": {
+      "kost_reis": {
+        "waarde": 419,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg: 2 × 4838 km × 0,08 = 774,1 €; vlucht: 90 + 0,09 × 3659 km = 419,3 €; goedkoopste: vlucht (419 €), hoofdstad Bakoe."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "OSRM (Open Source Routing Machine), publieke demoserver",
+      "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;2.3522,48.8566?overview=false",
+      "wat": "Wegafstand Brussel (Grote Markt) naar de hoofdstad, editie 2026; steekproef van 3 landen (ES, DK, GR) gecontroleerd op 10-10-2026, afwijking onder 0,1 %."
+    },
+    {
+      "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+      "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+      "wat": "Grootcirkelafstand voor de vluchtformule; in de referentietabel van p02 voorgerekend en niet opnieuw berekend."
+    }
+  ],
+  "problemen": [
+    "Alle 42 landen hebben een modelprijs; geen land ontbreekt en geen waarde is null. Alle waarden zijn formulewaarden uit de referentietabel van p02 (zekerheid midden, geen offerte).",
+    "OSRM-steekproef op 10-10-2026 (3 landen): Spanje 1575,97 km (tabel 1576), Denemarken 1061,36 km (tabel 1061), Griekenland 2776,10 km (tabel 2776). Afwijking onder 0,1 %: geen herberekening nodig.",
+    "Rekencontrole van de modelprijzen tegen de formule: Malta geeft 0,09 × 1850 + 90 = 256,5; tabelwaarde 256 is gehouden. Overige landen kloppen met de tabel.",
+    "Optionele realiteitscheck (stap 3) niet uitgevoerd: het webzoekbudget voor deze run was op. Er zijn geen echte retourprijzen opgenomen; de modelprijs blijft de waarde.",
+    "Rome2Rio niet gebruikt: JavaScript-site, niet automatisch leesbaar en niet geverifieerd.",
+    "Ierland: wegafstand van 935 km via veerboot niet meegerekend; alleen vluchtprijs. Finland: OSRM-route van 3466 km via Noord-Zweden; vluchtprijs (238) is goedkoper, dus geen effect op de waarde."
+  ]
+}
