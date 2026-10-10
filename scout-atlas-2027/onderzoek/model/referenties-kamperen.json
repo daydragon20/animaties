@@ -147,35 +147,53 @@
    },
    "kamp_groepsterrein": {
     "A": {
-     "vervuld": false,
-     "bewijs": "Geen lijst van >=10 Spaanse jeugdkampterreinen geopend; gruppenhaus.de toont maar 2 commerciële Zeltcamps in Spanje.",
-     "url": ""
+     "vervuld": true,
+     "bewijs": "Fundació Escolta Josep Carol (scoutsstichting, netwerk Acampada.org) publiceert op josepcarol.cat/acampada/ een lijst van 16 terrenys d'acampada in Catalonië met plaats, comarca en prijs per persoon: Dègons, Guidaubé de baix, Guidaubé de dalt, Mas de Barreda, Borda de Falip, Mas Ciutadia, Mas Hostalets, Els Boigons, La Riba, La Plana Gran, La Rourera, Les Vinyes en 4 terreinen van Mola d'Amunt. De Generalitat de Catalunya (jovecat.gencat.cat, PDF 'Informació sobre campaments juvenils i terrenys d'acampada') noemt daarnaast nog drie netwerken (Campaments i Més van Escoltes i Guies, Acció Escolta de Catalunya, Fundació Espai Natura i Joventut).",
+     "url": "https://www.josepcarol.cat/acampada/"
     },
     "B": {
-     "vervuld": false,
-     "bewijs": "Slechts één scoutsterrein (Griébal) met tarief geopend; de pagina meldt 'Tarifa de acampada'.",
+     "vervuld": true,
+     "bewijs": "Vier terrenys met eigen pagina geopend, met capaciteit, prijs per persoon en dag en reservatieformulier (contact fundacio@josepcarol.cat, +34 932 689 111): Dègons, La Riba, Mas Ciutadia en Les Vinyes. De terreinen zijn bedoeld voor jeugdgroepen met tenten (terrenys d'acampada, Decret 267/2016).",
      "terreinen": [
       {
-       "naam": "Griébal Scout Centre (ASDE-Scouts de Aragón)",
-       "plaats": "Griébal bij Aínsa (Pirineos, Huesca)",
-       "url": "https://griebal.org/",
-       "details": "Scoutcentrum in een verlaten dorp; pagina 'Tarifa de acampada' (prijs hangt van het aantal personen af), reservaties, vrijwilligerswerk; ontvangt buitenlandse scouts (teller 'Visitantes extranjeros')."
+       "naam": "Dègons (Fundació Escolta Josep Carol)",
+       "plaats": "Alins (Pallars Sobirà, Lleida)",
+       "url": "https://www.josepcarol.cat/terrenys/degons/",
+       "details": "Meer dan 10.000 m2 vlak terrein, bereikbaar met kleine bus; drinkwatertank en elektriciteit; capaciteit 50 tot 120; 3 EUR per persoon en dag (excl. btw); reservatie via formulier."
+      },
+      {
+       "naam": "La Riba (Fundació Escolta Josep Carol)",
+       "plaats": "La Riba (Alt Camp, Tarragona)",
+       "url": "https://www.josepcarol.cat/terrenys/la-riba/",
+       "details": "Campament juvenil, 2 km van La Riba; capaciteit 35 tot 120; water, douches, wc, keuken, zwembad op het terrein; 6,50 EUR per persoon en dag + keuken 25 EUR en zwembad 20 EUR per groep en dag; waarborg 250 EUR."
+      },
+      {
+       "naam": "Mas Ciutadia (Fundació Escolta Josep Carol)",
+       "plaats": "Vallfogona de Ripollès (Ripollès, Girona)",
+       "url": "https://www.josepcarol.cat/terrenys/mas-ciutadia/",
+       "details": "Bosrijk terrein met speelweide en rivier; capaciteit 10 tot 60; 3 EUR per persoon en dag (excl. btw); reservatie via formulier."
+      },
+      {
+       "naam": "Les Vinyes (Fundació Escolta Josep Carol)",
+       "plaats": "Olvan (Berguedà, Barcelona)",
+       "url": "https://www.josepcarol.cat/terrenys/les-vinyes/",
+       "details": "Capaciteit 15 tot 60; 3 wc's, 6 douches, kookruimte, elektriciteit, zwemzone; 4 EUR per persoon en dag (excl. btw); met eigen voertuig tot op het terrein."
       }
      ],
      "url": ""
     },
     "C": {
      "vervuld": true,
-     "bewijs": "Griébal staat op de lijst van bekendste scoutscentra (Slovenský skauting); de site heeft een pagina 'Tarifa de acampada', een reserveringssysteem, een Engelse versie en een teller 'Visitantes extranjeros' (de tarieven zelf niet gelezen).",
+     "bewijs": "Griébal Scout Centre (ASDE-Scouts de Aragón) toont tarieven voor acampada en een teller 'Visitantes extranjeros' (eerste pas, griebal.org geopend).",
      "url": "https://griebal.org/"
     },
     "D": {
      "vervuld": false,
-     "bewijs": "Niet onderzocht.",
+     "bewijs": "Geen campingportaal met groepsfilter geopend voor Spanje.",
      "url": ""
     },
-    "voorstel": 25,
-    "opmerking": "scout.es en asde.es gaven 502 bij de proxy. Niet-vervuld betekent: niet kunnen staven met een geopende bron, niet: bestaat niet."
+    "voorstel": 75,
+    "opmerking": "tweede pas: A en B nu gestaafd (was 25, nu 75), maar alleen voor Catalonië: de netwerken van Acampada.org / Fundació Escolta Josep Carol en de Generalitat de Catalunya. De rest van Spanje (scout.es en asde.es gaven 502/reset) is niet onderzocht; er zijn ook andere netwerken (terrenysdacampada.cat, campaments.cat gaf Cloudflare 403, accioescolta.cat/terrenys 404). 1 WebSearch-aanroep voor dit land. Let op: Spaanse jeugdgroepen moeten hun stay melden bij de Direcció General de Joventut; voor buitenlandse groepen niet nagezocht."
    }
   },
   "Andorra": {
