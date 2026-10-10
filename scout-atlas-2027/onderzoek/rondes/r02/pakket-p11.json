@@ -1,0 +1,1051 @@
+{
+  "ronde": 2,
+  "pakket": "p11",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "scout_leden": {
+        "waarde": 7.4153,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 78.440 leden ÷ Wereldbank bevolking 2023: 10.578.174 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 1.6802,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 17.283.000 aankomsten ÷ SP.POP.TOTL 2019: 10.286.263 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Spanje": {
+      "scout_leden": {
+        "waarde": 1.5029,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 72.669 leden ÷ Wereldbank bevolking 2023: 48.352.528 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 2.6777,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 126.170.000 aankomsten ÷ SP.POP.TOTL 2019: 47.118.501 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Andorra": {
+      "scout_leden": {
+        "waarde": 0,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Geen WOSM-lid (Wikipedia: scouting herstart 2016, geen ledental in de tabel). 0 toegepast volgens de ontbrekend-regel. Zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 107.6837,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 8.235.000 aankomsten ÷ SP.POP.TOTL 2019: 76.474 inwoners. Afgeleid, zekerheid midden. Waarde ligt boven de logschaal-ankers (20 → 0); de cijfers van de bron zijn gecontroleerd (zie problemen)."
+      }
+    },
+    "Frankrijk": {
+      "scout_leden": {
+        "waarde": 1.4842,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 101.480 leden ÷ Wereldbank bevolking 2023: 68.372.286 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 3.2335,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 217.877.000 aankomsten ÷ SP.POP.TOTL 2019: 67.382.061 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "scout_leden": {
+        "waarde": 9.2984,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 637.185 leden ÷ Wereldbank bevolking 2023: 68.526.000 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.6132,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 40.857.000 aankomsten ÷ SP.POP.TOTL 2019: 66.628.000 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Ierland": {
+      "scout_leden": {
+        "waarde": 9.1269,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 48.478 leden ÷ Wereldbank bevolking 2023: 5.311.538 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 2.2006,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 10.951.000 aankomsten ÷ SP.POP.TOTL 2019: 4.976.456 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "IJsland": {
+      "scout_leden": {
+        "waarde": 4.5065,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 1.738 leden ÷ Wereldbank bevolking 2023: 385.663 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 6.1071,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 2.202.000 aankomsten ÷ SP.POP.TOTL 2019: 360.563 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Nederland": {
+      "scout_leden": {
+        "waarde": 6.4328,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 115.000 leden ÷ Wereldbank bevolking 2023: 17.877.117 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 1.1605,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 20.129.000 aankomsten ÷ SP.POP.TOTL 2019: 17.344.874 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Luxemburg": {
+      "scout_leden": {
+        "waarde": 11.8572,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 7.902 leden ÷ Wereldbank bevolking 2023: 666.430 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 1.679,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 1.041.000 aankomsten ÷ SP.POP.TOTL 2019: 620.001 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Duitsland": {
+      "scout_leden": {
+        "waarde": 1.4982,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 124.779 leden ÷ Wereldbank bevolking 2023: 83.287.273 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.4761,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 39.563.000 aankomsten ÷ SP.POP.TOTL 2019: 83.092.962 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Denemarken": {
+      "scout_leden": {
+        "waarde": 8.516,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 50.644 leden ÷ Wereldbank bevolking 2023: 5.946.952 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 5.6915,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 33.093.000 aankomsten ÷ SP.POP.TOTL 2019: 5.814.422 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Noorwegen": {
+      "scout_leden": {
+        "waarde": 3.1272,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 17.261 leden ÷ Wereldbank bevolking 2023: 5.519.601 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 1.0993,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 5.879.000 aankomsten ÷ SP.POP.TOTL 2019: 5.347.896 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Zweden": {
+      "scout_leden": {
+        "waarde": 3.7738,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 39.763 leden ÷ Wereldbank bevolking 2023: 10.536.632 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.7409,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 7.616.000 aankomsten ÷ SP.POP.TOTL 2019: 10.278.887 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Finland": {
+      "scout_leden": {
+        "waarde": 9.8635,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 55.077 leden ÷ Wereldbank bevolking 2023: 5.583.911 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.5958,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 3.290.000 aankomsten ÷ SP.POP.TOTL 2019: 5.521.606 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Estland": {
+      "scout_leden": {
+        "waarde": 0.8648,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 1.185 leden ÷ Wereldbank bevolking 2023: 1.370.286 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 4.5994,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 6.103.000 aankomsten ÷ SP.POP.TOTL 2019: 1.326.898 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Letland": {
+      "scout_leden": {
+        "waarde": 0.4268,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 804 leden ÷ Wereldbank bevolking 2023: 1.883.710 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 4.3588,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 8.342.000 aankomsten ÷ SP.POP.TOTL 2019: 1.913.822 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Litouwen": {
+      "scout_leden": {
+        "waarde": 1.0447,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 3.000 leden ÷ Wereldbank bevolking 2023: 2.871.585 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 2.1878,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 6.150.000 aankomsten ÷ SP.POP.TOTL 2019: 2.811.089 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Zwitserland": {
+      "scout_leden": {
+        "waarde": 2.8748,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 25.554 leden ÷ Wereldbank bevolking 2023: 8.888.822 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 1.3781,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 11.818.000 aankomsten ÷ SP.POP.TOTL 2019: 8.575.280 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Liechtenstein": {
+      "scout_leden": {
+        "waarde": 18.5213,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 738 leden ÷ Wereldbank bevolking 2023: 39.846 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 2.5439,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 98.100 aankomsten ÷ SP.POP.TOTL 2019: 38.563 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Oostenrijk": {
+      "scout_leden": {
+        "waarde": 2.9797,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 27.210 leden ÷ Wereldbank bevolking 2023: 9.131.761 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 3.5906,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 31.884.000 aankomsten ÷ SP.POP.TOTL 2019: 8.879.920 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Tsjechië": {
+      "scout_leden": {
+        "waarde": 6.2554,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 67.959 leden ÷ Wereldbank bevolking 2023: 10.864.042 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 3.486,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 37.202.000 aankomsten ÷ SP.POP.TOTL 2019: 10.671.870 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Slowakije": {
+      "scout_leden": {
+        "waarde": 1.4064,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 7.632 leden ÷ Wereldbank bevolking 2023: 5.426.740 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 2.805,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2018 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/SVK/indicator/ST.INT.ARVL?format=json&date=2018:2019&per_page=100",
+          "jaar": "2018 (aankomsten), 2019 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019 ontbreekt in de bron. Laatste waarde 2018 (15.299.000) gebruikt, gedeeld door bevolking 2019 (5.454.147). Zekerheid midden."
+      }
+    },
+    "Italië": {
+      "scout_leden": {
+        "waarde": 1.7509,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 103.276 leden ÷ Wereldbank bevolking 2023: 58.984.216 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 1.5972,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 95.399.000 aankomsten ÷ SP.POP.TOTL 2019: 59.729.081 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "San Marino": {
+      "scout_leden": {
+        "waarde": 7.9445,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 269 leden ÷ Wereldbank bevolking 2023: 33.860 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 54.9289,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 1.904.000 aankomsten ÷ SP.POP.TOTL 2019: 34.663 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Malta": {
+      "scout_leden": {
+        "waarde": 6.5835,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 3.639 leden ÷ Wereldbank bevolking 2023: 552.747 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 6.9834,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 3.519.000 aankomsten ÷ SP.POP.TOTL 2019: 503.912 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Kroatië": {
+      "scout_leden": {
+        "waarde": 0.9024,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 3.483 leden ÷ Wereldbank bevolking 2023: 3.859.686 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 15.1975,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 60.021.000 aankomsten ÷ SP.POP.TOTL 2019: 3.949.390 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "scout_leden": {
+        "waarde": 0.7827,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 2.493 leden ÷ Wereldbank bevolking 2023: 3.185.073 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.3581,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 1.198.000 aankomsten ÷ SP.POP.TOTL 2019: 3.345.533 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Montenegro": {
+      "scout_leden": {
+        "waarde": 2.7874,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 1.738 leden ÷ Wereldbank bevolking 2023: 623.529 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 4.0048,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 2.510.000 aankomsten ÷ SP.POP.TOTL 2019: 626.753 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Servië": {
+      "scout_leden": {
+        "waarde": 0.7394,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 4.897 leden ÷ Wereldbank bevolking 2023: 6.623.183 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.2659,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 1.847.000 aankomsten ÷ SP.POP.TOTL 2019: 6.945.235 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Kosovo": {
+      "scout_leden": {
+        "waarde": 0,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Geen WOSM-lid (Wikipedia: partially recognized state, 'Other status'). 0 toegepast volgens de ontbrekend-regel. Zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 1.5582,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 (MK, ME, RS) en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "ST.INT.ARVL 2019 ontbreekt in de bron (Kosovo staat niet in de tabel). Ontbrekend-regel: gemiddelde van aankomsten per inwoner van MK (0,4040), ME (4,0048) en RS (0,2659). Zekerheid laag."
+      }
+    },
+    "Noord-Macedonië": {
+      "scout_leden": {
+        "waarde": 1.5248,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 2.787 leden ÷ Wereldbank bevolking 2023: 1.827.816 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.404,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 758.000 aankomsten ÷ SP.POP.TOTL 2019: 1.876.262 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Griekenland": {
+      "scout_leden": {
+        "waarde": 1.6041,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 16.694 leden ÷ Wereldbank bevolking 2023: 10.407.351 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 3.1716,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 34.005.000 aankomsten ÷ SP.POP.TOTL 2019: 10.721.582 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Bulgarije": {
+      "scout_leden": {
+        "waarde": 0.0791,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 510 leden ÷ Wereldbank bevolking 2023: 6.446.596 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 1.897,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 12.552.000 aankomsten ÷ SP.POP.TOTL 2019: 6.616.726 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Cyprus": {
+      "scout_leden": {
+        "waarde": 4.1056,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 5.522 leden ÷ Wereldbank bevolking 2023: 1.344.976 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 3.1997,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 4.117.000 aankomsten ÷ SP.POP.TOTL 2019: 1.286.671 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Turkije": {
+      "scout_leden": {
+        "waarde": 2.6184,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 223.417 leden ÷ Wereldbank bevolking 2023: 85.325.965 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.6266,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 51.747.000 aankomsten ÷ SP.POP.TOTL 2019: 82.579.440 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Moldavië": {
+      "scout_leden": {
+        "waarde": 0.1477,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 363 leden ÷ Wereldbank bevolking 2023: 2.457.783 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.0653,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 174.000 aankomsten ÷ SP.POP.TOTL 2019: 2.664.224 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Oekraïne": {
+      "scout_leden": {
+        "waarde": 0.0376,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 1.417 leden ÷ Wereldbank bevolking 2023: 37.732.836 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.305,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 13.710.000 aankomsten ÷ SP.POP.TOTL 2019: 44.957.458 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Belarus": {
+      "scout_leden": {
+        "waarde": 0.1288,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 1.182 leden ÷ Wereldbank bevolking 2023: 9.178.298 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 1.2561,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 11.832.000 aankomsten ÷ SP.POP.TOTL 2019: 9.419.758 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Rusland": {
+      "scout_leden": {
+        "waarde": 0.0141,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 2.035 leden ÷ Wereldbank bevolking 2023: 143.826.130 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.1679,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 24.419.000 aankomsten ÷ SP.POP.TOTL 2019: 145.453.291 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Georgië": {
+      "scout_leden": {
+        "waarde": 0.7426,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 2.759 leden ÷ Wereldbank bevolking 2023: 3.715.483 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 2.0768,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 7.726.000 aankomsten ÷ SP.POP.TOTL 2019: 3.720.161 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Armenië": {
+      "scout_leden": {
+        "waarde": 0.648,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 1.921 leden ÷ Wereldbank bevolking 2023: 2.964.300 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.6393,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 1.894.000 aankomsten ÷ SP.POP.TOTL 2019: 2.962.500 inwoners. Afgeleid, zekerheid midden."
+      }
+    },
+    "Azerbeidzjan": {
+      "scout_leden": {
+        "waarde": 0.1769,
+        "eenheid": "WOSM-leden per 1.000 inwoners",
+        "bron": {
+          "naam": "Wikipedia: WOSM-ledental (census 31-12-2019); noemer: Wereldbank SP.POP.TOTL 2023",
+          "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+          "jaar": "2019 (leden), 2023 (bevolking)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia WOSM-census 31-12-2019: 1.796 leden ÷ Wereldbank bevolking 2023: 10.153.958 × 1.000. Afgeleid, zekerheid midden."
+      },
+      "uniek_toerisme": {
+        "waarde": 0.3162,
+        "eenheid": "aankomsten per inwoner",
+        "bron": {
+          "naam": "Wereldbank WDI: ST.INT.ARVL 2019 en SP.POP.TOTL 2019",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ST.INT.ARVL 2019: 3.170.000 aankomsten ÷ SP.POP.TOTL 2019: 10.024.283 inwoners. Afgeleid, zekerheid midden."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Wikipedia: List of World Organization of the Scout Movement members",
+      "url": "https://en.wikipedia.org/wiki/List_of_World_Organization_of_the_Scout_Movement_members",
+      "wat": "WOSM-ledental census 31-12-2019 (teller scout_leden)"
+    },
+    {
+      "naam": "Wereldbank WDI: SP.POP.TOTL (bevolking 2023)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SP.POP.TOTL?format=json&date=2023&per_page=100",
+      "wat": "noemer scout_leden"
+    },
+    {
+      "naam": "Wereldbank WDI: ST.INT.ARVL (aankomsten 2019)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ST.INT.ARVL?format=json&date=2019&per_page=100",
+      "wat": "teller uniek_toerisme"
+    },
+    {
+      "naam": "Wereldbank WDI: SP.POP.TOTL (bevolking 2019)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SP.POP.TOTL?format=json&date=2019&per_page=100",
+      "wat": "noemer uniek_toerisme"
+    },
+    {
+      "naam": "Wereldbank WDI: ST.INT.ARVL SVK (2018)",
+      "url": "https://api.worldbank.org/v2/country/SVK/indicator/ST.INT.ARVL?format=json&date=2018:2019&per_page=100",
+      "wat": "SK-waarde 2018 voor uniek_toerisme (ontbrekend in 2019)"
+    }
+  ],
+  "problemen": [
+    "scout_leden: bron 2 (Wereldbank bevolking 2023) levert alleen de noemer; de ledenaantallen bestaan alleen in bron 1 (Wikipedia). Tweede-bron-volgorde dus alleen voor de noemer toegepast.",
+    "uniek_toerisme: bron 2 (Wereldbank bevolking 2019) levert alleen de noemer; de aankomsten komen uit bron 1 (ST.INT.ARVL 2019).",
+    "Wikipedia-tabel dekt 40 van 42 landen. AD en XK zijn geen WOSM-lid en krijgen 0 (zekerheid midden) volgens de ontbrekend-regel.",
+    "SK ontbreekt in ST.INT.ARVL 2019; de waarde van 2018 (15.299.000) is gebruikt. De noemer is bevolking 2019, conform de meter (zekerheid midden).",
+    "XK ontbreekt in ST.INT.ARVL 2019; het gemiddelde van aankomsten per inwoner van MK, ME en RS is gebruikt (zekerheid laag).",
+    "uniek_toerisme AD (ca. 107,7) ligt ver boven de logschaal-ankers (20 → 0). Dit is geen rekenfout: de bron geeft 8.235.000 aankomsten bij 76.474 inwoners.",
+    "Wikipedia geeft NL als 115.000 (afgerond in de bron). Wereldbank-aankomsten LI komen als 98099.998 uit de API (float) en zijn ongewijzigd gebruikt."
+  ]
+}

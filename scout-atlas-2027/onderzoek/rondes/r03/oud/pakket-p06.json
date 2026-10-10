@@ -1,0 +1,162 @@
+{
+  "ronde": 3,
+  "pakket": "p06",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens: criterium C bewezen (Drave Scout Centre, https://drave.escutismo.pt/, SCENES). A, B en D niet geverifieerd (WebSearch-budget op, Eurocampings 403). Niveau 25." }
+    },
+    "Spanje": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Spaans centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget was op bij de eerste zoekopdracht. Niet op SCENES-lijst. scout.es gaf een DNS-fout. Ontbrekend-regel niet toegepast omdat de zoekstap ontbreekt (zou 0 geven)." }
+    },
+    "Andorra": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Andorrees centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Frankrijk": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens: criterium C bewezen via SCENES (Jambville, http://jambville.sgdf.fr/); eigen site niet gecontroleerd. Slechts een SCENES-centrum, dus B niet bewezen (3 nodig). A en D niet geverifieerd. Niveau 25." }
+    },
+    "Verenigd Koninkrijk": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens: criterium C op basis van Brownsea Island (SCENES, National Trust-eiland met scoutcentrum). Het voorbeeld-VK-lijst (scouts.org.uk) gaf 403, dus A niet geverifieerd. B slechts 1 SCENES-terrein. Niveau 25." }
+    },
+    "Ierland": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens. C bewezen (SCENES). B bewezen: Castle Saunderson (https://www.scouts.ie/scout-centres/castle-saunderson-international-scout-centre), Larch Hill (https://www.scouts.ie/scout-centres/larch-hill-international-scout-and-guide-centre), Lough Dan (https://www.scouts.ie/scout-centres/lough-dan-scout-and-eco-centre): alle drie boeken voor scoutgroepen met camping, contact aanwezig, prijzen niet getoond. A en D niet geverifieerd. Niveau 50." }
+    },
+    "IJsland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen IJslands centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. IJsland staat wel op de WOSM-ledenlijst (scout.org/countries, tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Nederland": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens. C bewezen (SCENES: Ada's Hoeve, Staelduin, St. Walrick, Scout Centrum Zeeland e.a.). B bewezen met drie terreinen: Gilwell Ada's Hoeve (https://www.adashoeve.nl/, 25+ kampeervelden voor scoutgroepen, contact-link), Staelduin (https://staelduin.scouting.nl/, velden voor groepen, contact-link), Scout Centrum Zeeland (https://scoutcentrumzeeland.nl/en/, adres en telefoon, kampen voor scoutgroepen). Prijzen niet getoond. A en D niet geverifieerd. Niveau 50." }
+    },
+    "Luxemburg": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens. C bewezen via SCENES (Misaershaff, http://www.misaershaff.lu/; Neihaischen, http://www.scotel.lu/). Slechts 2 terreinen op SCENES, dus B niet bewezen (3 nodig). A en D niet geverifieerd. Niveau 25." }
+    },
+    "Duitsland": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens. C bewezen (SCENES). B bewezen: Zentrum Pfadfinden Immenhausen (https://zentrum.pfadfinden.de/, Großzeltplatz voor scoutgroepen, adres/tel/mail), VCP Bundeszeltplatz (http://www.vcp-bundeszeltplatz.de/, uitsluitend voor Pfadfinder- en jeugdgroepen, Kontakt-link, geen prijs), Westernohe (http://www.westernohe.org/, tentplekken en huizen voor groepen, adres/tel/mail). Gruppenhaus.de: geen tentlijst gevonden; /zeltplaetze gaf 404. A en D niet geverifieerd. Niveau 50." }
+    },
+    "Denemarken": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens. C bewezen (SCENES). B bewezen met drie terreinen: Houens Odde (https://www.houensodde.dk/, online boeking van teltpladser, adres/tel/mail), Næsbycentret (http://www.naesbycentret.dk/, udlejning voor lejrskole, adres), Stevninghus (https://stevninghus.bookhus.dk/default.aspx, camping voor spejderture, adres/tel). Trevældcentret gaf 503. A en D niet geverifieerd. Niveau 50." }
+    },
+    "Noorwegen": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Noors centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. speiding.no laadde alleen de header, geen centra. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Zweden": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Zweeds centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. scouterna.se (geladen) noemt geen boekbaar nationaal centrum. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Finland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Fins centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. partio.fi noemt 'Partioasema' zonder beschrijving of boekingsinfo. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Estland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Ests centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Estland staat op de WOSM-ledenlijst (tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Letland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Lets centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Litouwen": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens: criterium C bewezen via SCENES (Scout Valley, http://www.skautuslenis.lt/en/); eigen site niet gecontroleerd. Slechts een SCENES-centrum, B niet bewezen. A en D niet geverifieerd. Niveau 25." }
+    },
+    "Zwitserland": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens: criterium C bewezen via SCENES (Kandersteg International Scout Centre, http://www.kisc.ch/); eigen site niet gecontroleerd. Slechts een SCENES-centrum, B niet bewezen. A en D niet geverifieerd. Niveau 25." }
+    },
+    "Liechtenstein": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Liechtensteins centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Oostenrijk": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens. C bewezen (SCENES: Pfadfinderdorf Zellhof, Techuana, Bundeszentrum Wassergspreng). B 2 van 3: Zellhof (http://www.zellhof.at/, internationaal Lagerplatz voor Pfadfinder, contact aanwezig) en Techuana (http://www.techuana.at/, Zeltplatz voor scouts, contact aanwezig). Wassergspreng (pfadfinder.at/bzw, redirect naar ppoe.at/bzw) gaf 503, dus B niet volledig bewezen. A en D niet geverifieerd. Niveau 25." }
+    },
+    "Tsjechië": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens: criterium C bewezen via SCENES (Kapraluv mlyn, http://www.kapraluvmlyn.cz/); eigen site niet gecontroleerd. Slechts een SCENES-centrum, B niet bewezen. A en D niet geverifieerd. Niveau 25." }
+    },
+    "Slowakije": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Slowaaks centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Italië": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ondergrens: criterium C bewezen via SCENES (Base Scout Piazzole, https://www.piazzole.org/la-base-scout-di-piazzole/); eigen site niet gecontroleerd. Slechts een SCENES-centrum, B niet bewezen. A en D niet geverifieerd. Niveau 25." }
+    },
+    "San Marino": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen San Marinees centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Malta": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Maltees centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Kroatië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen Kroatisch centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Kroatië staat op de WOSM-ledenlijst (tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Bosnië en Herzegovina": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Staat op de WOSM-ledenlijst (tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Montenegro": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Servië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Kosovo": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst; WOSM-status niet bevestigd (lijst tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Noord-Macedonië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Griekenland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. scout.gr gaf een DNS-fout. Griekenland staat op de WOSM-ledenlijst (tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Bulgarije": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Bulgarije staat op de WOSM-ledenlijst (tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Cyprus": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Cyprus staat op de WOSM-ledenlijst (tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Turkije": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Moldavië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Oekraïne": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Belarus": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Belarus staat op de WOSM-ledenlijst (tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Rusland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Georgië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Georgië staat op de WOSM-ledenlijst (tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Armenië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Armenië staat op de WOSM-ledenlijst (tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    },
+    "Azerbeidzjan": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "score-niveau (0/25/50/75/100 = 25 x aantal vervulde criteria)", "bron": { "naam": "WOSM SCENES-lijst (geen centrum gevonden)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht: WebSearch-budget op; niet op SCENES-lijst. Azerbeidzjan staat op de WOSM-ledenlijst (tot Jamaica). Ontbrekend-regel niet toegepast (zou 0 geven)." }
+    }
+  },
+  "bronnenlijst": [
+    { "naam": "WOSM SCENES-lijst (scoutcentra per land)", "url": "https://www.scout.org/SCENES", "wat": "Criterium C voor 13 landen en de namen van de B-terreinen; geladen op 10-10-2026." },
+    { "naam": "WOSM lijst van nationale scoutorganisaties", "url": "https://www.scout.org/countries", "wat": "Context WOSM-lidmaatschap; alleen tot Jamaica geladen, geen criterium." },
+    { "naam": "Gruppenhaus.de", "url": "https://www.gruppenhaus.de/", "wat": "Homepage geladen (3.915 Gruppenhäuser); geen tentlijst gevonden, dus A en D niet bewezen." },
+    { "naam": "Zentrum Pfadfinden Immenhausen", "url": "https://zentrum.pfadfinden.de/", "wat": "Criterium B (DE)." },
+    { "naam": "VCP Bundeszeltplatz", "url": "http://www.vcp-bundeszeltplatz.de/", "wat": "Criterium B (DE)." },
+    { "naam": "Westernohe", "url": "http://www.westernohe.org/", "wat": "Criterium B (DE)." },
+    { "naam": "Gilwell Ada's Hoeve", "url": "https://www.adashoeve.nl/", "wat": "Criterium B (NL)." },
+    { "naam": "Scouting kampeerterrein Staelduin", "url": "https://staelduin.scouting.nl/", "wat": "Criterium B (NL)." },
+    { "naam": "Scout Centrum Zeeland", "url": "https://scoutcentrumzeeland.nl/en/", "wat": "Criterium B (NL)." },
+    { "naam": "Houens Odde International Scout Centre", "url": "https://www.houensodde.dk/", "wat": "Criterium B (DK)." },
+    { "naam": "Næsbycentret", "url": "http://www.naesbycentret.dk/", "wat": "Criterium B (DK)." },
+    { "naam": "Stevninghus", "url": "https://stevninghus.bookhus.dk/default.aspx", "wat": "Criterium B (DK)." },
+    { "naam": "Castle Saunderson International Scout Centre", "url": "https://www.scouts.ie/scout-centres/castle-saunderson-international-scout-centre", "wat": "Criterium B (IE)." },
+    { "naam": "Larch Hill International Scout and Guide Centre", "url": "https://www.scouts.ie/scout-centres/larch-hill-international-scout-and-guide-centre", "wat": "Criterium B (IE)." },
+    { "naam": "Lough Dan Scout and Eco Centre", "url": "https://www.scouts.ie/scout-centres/lough-dan-scout-and-eco-centre", "wat": "Criterium B (IE)." },
+    { "naam": "Pfadfinderdorf Zellhof", "url": "http://www.zellhof.at/", "wat": "Criterium B (AT, 1 van 2 geverifieerd)." },
+    { "naam": "Techuana", "url": "http://www.techuana.at/", "wat": "Criterium B (AT, 2 van 2 geverifieerd)." }
+  ],
+  "problemen": [
+    "WebSearch gaf bij de eerste aanroep de melding dat het zoekbudget van deze beurt op was; er is daarna geen zoekopdracht uitgevoerd. De stap van maximaal 3 zoekopdrachten per land is daardoor niet gedaan. Criteria A en D (online lijsten en campingportalen) zijn voor geen enkel land bewezen.",
+    "Niet bereikbaar: eurocampings.co.uk (403), scouts.org.uk (403, het VK-voorbeeld), gruppenhaus.de/zeltplaetze (404), scout.es (DNS-fout), scout.gr (DNS-fout), pfadfinder.at/bzw met redirect naar ppoe.at/bzw (503), trevaeld.dk (503).",
+    "Waardebeleid: waarde = score van het aantal bewezen criteria (25 per criterium), dus een ondergrens. Ontbrekende criteria zijn niet als vervuld gerekend op basis van zoekresultaten, maar zijn ook niet opgezocht. Landen zonder enig bewijs staan op null, niet op 0.",
+    "29 landen staan op null omdat niet is onderzocht (zie opmerkingen per land). Bij toepassing van de ontbrekend-regel zouden ze 0 worden; dat is niet gedaan omdat de zoekstap ontbreekt.",
+    "Twijfel bij B: AT (Wassergspreng niet bereikbaar, dus 2 van 3); DE, NL en IE (B via contact-links en adressen, prijzen niet getoond); DK (Næsbycentret noemt geen tenten expliciet).",
+    "GB: Brownsea Island (National Trust-eiland op SCENES) telt als criterium C. De nationale VK-lijst kon niet worden gelezen.",
+    "WOSM-lidmaatschap: de lijst op scout.org/countries is afgekapt na Jamaica; voor landen na J is het lidmaatschap niet bevestigd.",
+    "model.json bevat geen CONTROLEGETALLEN voor p06; die controle is daarom niet uitgevoerd."
+  ]
+}

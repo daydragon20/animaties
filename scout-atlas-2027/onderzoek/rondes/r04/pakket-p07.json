@@ -1,0 +1,1986 @@
+{
+  "ronde": 4,
+  "pakket": "p07",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "vei_vrede": {
+        "waarde": 1.427,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 7 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 8.2,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 7.15."
+      },
+      "vei_zorg": {
+        "waarde": 83.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 1.313818,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Spanje": {
+      "vei_vrede": {
+        "waarde": 1.654,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 27 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 3.9,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 3.51."
+      },
+      "vei_zorg": {
+        "waarde": 84.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.33507,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Andorra": {
+      "vei_vrede": {
+        "waarde": 1.8685,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in GPI 2026-tabel; ontbrekend-regel: gemiddelde van ES en FR (1.654, 2.083)."
+      },
+      "vei_verkeer": {
+        "waarde": 2.53,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "WB geeft enkel 2013 (buiten venster 2019-2024); OWID 2021 gebruikt."
+      },
+      "vei_zorg": {
+        "waarde": 75.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.0,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID). Dataset geeft 0 in alle jaren 2015-2025 (niet verder gecontroleerd)."
+      }
+    },
+    "Frankrijk": {
+      "vei_vrede": {
+        "waarde": 2.083,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 99 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 5.1,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 4.7."
+      },
+      "vei_zorg": {
+        "waarde": 82.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.072013,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "vei_vrede": {
+        "waarde": 1.73,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 39 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 3.2,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 2.39."
+      },
+      "vei_zorg": {
+        "waarde": 88.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.066204,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Ierland": {
+      "vei_vrede": {
+        "waarde": 1.371,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 5 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 3.1,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 2.83."
+      },
+      "vei_zorg": {
+        "waarde": 82.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.072973,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "IJsland": {
+      "vei_vrede": {
+        "waarde": 1.161,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 1 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 2.0,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 2.43."
+      },
+      "vei_zorg": {
+        "waarde": 90.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.086787,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Nederland": {
+      "vei_vrede": {
+        "waarde": 1.566,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 17 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 4.0,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 3.43."
+      },
+      "vei_zorg": {
+        "waarde": 85.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.009001,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Luxemburg": {
+      "vei_vrede": {
+        "waarde": 1.7827,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in GPI 2026-tabel; ontbrekend-regel: gemiddelde van BE en DE en FR (1.608, 1.657, 2.083)."
+      },
+      "vei_verkeer": {
+        "waarde": 4.1,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 3.93."
+      },
+      "vei_zorg": {
+        "waarde": 83.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.0,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID). Dataset geeft 0 in alle jaren 2015-2025 (niet verder gecontroleerd)."
+      }
+    },
+    "Duitsland": {
+      "vei_vrede": {
+        "waarde": 1.657,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 28 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 3.8,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 3.33."
+      },
+      "vei_zorg": {
+        "waarde": 87.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.014525,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Denemarken": {
+      "vei_vrede": {
+        "waarde": 1.504,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 11 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 3.7,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 2.29."
+      },
+      "vei_zorg": {
+        "waarde": 85.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.017169,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Noorwegen": {
+      "vei_vrede": {
+        "waarde": 1.688,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 33 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 2.1,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 1.52."
+      },
+      "vei_zorg": {
+        "waarde": 89.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.001233,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Zweden": {
+      "vei_vrede": {
+        "waarde": 1.732,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 40 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 3.1,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 2.11."
+      },
+      "vei_zorg": {
+        "waarde": 85.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.011185,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Finland": {
+      "vei_vrede": {
+        "waarde": 1.478,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 9 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 3.9,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 4.19."
+      },
+      "vei_zorg": {
+        "waarde": 86.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.003545,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Estland": {
+      "vei_vrede": {
+        "waarde": 1.623,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 25 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 4.5,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 4.4."
+      },
+      "vei_zorg": {
+        "waarde": 79.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.00388,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Letland": {
+      "vei_vrede": {
+        "waarde": 1.589,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 19 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 8.1,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 10.11."
+      },
+      "vei_zorg": {
+        "waarde": 77.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.014943,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Litouwen": {
+      "vei_vrede": {
+        "waarde": 1.62,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 24 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 8.1,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 6.38."
+      },
+      "vei_zorg": {
+        "waarde": 78.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.009025,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Zwitserland": {
+      "vei_vrede": {
+        "waarde": 1.363,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 3 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 2.2,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 2.37."
+      },
+      "vei_zorg": {
+        "waarde": 87.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.005839,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Liechtenstein": {
+      "vei_vrede": {
+        "waarde": 1.392,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in GPI 2026-tabel; ontbrekend-regel: gemiddelde van CH en AT (1.363, 1.421)."
+      },
+      "vei_verkeer": {
+        "waarde": 2.2,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in WB of OWID; ontbrekend-regel: waarde van CH (2.2)."
+      },
+      "vei_zorg": {
+        "waarde": 87.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in WB; ontbrekend-regel: waarde van CH (87.0)."
+      },
+      "vei_brand": {
+        "waarde": 0.0,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID). Dataset geeft 0 in alle jaren 2015-2025 (niet verder gecontroleerd)."
+      }
+    },
+    "Oostenrijk": {
+      "vei_vrede": {
+        "waarde": 1.421,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 6 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 4.9,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 4.58."
+      },
+      "vei_zorg": {
+        "waarde": 84.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.007672,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Tsjechië": {
+      "vei_vrede": {
+        "waarde": 1.517,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 13 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 5.9,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 5.21."
+      },
+      "vei_zorg": {
+        "waarde": 83.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.005918,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Slowakije": {
+      "vei_vrede": {
+        "waarde": 1.661,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 29 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 6.1,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 6.43."
+      },
+      "vei_zorg": {
+        "waarde": 78.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.010988,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Italië": {
+      "vei_vrede": {
+        "waarde": 1.712,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 35 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 5.3,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 5.0."
+      },
+      "vei_zorg": {
+        "waarde": 82.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.484727,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "San Marino": {
+      "vei_vrede": {
+        "waarde": 1.712,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in GPI 2026-tabel; ontbrekend-regel: waarde van IT (1.712)."
+      },
+      "vei_verkeer": {
+        "waarde": 5.93,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "WB geeft enkel 2016 (buiten venster 2019-2024); OWID 2021 gebruikt."
+      },
+      "vei_zorg": {
+        "waarde": 74.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.0,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID). Dataset geeft 0 in alle jaren 2015-2025 (niet verder gecontroleerd)."
+      }
+    },
+    "Malta": {
+      "vei_vrede": {
+        "waarde": 1.712,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in GPI 2026-tabel; ontbrekend-regel: waarde van IT (1.712)."
+      },
+      "vei_verkeer": {
+        "waarde": 4.1,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 1.99."
+      },
+      "vei_zorg": {
+        "waarde": 82.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.049432,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Kroatië": {
+      "vei_vrede": {
+        "waarde": 1.619,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 23 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 7.9,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 8.08."
+      },
+      "vei_zorg": {
+        "waarde": 76.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.248157,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "vei_vrede": {
+        "waarde": 1.81,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 48 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 13.5,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 13.67."
+      },
+      "vei_zorg": {
+        "waarde": 64.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 1.13791,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Montenegro": {
+      "vei_vrede": {
+        "waarde": 1.672,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 30 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 7.6,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 9.08."
+      },
+      "vei_zorg": {
+        "waarde": 70.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 2.33867,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Servië": {
+      "vei_vrede": {
+        "waarde": 1.919,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 70 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 7.5,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 7.36."
+      },
+      "vei_zorg": {
+        "waarde": 73.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.811103,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Kosovo": {
+      "vei_vrede": {
+        "waarde": 1.83,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 54 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 6.7333,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in WB of OWID; ontbrekend-regel: gemiddelde van ME (7.6), MK (5.1) en RS (7.5)."
+      },
+      "vei_zorg": {
+        "waarde": 69.5,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in WB; ontbrekend-regel: gemiddelde van ME (70.0) en MK (69.0)."
+      },
+      "vei_brand": {
+        "waarde": 1.45545,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in GWIS; ontbrekend-regel: gemiddelde van RS, ME en MK (Albanië is ook buurland maar staat niet in het pakket). EFFIS 2024 niet gebruikt (enkel 1 jaar)."
+      }
+    },
+    "Noord-Macedonië": {
+      "vei_vrede": {
+        "waarde": 1.792,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 46 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 5.1,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 5.71."
+      },
+      "vei_zorg": {
+        "waarde": 69.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 1.216576,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Griekenland": {
+      "vei_vrede": {
+        "waarde": 1.828,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 53 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 8.3,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 7.21."
+      },
+      "vei_zorg": {
+        "waarde": 77.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.504515,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Bulgarije": {
+      "vei_vrede": {
+        "waarde": 1.628,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 26 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 9.2,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 8.39."
+      },
+      "vei_zorg": {
+        "waarde": 73.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.743253,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Cyprus": {
+      "vei_vrede": {
+        "waarde": 1.967,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 80 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 5.8,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 3.94."
+      },
+      "vei_zorg": {
+        "waarde": 76.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.199912,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Turkije": {
+      "vei_vrede": {
+        "waarde": 2.605,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 136 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 6.7,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 6.52."
+      },
+      "vei_zorg": {
+        "waarde": 77.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.491891,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Moldavië": {
+      "vei_vrede": {
+        "waarde": 1.836,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 55 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 7.3,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 9.15."
+      },
+      "vei_zorg": {
+        "waarde": 71.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.591811,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Oekraïne": {
+      "vei_vrede": {
+        "waarde": 3.184,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 160 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 10.2,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 10.47."
+      },
+      "vei_zorg": {
+        "waarde": 80.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 1.576709,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Belarus": {
+      "vei_vrede": {
+        "waarde": 2.216,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 115 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 7.6,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 7.37."
+      },
+      "vei_zorg": {
+        "waarde": 80.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.220991,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Rusland": {
+      "vei_vrede": {
+        "waarde": 3.367,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 163 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 12.0,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 10.57."
+      },
+      "vei_zorg": {
+        "waarde": 81.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.771595,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Georgië": {
+      "vei_vrede": {
+        "waarde": 2.066,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 94 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 12.4,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 12.67."
+      },
+      "vei_zorg": {
+        "waarde": 71.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.528287,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Armenië": {
+      "vei_vrede": {
+        "waarde": 1.825,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 51 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 20.0,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 13.58."
+      },
+      "vei_zorg": {
+        "waarde": 69.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 0.541227,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    },
+    "Azerbeidzjan": {
+      "vei_vrede": {
+        "waarde": 2.142,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "GPI 2026, rang 110 van 163."
+      },
+      "vei_verkeer": {
+        "waarde": 6.7,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde): WB-schatting 2019; vastgelegd jaar meter 2021 (OWID): 17.15."
+      },
+      "vei_zorg": {
+        "waarde": 67.0,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Tweede bron (even ronde); WHO-reeks 2023."
+      },
+      "vei_brand": {
+        "waarde": 1.029277,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (GWIS via OWID)."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Wikipedia, Global Peace Index (landentabel GPI 2026)",
+      "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+      "wat": "vei_vrede: scores en rang van 37 landen, Serbië incl.; eerste bron"
+    },
+    {
+      "naam": "Vision of Humanity, Global Peace Index kaart",
+      "url": "https://www.visionofhumanity.org/maps/",
+      "wat": "vei_vrede: tweede bron, geprobeerd; scores niet uitleesbaar (JavaScript)"
+    },
+    {
+      "naam": "Wereldbank WDI, SH.STA.TRAF.P5 (WHO-schatting)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH.STA.TRAF.P5?format=json&date=2019:2024&mrnev=1&per_page=100",
+      "wat": "vei_verkeer: tweede bron (even ronde), 38 landen 2019; ook LI (via CH) en XK (via ME, MK, RS)"
+    },
+    {
+      "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+      "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+      "wat": "vei_verkeer: eerste bron, 2021; gebruikt voor AD en SM; controlegetallen"
+    },
+    {
+      "naam": "Wereldbank WDI, SH_UHC_SCI (WHO UHC service coverage index)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/SH_UHC_SCI?format=json&date=2023:2023&per_page=500",
+      "wat": "vei_zorg: tweede bron, 2023; 40 landen; LI en XK via ontbrekend-regel"
+    },
+    {
+      "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires",
+      "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+      "wat": "vei_brand: eerste bron, gemiddelde 2015-2025 per land (41 landen)"
+    },
+    {
+      "naam": "EFFIS / JRC, Forest Fires in Europe, Middle East and North Africa 2024",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC144093",
+      "wat": "vei_brand: bereikbaar (HTTP 200), niet gebruikt: enkel 2024 in ha, geen 2015-2025-gemiddelde"
+    }
+  ],
+  "problemen": [
+    "vei_vrede: tweede bron (Vision of Humanity) is bereikbaar, maar de landentabel met scores staat niet in de statische HTML (JavaScript); eerste bron (Wikipedia) gebruikt.",
+    "vei_vrede: AD, LI, SM, LU en MT staan niet in de GPI 2026-tabel (gecontroleerd op landnaam); ontbrekend-regel toegepast, zekerheid laag. Serbië staat op gelijke rang 70 (tabel: '2=70') en is wel meegenomen.",
+    "vei_verkeer: even ronde, dus tweede bron (WB SH.STA.TRAF.P5) eerst gebruikt. Die reeks geeft schattingen uit 2019 i.p.v. het vastgelegde jaar 2021 van de meter; de meter-notitie zegt 'enkel als OWID niet werkt'. Die notitie is hier niet gevolgd omdat de even-ronde-regel dat expliciet vraagt. OWID 2021 staat per land in de opmerking ter vergelijking.",
+    "vei_verkeer: WB geeft voor AD enkel 2013 en voor SM enkel 2016 (buiten venster 2019-2024); daarvoor is OWID 2021 gebruikt. LI en XK ontbreken in beide bronnen (ontbrekend-regel). Controle OWID 2021: NO 1.52, AM 13.58, AZ 17.15 klopt.",
+    "vei_zorg: de WB-URL uit de opdracht bevat maar 8 landen; gebruikt is dezelfde indicator SH_UHC_SCI met alle 40 landencodes (date=2023). Controles ISL 90, BIH 64, GEO 71 en CH 87 kloppen. LI en XK ontbreken (ontbrekend-regel).",
+    "vei_brand: tweede bron EFFIS (JRC144093) is bereikbaar, maar geeft enkel 2024 in hectare; het gevraagde gemiddelde 2015-2025 in % per jaar kan daar niet uit worden afgeleid. Daarom eerste bron (OWID/GWIS) gebruikt; het PDF-rapport is niet uitgelezen.",
+    "vei_brand: XK ontbreekt in GWIS; XK = gemiddelde van RS, ME en MK (Albanië is ook buurland maar staat niet in het pakket). AD, LI, LU en SM hebben in GWIS 0 in alle 11 jaren; rechtstreeks uit de dataset, niet verder gecontroleerd.",
+    "Controlegetallen: GPI IS 1.161 (rang 1), CH 1.363, RU 3.367; natuurbranden PT 2015 0.8702266 en 2025 2.2937331, ES 2024 0.110633716, NO 2025 0.0013803042 kloppen exact."
+  ]
+}

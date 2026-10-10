@@ -1,0 +1,1460 @@
+{
+  "ronde": 5,
+  "pakket": "p10",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "cul_engels": {
+        "waarde": 612,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Portugal en Religion in Portugal",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Portugal",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Portugees is Romaans; Latijns schrift; rooms-katholiek grootste groep (census 2021: 80,2%)."
+      }
+    },
+    "Spanje": {
+      "cul_engels": {
+        "waarde": 540,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Spain en Religion in Spain",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Spain",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Spaans is Romaans; Latijns; rooms-katholiek grootste groep (CIS: 54,3%). Twijfel A: Baskisch is niet-Romaans maar alleen regionaal officieel; nationale taal Spaans gekozen."
+      }
+    },
+    "Andorra": {
+      "cul_engels": {
+        "waarde": 539.5,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de EF-tabel 2025. Gemiddelde van buurlanden met EF-score: Spanje 540 en Frankrijk 539 = 539,5. Tweede bron niet in EF-eenheid."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Andorra en Religion in Andorra",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Andorra",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Catalaans is Romaans en enige officiële taal; Latijns; rooms-katholiek >85%."
+      }
+    },
+    "Frankrijk": {
+      "cul_engels": {
+        "waarde": 539,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of France en Religion in France",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_France",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Frans is Romaans (grondwet art. 2); Latijns; christendom grootste categorie; rooms-katholiek grootste christelijke groep (niet uitgesplitst op de pagina)."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "cul_engels": {
+        "waarde": 640,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de EF-tabel 2025. Engels is moedertaal/officiële taal: ontbrekend-regel = 640. Tweede bron (List of countries by English-speaking population) geeft % sprekers, geen EF-score: niet omgezet."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of the United Kingdom en Religion in the United Kingdom",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_the_United_Kingdom",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Engels is Germaans (overheersend); Latijns; christendom grootste categorie (46,5%); anglicaans (protestants) aangenomen als grootste denominatie, niet uitgesplitst op de pagina."
+      }
+    },
+    "Ierland": {
+      "cul_engels": {
+        "waarde": 640,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de EF-tabel 2025. Engels is moedertaal/officiële taal: ontbrekend-regel = 640. Tweede bron (List of countries by English-speaking population) geeft % sprekers, geen EF-score: niet omgezet."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Ireland en Religion in Ireland",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Ireland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Engels is overheersend (Germaans, A nee). Twijfel A: Iers (Keltisch) is eerste officiële taal volgens Languages_of_Ireland; bij strikt-officiële lezing A ja. Latijns. Grootste groep rooms-katholiek (Religion_in_Europe, Eurobarometer 2010: 70%); Religion_in_Ireland is een lijstpagina."
+      }
+    },
+    "IJsland": {
+      "cul_engels": {
+        "waarde": 600,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de EF-tabel 2025. Engels bijna universeel: ontbrekend-regel = 600. Tweede bron (List of countries by English-speaking population) geeft % sprekers, geen EF-score: niet omgezet."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Iceland en Religion in Iceland",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Iceland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. IJslands is Germaans; Latijns; Lutherse Kerk van IJsland 56,3% (grootste)."
+      }
+    },
+    "Nederland": {
+      "cul_engels": {
+        "waarde": 624,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of the Netherlands en Religion in the Netherlands",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_the_Netherlands",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Nederlands is Germaans; Latijns; geen religie grootste groep (58%)."
+      }
+    },
+    "Luxemburg": {
+      "cul_engels": {
+        "waarde": 600,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de EF-tabel 2025. Meertalig: ontbrekend-regel = 600. Tweede bron (List of countries by English-speaking population) geeft % sprekers, geen EF-score: niet omgezet."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Luxembourg en Religion in Luxembourg",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Luxembourg",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Luxemburgs (Germaans), Frans en Duits; Latijns; rooms-katholiek grootste (46%)."
+      }
+    },
+    "Duitsland": {
+      "cul_engels": {
+        "waarde": 615,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Germany en Religion in Germany",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Germany",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Duits is Germaans; Latijns; christendom grootste categorie (46,3% in 2025); rooms-katholiek en protestants de grootste denominaties."
+      }
+    },
+    "Denemarken": {
+      "cul_engels": {
+        "waarde": 611,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Denmark en Religion in Denmark",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Denmark",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Deens is Germaans; Latijns; Folkekirke (protestants) 69,8%."
+      }
+    },
+    "Noorwegen": {
+      "cul_engels": {
+        "waarde": 613,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Norway en Religion in Norway",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Norway",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Noors is Germaans (overheersend); Latijns; Noorse Kerk (lutheraans) 61,7%. Sámi is officieel maar niet overheersend."
+      }
+    },
+    "Zweden": {
+      "cul_engels": {
+        "waarde": 609,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Sweden en Religion in Sweden",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Sweden",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Zweeds is Germaans; Latijns; Zweedse Kerk (lutheraans) grootste groep (53,2% in 2021)."
+      }
+    },
+    "Finland": {
+      "cul_engels": {
+        "waarde": 603,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Finland en Religion in Finland",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Finland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "1 ja-antwoord(en): A ja, B nee, C nee → niveau 45. Fins is Fins-Oegrisch (A ja, Languages_of_Finland); Latijns; Finse Lutherse Kerk 61,2%."
+      }
+    },
+    "Estland": {
+      "cul_engels": {
+        "waarde": 561,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Estonia en Religion in Estonia",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Estonia",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "1 ja-antwoord(en): A ja, B nee, C nee → niveau 45. Estisch is Fins-Oegrisch (A ja, Languages_of_Estonia); Latijns; geen religie grootste groep (58,6%)."
+      }
+    },
+    "Letland": {
+      "cul_engels": {
+        "waarde": 599,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Latvia en Religion in Latvia",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Latvia",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "1 ja-antwoord(en): A ja, B nee, C nee → niveau 45. Lets is Baltisch (A ja); Latijns; grootste denominatie lutheraans (37%, Religion_in_Latvia); rooms-katholiek ook groot."
+      }
+    },
+    "Litouwen": {
+      "cul_engels": {
+        "waarde": 543,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Lithuania en Religion in Lithuania",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Lithuania",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "1 ja-antwoord(en): A ja, B nee, C nee → niveau 45. Litouws is Baltisch (A ja); Latijns; rooms-katholiek ~74% (census 2021)."
+      }
+    },
+    "Zwitserland": {
+      "cul_engels": {
+        "waarde": 564,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Switzerland en Religion in Switzerland",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Switzerland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Duits (dominant), Frans, Italiaans en Retoromaans: A nee; Latijns; grootste groep rooms-katholiek of geen religie (beide niet-C; denominatieverhouding uit algemene kennis)."
+      }
+    },
+    "Liechtenstein": {
+      "cul_engels": {
+        "waarde": 590,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de EF-tabel 2025. Gemiddelde van Zwitserland 564 en Oostenrijk 616 = 590. Tweede bron niet in EF-eenheid."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Liechtenstein en Religion in Liechtenstein",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Liechtenstein",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Duits (A nee, Languages_of_Liechtenstein); Latijns; rooms-katholiek 69,6% (2020)."
+      }
+    },
+    "Oostenrijk": {
+      "cul_engels": {
+        "waarde": 616,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Austria en Religion in Austria",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Austria",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Duits (A nee); Latijns; rooms-katholiek grootste (55,2%)."
+      }
+    },
+    "Tsjechië": {
+      "cul_engels": {
+        "waarde": 582,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of the Czech Republic en Religion in the Czech Republic",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_the_Czech_Republic",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "1 ja-antwoord(en): A ja, B nee, C nee → niveau 45. Tsjechisch is West-Slavisch (A ja); Latijns; geen religie grootste groep (47,8%)."
+      }
+    },
+    "Slowakije": {
+      "cul_engels": {
+        "waarde": 606,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Slovakia en Religion in Slovakia",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Slovakia",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "1 ja-antwoord(en): A ja, B nee, C nee → niveau 45. Slowaaks is Slavisch (A ja; algemene kennis, deze zin niet op de opgehaalde pagina); Latijns; rooms-katholiek 59,8% (census 2021)."
+      }
+    },
+    "Italië": {
+      "cul_engels": {
+        "waarde": 513,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Italy en Religion in Italy",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Italy",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Italiaans is Romaans (A nee); Latijns; rooms-katholiek dominant (Religion_in_Italy)."
+      }
+    },
+    "San Marino": {
+      "cul_engels": {
+        "waarde": 513,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de EF-tabel 2025. Enige buurland is Italië (513): gemiddelde = 513. Tweede bron niet in EF-eenheid."
+      },
+      "cul_buitenland": {
+        "waarde": 10,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of San Marino en Religion in San Marino",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_San_Marino",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "0 ja-antwoord(en): A nee, B nee, C nee → niveau 10. Italiaans is enige officiële taal (A nee, Languages_of_San_Marino); Latijns; christen 91,5%, overwegend katholiek."
+      }
+    },
+    "Malta": {
+      "cul_engels": {
+        "waarde": 640,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de EF-tabel 2025. Engels is officiële taal: ontbrekend-regel = 640. Tweede bron (List of countries by English-speaking population) geeft % sprekers, geen EF-score: niet omgezet."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Malta en Religion in Malta",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Malta",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "1 ja-antwoord(en): A ja, B nee, C nee → niveau 45. Maltees is Semitisch, niet Germaans/Romaans (A ja; 'national language' volgens Languages_of_Malta); Latijns; rooms-katholiek 93,9%."
+      }
+    },
+    "Kroatië": {
+      "cul_engels": {
+        "waarde": 617,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Croatia en Religion in Croatia",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Croatia",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "1 ja-antwoord(en): A ja, B nee, C nee → niveau 45. Kroatisch is Slavisch (A ja); Latijns (Kroatisch alleen Latijns, zie Languages_of_Bosnia_and_Herzegovina); rooms-katholiek grootste (christen 87,34%)."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "cul_engels": {
+        "waarde": 591,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Bosnia and Herzegovina en Religion in Bosnia and Herzegovina",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Bosnia_and_Herzegovina",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "2 ja-antwoord(en): A ja, B nee, C ja → niveau 75. Bosnisch, Servisch en Kroatisch: Slavisch (A ja); Latijns overheersend, Cyrillisch ook in gebruik (Languages_of_Bosnia_and_Herzegovina); islam grootste groep (C ja)."
+      }
+    },
+    "Montenegro": {
+      "cul_engels": {
+        "waarde": 579.75,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de EF-tabel 2025. Gemiddelde van Bosnië en Herzegovina 591, Kroatië 617, Servië 579 en Albanië 532 = 579,75. Kosovo heeft geen EF-score. Tweede bron niet in EF-eenheid."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Montenegro en Religion in Montenegro",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Montenegro",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "2 ja-antwoord(en): A ja, B nee, C ja → niveau 75. Montenegrijns is Slavisch (A ja); Latijns en Cyrillisch beide mogelijk; dagelijks overheersend schrift niet vastgesteld, Latijns aangenomen (B nee; twijfel, daarom laag); oosters-orthodox 71,1% (C ja)."
+      }
+    },
+    "Servië": {
+      "cul_engels": {
+        "waarde": 579,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Serbia en Religion in Serbia",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Serbia",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "3 ja-antwoord(en): A ja, B ja, C ja → niveau 100. Servisch is Slavisch (A ja); Cyrillisch officieel, Latijns ook in gebruik; Cyrillisch aangenomen als overheersend (B ja; bij twijfel ja volgens de opdracht); oosters-orthodox ~81% (C ja)."
+      }
+    },
+    "Kosovo": {
+      "cul_engels": {
+        "waarde": 568.67,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (ontbrekend-regel uit model.json)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de EF-tabel 2025. Gemiddelde van Servië 579, Noord-Macedonië 595 en Albanië 532 = 568,67 (afgerond). Montenegro heeft geen EF-score. Tweede bron niet in EF-eenheid."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Kosovo en Religion in Kosovo",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Kosovo",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "2 ja-antwoord(en): A ja, B nee, C ja → niveau 75. Albanees is niet Germaans/Romaans (A ja); Latijns (B nee); islam grootste groep (~88%, C ja)."
+      }
+    },
+    "Noord-Macedonië": {
+      "cul_engels": {
+        "waarde": 595,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of North Macedonia en Religion in North Macedonia",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_North_Macedonia",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "3 ja-antwoord(en): A ja, B ja, C ja → niveau 100. Macedonisch is Slavisch (A ja); Cyrillisch is het officiële alfabet (B ja, Languages_of_North_Macedonia); oosters-orthodox 69,6% (C ja)."
+      }
+    },
+    "Griekenland": {
+      "cul_engels": {
+        "waarde": 592,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Greece en Religion in Greece",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Greece",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "3 ja-antwoord(en): A ja, B ja, C ja → niveau 100. Grieks (A ja); Grieks alfabet (B ja); oosters-orthodox 81–90% (C ja)."
+      }
+    },
+    "Bulgarije": {
+      "cul_engels": {
+        "waarde": 594,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Bulgaria en Religion in Bulgaria",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Bulgaria",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "3 ja-antwoord(en): A ja, B ja, C ja → niveau 100. Bulgaars is Slavisch (A ja); Cyrillisch (B ja, Languages_of_Bulgaria); oosters-orthodox ~63% (C ja)."
+      }
+    },
+    "Cyprus": {
+      "cul_engels": {
+        "waarde": 537,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Cyprus en Religion in Cyprus",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Cyprus",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "3 ja-antwoord(en): A ja, B ja, C ja → niveau 100. Grieks en Turks (A ja); dagelijks schrift Grieks (B ja; algemene kennis, niet op de opgehaalde pagina); oosters-orthodox 74,5% (C ja)."
+      }
+    },
+    "Turkije": {
+      "cul_engels": {
+        "waarde": 488,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Turkey en Religion in Turkey",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Turkey",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "2 ja-antwoord(en): A ja, B nee, C ja → niveau 75. Turks is de Turkse taal (A ja); Latijns (B nee; algemene kennis); islam (99,8% geregistreerd als moslim, C ja)."
+      }
+    },
+    "Moldavië": {
+      "cul_engels": {
+        "waarde": 531,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 45,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Moldova en Religion in Moldova",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Moldova",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "1 ja-antwoord(en): A nee, B nee, C ja → niveau 45. Roemeens is Romaans (A nee, Languages_of_Moldova); Latijns (Moldovaans in Latijns schrift, Languages_of_Moldova); oosters-orthodox grootste groep (C ja)."
+      }
+    },
+    "Oekraïne": {
+      "cul_engels": {
+        "waarde": 526,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Ukraine en Religion in Ukraine",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Ukraine",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "3 ja-antwoord(en): A ja, B ja, C ja → niveau 100. Oekraïens is Slavisch (A ja); Cyrillisch (B ja; algemene kennis, schrift niet op de opgehaalde pagina); oosters-orthodox ~72% (C ja)."
+      }
+    },
+    "Belarus": {
+      "cul_engels": {
+        "waarde": 533,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Belarus en Religion in Belarus",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Belarus",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "3 ja-antwoord(en): A ja, B ja, C ja → niveau 100. Wit-Russisch en Russisch: Slavisch (A ja); Cyrillisch (B ja; algemene kennis); oosters-orthodox ~73% (C ja)."
+      }
+    },
+    "Rusland": {
+      "cul_engels": {
+        "waarde": 521,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Russia en Religion in Russia",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Russia",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "3 ja-antwoord(en): A ja, B ja, C ja → niveau 100. Russisch is Slavisch (A ja); Cyrillisch (B ja, Languages_of_Russia); Russisch-orthodox grootste groep (C ja)."
+      }
+    },
+    "Georgië": {
+      "cul_engels": {
+        "waarde": 541,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Georgia (country) en Religion in Georgia (country)",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Georgia_(country)",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "3 ja-antwoord(en): A ja, B ja, C ja → niveau 100. Georgisch is Kartvelisch (A ja, Languages_of_Georgia); Georgisch schrift (B ja); Georgisch-orthodox ~82% (C ja)."
+      }
+    },
+    "Armenië": {
+      "cul_engels": {
+        "waarde": 515,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 100,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Armenia en Religion in Armenia",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Armenia",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "3 ja-antwoord(en): A ja, B ja, C ja → niveau 100. Armeens is een eigen tak van het Indo-Europees (A ja, Languages_of_Armenia); Armeens alfabet (B ja); Armeens-apostolisch 95,2% (C ja)."
+      }
+    },
+    "Azerbeidzjan": {
+      "cul_engels": {
+        "waarde": 454,
+        "eenheid": "EF EPI-score",
+        "bron": {
+          "naam": "EF English Proficiency Index 2025 (via Wikipedia-tabel)",
+          "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit de EF EPI 2025-tabel (ruwe score)."
+      },
+      "cul_buitenland": {
+        "waarde": 75,
+        "eenheid": "rubriekscore (niveau; 'ja'-antwoorden 0–3 → 10/45/75/100)",
+        "bron": {
+          "naam": "Wikipedia, Languages of Azerbaijan en Religion in Azerbaijan",
+          "url": "https://en.wikipedia.org/wiki/Languages_of_Azerbaijan",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "2 ja-antwoord(en): A ja, B nee, C ja → niveau 75. Azerbeidzjaans is Turks (A ja); Latijns (B nee; algemene kennis); islam 97,3% (C ja)."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "EF English Proficiency Index 2025 (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/EF_English_Proficiency_Index",
+      "wat": "cul_engels: EF EPI 2025 landscores, 32 van 42 landen"
+    },
+    {
+      "naam": "List of countries by English-speaking population (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population",
+      "wat": "cul_engels tweede bron: % Engelstalige bevolking; niet in EF-eenheid, niet voor waarden gebruikt"
+    },
+    {
+      "naam": "Religion in Europe (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Europe",
+      "wat": "cul_buitenland C: Eurobarometer 2010-tabel, gebruikt voor Ierland"
+    },
+    {
+      "naam": "Wikipedia, Languages of Portugal",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Portugal",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Portugal",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Portugal",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Spain",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Spain",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Spain",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Spain",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Andorra",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Andorra",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Andorra",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Andorra",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of France",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_France",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in France",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_France",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of the United Kingdom",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_the_United_Kingdom",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in the United Kingdom",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_the_United_Kingdom",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Ireland",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Ireland",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Languages of Iceland",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Iceland",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Iceland",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Iceland",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of the Netherlands",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_the_Netherlands",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in the Netherlands",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_the_Netherlands",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Luxembourg",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Luxembourg",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Luxembourg",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Luxembourg",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Germany",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Germany",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Germany",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Germany",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Denmark",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Denmark",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Denmark",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Denmark",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Norway",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Norway",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Norway",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Norway",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Sweden",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Sweden",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Sweden",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Sweden",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Finland",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Finland",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Finland",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Finland",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Estonia",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Estonia",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Estonia",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Estonia",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Latvia",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Latvia",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Latvia",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Latvia",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Lithuania",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Lithuania",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Lithuania",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Lithuania",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Switzerland",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Switzerland",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Switzerland",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Switzerland",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Liechtenstein",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Liechtenstein",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Liechtenstein",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Liechtenstein",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Austria",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Austria",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Austria",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Austria",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of the Czech Republic",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_the_Czech_Republic",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in the Czech Republic",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_the_Czech_Republic",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Slovakia",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Slovakia",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Slovakia",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Slovakia",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Italy",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Italy",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Italy",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Italy",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of San Marino",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_San_Marino",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in San Marino",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_San_Marino",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Malta",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Malta",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Malta",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Malta",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Croatia",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Croatia",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Croatia",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Croatia",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Bosnia and Herzegovina",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Bosnia_and_Herzegovina",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Bosnia and Herzegovina",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Bosnia_and_Herzegovina",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Montenegro",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Montenegro",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Montenegro",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Montenegro",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Serbia",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Serbia",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Serbia",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Serbia",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Kosovo",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Kosovo",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Kosovo",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Kosovo",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of North Macedonia",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_North_Macedonia",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in North Macedonia",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_North_Macedonia",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Greece",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Greece",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Greece",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Greece",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Bulgaria",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Bulgaria",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Bulgaria",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Bulgaria",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Cyprus",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Cyprus",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Cyprus",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Cyprus",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Turkey",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Turkey",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Turkey",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Turkey",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Moldova",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Moldova",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Moldova",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Moldova",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Ukraine",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Ukraine",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Ukraine",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Ukraine",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Belarus",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Belarus",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Belarus",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Belarus",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Russia",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Russia",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Russia",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Russia",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Georgia (country)",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Georgia_(country)",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Georgia (country)",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Georgia_(country)",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Armenia",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Armenia",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Armenia",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Armenia",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    },
+    {
+      "naam": "Wikipedia, Languages of Azerbaijan",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Azerbaijan",
+      "wat": "cul_buitenland A en B: officiële taal, taalfamilie en schrift"
+    },
+    {
+      "naam": "Wikipedia, Religion in Azerbaijan",
+      "url": "https://en.wikipedia.org/wiki/Religion_in_Azerbaijan",
+      "wat": "cul_buitenland C: grootste religieuze groep"
+    }
+  ],
+  "problemen": [
+    "cul_engels: 32 landen rechtstreeks uit de EF EPI 2025-tabel (zekerheid hoog). 10 landen ontbreken in de tabel (AD, GB, IE, IS, LU, LI, SM, MT, ME, XK) en zijn ingevuld via de ontbrekend-regel uit model.json (zekerheid laag).",
+    "cul_engels: de tweede bron (List of countries by English-speaking population) geeft % Engelstalige bevolking, geen EF-score. Die is niet omgezet (geen gedefinieerde omrekening) en dus niet voor waarden gebruikt.",
+    "cul_engels: Albanië (EF 532, niet in de 42) telt mee als buurland voor ME en XK. Zonder Albanië zou ME 595,67 zijn en XK 587.",
+    "cul_buitenland: Languages_of_Europe is geen per-land-tabel. Religion_in_Europe geeft alleen christen/moslim/geen-religie-percentages zonder denominatie. Daarom zijn de per-land-pagina's Languages_of_<land> en Religion_in_<land> gebruikt.",
+    "cul_buitenland, criterium C op denominatieniveau: waar christendom de grootste overkoepelende groep is (bv. GB, FR, DE, SE), telt de grootste denominatie (rooms-katholiek of protestants). Voor GB is anglicaans aangenomen; die uitsplitsing staat niet op de pagina.",
+    "cul_buitenland, twijfel over A: IE (Iers is eerste officiële taal, Engels is overheersend), ES (Baskisch regionaal officieel), NO (Sámi officieel), IT (minderheidstalen). De nationale of overheersende taal is gekozen. Bij strikt-officiële lezing zou IE 45 zijn.",
+    "cul_buitenland, schrift: ME (Latijns en Cyrillisch beide in gebruik; dagelijks overheersend schrift niet vastgesteld) is B nee met zekerheid laag. RS (Cyrillisch officieel, Latijns ook in gebruik) is B ja met zekerheid midden.",
+    "cul_buitenland: het schrift van UA, BY, AZ, CY, TR en SK is niet in de opgehaalde pagina-tekst gevonden. Dat is op algemene kennis gezet en in de opmerking vermeld.",
+    "cul_buitenland: de waarde is de niveau-score (10/45/75/100), zoals de meter voorschrijft. Het aantal 'ja'-antwoorden staat in de opmerking.",
+    "Controlegetallen (oriëntatielijsten in de meter): alle 42 niveaus komen overeen (18 x 10, 9 x 45, 5 x 75, 10 x 100).",
+    "Geen 403/404 of lege antwoorden. Alle opgehaalde pagina's gaven HTTP 200, geen 429. WebSearch niet gebruikt. Het aantal opzoekingen ligt ruim boven de ±50 uit de opdracht, omdat cul_buitenland per land een pagina nodig had (84 per-land-pagina's)."
+  ]
+}

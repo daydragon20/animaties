@@ -1,0 +1,1524 @@
+{
+  "ronde": 4,
+  "pakket": "p12",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/portugal/reizen-naar-portugal-reisadvies/praktische-info-voor-portugal",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Belgische identiteitskaart volstaat (FOD); Schengen, geen visum."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home; Proximus: EU-zone zonder extra kosten."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/portugal/reizen-naar-portugal-reisadvies/praktische-info-voor-portugal",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Munteenheid euro (FOD)."
+      }
+    },
+    "Spanje": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Schengen-lidstaat; ID-kaart geldig volgens Timatic-tabel; de FOD-pagina noemt de documentregel niet."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/spanje/reizen-naar-spanje-reisadvies/praktische-info-voor-spanje",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Munteenheid euro (FOD)."
+      }
+    },
+    "Andorra": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/andorra/reizen-naar-andorra-reisadvies/praktische-info-voor-andorra",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: geldig paspoort of identiteitskaart volstaat; geen visum tot 90 dagen (geen Schengen-lid)."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Geen EU-regeling. Proximus rekent als in België (EU-zone-lijst). Telenet rekent AD buiten de EU-zone; die dagprijs is niet geverifieerd."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/andorra/reizen-naar-andorra-reisadvies/praktische-info-voor-andorra",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: munt is de euro, hoewel AD geen EU-lid is (monetair akkoord)."
+      }
+    },
+    "Frankrijk": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/frankrijk/reizen-naar-frankrijk-reisadvies/praktische-info-voor-frankrijk",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: Belgische identiteitskaart of paspoort volstaat."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/frankrijk/reizen-naar-frankrijk-reisadvies/praktische-info-voor-frankrijk",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: lokale munteenheid is de euro; Bancontact, Maestro en Visa/Mastercard aanvaard."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "prak_documenten": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/verenigd-koninkrijk/reizen-naar-het-verenigd-koninkrijk-reisadvies/praktische-info-voor-het-verenigd-koninkrijk",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: sinds 2 april 2025 internationaal paspoort plus elektronische reistoelating (ETA) nodig; ID-kaart volstaat niet."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling (UK). Proximus en Telenet rekenen het VK als EU-zone (geen extra kosten): criterium 75 van de rubriek."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/verenigd-koninkrijk/reizen-naar-het-verenigd-koninkrijk-reisadvies/praktische-info-voor-het-verenigd-koninkrijk",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD: munt Pond Sterling (GBP); geldautomaten met Maestro/Visa/Mastercard overal. Kaartbetaling niet expliciet vermeld."
+      }
+    },
+    "Ierland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD-pagina verwijst alleen naar de rubriek Reisdocumenten."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/ierland/reizen-naar-ierland-reisadvies/praktische-info-voor-ierland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: munteenheid is de euro."
+      }
+    },
+    "IJsland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/ijsland/reizen-naar-ijsland-reisadvies/praktische-info-voor-ijsland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: identiteitskaart of paspoort volstaat om het land binnen te komen."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EER-land: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/ijsland/reizen-naar-ijsland-reisadvies/praktische-info-voor-ijsland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD: eigen munt IJslandse kroon (ISK) in de EER. Kaartbetaling niet op de pagina vermeld."
+      }
+    },
+    "Nederland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD-pagina noemt geen documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/nederland/reizen-naar-nederland-reisadvies/praktische-info-voor-nederland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: Nederland kent zoals België de euro."
+      }
+    },
+    "Luxemburg": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD-pagina noemt geen documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/luxemburg/reizen-naar-luxemburg-reisadvies/praktische-info-voor-luxemburg",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: lokale munt is de euro."
+      }
+    },
+    "Duitsland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD verwijst naar de rubriek Reisdocumenten."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/duitsland/reizen-naar-duitsland-reisadvies/praktische-info-voor-duitsland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: betalingen in euro."
+      }
+    },
+    "Denemarken": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Schengen-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD noemt alleen uitzonderingen (Groenland: paspoort)."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/denemarken/reizen-naar-denemarken-reisadvies/praktische-info-voor-denemarken",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: eigen munt Deense kroon (DKK), buiten de euro maar in de EU; overal pinnen en geldautomaten; Visa/Mastercard gangbaar."
+      }
+    },
+    "Noorwegen": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Schengen/EER-land; ID-kaart geldig volgens Timatic-tabel. FOD noemt ID-kaart expliciet alleen voor Svalbard."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EER-land: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/noorwegen/reizen-naar-noorwegen-reisadvies/praktische-info-voor-noorwegen",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: eigen munt Noorse kroon (NOK); contant geld niet overal meer mogelijk; kaartbetaling gangbaar."
+      }
+    },
+    "Zweden": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU/Schengen-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD-pagina noemt geen documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/zweden/reizen-naar-zweden-reisadvies/praktische-info-voor-zweden",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: eigen munt Zweedse kroon (SEK); cash niet overal, sommige winkels enkel kaart."
+      }
+    },
+    "Finland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU/Schengen-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD-pagina noemt geen documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/finland/reizen-naar-finland-reisadvies/praktische-info-voor-finland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: betalingen met de euro; kredietkaarten worden aanvaard."
+      }
+    },
+    "Estland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU/Schengen-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD-pagina noemt geen documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/estland/reizen-naar-estland-reisadvies/praktische-info-voor-estland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: lokale munteenheid is de euro."
+      }
+    },
+    "Letland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/letland/reizen-naar-letland-reisadvies/praktische-info-voor-letland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: Letland is Schengen; enkel de Belgische identiteitskaart is nodig."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/letland/reizen-naar-letland-reisadvies/praktische-info-voor-letland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: lokale munteenheid is de euro."
+      }
+    },
+    "Litouwen": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU/Schengen-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD-pagina noemt geen documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/litouwen/reizen-naar-litouwen-reisadvies/praktische-info-voor-litouwen",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: munteenheid is sinds 1-1-2015 de euro."
+      }
+    },
+    "Zwitserland": {
+      "prak_documenten": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/zwitserland/reizen-naar-zwitserland-reisadvies/praktische-info-voor-zwitserland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ID-kaart geldig volgens Timatic-tabel (midden). FOD: minderjarigen die zonder ouders reizen hebben een ouderlijke toelating (formulier) nodig; daarom 75. Twijfelgeval: geldt dit ook voor een begeleide groep?"
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Proximus Zone A: Daily Roaming Pass 7,49 euro per dag (goedkoopste geverifieerde operator). Telenet rekent CH buiten de EU-zone; prijs niet gelezen."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/zwitserland/reizen-naar-zwitserland-reisadvies/praktische-info-voor-zwitserland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: eigen munt Zwitserse frank (CHF) in het VK/EER-blok; Belgische bankkaarten worden aanvaard."
+      }
+    },
+    "Liechtenstein": {
+      "prak_documenten": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/liechtenstein/reizen-naar-liechtenstein-reisadvies/praktische-info-voor-liechtenstein",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ID-kaart geldig volgens Timatic-tabel (midden). FOD: minderjarigen zonder ouders hebben een ouderlijke toelating (formulier) nodig; daarom 75."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EER-land: Roam like at home (EU-verordening); ook in de Telenet- en Proximus-EU-zone."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/liechtenstein/reizen-naar-liechtenstein-reisadvies/praktische-info-voor-liechtenstein",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD: eigen munt CHF in de EER/CH-regio. Kaartbetaling niet expliciet op de pagina; zekerheid midden."
+      }
+    },
+    "Oostenrijk": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU/Schengen-lidstaat; visum niet nodig (FOD); ID-kaart geldig volgens Timatic-tabel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone (eurolanden en eenzijdig/akkoord)",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Munteenheid euro: Eurozone-lijst (FOD-pagina vermeldt de munt niet)."
+      }
+    },
+    "Tsjechië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/tsjechie/reizen-naar-tsjechie-reisadvies/praktische-info-voor-tsjechie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: Tsjechië is EU-lidstaat; de identiteitskaart volstaat."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/tsjechie/reizen-naar-tsjechie-reisadvies/praktische-info-voor-tsjechie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: eigen munt Tsjechische kroon (CZK); kredietkaart wijdverspreid; Maestro-automaten."
+      }
+    },
+    "Slowakije": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU/Schengen-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD-pagina noemt geen documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/slovakije/reizen-naar-slovakije-reisadvies/praktische-info-voor-slovakije",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: de euro is de officiële munteenheid."
+      }
+    },
+    "Italië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/italie/reizen-naar-italie-reisadvies/praktische-info-voor-italie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: de eID geldt als reisdocument in de EU-landen, waaronder Italië; paspoort ook aanvaard."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone (eurolanden en eenzijdig/akkoord)",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Munteenheid euro: Eurozone-lijst (FOD-pagina vermeldt de munt niet)."
+      }
+    },
+    "San Marino": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/san-marino/reizen-naar-san-marino-reisadvies/praktische-info-voor-san-marino",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: geldig paspoort of identiteitskaart volstaat; geen Schengen-lid."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Geen EU-regeling (SM). Proximus (EU-zone-lijst) en Telenet (SM in EU-tariefzone) rekenen als in België: criterium 75."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/san-marino/reizen-naar-san-marino-reisadvies/praktische-info-voor-san-marino",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: de officiële munteenheid is de euro (monetair akkoord)."
+      }
+    },
+    "Malta": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD-pagina noemt geen documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Eurozone (eurolanden en eenzijdig/akkoord)",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Munteenheid euro: Eurozone-lijst (FOD-pagina vermeldt de munt niet)."
+      }
+    },
+    "Kroatië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/kroatie/reizen-naar-kroatie-reisadvies/praktische-info-voor-kroatie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: identiteitsdocument met foto (paspoort of identiteitskaart) volstaat; Kroatië is Schengen."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/kroatie/reizen-naar-kroatie-reisadvies/praktische-info-voor-kroatie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: munteenheid is sinds 1-1-2023 de euro."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/bosnie-en-herzegovina/reizen-naar-bosnie-en-herzegovina-reisadvies/praktische-info-voor-bosnie-en-herzegovina",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: identiteitskaart of paspoort is voldoende. Aanmelding van verblijf binnen 48 uur na aankomst (geen voorafgaande registratie)."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling; Western Balkans-akkoord alleen voorstel (EU-pagina). Proximus Zone A: 7,49 euro per dag."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/bosnie-en-herzegovina/reizen-naar-bosnie-en-herzegovina-reisadvies/praktische-info-voor-bosnie-en-herzegovina",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD: kredietkaarten in grotere winkels en restaurants, maar nog niet veralgemeend; eigen munt (KM) buiten de EU."
+      }
+    },
+    "Montenegro": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/montenegro/reizen-naar-montenegro-reisadvies/praktische-info-voor-montenegro",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: inreis met de Belgische identiteitskaart toegelaten; geen visum (Timatic: 90 dagen)."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling (Western Balkans-akkoord nog niet in kracht). Proximus Zone A: 7,49 euro per dag."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/montenegro/reizen-naar-montenegro-reisadvies/praktische-info-voor-montenegro",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: officiële munt is de euro (eenzijdig, geen EU-lid)."
+      }
+    },
+    "Servië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/servie/reizen-naar-servie-reisadvies/praktische-info-voor-servie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: eID, Kids-ID of paspoort nodig; inreis van Belgen met de identiteitskaart toegelaten; geen visum."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Proximus Zone A: 7,49 euro per dag."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/servie/reizen-naar-servie-reisadvies/praktische-info-voor-servie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD: officiële munt Servische dinar (RSD); kaarten in grotere zaken, maar contant nodig buiten steden en bij kleine winkels."
+      }
+    },
+    "Kosovo": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/kosovo/reizen-naar-kosovo-reisadvies/praktische-info-voor-kosovo",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: geen visum nodig; de elektronische identiteitskaart is voldoende."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Proximus Zone B: 13,49 euro per dag (tussen 5 en 15 euro: criterium 40). Telenet/Orange niet gelezen."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/kosovo/reizen-naar-kosovo-reisadvies/praktische-info-voor-kosovo",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: Kosovo heeft de euro eenzijdig als officiële munt aangenomen."
+      }
+    },
+    "Noord-Macedonië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Timatic-tabel: visumvrij 90 dagen, ID-kaart geldig. FOD vermeldt geen expliciete documentregel, wel ID-kaart-problemen aan de grens."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Proximus Zone A: 7,49 euro per dag."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/noord-macedonie/reizen-naar-noord-macedonie-reisadvies/praktische-info-voor-noord-macedonie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Munt Macedonische denar (geen euro); FOD-pagina zonder betaalinfo over munt. Rubriekvoorbeeld 40."
+      }
+    },
+    "Griekenland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD-pagina noemt geen documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/griekenland/reizen-naar-griekenland-reisadvies/praktische-info-voor-griekenland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: de munteenheid is de euro."
+      }
+    },
+    "Bulgarije": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD noemt geen expliciete documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (ook voor het Proximus- en Telenet-tarief als EU-zone)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/bulgarije/reizen-naar-bulgarije-reisadvies/praktische-info-voor-bulgarije",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: sinds 1-1-2026 gebeuren alle betalingen en geldopnames in euro."
+      }
+    },
+    "Cyprus": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat; ID-kaart geldig volgens Timatic-tabel. FOD verwijst naar de rubriek Reisdocumenten."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (Republiek Cyprus; het noorden valt buiten de regeling)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/cyprus/reizen-naar-cyprus-reisadvies/praktische-info-voor-cyprus",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: zuidelijk deel gebruikt de euro; in het noorden de Turkse lira. Hier de Republiek Cyprus."
+      }
+    },
+    "Turkije": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD: geen visum voor Belgen tot 90 dagen (zonder ID-vermelding); Timatic-tabel: ID-kaart geldig."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Proximus Zone A: 7,49 euro per dag. Telenet rekent TR buiten de EU-zone; prijs niet gelezen."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/turkije/reizen-naar-turkije-reisadvies/praktische-info-voor-turkije",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Munt Turkse lira (TL); FOD noemt Card Stop, geen expliciete kaartinfo. Rubriekvoorbeeld 40."
+      }
+    },
+    "Moldavië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Visumvrij 90 dagen; ID-kaart geldig volgens Timatic-tabel. FOD-pagina noemt geen documentregel."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-akkoord: Roam like at home sinds 1-1-2026 (EU-pagina); ook in de Proximus- en Telenet-EU-zone."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/moldavie/reizen-naar-moldavie-reisadvies/praktische-info-voor-moldavie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD: munt Moldavische leu (MDL); kredietkaart in restaurants en veel winkels, maar contant bij kleine winkels."
+      }
+    },
+    "Oekraïne": {
+      "prak_documenten": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/oekraine/reizen-naar-oekraine-reisadvies/praktische-info-voor-oekraine",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: internationaal paspoort vereist; een Belgische identiteitskaart wordt niet toegelaten. Visum niet vermeld (visumvrij volgens Timatic)."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-akkoord: Roam like at home sinds 1-1-2026 (EU-pagina)."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/oekraine/reizen-naar-oekraine-reisadvies/praktische-info-voor-oekraine",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD: munt hryvnia (UAH); kaarten op grote schaal aanvaard, maar reserve contant aanbevolen buiten de grote steden."
+      }
+    },
+    "Belarus": {
+      "prak_documenten": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/belarus/reizen-naar-belarus-reisadvies/praktische-info-voor-belarus",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: paspoort vereist, identiteitskaart volstaat niet; visumvrij tot 30 dagen onder voorwaarden; geen voorafgaande online toelating."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Proximus Zone A: 7,49 euro per dag (Wit-Rusland)."
+      },
+      "prak_betalen": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/belarus/reizen-naar-belarus-reisadvies/praktische-info-voor-belarus",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD-pagina zegt niets over betaalkaarten; 0 volgens het rubriekvoorbeeld (sancties Belarus). Niet via Visa/Mastercard geverifieerd."
+      }
+    },
+    "Rusland": {
+      "prak_documenten": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/rusland/reizen-naar-rusland-reisadvies/praktische-info-voor-rusland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD: paspoort vereist; sinds 2023 e-visa mogelijk (beperkte grensovergangen). Timatic: eVisa. Rubriekvoorbeeld is 0 (visum bij ambassade); gekozen 30 volgens criterium e-visum."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Proximus Zone A: 7,49 euro per dag."
+      },
+      "prak_betalen": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/rusland/reizen-naar-rusland-reisadvies/praktische-info-voor-rusland",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD-pagina noemt geen betaalkaarten; 0 volgens het rubriekvoorbeeld (sancties, Visa/Mastercard). Niet via Visa/Mastercard geverifieerd."
+      }
+    },
+    "Georgië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: een geldige Belgische identiteitskaart volstaat; geen visum tot 1 jaar. Verplichte verzekering sinds 2026 (geen registratie)."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Proximus Zone B: 13,49 euro per dag."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: lokale munt Georgische lari; kaarten steeds meer gangbaar, maar contant nuttig in afgelegen regio's."
+      }
+    },
+    "Armenië": {
+      "prak_documenten": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-tabel: ID-kaart geldig)",
+          "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "FOD: EU-burgers visumvrij tot 180 dagen; FOD noemt geen documentregel. Timatic-tabel vermeldt geen ID-kaart, dus paspoort (50)."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Proximus Zone B: 13,49 euro per dag."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/armenie/reizen-naar-armenie-reisadvies/praktische-info-voor-armenie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: betalingen in dram (AMD); Maestro/Cirrus in Jerevan; buiten de hoofdstad contant nodig."
+      }
+    },
+    "Azerbeidzjan": {
+      "prak_documenten": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (reisdocumenten en visum)",
+          "url": "https://diplomatie.belgium.be/nl/landen/azerbeidzjan/reizen-naar-azerbeidzjan-reisadvies/praktische-info-voor-azerbeidzjan",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: paspoort én visum verplicht; visum online aan te vragen (e-visum)."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Proximus roamingzones en Daily Roaming Pass",
+          "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Proximus Zone B: 13,49 euro per dag."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Praktische info per land (betaalmiddelen)",
+          "url": "https://diplomatie.belgium.be/nl/landen/azerbeidzjan/reizen-naar-azerbeidzjan-reisadvies/praktische-info-voor-azerbeidzjan",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: munt manat (AZN); Visa/Mastercard aanvaard, maar cash nuttig buiten Bakoe."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "FOD Buitenlandse Zaken, Praktische info per land (landenpagina's, 'Reizen naar <land>')",
+      "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+      "wat": "Documenten, visum en betaalmiddelen per land (bron 1 voor prak_documenten en prak_betalen; URL-patroon per land, Verenigd Koninkrijk en Nederland afwijkend waar nodig)"
+    },
+    {
+      "naam": "Wikipedia, Visa requirements for Belgian citizens (Timatic-gebaseerd)",
+      "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Belgian_citizens",
+      "wat": "Aanvulling voor prak_documenten wanneer de FOD-pagina geen documentregel noemt: 'ID card valid' en visumstatus per land (secundaire bron, zekerheid midden)"
+    },
+    {
+      "naam": "Europese Commissie, EU roaming (Roam like at home)",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+      "wat": "Roam like at home voor EU, IJsland, Noorwegen, Liechtenstein; Oekraïne en Moldavië sinds 1-1-2026; Westelijke Balkan alleen voorstel (25-2-2026)"
+    },
+    {
+      "naam": "Proximus, roamingzones en Daily Roaming Pass",
+      "url": "https://www.proximus.be/nl/id_cr_roaming/particulieren/mobiel/roaming.html",
+      "wat": "EU-zone-lijst (incl. AD, SM, GB, UA, MD), Zone A (7,49 euro/dag), Zone B (13,49 euro/dag); operatorprijs gebruikt voor 40- en 75-niveaus"
+    },
+    {
+      "naam": "Telenet, roaming in het buitenland",
+      "url": "https://www2.telenet.be/residential/nl/klantenservice/mobiel-en-vast/in-het-buitenland/alles-wat-je-wil-weten-over-roaming.html",
+      "wat": "EU-tariefzone-lijst; AD, MC, CH en andere niet-EU-landen buiten de EU-zone (dagprijzen niet op de pagina)"
+    },
+    {
+      "naam": "Orange Belgium, internationaal roaming: tarieven",
+      "url": "https://www.orange.be/nl/opties-en-diensten/internationaal-roaming/tarieven",
+      "wat": "Gecontroleerd: per-land tarieven laden via JavaScript; alleen de Daily Travel-optie (gratis, 50 landen) zichtbaar; niet gebruikt voor waarden"
+    },
+    {
+      "naam": "Wikipedia, Eurozone",
+      "url": "https://en.wikipedia.org/wiki/Eurozone",
+      "wat": "Eurolanden (21, incl. Bulgarije), monetair akkoord (AD, MC, SM, VA) en eenzijdig euro (ME, XK); controle prak_betalen"
+    }
+  ],
+  "problemen": [
+    "prak_documenten bron 2 (PRADO, consilium.europa.eu) geeft HTTP 403; niet gebruikt. Terugval op bron 1 (FOD) en, waar de FOD-pagina geen documentregel noemt, op de Timatic-tabel (zekerheid midden).",
+    "Telenet en Orange: per-land dagprijzen laden niet in de statische pagina (Orange via JavaScript). Operatorprijs is dus alleen via Proximus geverifieerd; 40 of 75 kan lager uitvallen als een andere operator goedkoper is (vooral CH, AD, BA, ME, TR, GE, AM, AZ).",
+    "De algemene FOD-pagina 'Reisdocumenten' is JavaScript zonder landgegevens. Voor landen waar de landenpagina alleen verwijst naar die rubriek, is de documentregel uit de Timatic-tabel gehaald (midden).",
+    "Rusland: FOD vermeldt e-visa sinds 2023 (beperkte grensovergangen). Rubriekvoorbeeld is 0; gekozen 30 volgens criterium e-visum. Twijfelgeval.",
+    "Zwitserland en Liechtenstein: FOD vermeldt ouderlijke toelating voor minderjarigen die zonder ouders reizen; gekozen 75. Geldt dit ook voor een begeleide groep? Twijfelgeval.",
+    "Rusland en Belarus, betalen: de FOD-pagina's noemen geen betaalkaarten. 0 volgens het rubriekvoorbeeld; niet via Visa/Mastercard geverifieerd (zekerheid midden).",
+    "Geen CONTROLEGETALLEN gedefinieerd voor pakket p12 in de opdracht of model.json; alleen de structuurcontrole van valideer-pakket.mjs is uitgevoerd.",
+    "Geen null-waarden nodig: alle 126 velden zijn gevonden. WebSearch is niet gebruikt. Een paar tijdelijke curl-downloads zijn direct weer verwijderd; niets anders is weggeschreven."
+  ]
+}

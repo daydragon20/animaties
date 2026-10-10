@@ -1,0 +1,1596 @@
+{
+  "ronde": 1,
+  "pakket": "p12",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating. FOD-pagina gaf 503; niet rechtstreeks gecontroleerd."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Spanje": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating. FOD-pagina Spanje noemt geen documentregels."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Andorra": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet opgehaald; buurland Spanje (eID volstaat) overgenomen."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "CallMePower: gids roaming (zones en dagpassen van Proximus, Orange, Telenet/Base)",
+          "url": "https://callmepower.be/nl/telecom/gids/vergelijken/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Zone 2 (CallMePower). Geen prijs per land gevonden; geschat als Proximus zone A (7,49 euro/dag)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro via formele overeenkomst (niet-EU)."
+      }
+    },
+    "Frankrijk": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "prak_documenten": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "VRT NWS: strengere controle ETA-documenten voor reizigers naar het VK (2026)",
+          "url": "https://www.vrt.be/vrtnws/en/2026/02/25/uk-visitors-watch-out-stricter-checks-on-eta-travel-documents-h.consumer/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Paspoort én ETA verplicht, ook voor kinderen; volledige handhaving sinds 25-2-2026. FOD-pagina gaf 503/404 (niet opgehaald)."
+      },
+      "prak_roaming": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Selectra: roaming reisabonnementen, Proximus zone A/B-dagpas (juni 2026)",
+          "url": "https://selectra.be/nl/telecom/nieuws/roaming-reisabonnementen-vakantie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Niet in EU-regeling. Operatoren rekenen nu geen extra kosten (Selectra), niet gegarandeerd; Orange Go Europa+ 3 euro/dag incl. VK (CallMePower)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info per land (bron uit de meter)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt in EU/EER/CH/VK; kaartbetaling en geldautomaten overal (criterium uit de meter). Per land niet geverifieerd. FOD-pagina GB niet opgehaald."
+      }
+    },
+    "Ierland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "IJsland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgische overheid: elektronische identiteitskaart (eID)",
+          "url": "https://www.belgium.be/nl/familie/identiteit/identiteitskaart",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EER-land: eID-regel verondersteld; niet per land geverifieerd."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EER-land: Roam like at home (EU-pagina)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info per land (bron uit de meter)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt in EU/EER/CH/VK; kaartbetaling en geldautomaten overal (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Nederland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Luxemburg": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Duitsland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Denemarken": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info per land (bron uit de meter)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt in EU/EER/CH/VK; kaartbetaling en geldautomaten overal (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Noorwegen": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgische overheid: elektronische identiteitskaart (eID)",
+          "url": "https://www.belgium.be/nl/familie/identiteit/identiteitskaart",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EER-land: eID-regel verondersteld; niet per land geverifieerd."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EER-land: Roam like at home (EU-pagina)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info per land (bron uit de meter)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt in EU/EER/CH/VK; kaartbetaling en geldautomaten overal (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Zweden": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info per land (bron uit de meter)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt in EU/EER/CH/VK; kaartbetaling en geldautomaten overal (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Finland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Estland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Letland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Litouwen": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Zwitserland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgische overheid: elektronische identiteitskaart (eID)",
+          "url": "https://www.belgium.be/nl/familie/identiteit/identiteitskaart",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Schengen, geen EU-lid: eID-regel verondersteld; niet per land geverifieerd."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Selectra: roaming reisabonnementen, Proximus zone A/B-dagpas (juni 2026)",
+          "url": "https://selectra.be/nl/telecom/nieuws/roaming-reisabonnementen-vakantie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Proximus zone A: 7,49 euro/dag (Selectra). Telenet, Orange en Base hebben wel passen van 3-5 euro; de Proximus-dagpas bepaalt het niveau."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info per land (bron uit de meter)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt in EU/EER/CH/VK; kaartbetaling en geldautomaten overal (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Liechtenstein": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgische overheid: elektronische identiteitskaart (eID)",
+          "url": "https://www.belgium.be/nl/familie/identiteit/identiteitskaart",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Schengen/EER: eID-regel verondersteld; niet per land geverifieerd."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EER-land: Roam like at home (EU-pagina)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info per land (bron uit de meter)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt in EU/EER/CH/VK; kaartbetaling en geldautomaten overal (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Oostenrijk": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Tsjechië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 70,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info per land (bron uit de meter)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt in EU/EER/CH/VK; kaartbetaling en geldautomaten overal (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Slowakije": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Italië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "San Marino": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgische overheid: elektronische identiteitskaart (eID)",
+          "url": "https://www.belgium.be/nl/familie/identiteit/identiteitskaart",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet opgehaald; buurland Italië (eID volstaat) overgenomen."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "CallMePower: gids roaming (zones en dagpassen van Proximus, Orange, Telenet/Base)",
+          "url": "https://callmepower.be/nl/telecom/gids/vergelijken/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de bronnen; microstaat buiten de EU, Andorra (zone 2) als vergelijkbaar buurland overgenomen."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro via formele overeenkomst (niet-EU)."
+      }
+    },
+    "Malta": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Kroatië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Bosnië en Herzegovina: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/bosnie-en-herzegovina/reizen-naar-bosnie-en-herzegovina-reisadvies/praktische-info-voor-bosnie-en-herzegovina",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: geldige identiteitskaart of paspoort volstaat; aanmelding bij vreemdelingenbureau binnen 48 uur na aankomst (niet vooraf)."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "CallMePower: gids roaming (zones en dagpassen van Proximus, Orange, Telenet/Base)",
+          "url": "https://callmepower.be/nl/telecom/gids/vergelijken/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Westelijke Balkan: geen EU-akkoord in werking, dus operatortarief. Zone 2 (CallMePower); geschat als zone A."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Bosnië en Herzegovina: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/bosnie-en-herzegovina/reizen-naar-bosnie-en-herzegovina-reisadvies/praktische-info-voor-bosnie-en-herzegovina",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt buiten EU/EER; Belgische kaarten werken, maar contant geld nodig buiten steden (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Montenegro": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Montenegro: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/montenegro/reizen-naar-montenegro-reisadvies/praktische-info-voor-montenegro",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: inreis met identiteitskaart toegelaten; paspoort aanbevolen."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Westelijke Balkan: geen EU-akkoord in werking, dus operatortarief. Geen operatorprijs gevonden; buurland Bosnië/Servië overgenomen."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro eenzijdig gebruikt."
+      }
+    },
+    "Servië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Servië: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/servie/reizen-naar-servie-reisadvies/praktische-info-voor-servie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: inreis met Belgische identiteitskaart toegelaten; paspoort aanbevolen."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "CallMePower: gids roaming (zones en dagpassen van Proximus, Orange, Telenet/Base)",
+          "url": "https://callmepower.be/nl/telecom/gids/vergelijken/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Westelijke Balkan: geen EU-akkoord in werking, dus operatortarief. Zone 2 (CallMePower); geschat als zone A."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Servië: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/servie/reizen-naar-servie-reisadvies/praktische-info-voor-servie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt buiten EU/EER; Belgische kaarten werken, maar contant geld nodig buiten steden (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Kosovo": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Kosovo: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/kosovo/reizen-naar-kosovo-reisadvies/praktische-info-voor-kosovo",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: geen visum nodig; de elektronische identiteitskaart is voldoende."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Westelijke Balkan: geen EU-akkoord in werking, dus operatortarief. Geen operatorprijs gevonden; buurland Servië overgenomen."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro eenzijdig gebruikt."
+      }
+    },
+    "Noord-Macedonië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Noord-Macedonië: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/noord-macedonie/reizen-naar-noord-macedonie-reisadvies/praktische-info-voor-noord-macedonie",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "FOD noemt de eID-regel niet expliciet. Buurland Servië (eID toegelaten) overgenomen; te verifiëren."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Westelijke Balkan: geen EU-akkoord in werking, dus operatortarief. Geen operatorprijs gevonden; buurland Servië overgenomen."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Noord-Macedonië: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/noord-macedonie/reizen-naar-noord-macedonie-reisadvies/praktische-info-voor-noord-macedonie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt buiten EU/EER; Belgische kaarten werken, maar contant geld nodig buiten steden (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Griekenland": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Bulgarije": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro sinds 1-1-2026."
+      }
+    },
+    "Cyprus": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+          "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "EU-lidstaat: eID volstaat zonder toelating."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "EU-lidstaat: Roam like at home (EU-verordening)."
+      },
+      "prak_betalen": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+          "url": "https://en.wikipedia.org/wiki/Eurozone",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Euro is het betaalmiddel."
+      }
+    },
+    "Turkije": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Legit.ng: Turkey lists 21 countries whose citizens can enter with national ID (secundair)",
+          "url": "https://www.legit.ng/people/1719129-turkey-lists-21-countries-citizens-enter-national-only/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Secundaire bron: België op lijst van 21 landen met ID-inreis. FOD-pagina: geen visum tot 90 dagen, eID-regel niet vermeld."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Selectra: roaming reisabonnementen, Proximus zone A/B-dagpas (juni 2026)",
+          "url": "https://selectra.be/nl/telecom/nieuws/roaming-reisabonnementen-vakantie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Proximus zone A: 7,49 euro/dag, Turkije genoemd (Selectra). Orange Go Europa+ 3 euro/dag incl. Turkije (CallMePower)."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Turkije: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/turkije/reizen-naar-turkije-reisadvies/praktische-info-voor-turkije",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt buiten EU/EER; Belgische kaarten werken, maar contant geld nodig buiten steden (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Moldavië": {
+      "prak_documenten": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Moldavië: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/moldavie/reizen-naar-moldavie-reisadvies/praktische-info-voor-moldavie",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "FOD noemt de eID-regel niet. Buurland Oekraïne (paspoort vereist) overgenomen."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Sinds 1-1-2026 in de gratis-roamingzone (EU-pagina)."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Moldavië: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/moldavie/reizen-naar-moldavie-reisadvies/praktische-info-voor-moldavie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt buiten EU/EER; Belgische kaarten werken, maar contant geld nodig buiten steden (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Oekraïne": {
+      "prak_documenten": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Oekraïne: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/oekraine/reizen-naar-oekraine-reisadvies/praktische-info-voor-oekraine",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: internationaal paspoort vereist; wie enkel een identiteitskaart heeft, wordt niet toegelaten."
+      },
+      "prak_roaming": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Sinds 1-1-2026 in de gratis-roamingzone (EU-pagina)."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Oekraïne: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/oekraine/reizen-naar-oekraine-reisadvies/praktische-info-voor-oekraine",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt buiten EU/EER; Belgische kaarten werken, maar contant geld nodig buiten steden (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Belarus": {
+      "prak_documenten": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "RFE/RL: Belarus introduces visa-free entry for 35 European countries (secundair)",
+          "url": "https://rferl.org/amp/belarus-introduces-visa-free-entrance-35-european-nations/33040244.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Visumvrij tot 30 dagen voor EU-burgers (secundair); paspoort verondersteld, niet bevestigd. FOD-pagina niet opgehaald."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "CallMePower: gids roaming (zones en dagpassen van Proximus, Orange, Telenet/Base)",
+          "url": "https://callmepower.be/nl/telecom/gids/vergelijken/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de bronnen; geschat als zone 4 (passen 5-9 euro/dag), buurland Rusland."
+      },
+      "prak_betalen": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, praktische info per land (bron uit de meter)",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Sancties; Belgische kaarten vermoedelijk niet bruikbaar. FOD-pagina BY niet opgehaald."
+      }
+    },
+    "Rusland": {
+      "prak_documenten": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Rusland: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/rusland/reizen-naar-rusland-reisadvies/praktische-info-voor-rusland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: bij aankomst paspoort én geldig Russisch visum vereist."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "CallMePower: gids roaming (zones en dagpassen van Proximus, Orange, Telenet/Base)",
+          "url": "https://callmepower.be/nl/telecom/gids/vergelijken/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Zone 4 volgens CallMePower; geen Russische dagpas gevonden, niveau geschat. Mogelijk 10 als er geen dagpas bestaat."
+      },
+      "prak_betalen": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Rusland: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/rusland/reizen-naar-rusland-reisadvies/praktische-info-voor-rusland",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: 'Westerse betaalkaarten (Mastercard, Visa,…) werken niet meer in Rusland'."
+      }
+    },
+    "Georgië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Georgië: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "ID-kaart volstaat, geen visum tot 1 jaar (FOD-voorbeeld uit de meter; niet opnieuw opgehaald)."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "CallMePower: gids roaming (zones en dagpassen van Proximus, Orange, Telenet/Base)",
+          "url": "https://callmepower.be/nl/telecom/gids/vergelijken/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Zone 4 (rest van de wereld). Geen prijs per land; operatorpassen 5-9 euro/dag (Orange 5, Telenet 6, Base 9). Geschat."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Georgië: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt buiten EU/EER; Belgische kaarten werken, maar contant geld nodig buiten steden (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Armenië": {
+      "prak_documenten": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Armenië: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/armenie/reizen-naar-armenie-reisadvies/praktische-info-voor-armenie",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "FOD: geen toeristenvisum voor EU-burgers; eID of paspoort niet vermeld. Buurland Georgië overgenomen."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "CallMePower: gids roaming (zones en dagpassen van Proximus, Orange, Telenet/Base)",
+          "url": "https://callmepower.be/nl/telecom/gids/vergelijken/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Zone 4 (rest van de wereld). Geen prijs per land; operatorpassen 5-9 euro/dag. Geschat."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Armenië: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/armenie/reizen-naar-armenie-reisadvies/praktische-info-voor-armenie",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt buiten EU/EER; Belgische kaarten werken, maar contant geld nodig buiten steden (criterium uit de meter). Per land niet geverifieerd."
+      }
+    },
+    "Azerbeidzjan": {
+      "prak_documenten": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Azerbeidzjan: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/azerbeidzjan/reizen-naar-azerbeidzjan-reisadvies/praktische-info-voor-azerbeidzjan",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "FOD: visum vooraf nodig, online aan te vragen (e-visum); paspoort vereist."
+      },
+      "prak_roaming": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "CallMePower: gids roaming (zones en dagpassen van Proximus, Orange, Telenet/Base)",
+          "url": "https://callmepower.be/nl/telecom/gids/vergelijken/roaming",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Zone 4 (rest van de wereld). Geen prijs per land; operatorpassen 5-9 euro/dag. Geschat."
+      },
+      "prak_betalen": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "FOD Buitenlandse Zaken, Reizen naar Azerbeidzjan: praktische info",
+          "url": "https://diplomatie.belgium.be/nl/landen/azerbeidzjan/reizen-naar-azerbeidzjan-reisadvies/praktische-info-voor-azerbeidzjan",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eigen munt buiten EU/EER; Belgische kaarten werken, maar contant geld nodig buiten steden (criterium uit de meter). Per land niet geverifieerd."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Belgisch consulaat Spanje: eID als reisdocument (52 landen, incl. alle EU-lidstaten)",
+      "url": "https://spain.diplomatie.belgium.be/nl/consulaire-diensten/reis-en-identiteitsdocumenten/identiteitskaart-eid",
+      "wat": "eID-regel: 52 landen, incl. alle EU-lidstaten"
+    },
+    {
+      "naam": "Europese Commissie, EU roaming (Roam like at home) en partnerakkoorden",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/roaming",
+      "wat": "EU-roamingregeling; geen Westelijke Balkan-akkoord in werking"
+    },
+    {
+      "naam": "Wikipedia: Eurozone en landen die de euro gebruiken",
+      "url": "https://en.wikipedia.org/wiki/Eurozone",
+      "wat": "landen met de euro (incl. AD, SM, ME, XK; BG sinds 2026)"
+    },
+    {
+      "naam": "CallMePower: gids roaming (zones en dagpassen van Proximus, Orange, Telenet/Base)",
+      "url": "https://callmepower.be/nl/telecom/gids/vergelijken/roaming",
+      "wat": "zone 2 en zone 4; operatorpassen"
+    },
+    {
+      "naam": "VRT NWS: strengere controle ETA-documenten voor reizigers naar het VK (2026)",
+      "url": "https://www.vrt.be/vrtnws/en/2026/02/25/uk-visitors-watch-out-stricter-checks-on-eta-travel-documents-h.consumer/",
+      "wat": "ETA-verplichting VK (secundair)"
+    },
+    {
+      "naam": "Selectra: roaming reisabonnementen, Proximus zone A/B-dagpas (juni 2026)",
+      "url": "https://selectra.be/nl/telecom/nieuws/roaming-reisabonnementen-vakantie",
+      "wat": "Proximus dagpas zone A 7,49 / zone B 13,49 euro per dag"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Georgië: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/georgie/reizen-naar-georgie-reisadvies/praktische-info-voor-georgie",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "Belgische overheid: elektronische identiteitskaart (eID)",
+      "url": "https://www.belgium.be/nl/familie/identiteit/identiteitskaart",
+      "wat": "eID als reisdocument binnen de EU (algemene regel)"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Bosnië en Herzegovina: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/bosnie-en-herzegovina/reizen-naar-bosnie-en-herzegovina-reisadvies/praktische-info-voor-bosnie-en-herzegovina",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Montenegro: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/montenegro/reizen-naar-montenegro-reisadvies/praktische-info-voor-montenegro",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Servië: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/servie/reizen-naar-servie-reisadvies/praktische-info-voor-servie",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Kosovo: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/kosovo/reizen-naar-kosovo-reisadvies/praktische-info-voor-kosovo",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Noord-Macedonië: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/noord-macedonie/reizen-naar-noord-macedonie-reisadvies/praktische-info-voor-noord-macedonie",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "Legit.ng: Turkey lists 21 countries whose citizens can enter with national ID (secundair)",
+      "url": "https://www.legit.ng/people/1719129-turkey-lists-21-countries-citizens-enter-national-only/",
+      "wat": "ID-inreis Turkije (secundair, niet officieel)"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Turkije: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/turkije/reizen-naar-turkije-reisadvies/praktische-info-voor-turkije",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Moldavië: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/moldavie/reizen-naar-moldavie-reisadvies/praktische-info-voor-moldavie",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Oekraïne: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/oekraine/reizen-naar-oekraine-reisadvies/praktische-info-voor-oekraine",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "RFE/RL: Belarus introduces visa-free entry for 35 European countries (secundair)",
+      "url": "https://rferl.org/amp/belarus-introduces-visa-free-entrance-35-european-nations/33040244.html",
+      "wat": "visumvrij tot 30 dagen voor EU-burgers (secundair)"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Rusland: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/rusland/reizen-naar-rusland-reisadvies/praktische-info-voor-rusland",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Armenië: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/armenie/reizen-naar-armenie-reisadvies/praktische-info-voor-armenie",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    },
+    {
+      "naam": "FOD Buitenlandse Zaken, Reizen naar Azerbeidzjan: praktische info",
+      "url": "https://diplomatie.belgium.be/nl/landen/azerbeidzjan/reizen-naar-azerbeidzjan-reisadvies/praktische-info-voor-azerbeidzjan",
+      "wat": "praktische info per land (FOD); per land opgehaald of genoemd in de opmerking"
+    }
+  ],
+  "problemen": [
+    "FOD-pagina's niet op te halen: Portugal (503), Verenigd Koninkrijk (404/503), Servië eerst 503 en daarna wel. Voor Portugal en het VK is het document-niveau uit andere bronnen gehaald (VK: ETA-verplichting, secundair).",
+    "FOD-pagina's van EU-landen noemen de documentregels meestal niet; het niveau 100 volgt de algemene eID-regel (52 landen, incl. alle EU-lidstaten). Per land niet geverifieerd.",
+    "De Rijksregister-PDF met de eID-landenlijst was niet leesbaar; de eID-regel voor IJsland, Noorwegen, Zwitserland en Liechtenstein is daardoor niet per land gecontroleerd.",
+    "Proximus-roamingpagina was leeg. Bronnen spreken elkaar tegen: Selectra geeft Proximus zone A 7,49 euro/dag (CH, TR), CallMePower noemt een Proximus-dagpas van 5 euro/dag voor 'EU-buurlanden'. Gekozen: Selectra (niveau 40).",
+    "Geen operatorprijs gevonden voor AD, SM, BA, ME, RS, XK, MK, GE, AM, AZ, BY, RU: roaming-niveau (40) geschat op zone-indeling of buurland, zekerheid laag. Voor RU kan 10 correcter zijn als er geen dagpas bestaat.",
+    "Westelijke Balkan: volgens de EU-pagina is er nog geen akkoord in werking (alleen een voorstel van 25-2-2026); BA, ME, RS, XK en MK vallen daarom onder het operatortarief.",
+    "Turkije (eID-regel) en Belarus (visumvrij 30 dagen, paspoort verondersteld) komen uit secundaire nieuwsbronnen en zijn niet op officiële pagina's bevestigd.",
+    "Moldavië en Noord-Macedonië (documenten) en Armenië (documenten) zijn laag: de FOD-pagina noemt de eID-regel niet, het niveau van een buurland is overgenomen.",
+    "Betaalniveaus volgen de criteria van de meter en de Wikipedia-lijst van eurolanden; kaartbetaling is per land niet geverifieerd, behalve Rusland (FOD).",
+    "In model.json (veld 'instructie') wordt verwezen naar 'CONTROLEGETALLEN van het pakket'; die staan niet in de opdracht en zijn niet toegepast."
+  ]
+}

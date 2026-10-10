@@ -1,0 +1,579 @@
+{
+  "ronde": 5,
+  "pakket": "p02",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "kost_reis": {
+        "waarde": 244,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;-9.1393,38.7223?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×2043×0,08=327; vlucht 90+0,09×1712=244; modelprijs 244 euro (vlucht)."
+      }
+    },
+    "Spanje": {
+      "kost_reis": {
+        "waarde": 208,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;-3.7038,40.4168?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1576×0,08=252; vlucht 90+0,09×1316=208; modelprijs 208 euro (vlucht)."
+      }
+    },
+    "Andorra": {
+      "kost_reis": {
+        "waarde": 187,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;1.5218,42.5063?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1167×0,08=187; vlucht n.v.t. (geen passagiersluchthaven of vluchten); modelprijs 187 euro (weg)."
+      }
+    },
+    "Frankrijk": {
+      "kost_reis": {
+        "waarde": 49,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;2.3522,48.8566?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×307×0,08=49; vlucht 90+0,09×264=114; modelprijs 49 euro (weg). Realiteitscheck FlixBus: stadspagina zonder prijs, niet vergeleken."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "kost_reis": {
+        "waarde": 109,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;-0.1278,51.5074?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×369×0,08+50=109; vlucht 90+0,09×321=119; modelprijs 109 euro (weg). Kanaalovergang 50 euro inbegrepen."
+      }
+    },
+    "Ierland": {
+      "kost_reis": {
+        "waarde": 160,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversine, R 6371 km) + vaste formule p02",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg n.v.t. (veerboot, 935 km niet gebruikt); vlucht 90+0,09×776=160; modelprijs 160 euro (vlucht)."
+      }
+    },
+    "IJsland": {
+      "kost_reis": {
+        "waarde": 282,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversine, R 6371 km) + vaste formule p02",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg n.v.t. (zee); vlucht 90+0,09×2129=282; modelprijs 282 euro (vlucht). Geen wegroute: alleen vlucht."
+      }
+    },
+    "Nederland": {
+      "kost_reis": {
+        "waarde": 34,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;4.9041,52.3676?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×211×0,08=34; vlucht 90+0,09×173=106; modelprijs 34 euro (weg)."
+      }
+    },
+    "Luxemburg": {
+      "kost_reis": {
+        "waarde": 34,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;6.1319,49.6116?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×215×0,08=34; vlucht 90+0,09×187=107; modelprijs 34 euro (weg)."
+      }
+    },
+    "Duitsland": {
+      "kost_reis": {
+        "waarde": 121,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;13.405,52.52?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×759×0,08=121; vlucht 90+0,09×651=149; modelprijs 121 euro (weg)."
+      }
+    },
+    "Denemarken": {
+      "kost_reis": {
+        "waarde": 159,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;12.5683,55.6761?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1061×0,08=170; vlucht 90+0,09×765=159; modelprijs 159 euro (vlucht)."
+      }
+    },
+    "Noorwegen": {
+      "kost_reis": {
+        "waarde": 188,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;10.7522,59.9139?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1660×0,08=266; vlucht 90+0,09×1085=188; modelprijs 188 euro (vlucht)."
+      }
+    },
+    "Zweden": {
+      "kost_reis": {
+        "waarde": 205,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;18.0686,59.3293?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1708×0,08=273; vlucht 90+0,09×1280=205; modelprijs 205 euro (vlucht)."
+      }
+    },
+    "Finland": {
+      "kost_reis": {
+        "waarde": 238,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;24.9384,60.1699?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×3466×0,08=555; vlucht 90+0,09×1648=238; modelprijs 238 euro (vlucht)."
+      }
+    },
+    "Estland": {
+      "kost_reis": {
+        "waarde": 234,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;24.7536,59.437?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×2266×0,08=363; vlucht 90+0,09×1600=234; modelprijs 234 euro (vlucht)."
+      }
+    },
+    "Letland": {
+      "kost_reis": {
+        "waarde": 221,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;24.1052,56.9496?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1957×0,08=313; vlucht 90+0,09×1454=221; modelprijs 221 euro (vlucht). OSRM-steekproef: 1957 km, afwijking 0 % t.o.v. tabel."
+      }
+    },
+    "Litouwen": {
+      "kost_reis": {
+        "waarde": 222,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;25.2797,54.6872?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1799×0,08=288; vlucht 90+0,09×1465=222; modelprijs 222 euro (vlucht)."
+      }
+    },
+    "Zwitserland": {
+      "kost_reis": {
+        "waarde": 105,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;7.4474,46.948?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×659×0,08=105; vlucht 90+0,09×489=134; modelprijs 105 euro (weg)."
+      }
+    },
+    "Liechtenstein": {
+      "kost_reis": {
+        "waarde": 132,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;9.5209,47.141?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×824×0,08=132; vlucht n.v.t. (geen passagiersluchthaven of vluchten); modelprijs 132 euro (weg)."
+      }
+    },
+    "Oostenrijk": {
+      "kost_reis": {
+        "waarde": 172,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;16.3738,48.2082?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1109×0,08=177; vlucht 90+0,09×915=172; modelprijs 172 euro (vlucht)."
+      }
+    },
+    "Tsjechië": {
+      "kost_reis": {
+        "waarde": 145,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;14.4378,50.0755?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×904×0,08=145; vlucht 90+0,09×718=155; modelprijs 145 euro (weg). Realiteitscheck FlixBus: stadspagina zonder prijs, niet vergeleken."
+      }
+    },
+    "Slowakije": {
+      "kost_reis": {
+        "waarde": 177,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;17.1077,48.1486?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1194×0,08=191; vlucht 90+0,09×967=177; modelprijs 177 euro (vlucht)."
+      }
+    },
+    "Italië": {
+      "kost_reis": {
+        "waarde": 196,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;12.4964,41.9028?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1475×0,08=236; vlucht 90+0,09×1173=196; modelprijs 196 euro (vlucht)."
+      }
+    },
+    "San Marino": {
+      "kost_reis": {
+        "waarde": 199,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;12.4578,43.9424?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1246×0,08=199; vlucht n.v.t. (geen passagiersluchthaven of vluchten); modelprijs 199 euro (weg)."
+      }
+    },
+    "Malta": {
+      "kost_reis": {
+        "waarde": 256,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversine, R 6371 km) + vaste formule p02",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg n.v.t. (zee); vlucht 90+0,09×1850=257; modelprijs 256 euro (vlucht). Formule geeft 256,5; tabelwaarde 256 gebruikt. Geen wegroute: alleen vlucht."
+      }
+    },
+    "Kroatië": {
+      "kost_reis": {
+        "waarde": 182,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;15.9819,45.815?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1291×0,08=207; vlucht 90+0,09×1024=182; modelprijs 182 euro (vlucht). OSRM-steekproef: 1291 km, afwijking 0 % t.o.v. tabel."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "kost_reis": {
+        "waarde": 208,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;18.4131,43.8563?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1692×0,08=271; vlucht 90+0,09×1310=208; modelprijs 208 euro (vlucht)."
+      }
+    },
+    "Montenegro": {
+      "kost_reis": {
+        "waarde": 222,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;19.2594,42.4304?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1958×0,08=313; vlucht 90+0,09×1469=222; modelprijs 222 euro (vlucht)."
+      }
+    },
+    "Servië": {
+      "kost_reis": {
+        "waarde": 214,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;20.4489,44.7866?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1684×0,08=269; vlucht 90+0,09×1374=214; modelprijs 214 euro (vlucht)."
+      }
+    },
+    "Kosovo": {
+      "kost_reis": {
+        "waarde": 231,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;21.1655,42.6629?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×2057×0,08=329; vlucht 90+0,09×1565=231; modelprijs 231 euro (vlucht)."
+      }
+    },
+    "Noord-Macedonië": {
+      "kost_reis": {
+        "waarde": 237,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;21.4254,41.9981?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×2114×0,08=338; vlucht 90+0,09×1631=237; modelprijs 237 euro (vlucht)."
+      }
+    },
+    "Griekenland": {
+      "kost_reis": {
+        "waarde": 278,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;23.7275,37.9838?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×2776×0,08=444; vlucht 90+0,09×2089=278; modelprijs 278 euro (vlucht)."
+      }
+    },
+    "Bulgarije": {
+      "kost_reis": {
+        "waarde": 243,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;23.3219,42.6977?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×2078×0,08=332; vlucht 90+0,09×1698=243; modelprijs 243 euro (vlucht). OSRM-steekproef: 2078 km, afwijking 0 % t.o.v. tabel."
+      }
+    },
+    "Cyprus": {
+      "kost_reis": {
+        "waarde": 351,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "Grootcirkelafstand (haversine, R 6371 km) + vaste formule p02",
+          "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg n.v.t. (zee); vlucht 90+0,09×2902=351; modelprijs 351 euro (vlucht). Geen wegroute: alleen vlucht."
+      }
+    },
+    "Turkije": {
+      "kost_reis": {
+        "waarde": 316,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;32.8597,39.9334?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×3079×0,08=493; vlucht 90+0,09×2513=316; modelprijs 316 euro (vlucht)."
+      }
+    },
+    "Moldavië": {
+      "kost_reis": {
+        "waarde": 255,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;28.8638,47.0105?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×2189×0,08=350; vlucht 90+0,09×1832=255; modelprijs 255 euro (vlucht)."
+      }
+    },
+    "Oekraïne": {
+      "kost_reis": {
+        "waarde": 331,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;30.5234,50.4501?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×2069×0,08=331; vlucht n.v.t. (geen passagiersluchthaven of vluchten); modelprijs 331 euro (weg)."
+      }
+    },
+    "Belarus": {
+      "kost_reis": {
+        "waarde": 295,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;27.559,53.9006?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×1846×0,08=295; vlucht n.v.t. (geen passagiersluchthaven of vluchten); modelprijs 295 euro (weg)."
+      }
+    },
+    "Rusland": {
+      "kost_reis": {
+        "waarde": 409,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;37.6173,55.7558?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×2554×0,08=409; vlucht n.v.t. (geen passagiersluchthaven of vluchten); modelprijs 409 euro (weg)."
+      }
+    },
+    "Georgië": {
+      "kost_reis": {
+        "waarde": 380,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;44.8271,41.7151?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×4257×0,08=681; vlucht 90+0,09×3226=380; modelprijs 380 euro (vlucht)."
+      }
+    },
+    "Armenië": {
+      "kost_reis": {
+        "waarde": 387,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;44.4991,40.1792?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×4327×0,08=692; vlucht 90+0,09×3297=387; modelprijs 387 euro (vlucht)."
+      }
+    },
+    "Azerbeidzjan": {
+      "kost_reis": {
+        "waarde": 419,
+        "eenheid": "euro per persoon, heen en terug (modelprijs, geen offerte)",
+        "bron": {
+          "naam": "OSRM (wegafstand, publieke demoserver) + vaste formule p02 (grootcirkel voor vlucht)",
+          "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;49.8671,40.4093?overview=false",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "weg 2×4838×0,08=774; vlucht 90+0,09×3659=419; modelprijs 419 euro (vlucht)."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "OSRM (Open Source Routing Machine), publieke demoserver",
+      "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;2.3522,48.8566?overview=false",
+      "wat": "wegafstand Brussel Grote Markt naar hoofdstad (distance in m); 39 van 42 gerouteerd; steekproef van 3 landen (BG, LV, HR) gecontroleerd"
+    },
+    {
+      "naam": "Grootcirkelafstand (haversineformule, aardstraal 6371 km)",
+      "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+      "wat": "grootcirkelafstand voor de vluchtprijs; in deze ronde lokaal herberekend als controle tegen de p02-tabel"
+    },
+    {
+      "naam": "FlixBus stadspagina's (optionele realiteitscheck)",
+      "url": "https://www.flixbus.be/bus/brussel-parijs",
+      "wat": "geen busprijs gevonden voor Brussel-Parijs; ook Brussel-Praag bekeken (https://www.flixbus.be/bus/brussel-praag), zonder prijs"
+    }
+  ],
+  "problemen": [
+    "Alle 42 modelprijzen komen uit de vaste referentietabel van p02; in deze ronde herberekend met de formule en de grootcirkelafstanden (zie hierboven). MT: formule geeft 256,5, tabelwaarde 256 gebruikt.",
+    "OSRM-steekproef (3 landen, 10-10-2026): Bulgarije 2078 km, Letland 1957 km, Kroatië 1291 km; afwijking 0 % t.o.v. tabel, geen herberekening nodig.",
+    "Optionele realiteitscheck niet geslaagd: FlixBus-stadspagina's voor Brussel-Parijs en Brussel-Praag bevatten geen prijzen; geen echte retourprijs genoteerd.",
+    "Rome2Rio niet gebruikt: JavaScript-site, niet leesbaar; niet geverifieerd.",
+    "Ierland: OSRM-route loopt via veerboot (935 km) en telt niet als wegreis; alleen vluchtprijs. IJsland, Malta en Cyprus hebben geen wegroute.",
+    "OSRM-startpunt Grote Markt wordt op de weg gesnapt (Rue de l'Amigo, ca. 85 m); verwaarloosbaar voor de afstanden.",
+    "Zekerheid 'midden' voor alle landen: afgeleide modelprijs via formule, geen offerte en geen rechtstreekse dataset."
+  ]
+}

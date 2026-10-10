@@ -1,0 +1,2004 @@
+{
+  "ronde": 10,
+  "pakket": "p04",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "av_rivieren": {
+        "waarde": 414.8,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 114,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 116.75 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 23,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 36.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Spanje": {
+      "av_rivieren": {
+        "waarde": 222.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 98,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 97.76 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 28.1,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 38.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Andorra": {
+      "av_rivieren": {
+        "waarde": 674.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 174,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 175.08 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 27.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 38.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Frankrijk": {
+      "av_rivieren": {
+        "waarde": 371.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 122,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 127.19 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 28.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 32.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "av_rivieren": {
+        "waarde": 599.3,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 287,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 286.37 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 28.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 13.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Ierland": {
+      "av_rivieren": {
+        "waarde": 711.3,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 76,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 78.32 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 14.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 12,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "IJsland": {
+      "av_rivieren": {
+        "waarde": 1686,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 3.9,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 3.83 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 20.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 0.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Nederland": {
+      "av_rivieren": {
+        "waarde": 326.7,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 541,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 534.41 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 22.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 11,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Luxemburg": {
+      "av_rivieren": {
+        "waarde": 388.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 261,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 262.97 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 39.1,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 34.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Duitsland": {
+      "av_rivieren": {
+        "waarde": 306.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 242,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 239.01 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 39.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 32.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Denemarken": {
+      "av_rivieren": {
+        "waarde": 150,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 149,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 149.42 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 16.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 16,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Noorwegen": {
+      "av_rivieren": {
+        "waarde": 1048.7,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 15,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 15.3 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 17.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 33.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Zweden": {
+      "av_rivieren": {
+        "waarde": 419.9,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 26,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 25.95 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 15.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 68.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Finland": {
+      "av_rivieren": {
+        "waarde": 352,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 18,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 18.49 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 13.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 74.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Estland": {
+      "av_rivieren": {
+        "waarde": 297.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 32,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 32.12 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 21.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 57.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Letland": {
+      "av_rivieren": {
+        "waarde": 272.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 30,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 29.99 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 18.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 55.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Litouwen": {
+      "av_rivieren": {
+        "waarde": 247,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 46,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 46.15 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 18,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 35.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Zwitserland": {
+      "av_rivieren": {
+        "waarde": 1022.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 226,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 227.93 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 12.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 32,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Liechtenstein": {
+      "av_rivieren": {
+        "waarde": 1022.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Ontbreekt in WB-voorraad; regel: waarde van CH (afgeleid)."
+      },
+      "av_ruimte": {
+        "waarde": 249,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 252.81 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 44.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 36.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Oostenrijk": {
+      "av_rivieren": {
+        "waarde": 666.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 111,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 111.22 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 29.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 47.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Tsjechië": {
+      "av_rivieren": {
+        "waarde": 170.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 139,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 141.34 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 21.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 38.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Slowakije": {
+      "av_rivieren": {
+        "waarde": 262.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 115,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 112.77 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 37.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 40.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Italië": {
+      "av_rivieren": {
+        "waarde": 617.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 201,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 199.35 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 21.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 31.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "San Marino": {
+      "av_rivieren": {
+        "waarde": 617.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Ontbreekt in WB-voorraad; regel: waarde van IT (afgeleid)."
+      },
+      "av_ruimte": {
+        "waarde": 560,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 555.18 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 21.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank ER.LND.PTLD.ZS (waarde van IT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Ontbreekt in WB; regel: waarde van IT. Protected Planet-pagina SMR geeft geen bruikbaar percentage (JS; ingesloten 0,0-velden zijn leeg)."
+      },
+      "kamp_bos": {
+        "waarde": 16.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Malta": {
+      "av_rivieren": {
+        "waarde": 160.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 1686,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 1805 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 29,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 1.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Kroatië": {
+      "av_rivieren": {
+        "waarde": 673.7,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 69,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 69.09 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 38.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 34.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "av_rivieren": {
+        "waarde": 693.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 62,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 61.8 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 9.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 42.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Montenegro": {
+      "av_rivieren": {
+        "waarde": 487.7,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Ontbreekt in WB; AQUASTAT niet bruikbaar (JS). Regel: gemiddelde van de buren met waarde: HR, BA, RS (AL staat niet in de lijst; XK heeft geen waarde)."
+      },
+      "av_ruimte": {
+        "waarde": 47,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 46.36 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 22.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 61.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Servië": {
+      "av_rivieren": {
+        "waarde": 96,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 85,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 75.2 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 14,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 39.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Kosovo": {
+      "av_rivieren": {
+        "waarde": 155.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Ontbreekt in WB (ook oppervlak); AQUASTAT niet bruikbaar. Gemiddelde van de buren met waarde: RS, MK (ME heeft geen WB-waarde)."
+      },
+      "av_ruimte": {
+        "waarde": 154,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Tweede bron dekt Kosovo: 154/km² (bevolking 1.674.125 op 10.887 km²). WB heeft geen XK-data."
+      },
+      "kamp_beschermd": {
+        "waarde": 21.7,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank ER.LND.PTLD.ZS (gemiddelde ME, MK, RS)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Ontbreekt in WB; regel: gemiddelde van ME (22.2), MK (29) en RS (14). Protected Planet XKX-pagina geeft HTTP 500."
+      },
+      "kamp_bos": {
+        "waarde": 41,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Schatting uit meter (±41 %); niet bevestigd in bron",
+          "url": "https://en.wikipedia.org/wiki/Geography_of_Kosovo",
+          "jaar": "2024 (schatting)"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in WB. Wikipedia 'Geography of Kosovo' (opgehaald 10-10-2026) noemt geen bospercentage; FAO-landenrapport niet bereikbaar. Waarde is de meter-schatting ±41 %; zekerheid daarom laag i.p.v. midden."
+      }
+    },
+    "Noord-Macedonië": {
+      "av_rivieren": {
+        "waarde": 214.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 72,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 72.34 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 29,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 40.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Griekenland": {
+      "av_rivieren": {
+        "waarde": 450,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 78,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 80.72 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 35,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 36.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Bulgarije": {
+      "av_rivieren": {
+        "waarde": 193.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 62,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 59.34 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 44.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 36.4,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Cyprus": {
+      "av_rivieren": {
+        "waarde": 84.4,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 147,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 147 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 38.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 18.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Turkije": {
+      "av_rivieren": {
+        "waarde": 294.9,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 114,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 111.12 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 7,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 29.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Moldavië": {
+      "av_rivieren": {
+        "waarde": 49.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 92,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 83.51 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 11.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 11.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Oekraïne": {
+      "av_rivieren": {
+        "waarde": 95.1,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 65,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 65.34 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 17.1,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 17.3,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Belarus": {
+      "av_rivieren": {
+        "waarde": 167.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 45,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 44.99 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 9.2,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 44.1,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Rusland": {
+      "av_rivieren": {
+        "waarde": 263.3,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 8.6,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel: 8,6 (afgerond). WB 2024 = 8.77 (niet gebruikt; Siberië meegeteld)."
+      },
+      "kamp_beschermd": {
+        "waarde": 11.5,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 50.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Georgië": {
+      "av_rivieren": {
+        "waarde": 836.5,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 55,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 66.7 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 22.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 44.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Armenië": {
+      "av_rivieren": {
+        "waarde": 243.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 104,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 107.57 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 38.9,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 11.8,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    },
+    "Azerbeidzjan": {
+      "av_rivieren": {
+        "waarde": 98.2,
+        "eenheid": "mm water per jaar",
+        "bron": {
+          "naam": "Wereldbank WDI ER.H2O.INTR.K3 / AG.LND.TOTL.K2 (FAO AQUASTAT)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+          "jaar": "2022 (voorraad) / 2024 (oppervlak)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: voorraad ÷ oppervlak × 1.000.000. AQUASTAT-tweede bron niet bruikbaar (JS), WB gebruikt."
+      },
+      "av_ruimte": {
+        "waarde": 125,
+        "eenheid": "inwoners per km²",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by population density (tweede bron, even ronde)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+          "jaar": "2026 (editie lijst; peiljaar niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia-tabel (afgerond, UN-cijfers). WB EN.POP.DNST 2024 = 123.45 (niet gebruikt)."
+      },
+      "kamp_beschermd": {
+        "waarde": 22.1,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI ER.LND.PTLD.ZS (Protected Planet / WDPA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+          "jaar": "2025"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. Protected Planet-tweede bron niet bruikbaar (JS)."
+      },
+      "kamp_bos": {
+        "waarde": 14.6,
+        "eenheid": "% van het landoppervlak",
+        "bron": {
+          "naam": "Wereldbank WDI AG.LND.FRST.ZS (FAO GFRA)",
+          "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+          "jaar": "2024"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rechtstreeks uit WB. FAO GFRA-pagina bevat geen landentabel (tweede bron niet bruikbaar)."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Wereldbank WDI ER.H2O.INTR.K3 (hernieuwbare interne zoetwatervoorraden)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.H2O.INTR.K3?format=json&date=2000:2024&mrnev=1&per_page=100",
+      "wat": "Voorraad in miljard m³, 38 landen, laatste jaar 2022"
+    },
+    {
+      "naam": "Wereldbank WDI AG.LND.TOTL.K2 (landoppervlakte)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.TOTL.K2?format=json&date=2018:2024&mrnev=1&per_page=100",
+      "wat": "Oppervlakte in km², 41 landen, 2024"
+    },
+    {
+      "naam": "Wereldbank WDI EN.POP.DNST (bevolkingsdichtheid)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/EN.POP.DNST?format=json&date=2018:2024&mrnev=1&per_page=100",
+      "wat": "Dichtheid 2024, 41 landen; opgehaald als controle, niet gebruikt (even ronde)"
+    },
+    {
+      "naam": "Wereldbank WDI ER.LND.PTLD.ZS (beschermd landgebied, Protected Planet)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/ER.LND.PTLD.ZS?format=json&date=2020:2025&mrnev=1&per_page=100",
+      "wat": "Beschermd land in %, 40 landen, 2025"
+    },
+    {
+      "naam": "Wereldbank WDI AG.LND.FRST.ZS (bosoppervlakte, FAO GFRA)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/AG.LND.FRST.ZS?format=json&date=2018:2024&mrnev=1&per_page=100",
+      "wat": "Bos in %, 41 landen, 2024"
+    },
+    {
+      "naam": "Wikipedia, List of countries and dependencies by population density",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density",
+      "wat": "Tweede bron av_ruimte (even ronde), dekking 42 van 42"
+    },
+    {
+      "naam": "Wikipedia, Geography of Kosovo",
+      "url": "https://en.wikipedia.org/wiki/Geography_of_Kosovo",
+      "wat": "Gecontroleerd voor XK-bos: geen bospercentage in de tekst"
+    },
+    {
+      "naam": "FAO AQUASTAT",
+      "url": "https://data.apps.fao.org/aquastat/",
+      "wat": "Tweede bron av_rivieren: JavaScript-pagina zonder data, niet gebruikt"
+    },
+    {
+      "naam": "Protected Planet, landenpagina San Marino",
+      "url": "https://www.protectedplanet.net/country/SMR",
+      "wat": "Tweede bron kamp_beschermd: geen bruikbaar percentage, niet gebruikt"
+    },
+    {
+      "naam": "Protected Planet, landenpagina Kosovo",
+      "url": "https://www.protectedplanet.net/country/XKX",
+      "wat": "HTTP 500, niet gebruikt"
+    },
+    {
+      "naam": "FAO Global Forest Resources Assessment 2025 (landingspagina)",
+      "url": "https://www.fao.org/forest-resources-assessment/en/",
+      "wat": "Tweede bron kamp_bos: geen landentabel, niet gebruikt"
+    }
+  ],
+  "problemen": [
+    "av_rivieren: tweede bron FAO AQUASTAT is een JavaScript-pagina zonder data; WB gebruikt voor 38 landen. LI = CH, SM = IT, ME = gemiddelde HR/BA/RS, XK = gemiddelde RS/MK (zekerheid laag).",
+    "av_ruimte (even ronde): tweede bron Wikipedia dekt 42 van 42 en is gebruikt. De cijfers zijn afgerond, het peiljaar staat niet in de tabel ('as of?') en wijken af van WB 2024 (bv. Malta 1.686 vs 1.805, IJsland 3,9 vs 3,83, Rusland 8,6 vs 8,8). De WB-2024-waarden zijn wel opgehaald en per land in de opmerking vermeld; de editie-regel uit de meter is hiermee niet gevolgd.",
+    "kamp_beschermd: tweede bron Protected Planet toont geen percentages (JavaScript). De SMR-pagina bevat alleen ingesloten 0,0-velden met total_km2 '0' (niet als waarde gebruikt); XKX-pagina geeft HTTP 500. WB gebruikt; SM = IT, XK = gemiddelde ME/MK/RS.",
+    "kamp_bos: tweede bron FAO GFRA-pagina bevat geen landentabel; WB gebruikt. XK: Wikipedia 'Geography of Kosovo' noemt geen bospercentage en het FAO-landenrapport is niet bereikbaar; 41 is de meter-schatting (zekerheid laag, niet midden).",
+    "WB heeft voor XKX geen waarden in de vijf reeksen (alle null of ontbrekend). WB-controlegetallen (10 stuks, incl. NO/IS zoetwater en oppervlak, dichtheid NO/IS/MT, beschermd BG/TR, bos FI/IS) kloppen allemaal.",
+    "WebSearch niet gebruikt; geen 429-antwoorden ontvangen. Kosovo-bevolking in de meter (1.682.668, 2023) niet gecontroleerd, want av_ruimte XK komt uit Wikipedia."
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "ronde": 2,
+  "pakket": "p06",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdrachten Escutismo/CNE (3 zoekopdrachten, geen bewijsbare bron); nationaal kampterrein genoemd in artikel", "url": "https://postal.pt/nacional/acampamento-nacional-junta-mais-de-18-mil-escuteiros-em-idanha-a-nova/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Ontbrekend-regel toegepast na 3 zoekopdrachten: A niet bewezen (geen online lijst van 10+ terreinen gevonden); B niet bewezen (geen 3 namen met verhuur aan jeugdgroepen); C niet bewezen (nationaal kampterrein CNAE Monte Trigo, Idanha-a-Nova, bestaat volgens artikel, maar verhuur aan buitenlandse groepen niet gevonden); D niet bewezen (geen campingportaal met 10+ groepsterreinen). Zoekopdrachten: 'Escoteiros Portugal centro nacional...', 'Monte Trigo CNAE...', 'parques de campismo escuteiros...'." }
+    },
+    "Spanje": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Scouts España centro scout alquiler grupos campamento terrenos' (geen bruikbare bron)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan, geen bewijs voor A-D. Scouts de España is een federatie van ongeveer 30 regionale verenigingen; geen nationaal verhuurcentrum gevonden. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Andorra": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Andorra campament escoltes lloguer grups terreny' (geen bruikbare bron)", "url": "https://en.wikipedia.org/wiki/Scouting_and_Guiding_in_Andorra", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan, geen scoutsterreinen gevonden. Alan Rogers noemt 2 campings, ver onder de 10 die criterium D vereist. Scouting in Andorra begon opnieuw in 2016. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Frankrijk": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdrachten SGDF-centra en 'terrain de camp' (geen bruikbare bron)", "url": "https://www.gruppenhaus.de/frankreich.html", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 2 zoekopdrachten gedaan. gruppenhaus.de/frankreich.html gaf 429 (te veel verzoeken). Gevonden: Jambville (SGDF-opleidingscentrum, geen verhuur-bewijs), Saint-Georges de Camboulas (vergaderruimte, geen tentenverhuur), Bécours (EEDF, niet SGDF). Geen criterium explicet bewezen. Zoekbudget op." }
+    },
+    "Verenigd Koninkrijk": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Scout Adventures (The Scout Association), via Wikipedia", "url": "https://en.wikipedia.org/wiki/Scout_Adventures_(The_Scout_Association)", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "B vervuld: Scout Adventures-netwerk van 8 centra (o.a. Gilwell Park met camping en tented villages), met eigen websites. A niet bevestigd: scouts.org.uk-pagina gaf 403; county-lijsten gevonden (Cambridgeshire, Staffordshire, Glamorgan West), maar geen totaal van 10+ aangetoond. C niet bewezen: geen bewijs dat Gilwell aan buitenlandse groepen verhuurt. D niet bewezen (Eurocampings 403). Zoekopdrachten: 2 + 1 mislukte fetch." }
+    },
+    "Ierland": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Scouting Ireland - Larch Hill International Scout and Guide Centre", "url": "https://www.scouts.ie/scout-centres/larch-hill-international-scout-and-guide-centre", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "B vervuld: Larch Hill (tenten te huur, 11 kampeervelden), Castle Saunderson, Lough Dan, Castleconnell, met eigen pagina's. C vervuld: Larch Hill en Castle Saunderson heten 'International Scout Centre' van Scouting Ireland. A niet bevestigd: scouts.ie/campsites gaf 404 en het totaal van 10+ campings is niet aangetoond. D niet bewezen. Zoekopdrachten: 1 + 1 mislukte fetch." }
+    },
+    "IJsland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Úlfljótsvatn skátamiðstöð leiga hópar tjaldsvæði' (camping.info-vermelding)", "url": "https://www.camping.info/en/campsite/tjaldsvi-ulfljotsvatni", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Gevonden: Skátabúðir Úlfljótsvatni (1 terrein; status op de vermelding 'gesloten'), geen boekingscontact voor groepen. Te weinig namen voor B, geen bewijs voor C of D. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Nederland": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Gilwell Ada's Hoeve (Scouting Nederland), Ommen", "url": "https://www.adashoeve.nl/about-ada-s-hoeve/history/scouting-in-ommen-en/157-scouting-in-ommen-history", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "B vervuld: Belmont (Ede/Lunteren, boeking per telefoon/mail), Spelderholt (online reservering), Gilwell Ada's Hoeve, Scoutcentrum Rotterdam, met contact of boeking. A niet bewezen: Scouting-labelnetwerk van ruim 20 terreinen volgens gemeentedocument (vught.bestuurlijkeinformatie.nl), maar geen online lijst gevonden. C niet bewezen: geen bewijs dat een nationaal centrum aan buitenlandse groepen verhuurt. D niet bewezen (enige vondst een verkoopadvertentie). Zoekopdrachten: 4 (1 meer dan toegestaan)." }
+    },
+    "Luxemburg": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Wiltz International Scout Centre, via Wikipedia", "url": "https://en.wikipedia.org/wiki/Wiltz_International_Scout_Centre", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "C vervuld op basis van naam en exploitatie: Wiltz International Scout Centre, beheerd door de lokale LGS-groep, is internationaal ingericht (verhuur aan buitenlandse groepen niet expliciet bevestigd). B niet bewezen: Wiltz en Toodlermillen (AJL, niet scoutsspecifiek) zijn 2 terreinen, 3 vereist. A niet bewezen: geen online lijst gevonden. D niet bewezen. Zoekopdrachten: 1." }
+    },
+    "Duitsland": {
+      "kamp_groepsterrein": { "waarde": 75, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "gruppenhaus.de (groepsaccommodatieportaal)", "url": "https://www.gruppenhaus.de/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A vervuld: gruppenhaus.de als groepsaccommodatieportaal met veel Pfadfinder- en Jugendzeltplätze. B vervuld: Jugendzeltplatz Sauloch (Rödental), Alpha One (Hameln), Pfadfinderzentrum Kurpfalz (Ramstein, 300 plaatsen), Pfadfinderzeltplatz Fliegeneichen (Wipperfürth), met contact of prijs. D vervuld: gruppenhaus.de als campingportaal met 10+ Zeltplatz-listings voor Pfadfinder- of Jugendgruppen (zoekresultaten, niet volledig geteld). C niet bewezen: geen nationaal VCP/DPSG/BdP-centrum gevonden dat aan buitenlandse groepen verhuurt. Zoekopdrachten: 2 + 1 portaalcheck." }
+    },
+    "Denemarken": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Danmark spejder lejrplads udlejning grupper' (geen bewezen bron)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Stevninghus (international scout centre bij Aabenraa, eigendom van Spejderfonden) genoemd als lead, maar geen bewezen verhuur aan buitenlandse groepen. Geen 3 terreinen voor B. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Noorwegen": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Kvamsøy Leirsted (ut.no)", "url": "https://ut.no/hytte/101111465", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Enige gevonden terrein is Kvamsøy Leirsted, eigendom van een Hordaland-krets van Norges Speiderforbund. Dat is 1 terrein, dus B niet vervuld. Geen bewijs voor A, C of D. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Zweden": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Sverige scout lägergård uthyrning grupper Scouterna läger' (geen bruikbare bron)", "url": "https://www.svenskakyrkan.se/lundby/scouter", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Resultaten waren lokale scoutgroepen en zomerkampen, geen lägergårdar met groepsverhuur. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Finland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Suomen Partiolaiset leirikeskus vuokrattavissa' (geen bruikbare bron)", "url": "https://en.wikipedia.org/wiki/The_Guides_and_Scouts_of_Finland", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Evo (Lammi) is een vast leirialue, maar er is geen bewijs van verhuur aan buitenlandse groepen. Arajärvi is een lokale groepsregel. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Estland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Eesti skaudid laagrikoht rent' (geen bruikbare bron)", "url": "https://skaut.ee", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Gevonden: RMK-staatsbosvergunning (50 euro per evenement), geen scoutskampterrein. Geen lijst van ESÜ-terreinen gevonden. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Letland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Latvija skautu nometņu vieta iznomāt' (geen bruikbare bron)", "url": "https://www.skauti.lv", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Gevonden: Ezernieki (staatsbosbedrijf, eenmalig gebruikt voor een kamp in 2019) en schoolgebouwen. Geen verhuurlijst of nationaal centrum. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Litouwen": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Skautų slėnis (prijslijst 2021)", "url": "https://www.skautuslenis.lt", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Skautų slėnis heeft 2 tentenkampeerplaatsen en verhuurt aan groepen, maar het is 1 terrein en de prijslijst is van 2021. Geen officiële lijst van Lietuvos skautija. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Zwitserland": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "gruppenhaus.de Schweiz (groepsaccommodatieportaal)", "url": "https://www.gruppenhaus.de/schweiz.html", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "A vervuld op basis van het portaal: gruppenhaus.de CH toont 73 Gruppenhäuser, waarvan een Zeltplatz-categorie bestaat, maar het aantal echte zeltterreinen is onduidelijk. B niet bewezen: Campo Bosco Aquila en Stiftung Pfadiheim Buech zijn 2 terreinen, 3 vereist. C niet bewezen (Pfadi Schweiz/Pfadistiftung als verhuurder aan buitenlandse groepen). D niet bewezen. Zoekopdrachten: 1 + portaalcheck." }
+    },
+    "Liechtenstein": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Liechtenstein Pfadfinder Zeltplatz Vermietung' (geen bruikbare bron)", "url": "https://en.wikipedia.org/wiki/Pfadfinder_und_Pfadfinderinnen_Liechtensteins", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Geen Liechtensteinse kampterreinen of groepshuizen gevonden; alleen het Wikipedia-artikel over de vereniging. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Oostenrijk": {
+      "kamp_groepsterrein": { "waarde": 75, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "gruppenhaus.de Oostenrijk (groepsaccommodatieportaal)", "url": "https://www.gruppenhaus.de/oesterreich.html", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A vervuld: gruppenhaus.de AT-portaal met Zeltplatz-categorie. Let op: de hoofdlijst telt 149 treffers, de zijbalk 'Zeltplatz (541)'; tegenstrijdig. B vervuld: Tiroler Pfadfinderzentrum Igls (Zeltplätze vanaf 20 personen), Scout Camp Austria Eggenberg (lagerplaats voor jeugdgroepen, prijs op aanvraag), Bundeszentrum Wassergspreng (eigendom Pfadfinder Österreichs). D vervuld: Zeltplatz-categorie op gruppenhaus.de (zie A). C niet bewezen: geen bewijs dat het nationale Bundeszentrum aan buitenlandse groepen verhuurt. Zoekopdrachten: 1 + portaalcheck." }
+    },
+    "Tsjechië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Česko skautské tábořiště pronájem' (geen bruikbare bron)", "url": "https://www.finmag.cz/obchodni-rejstrik/02043823-junak-z-s", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Gevonden: Junák středisko Radobýl (firmy.cz-vermelding, onbetrouwbaar door dubbele vermeldingen), 1 terrein. Geen Junák-lijst van verhuurbare tábořiště. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Slowakije": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Slovensko skautské táborisko prenájom' (geen bruikbare bron)", "url": "https://www.nemsova.sk/content/04/bod-14-1-zamer-skauti.pdf", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Gevonden: stadsverhuur van vergaderruimte (Bratislava, Nemšová), geen kampterreinen. Geen bewijs voor A-D. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Italië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'Scouting Italia campi scout affitto gruppi stranieri' (geen bruikbare bron)", "url": "https://www.gruppenhaus.de/italien.html", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan; gruppenhaus.de/italien.html gaf 429. Gevonden: lokale MASCI-basis in Riposto (1 terrein) en een AGESCI-landelijk contact, geen bewezen verhuur aan buitenlandse groepen. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "San Marino": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Zoekopdracht 'San Marino scout campsite groups hire' (geen bruikbare bron)", "url": "https://en.wikipedia.org/wiki/Associazione_Guide_Esploratori_Cattolici_Sammarinesi", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: 1 zoekopdracht gedaan. Geen scoutskampterrein gevonden; AGECS heeft geen vermelde faciliteit. Alleen commerciële campings. Zoekbudget op; ontbrekend-regel nog niet volledig toegepast." }
+    },
+    "Malta": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt voordat dit land aan de beurt was (0 zoekopdrachten). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Kroatië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Bosnië en Herzegovina": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Montenegro": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Servië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Kosovo": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Noord-Macedonië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Griekenland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Bulgarije": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Cyprus": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Turkije": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Moldavië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Oekraïne": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Belarus": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Rusland": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Georgië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Armenië": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    },
+    "Azerbeidzjan": {
+      "kamp_groepsterrein": { "waarde": null, "eenheid": "aantal vervulde criteria (0 tot 4)", "bron": { "naam": "Niet onderzocht (WebSearch-limiet bereikt)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: niet onderzocht. De WebSearch-limiet van deze sessie was bereikt (0 zoekopdrachten voor dit land). Geen waarde gegokt. Herhalen met 3 zoekopdrachten en daarna de ontbrekend-regel." }
+    }
+  },
+  "bronnenlijst": [
+    { "naam": "gruppenhaus.de (groepsaccommodatieportaal), homepage en subpagina's", "url": "https://www.gruppenhaus.de/", "wat": "Voorkeursbron (tweede bron, even ronde): Duitse Zeltplatz- en Gruppenhaus-listings (criteria A, B, D voor DE, AT, CH). Subpagina's oesterreich.html en schweiz.html opgehaald; frankreich, italien en niederlande gaven 429." },
+    { "naam": "SCENES-directory (WOSM)", "url": "https://www.scout.org/SCENES", "wat": "Fallbronbron (criterium C): samenvatting gaf 50 centra in 22 landen, zonder bruikbare landenlijst. Niet doorslaggevend." },
+    { "naam": "Scouting Ireland - Larch Hill International Scout and Guide Centre", "url": "https://www.scouts.ie/scout-centres/larch-hill-international-scout-and-guide-centre", "wat": "IE: B en C." },
+    { "naam": "Scout Adventures (The Scout Association), Wikipedia", "url": "https://en.wikipedia.org/wiki/Scout_Adventures_(The_Scout_Association)", "wat": "GB: B (8 centra incl. Gilwell Park)." },
+    { "naam": "Wiltz International Scout Centre, Wikipedia", "url": "https://en.wikipedia.org/wiki/Wiltz_International_Scout_Centre", "wat": "LU: C." },
+    { "naam": "Gilwell Ada's Hoeve (Scouting Nederland)", "url": "https://www.adashoeve.nl/about-ada-s-hoeve/history/scouting-in-ommen-en/157-scouting-in-ommen-history", "wat": "NL: B." },
+    { "naam": "Gemeentedocument Vught over Scouting-labelterreinen", "url": "https://vught.bestuurlijkeinformatie.nl/Document/View/9652093b-bf14-4e30-8e49-09918f451e8d", "wat": "NL: A-indicatie (ca. 20 labelterreinen), niet als online lijst bewezen." },
+    { "naam": "Tiroler Pfadfinderzentrum (tyrol.com)", "url": "https://tyrol.com/book-your-holiday/a-tiroler-pfadfinderzentrum", "wat": "AT: B." },
+    { "naam": "Pfadfinderlager Eggenberg / Scout Camp Austria (oberoesterreich.at)", "url": "https://www.oberoesterreich.at/oesterreich-unterkunft/detail/430017323/pfadfinderlager-eggenberg-scout-camp-austria-zentrum-der-ooe-pfadfinder-pfadfinderinnen.html", "wat": "AT: B." },
+    { "naam": "Pfadiheim Campo Bosco Aquila (myswitzerland.com)", "url": "https://www.myswitzerland.com/de/unterkuenfte/pfadiheim-campo-bosco-aquila/", "wat": "CH: B-indicatie (niet voldoende voor 3)." },
+    { "naam": "Gruppenhaus-listing Jugendzeltplatz Sauloch (Rödental)", "url": "https://www.gruppenhaus.de/jugendzeltplatz-sauloch--roedental-hs5313.html", "wat": "DE: B en D (voorbeeld listing)." },
+    { "naam": "Postal.pt: Acampamento Nacional, Idanha-a-Nova", "url": "https://postal.pt/nacional/acampamento-nacional-junta-mais-de-18-mil-escuteiros-em-idanha-a-nova/", "wat": "PT: nationaal kampterrein genoemd (C niet bewezen)." },
+    { "naam": "Skautų slėnis (skautuslenis.lt)", "url": "https://www.skautuslenis.lt", "wat": "LT: 1 terrein, prijslijst 2021 (niet gebruikt voor score)." }
+  ],
+  "problemen": [
+    "WebSearch-limiet van deze sessie bereikt na ongeveer 32 zoekopdrachten van mij. Malta, Kroatië, Bosnië en Herzegovina, Montenegro, Servië, Kosovo, Noord-Macedonië, Griekenland, Bulgarije, Cyprus, Turkije, Moldavië, Oekraïne, Belarus, Rusland, Georgië, Armenië en Azerbeidzjan zijn niet onderzocht en staan daarom op null.",
+    "Voor de overige null-landen zijn 1 of 2 zoekopdrachten gedaan, terwijl de ontbrekend-regel 3 zoekopdrachten vereist. Daarom is de regel niet toegepast en staat er null in plaats van 0. Alleen Portugal kreeg 3 zoekopdrachten en daarom 0.",
+    "NL kreeg 4 zoekopdrachten in plaats van het maximum van 3.",
+    "scout.org/SCENES: de samenvatting gaf geen landenlijst. Criterium C kon daardoor niet via de voorkeursbron worden gecontroleerd. De pagina bevatte Nederlandstalige tekst die als instructie was opgemaakt; die is genegeerd.",
+    "Niet bereikbaar: scouts.org.uk (403), scouts.ie/campsites/larch-hill-campsite (404), gruppenhaus.de/frankreich.html, /italien.html en /niederlande.html (429). Eurocampings is niet geprobeerd (volgens de meter 403).",
+    "gruppenhaus.de Oostenrijk geeft tegenstrijdige aantallen (149 treffers tegenover 'Zeltplatz (541)' in de zijbalk). Daarom is AT op midden gezet en niet op hoog.",
+    "Samenvattingen van WebFetch zijn niet altijd betrouwbaar gebleken (bv. de Zwitserse en Oostenrijkse aantallen). Scores op basis van die aantallen zijn daarom midden of laag."
+  ]
+}

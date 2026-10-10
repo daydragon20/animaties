@@ -1,0 +1,1284 @@
+{
+  "ronde": 9,
+  "pakket": "p05",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "kamp_wild": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Sábado/Lusa: ICNF-handhaving campismo selvagem (Costa Vicentina)",
+          "url": "https://www.sabado.pt/portugal/detalhe/autoridades-fiscalizam-praias-na-costa-vicentina-e-levantam-92-contraordenacoes",
+          "jaar": "2020"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ICNF (via Sábado/Lusa): 92 processen-verbaal voor campismo selvagem op 24 stranden van de Costa Vicentina. Het artikel is van 30-05-2020, niet 2026 zoals de referentie noemde. Wettekst niet gelezen; ÖAMTC (2024) bevestigt strikt verbod buiten gemarkeerde plaatsen. Voorstel 0 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "AGIF: Portugal Chama, affiche Se há risco não arrisque foguear ou queimar",
+          "url": "https://cm-nisa.pt/images/documentos/areas_atividade/protecao_civil/conselhos_uteis/Cartazes_Portugal_Chama/Cartaz_Risco_A2.pdf",
+          "jaar": "2019"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "AGIF-affiche 'Portugal Chama' (gelezen; editie 2019): 'De 1 de julho a 30 de setembro (período crítico) ... estas atividades [lume, fogueiras] estão proibidas', in bos en veld. Vast structureel zomerverbod = criterium 50. Zomerverboden 2025/2026 niet gevonden. Voorstel 50 bevestigd."
+      }
+    },
+    "Spanje": {
+      "kamp_wild": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Legálitas: La acampada libre como alternativa vacacional podría suponer importantes multas",
+          "url": "https://www.legalitas.com/actualidad/multas-acampada-libre",
+          "jaar": "2020"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Legálitas (2020, advocatenkantoor): acampada libre prohibida in vrijwel het hele land, sancties tot 6.000 euro; regionale wetten en PRUG niet gelezen. Voorstel 30 (gedoogd, lage boetes) afgeweken: de boetes zijn hoog en het verbod is algemeen. Geen overheidsbron."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "BOE: Ley 43/2003, de 21 de noviembre, de Montes, art. 67",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21339",
+          "jaar": "2003"
+        },
+        "zekerheid": "midden",
+        "opmerking": "BOE Ley 43/2003 de Montes art. 67 d en e (gelezen): gebruik van vuur in montes onder niet toegestane voorwaarden, tijden of plaatsen is een overtreding. De regionale 'épocas de peligro' (zomer) zijn niet gelezen. Voorstel 50 bevestigd."
+      }
+    },
+    "Andorra": {
+      "kamp_wild": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Alto.ad: Andorra Starts Fining Motorhome Drivers for Unauthorized Parking, Camping",
+          "url": "https://www.alto.ad/other/2026/05/andorra-motorhome-fines-illegal-camping",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Alto.ad (27-05-2026): overnachten en kamperen buiten goedgekeurde campings, kampeerzones en camperplaatsen verboden, boete 600 euro (300 bij betaling ter plaatse), actief gehandhaafd. Het artikel gaat over campers; een tentregel is niet gevonden. Voorstel 30 afgeweken; niveau geschat."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Andorra",
+          "url": "https://en.wikivoyage.org/wiki/Andorra",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Andorra (gelezen): geen regels over open vuur. Afgeleid van Spanje en Frankrijk; referentie niet opnieuw gecontroleerd. Voorstel 50 overgenomen."
+      }
+    },
+    "Frankrijk": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Département de la Savoie: Bivouac et droit de l'urbanisme (citeert CU R.111-32 t/m R.111-34)",
+          "url": "https://www.savoie.fr/upload/docs/application/pdf/2025-07/analyse_juridique_urbanisme.pdf",
+          "jaar": "2021"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Juridisch advies Savoie (2021) citeert Code de l'urbanisme R.111-32: kamperen 'librement pratiqué', met instemming van wie het genot van de grond heeft; R.111-33 verbiedt kust, beschermde sites en zones bij monumenten en waterwinning; R.111-34 gemeentelijke zones. Légifrance gaf 403, dus niet rechtstreeks gelezen. Voorstel 55 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Préfecture du Val-de-Marne: arrêté n° 2026-02594 (restrictions incendie de forêt)",
+          "url": "https://www.villecresnes.fr/UserFiles/File/arretes/ap-2026-02594-restrictions-pour-prevention-et-protection-forets-signe.pdf",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Arrêté préfectoral Val-de-Marne n° 2026-02594 (gelezen): verbod op vuur, ook kampvuur, in en binnen 200 m van bossen (8-15 juli 2026); steunt op Code forestier L.131-6. Prefectuurbesluiten per departement en tijdelijk; geen vaste nationale zomerperiode gelezen. Voorstel 75 bevestigd."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "kamp_wild": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "NatureScot: Scottish Outdoor Access Code, Camping; legislation.gov.uk CROW Act 2000 Sch. 2",
+          "url": "https://www.outdooraccess-scotland.scot/practical-guide-all/camping",
+          "jaar": "2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Schotland (~32%): NatureScot: lichtgewicht tentkamperen 'in small numbers and for no more than two or three nights' op de meeste grond = 100. Engeland/Wales (~68%): CROW Act Sch. 2 (gelezen) verbiedt camping op toegangsland; toestemming nodig = 55. Gemiddelde 77,5, afgerond op 80. Vijf tot zes tenten zit op de grens van 'small numbers'. Voorstel 80 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "NatureScot: Scottish Outdoor Access Code, Camping (fire); legislation.gov.uk CROW Act 2000 Sch. 2",
+          "url": "https://www.outdooraccess-scotland.scot/practical-guide-all/camping",
+          "jaar": "2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "NatureScot (gelezen): geen open vuur bij hoog brandrisico (langdurige droogte) of bij bos, landbouwgrond of veen. CROW Act Sch. 2 (gelezen): vuur maken op toegangsland (Engeland/Wales) niet toegestaan. Kampvuur op een kampterrein met toestemming kan; geen structureel zomerverbod, alleen tijdelijke droogteverboden. Voorstel 100 bevestigd."
+      }
+    },
+    "Ierland": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Freedom to roam (sectie Ireland)",
+          "url": "https://en.wikipedia.org/wiki/Freedom_to_roam",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia (Freedom to roam): 'in almost all cases the walker has no right to be there'; kamperen op privégrond alleen met toestemming. Wet niet gelezen; Ierse overheids- en campingbronnen gaven 403 of waren niet bruikbaar. Voorstel 55 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Irish Statute Book: Wildlife Act 1976, section 40",
+          "url": "https://www.irishstatutebook.ie/eli/1976/act/39/section/40/enacted/en/html",
+          "jaar": "1976"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wildlife Act 1976 s.40 (Irish Statute Book, gelezen; oorspronkelijke tekst): begroeiing op onbebouwd land snijden, uitgraven of verbranden is strafbaar van 15 april tot 31 augustus. Vaste zomerperiode in de natuur; kampvuur alleen op het kampterrein (Larch Hill). Latere wijziging van de periode niet geverifieerd. Voorstel 100 afgeweken naar 50."
+      }
+    },
+    "IJsland": {
+      "kamp_wild": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Althingi: Lög um náttúruvernd nr. 60/2013, art. 22",
+          "url": "https://www.althingi.is/lagas/nuna/2013060.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Lög um náttúruvernd art. 22 (Althingi, gelezen): in onbewoond gebied (óbyggðir) mogen traditionele tenten zonder toestemming, ook langs de weg. In bewoond gebied geldt 1 nacht, maar toestemming van de eigenaar is nodig bij meer dan drie tenten of meer dan één nacht. Hoofdregime óbyggðir = 80. Voorstel 80 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Althingi: Lög um náttúruvernd nr. 60/2013, art. 28 (Meðferð elds)",
+          "url": "https://www.althingi.is/lagas/nuna/2013060.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Lög um náttúruvernd art. 28 (Althingi, gelezen): vuur maken op víðavangi is verboden waar gevaar bestaat voor mensen of natuur; de minister kan regels geven. Geen vaste zomerperiode, wel periodieke gevaarsbeperkingen; vuur op aangewezen plaatsen. Voorstel 50 afgeweken naar 75."
+      }
+    },
+    "Nederland": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia (nl): Wildkamperen",
+          "url": "https://nl.wikipedia.org/wiki/Wildkamperen",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikipedia (nl): wildkamperen bij wet verboden, boete 150 euro (2022, OM-feitcode F 114 a). Kamperen kan met toestemming van de eigenaar of op scoutingkampeerterreinen. Officiële overheidspagina niet gevonden. Voorstel 55 bevestigd (oriëntatie meter)."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Brandweer Nederland: Natuurbrandrisico",
+          "url": "https://www.brandweer.nl/natuurbrandrisico/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Brandweer Nederland, Natuurbrandrisico (gelezen): bij de hoge fase 'hoogstwaarschijnlijk niet meer stoken'; in sommige delen geen open vuur in de natuur. Scouting Staelduin: vuurton op de velden. Wettelijke grondslag (APV, Wet milieubeheer) niet gelezen. Voorstel 75 bevestigd."
+      }
+    },
+    "Luxemburg": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Chambre des Députés: Pétition n° 4125, Authorization of Responsible Bivouacking in Luxembourg",
+          "url": "https://www.petitiounen.lu/en/petition/4125",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Parlementaire petitie 4125 (2026, gelezen): 'almost no legal possibility' voor bivakkeren. Wet van 1957 via Lëtzebuerger Journal (2021, secundair; journal.lu verbrak de verbinding): kamperen op privéterrein vereist toestemming van de eigenaar, die stilzwijgend kan zijn. Voorstel 55 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "chalets.lu (Service National de la Jeunesse): databank kampeerterreinen",
+          "url": "https://chalets.lu/",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "chalets.lu (gelezen): databank van kampeerterreinen en chalets, geen vuurregels. Afgeleid van Duitsland (75) en Frankrijk (75); geen officiële vuurbron gevonden. Voorstel 75 overgenomen."
+      }
+    },
+    "Duitsland": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "gesetze-im-internet.de: § 59 BNatSchG Betreten der freien Landschaft",
+          "url": "https://www.gesetze-im-internet.de/bnatschg_2009/__59.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "§ 59 BNatSchG (gelezen): recht om het landschap te betreden voor recreatie, niet op kamperen. Bos volgt het Landesrecht; geen federale kampeerregel gevonden. Voorstel 55 (oriëntatie meter) bevestigd. BWaldG §14 en deelstaatrecht niet apart gelezen."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Bayerisches Waldgesetz (BayWaldG) Art. 17 Feuergefahr",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayWaldG-17",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Bayerisches Waldgesetz Art. 17 (gelezen, alleen Beieren): vuur in of binnen 100 m van bos vereist vergunning. De DWD-Waldbrandgefahrenindex is de basis voor tijdelijke verboden per district. Andere deelstaten niet gelezen. Voorstel 75 bevestigd."
+      }
+    },
+    "Denemarken": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Naturstyrelsen: Overnat og spis i naturen",
+          "url": "https://naturstyrelsen.dk/aktiviteter-i-naturen/overnat-og-spis-i-naturen",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Naturstyrelsen (gelezen): fri teltning alleen op staatsbossen (1 nacht, max 2 tenten, max 3 personen per tent); primitieve pladsen voor kleine groepen; lejrpladser voor groepen van 15 of meer. Officiële zones bestaan, maar een groep van 5-6 tenten past niet in de vrije regel. Voorstel 55 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Naturstyrelsen: Må jeg bruge åben ild i naturen?",
+          "url": "https://naturstyrelsen.dk/regler-og-tilladelser/maa-jeg-bruge-aaben-ild-i-naturen",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Naturstyrelsen, Må jeg bruge åben ild i naturen? (gelezen): 'Generelt er åben ild ikke tilladt i naturen', maar bålpladser en bålhytter zijn aangelegd. Droogteverboden door politie of gemeente (referentie). Geen vaste zomerperiode. Voorstel 50 afgeweken naar 75 (aangewezen vuurplaatsen)."
+      }
+    },
+    "Noorwegen": {
+      "kamp_wild": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Lovdata: Lov om friluftslivet (friluftsloven) §9",
+          "url": "https://lovdata.no/dokument/NL/lov/1957-06-28-16",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Friluftsloven §9 (Lovdata, via WebFetch gelezen; curl gaf 405): telting is toegestaan, niet dichter dan 150 m bij bebouwing; meer dan 2 døgn op dezelfde plek alleen met toestemming van de eigenaar. Een groep van 5-6 tenten voor 1-3 nachten is vrij tot 2 nachten; bij 3 nachten is toestemming nodig, wat criterium 100 ('hooguit melden bij meer dan 2 nachten') dekt. Voorstel 100 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Lovdata: Forskrift om brannforebygging (FOR-2015-12-17-1710) §3",
+          "url": "https://lovdata.no/dokument/SF/forskrift/2015-12-17-1710",
+          "jaar": "2015"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Forskrift om brannforebygging §3 derde ledd (FOR-2015-12-17-1710, Lovdata, gelezen via WebFetch): 'Det er i tidsrommet 15. april til 15. september forbudt å gjøre opp ild ... i eller i nærheten av skog og annen utmark'. Uitzonderingen: toestemming van de gemeente, lokale forskrift, of 'åpenbart' geen brandgevaar. Voorstel 50 bevestigd."
+      }
+    },
+    "Zweden": {
+      "kamp_wild": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Riksdagen: Regeringsformen 2 kap. 15 §; Naturvårdsverket: Allemansrätten",
+          "url": "https://www.naturvardsverket.se/allemansratten",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Regeringsformen 2 kap. 15 § (Riksdagen, gelezen): 'Alla ska ha tillgång till naturen enligt allemansrätten'. Naturvårdsverket: tent 'något enstaka dygn' nästan overal. Samtalskort: bij een 'större grupp' met flera tenten de grondeigenaar vragen; de drempel is niet vastgelegd. Dat is het voorbehoud bij criterium 100. Voorstel 100 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Riksdagen: Lag (2003:778) om skydd mot olyckor, 10 kap. 1 §; MCF: eldningsförbud",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2003778-om-skydd-mot-olyckor_sfs-2003-778/",
+          "jaar": "2003"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Lag (2003:778) om skydd mot olyckor 10 kap. (Riksdagen, gelezen): eldningsförbud door regering, kommun of länsstyrelse. MCF: 'Det är kommunen eller länsstyrelsen som beslutar'. Verboden zijn tijdelijk, bij droogte en regionaal; geen vaste zomerperiode. Voorstel 100 afgeweken naar 75."
+      }
+    },
+    "Finland": {
+      "kamp_wild": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Luontoon.fi (Metsähallitus): Jokaisenoikeudet",
+          "url": "https://www.luontoon.fi/fi/lajit/retkeily-ja-ulkoilu/jokaisenoikeudet",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Luontoon.fi / Metsähallitus (gelezen): jokaisenoikeus: 'oleskella ja yöpyä tilapäisesti' waar bewegen is toegestaan; er wordt geen groepsgrens genoemd. Nationale parken alleen op aangewezen plaatsen; geen kampvuur op andermans grond. Ym.fi niet bereikbaar. Voorstel 100 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Finlex: Rescue Act 379/2011 §6 (English translation, PDF)",
+          "url": "https://www.finlex.fi/en/legislation/translations/2011/eng/379",
+          "jaar": "2011"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Rescue Act 379/2011 §6 (Finlex English translation PDF, gelezen; de HTML-pagina bevat alleen de titel): kampvuur niet bij 'manifest risk of a forest fire, grass fire or other fire'; niet op andermans grond zonder toestemming; de regionale rescue-autoriteit kan vuur tijdelijk verbieden. Geen vaste zomerperiode. Voorstel 100 afgeweken naar 75."
+      }
+    },
+    "Estland": {
+      "kamp_wild": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "RMK: Igaüheõigus",
+          "url": "https://rmk.ee/looduses-liikumine/juhised/igauheoigus/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "RMK, Igaüheõigus (gelezen): tenten 'ühe ööpäeva' (1 nacht) als de eigenaar het niet verbiedt; langer dan één nacht zonder toestemming niet toegestaan. Er wordt geen groepsgrens genoemd. Voorstel 80 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "ERR: Kolmapäevast on tuleohtliku aja tõttu keelatud looduses tule tegemine",
+          "url": "https://www.err.ee/1609006436/kolmapaevast-on-tuleohtliku-aja-tottu-keelatud-looduses-tule-tegemine",
+          "jaar": "2023"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ERR (juni 2023, gelezen): Päästeamet kondigde landelijk een tuleohtlik aeg af, waarin lõke, grillen en roken in bos en op veen verboden zijn. RMK: vuur maken alleen met toestemming van de eigenaar. Tijdelijk en landelijk, geen vaste zomerperiode; 2025/2026 niet geverifieerd. Voorstel 75 bevestigd."
+      }
+    },
+    "Letland": {
+      "kamp_wild": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "likumi.lv: Meža likums 5. pants; LSM English: Where can you put up your tent in Latvia?",
+          "url": "https://eng.lsm.lv/article/society/environment/16.05.2026-where-can-you-put-up-your-tent-in-latvia.a647112/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Meža likums 5. pants (likumi.lv, gelezen): recht om in staats- en gemeentebossen te verblijven. LSM (16-05-2026, LVM): overnachten met tent overal buiten beschermde gebieden; melden bij meer dan een week, schriftelijke toestemming vanaf 50 personen. Op privéland kan de eigenaar wegsturen; twijfel 100 vs 80. Voorstel 100 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Cēsis Municipality: Campfire in Nature (verwijst naar LVM)",
+          "url": "https://visit.cesis.lv/en/campfire-in-nature/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Cēsis Municipality, Campfire in Nature (verwijst naar LVM, gelezen): in bossen alleen op aangewezen vuurplaatsen, zeker tijdens afgekondigde brandgevaarperiodes. Wettelijke brandvoorschriften niet gelezen. Voorstel 75 bevestigd."
+      }
+    },
+    "Litouwen": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "VMU (Valstybinių miškų urėdija): FAQ",
+          "url": "https://vmu.lt/en/frequently-asked-questions/",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "VMU FAQ (staatsbosdienst, gelezen): 'You can stay only in recreation areas, rest spots, campsites, campgrounds'; elders in het bos geen overnachting. Officiële kampeerzones = criterium 55. Voorstel 55 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "VMU: FAQ, Is it allowed to make a fire in the forest?",
+          "url": "https://vmu.lt/en/frequently-asked-questions/",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "VMU FAQ (staatsbosdienst, gelezen): 'Fires can only be made in designated and appropriately marked fire pits'; vuur bewaken en blussen met aarde of water. Voorstel 75 bevestigd."
+      }
+    },
+    "Zwitserland": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Beobachter/TCS: Wild campen, wo das erlaubt ist (kantonsoverzicht)",
+          "url": "https://www.beobachter.ch/arbeit-bildung/freizeit/hier-konnen-sie-in-ruhe-ihr-zelt-aufschlagen-624417",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Beobachter/TCS (6 juli 2026, gelezen): kantons en gemeenten regelen het. In de meeste kantons is alleen een eenmalige overnachting toegestaan, 'nicht in Gruppen'; een groep van 5-6 tenten heeft toestemming nodig. Obwalden bijna overal toegestaan, Appenzell Innerrhoden nergens. Regionaal gewogen gemiddelde niet berekend. Voorstel 55 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "BAFU: waldbrandgefahr.ch (aktuelle Gefahrenlage und Massnahmen)",
+          "url": "https://www.waldbrandgefahr.ch/",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "waldbrandgefahr.ch (BAFU, geopend): dynamische pagina; de tekst van de maatregelen kwam niet uit de HTML. Kantonale Feuerverbote zijn tijdelijk en regionaal (referentie). Voorstel 75 overgenomen, niet opnieuw gecontroleerd."
+      }
+    },
+    "Liechtenstein": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Liechtenstein",
+          "url": "https://en.wikivoyage.org/wiki/Liechtenstein",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Liechtenstein (gelezen): geen regels over wildkamperen gevonden. Afgeleid van Zwitserland en Oostenrijk; referentie niet opnieuw gecontroleerd. Voorstel 55 overgenomen."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Liechtenstein",
+          "url": "https://en.wikivoyage.org/wiki/Liechtenstein",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Liechtenstein (gelezen): geen vuurregels. Afgeleid van Zwitserland en Oostenrijk; voorstel 75 overgenomen."
+      }
+    },
+    "Oostenrijk": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "RIS: Forstgesetz 1975 §33(3); BMLUK: Is camping, tenting or dwelling permitted in forests?",
+          "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010371&Artikel=&Paragraf=33&Anlage=&Uebergangsrecht=",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Forstgesetz 1975 §33(3) (RIS, gelezen): 'Lagern bei Dunkelheit, Zelten ... ist nur mit Zustimmung des Waldeigentümers zulässig'. Soepeler boven de boomgrens in Kärnten, Steiermark en Salzburg (80). Het regionale gemiddelde ligt op ca. 67,5, precies tussen 55 en 80; naar beneden afgerond. Voorstel 55 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "RIS: Forstgesetz 1975 §40 Feuerentzünden im Wald; BMLUK",
+          "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010371&Artikel=&Paragraf=40&Anlage=&Uebergangsrecht=",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Forstgesetz §40 (RIS, gelezen): 'Im Wald, in der Kampfzone des Waldes ... auch in Waldnähe ... ist das Entzünden oder Unterhalten von Feuer durch hiezu nicht befugte Personen ... verboten'. Eigenaar of bevoegden met schriftelijke toestemming mogen wel. Vergunningsregime plus regionale Waldbrandverbote in droge zomers. Voorstel 75 bevestigd."
+      }
+    },
+    "Tsjechië": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "zakonyprolidi.cz: Zákon č. 289/1995 Sb. o lesích, §20",
+          "url": "https://www.zakonyprolidi.cz/cs/1995-289",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Lesní zákon 289/1995 §20(1)k (zakonyprolidi, gelezen): tábořit buiten vyhrazená místa in het bos verboden; buiten bos is kamperen met toestemming van de grondeigenaar nodig. Privé juridisch portaal, geen officiële gazet. Voorstel 55 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "zakonyprolidi.cz: Zákon č. 289/1995 Sb. o lesích, §20 (1) k en (2)",
+          "url": "https://www.zakonyprolidi.cz/cs/1995-289",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Lesní zákon 289/1995 §20 (zakonyprolidi, gelezen): open vuur verboden in bos en tot 50 m van de bosrand, tenzij de bosbezitter een uitzondering geeft. Geen vaste zomerperiode; kampvuur op een tábořiště met toestemming. Voorstel 75 bevestigd."
+      }
+    },
+    "Slowakije": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Slovenský skauting: Skautské tábory (miesta na táborenie)",
+          "url": "https://skauting.sk/ustredie/administrativa/skautske-tabory/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Slovenský skauting (bijgewerkt 18-06-2026, gelezen): kamperen alleen op beschermingsniveau 1 en 2 (wet 543/2002), met toestemming van de eigenaar; bij bosgrond ook van het Obvodný lesný úrad; bij niveau 2 ook OÚŽP en CHKO/NP. Dit is een toestemmingsregime, geen algemeen verbod zoals ÖAMTC suggereert. Voorstel 30 afgeweken naar 55."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Slovenský skauting: Skautské tábory",
+          "url": "https://skauting.sk/ustredie/administrativa/skautske-tabory/",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Slovenský skauting (gelezen): geen vuurregels op de pagina. Zákon 326/2005 (slov-lex) niet bereikbaar. Afgeleid van Tsjechië (75, bosvuurverbod met uitzondering van de bosbezitter). Voorstel 50 afgeweken naar 75."
+      }
+    },
+    "Italië": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Freedom to roam (geopend; geen Italiaanse kampeerregel gelezen)",
+          "url": "https://en.wikipedia.org/wiki/Freedom_to_roam",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikipedia Freedom to roam geopend: geen Italiaanse kampeerregel in de gelezen tekst. Italiaanse wet niet geopend. Voorstel 30 overgenomen; referentie niet opnieuw gecontroleerd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Regione Piemonte: D.D. 14 gennaio 2022 n. 40, dichiarazione stato di massima pericolosità",
+          "url": "https://www.regione.piemonte.it/governo/bollettino/abbonati/2022/04/attach/dda1820000040_10500.pdf",
+          "jaar": "2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Regione Piemonte, DD 40 van 14-1-2022 (PDF, gelezen): citeert l.r. 15/2018 art. 10 c.7: in periodes van massima pericolosità is binnen 100 m van bossen 'vietata qualunque generazione di fiamma libera non controllabile'. Periodieke regionale verklaringen; alleen Piemonte geopend. Voorstel 75 bevestigd."
+      }
+    },
+    "San Marino": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: San Marino",
+          "url": "https://en.wikivoyage.org/wiki/San_Marino",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage San Marino (gelezen): geen informatie over wildkamperen. Afgeleid van Italië; voorstel 30 overgenomen."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: San Marino",
+          "url": "https://en.wikivoyage.org/wiki/San_Marino",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage San Marino (gelezen): geen informatie over open vuur. Afgeleid van Italië (75); voorstel 75 overgenomen."
+      }
+    },
+    "Malta": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Guide Me Malta: These exciting camping sites in Malta",
+          "url": "https://www.guidememalta.com/these-exciting-camping-sites-in-malta-will-make-you-go-wild/",
+          "jaar": "2020"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Guide Me Malta (2020, toeristenmagazine): 'not much restriction on camping in Malta', maar kamperen op het strand is verboden; twee officiële campings. Geen wet of overheidsbron. Voorstel 30 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 25,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Malta",
+          "url": "https://en.wikivoyage.org/wiki/Malta",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Malta (gelezen): geen vuurregels. Het park Majjistral heeft een vuurverbod (MaltaToday via de referentie; 403, niet gelezen). Geen nationale regel gevonden. Voorstel 25 overgenomen."
+      }
+    },
+    "Kroatië": {
+      "kamp_wild": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Total Croatia News: Dos and Don'ts When Camping in Croatia",
+          "url": "https://total-croatia-news.com/blog/camping-in-croatia/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Total Croatia News (gelezen): wildkamperen 'officially banned', in veel gebieden actief gehandhaafd. ÖAMTC (2024) noemt Kroatië ook strikt verboden. Wettekst niet geopend. Voorstel 0 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 25,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Total Croatia News: Dos and Don'ts When Camping in Croatia (lighting fires)",
+          "url": "https://total-croatia-news.com/blog/camping-in-croatia/",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Total Croatia News, Lighting fires (gelezen): van 1 juni tot 31 oktober is het verboden buiten aangewezen plaatsen vuur of barbecue te maken; boete ca. 2.000-20.000 euro. Wet niet gelezen. Voorstel 25 bevestigd."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Bosnia and Herzegovina",
+          "url": "https://en.wikivoyage.org/wiki/Bosnia_and_Herzegovina",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage BiH (gelezen): 'Wild camping is often no problem, but be careful for mines'. Gedoogd; geen officiële bron. Mijnenrisico buiten gemarkeerde paden. Voorstel 30 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Bosnia and Herzegovina",
+          "url": "https://en.wikivoyage.org/wiki/Bosnia_and_Herzegovina",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage BiH (gelezen): geen vuurregels. Afgeleid van Servië en Kroatië; voorstel 50 overgenomen."
+      }
+    },
+    "Montenegro": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Montenegro",
+          "url": "https://en.wikivoyage.org/wiki/Montenegro",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Montenegro (gelezen): geen regels over wildkamperen. Afgeleid van Kroatië/Albanië; nationale parken hebben eigen regels. Voorstel 30 overgenomen."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Montenegro",
+          "url": "https://en.wikivoyage.org/wiki/Montenegro",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Montenegro (gelezen): geen vuurregels. Afgeleid van Servië en Kroatië; voorstel 50 overgenomen."
+      }
+    },
+    "Servië": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "UNEP LEAP / FAOLEX: Serbia, Forest Law (samenvatting); Wikivoyage: Serbia",
+          "url": "https://leap.unep.org/en/countries/rs/national-legislation/forest-law",
+          "jaar": "2018"
+        },
+        "zekerheid": "laag",
+        "opmerking": "UNEP LEAP Forest Law samenvatting (2018) noemt geen kampeerregels; Wikivoyage Serbia geeft geen informatie. Wettekst niet gelezen; afgeleid van de buurlanden. Voorstel 30 overgenomen."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Telegraf English: Serbia deploys drones to hunt down arsonists",
+          "url": "https://www.telegraf.rs/english/4409564-serbia-deploys-drones-to-hunt-down-arsonists-starting-wildfires-in-vicinity-of-sokobanja",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Telegraf English (2026, nieuwsbericht, gelezen): 'starting fires in the forest or within a distance of 200 meters from the edge of a forest' is verboden; boetes 10.000-50.000 dinar. Wettekst niet gelezen; geen vaste periode. Voorstel 50 bevestigd."
+      }
+    },
+    "Kosovo": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Kosovo",
+          "url": "https://en.wikivoyage.org/wiki/Kosovo",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Kosovo (gelezen): geen regels over wildkamperen. Afgeleid van Albanië, Noord-Macedonië en Servië. Voorstel 30 overgenomen."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Kosovo",
+          "url": "https://en.wikivoyage.org/wiki/Kosovo",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Kosovo (gelezen): geen vuurregels. Afgeleid van Servië; voorstel 50 overgenomen."
+      }
+    },
+    "Noord-Macedonië": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: North Macedonia",
+          "url": "https://en.wikivoyage.org/wiki/North_Macedonia",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage North Macedonia (gelezen): geen regels over wildkamperen. Afgeleid van de buurlanden. Voorstel 30 overgenomen."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: North Macedonia",
+          "url": "https://en.wikivoyage.org/wiki/North_Macedonia",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage North Macedonia (gelezen): geen vuurregels. Afgeleid van Servië en Bulgarije; voorstel 50 overgenomen."
+      }
+    },
+    "Griekenland": {
+      "kamp_wild": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Visit Sithonia: Greece's New Law 5170/2025",
+          "url": "https://visitsithonia.com/news/greece-motorhome-law-2025-wild-camping-ban/",
+          "jaar": "2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Visit Sithonia (7-5-2025, gelezen; toeristenportaal over wet 5170/2025): tenten of caravans buiten ingerichte campings verboden; boetes tot 3.000 euro en tot 3 maanden; verwijst naar wet 392/1976 art. 10 en wet 4276/2014 art. 7. ΦΕΚ niet gelezen. Voorstel 0 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 25,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Greece",
+          "url": "https://en.wikivoyage.org/wiki/Greece",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Greece (gelezen): 'a strict fire ban in all of Greece from May 1 until October 31 ... including campfires, bonfires, barbecues'; zware straffen. Of ingerichte barbecueplaatsen op campings zijn uitgezonderd, is niet gelezen; daarom niet 0. Voorstel 25 bevestigd."
+      }
+    },
+    "Bulgarije": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Bulgaria; OpenVan.camp: controles bij Varna",
+          "url": "https://en.wikivoyage.org/wiki/Bulgaria",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wikivoyage Bulgaria (gelezen): 'Pitching a tent anywhere else is not legal, but if done in an inconspicuous place, no one will bother you'. OpenVan.camp (2026): controles bij Varna, sancties volgens Forestry Act en Black Sea Coast Act. Wettekst niet gelezen. Voorstel 30 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "InforMEA/FAO: Bulgaria, Law on Forests (catalogusrecord)",
+          "url": "https://www.informea.org/en/content/legislation/law-forests-0",
+          "jaar": "2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "InforMEA/FAO, Law on Forests (catalogusrecord): 'measures against fires', Ordinance No. 8 van 11-5-2012 over brandbescherming van bossen; de inhoud is niet beschikbaar. Wikivoyage Bulgaria geeft geen vuurregels. Voorstel 50 overgenomen."
+      }
+    },
+    "Cyprus": {
+      "kamp_wild": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Sigmalive: Forest Department warns, illegal camping in state forests forbidden",
+          "url": "https://en.sigmalive.com/forest-department-warns-illegal-camping-in-state-forests-forbitten/",
+          "jaar": "2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Sigmalive (Forest Department, 11-8-2025, gelezen): kamperen in staatsbossen zonder vergunning is illegaal en alleen toegestaan op aangewezen plaatsen; straf tot 1 jaar cel en 5.000 euro. Buiten staatsbossen niet expliciet gelezen. Voorstel 0 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 25,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Sigmalive: Forest Department warns, illegal camping in state forests forbidden",
+          "url": "https://en.sigmalive.com/forest-department-warns-illegal-camping-in-state-forests-forbitten/",
+          "jaar": "2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Sigmalive (Forest Department, gelezen): 'lighting a fire anywhere in the countryside is forbidden'; enige uitzondering is koken op georganiseerde picknick- en kampeerplaatsen. Binnen staatsbossen of 2 km: tot 12 jaar cel en 100.000 euro. Voorstel 25 bevestigd."
+      }
+    },
+    "Turkije": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Turkey",
+          "url": "https://en.wikivoyage.org/wiki/Turkey",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Turkey (gelezen): 'Wild camping in the forest without permission is OK, unless the area is under environmental protection'. Dit is reisblog-niveau, geen wettekst; Orman Kanunu 6831 niet gelezen. Daarom niet op deze bron gekozen; voorstel 30 overgenomen."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Turkey",
+          "url": "https://en.wikivoyage.org/wiki/Turkey",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Turkey (gelezen): 'a campfire anywhere in forests apart from the designated fireplaces in recreational (picnic) areas is forbidden'. Orman-regelgeving en zomersluitingen niet gelezen. Voorstel 50 afgeweken naar 75 (aangewezen vuurplaatsen)."
+      }
+    },
+    "Moldavië": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Moldova",
+          "url": "https://en.wikivoyage.org/wiki/Moldova",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Moldova (gelezen): geen informatie over wildkamperen. Afgeleid; voorstel 30 overgenomen."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Moldova",
+          "url": "https://en.wikivoyage.org/wiki/Moldova",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Moldova (gelezen): geen vuurregels. Afgeleid van de buurlanden; voorstel 50 overgenomen."
+      }
+    },
+    "Oekraïne": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Ukraine",
+          "url": "https://en.wikivoyage.org/wiki/Ukraine",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Ukraine (gelezen): geen wildkampregels. Doet niet mee aan de reisselectie; voorstel 30 overgenomen, niet onderzocht."
+      },
+      "kamp_vuur": {
+        "waarde": 50,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Ukraine",
+          "url": "https://en.wikivoyage.org/wiki/Ukraine",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Ukraine (gelezen): geen vuurregels. Niet onderzocht (reisadvies); voorstel 50 overgenomen."
+      }
+    },
+    "Belarus": {
+      "kamp_wild": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Freedom to roam (sectie Belarus, Forest Code art. 13)",
+          "url": "https://en.wikipedia.org/wiki/Freedom_to_roam",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikipedia Freedom to roam, sectie Belarus (gelezen): Forest Code art. 13 geeft burgers het recht 'freely stay in the forest'. Kamperen zelf niet gelezen. Voorstel 55 afgeweken omdat de bron ruimer is. Doet niet mee aan de reisselectie."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Verkhnedvinsk District Executive Committee: Is it permissible to light fires in the forest?",
+          "url": "https://verkhnedvinsk.vitebsk-region.gov.by/verkhnedvinskij-rochs-rochs-informiruet-item-2224-mozhno-li-razvodit-kostry-v-lesu/en",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Verkhnedvinsk District Executive Committee (officiële lokale overheid, gelezen): 'Campfires are permitted in forests only in designated areas'; 'during the fire hazard period, when forest access is prohibited, campfires are naturally also not allowed'. Lokale regel; geen nationale wet gelezen. Voorstel 50 afgeweken naar 75."
+      }
+    },
+    "Rusland": {
+      "kamp_wild": {
+        "waarde": 55,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Russia",
+          "url": "https://en.wikivoyage.org/wiki/Russia",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Russia (gelezen): geen regels over wildkamperen. Voorstel 55 overgenomen, niet opnieuw gecontroleerd. Doet niet mee aan de reisselectie."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Russia",
+          "url": "https://en.wikivoyage.org/wiki/Russia",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Russia (gelezen): geen vuurregels. Afgeleid van Belarus (75), voor consistentie afgeweken van voorstel 50. Niet onderzocht (reisadvies)."
+      }
+    },
+    "Georgië": {
+      "kamp_wild": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Georgian National Tourism Administration: Wild Camping in Georgia",
+          "url": "https://georgia.travel/wild-camping-in-georgia",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Georgian National Tourism Administration (gelezen): 'wild camping is legal and immensely popular'; niet op privéterrein zonder toestemming; in nationale parken alleen op aangewezen plaatsen. Geen wettekst (apa.gov.ge gaf een reset). Voorstel 80 bevestigd."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Georgian National Tourism Administration: Camping places in Georgia",
+          "url": "https://georgia.travel/camping-places-in-georgia",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Georgian National Tourism Administration, Camping places (gelezen): kampeerterreinen met fire pits en barbecuezones; geen nationale vuurregel gelezen. Neutrale schatting; voorstel 75 bevestigd."
+      }
+    },
+    "Armenië": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Armenia",
+          "url": "https://en.wikivoyage.org/wiki/Armenia",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Armenia (gelezen): wild camping wordt genoemd als activiteit in de Debed-kloof; geen wettelijke regels gevonden. Gedoogd op afgelegen land. Voorstel 30 overgenomen."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Armenia",
+          "url": "https://en.wikivoyage.org/wiki/Armenia",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Armenia (gelezen): geen vuurregels. Geen bron; neutrale schatting 75 overgenomen uit het voorstel."
+      }
+    },
+    "Azerbeidzjan": {
+      "kamp_wild": {
+        "waarde": 30,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Azerbaijan",
+          "url": "https://en.wikivoyage.org/wiki/Azerbaijan",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Azerbaijan (gelezen): geen informatie over wildkamperen. Afgeleid van Georgië en Armenië; voorstel 30 overgenomen."
+      },
+      "kamp_vuur": {
+        "waarde": 75,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikivoyage: Azerbaijan",
+          "url": "https://en.wikivoyage.org/wiki/Azerbaijan",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Wikivoyage Azerbaijan (gelezen): geen vuurregels. Geen bron; neutrale schatting 75 overgenomen uit het voorstel."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Lovdata: friluftsloven §9 (LOV-1957-06-28-16)",
+      "url": "https://lovdata.no/dokument/NL/lov/1957-06-28-16",
+      "wat": "Telting, afstand tot bebouwing en 2-dagenregel (NO, kamp_wild; via WebFetch)"
+    },
+    {
+      "naam": "Lovdata: forskrift om brannforebygging §3 (FOR-2015-12-17-1710)",
+      "url": "https://lovdata.no/dokument/SF/forskrift/2015-12-17-1710",
+      "wat": "Vuurverbod 15 april-15 september (NO, kamp_vuur; via WebFetch)"
+    },
+    {
+      "naam": "Althingi: Lög um náttúruvernd nr. 60/2013",
+      "url": "https://www.althingi.is/lagas/nuna/2013060.html",
+      "wat": "Art. 22 tenten (IS, kamp_wild) en art. 28 vuur (IS, kamp_vuur)"
+    },
+    {
+      "naam": "Riksdagen: Regeringsformen 2 kap. 15 § en Lag (2003:778) om skydd mot olyckor 10 kap.",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2003778-om-skydd-mot-olyckor_sfs-2003-778/",
+      "wat": "Allemansrätt en eldningsförbud (SE)"
+    },
+    {
+      "naam": "Naturvårdsverket: Allemansrätten en samtalskort",
+      "url": "https://www.naturvardsverket.se/allemansratten",
+      "wat": "Tent 'något enstaka dygn'; grondeigenaar vragen bij grotere groep (SE, kamp_wild)"
+    },
+    {
+      "naam": "Luontoon.fi (Metsähallitus): Jokaisenoikeudet",
+      "url": "https://www.luontoon.fi/fi/lajit/retkeily-ja-ulkoilu/jokaisenoikeudet",
+      "wat": "Jokamiehenoikeudet, tilapäinen yöpyminen (FI, kamp_wild)"
+    },
+    {
+      "naam": "Finlex: Rescue Act 379/2011, English translation (PDF)",
+      "url": "https://www.finlex.fi/api/media/statute-foreign-language-translation/688086/mainPdf/main.pdf",
+      "wat": "§6 open fire (FI, kamp_vuur)"
+    },
+    {
+      "naam": "RMK: Igaüheõigus",
+      "url": "https://rmk.ee/looduses-liikumine/juhised/igauheoigus/",
+      "wat": "Telten 1 ööpäev, vuur met toestemming (EE, kamp_wild)"
+    },
+    {
+      "naam": "ERR: tuleohtlik aeg 2023",
+      "url": "https://www.err.ee/1609006436/kolmapaevast-on-tuleohtliku-aja-tottu-keelatud-looduses-tule-tegemine",
+      "wat": "Landelijk tijdelijk vuurverbod in bos (EE, kamp_vuur)"
+    },
+    {
+      "naam": "likumi.lv: Meža likums 5. pants",
+      "url": "https://likumi.lv/ta/id/2825-meza-likums",
+      "wat": "Recht om in bossen te verblijven (LV, kamp_wild)"
+    },
+    {
+      "naam": "LSM English: Where can you put up your tent in Latvia? (16-05-2026)",
+      "url": "https://eng.lsm.lv/article/society/environment/16.05.2026-where-can-you-put-up-your-tent-in-latvia.a647112/",
+      "wat": "LVM-regels overnachten met tent (LV, kamp_wild)"
+    },
+    {
+      "naam": "Cēsis Municipality: Campfire in Nature",
+      "url": "https://visit.cesis.lv/en/campfire-in-nature/",
+      "wat": "Vuur op aangewezen plaatsen, brandgevaarperiodes (LV, kamp_vuur)"
+    },
+    {
+      "naam": "VMU (Valstybinių miškų urėdija): FAQ",
+      "url": "https://vmu.lt/en/frequently-asked-questions/",
+      "wat": "Overnachten en vuur alleen op aangewezen plaatsen (LT, kamp_wild en kamp_vuur)"
+    },
+    {
+      "naam": "Naturstyrelsen: Overnat og spis i naturen; Må jeg bruge åben ild i naturen?",
+      "url": "https://naturstyrelsen.dk/aktiviteter-i-naturen/overnat-og-spis-i-naturen",
+      "wat": "Fri teltning, lejrpladser, bålpladser (DK)"
+    },
+    {
+      "naam": "gesetze-im-internet.de: § 59 BNatSchG",
+      "url": "https://www.gesetze-im-internet.de/bnatschg_2009/__59.html",
+      "wat": "Betreten der freien Landschaft (DE, kamp_wild)"
+    },
+    {
+      "naam": "Bayerisches Waldgesetz Art. 17",
+      "url": "https://www.gesetze-bayern.de/Content/Document/BayWaldG-17",
+      "wat": "Vuur bij bos, vergunning (DE, kamp_vuur, alleen Beieren)"
+    },
+    {
+      "naam": "RIS: Forstgesetz 1975 §33 en §40",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010371&Artikel=&Paragraf=33&Anlage=&Uebergangsrecht=",
+      "wat": "Lagern/Zelten (§33) en Feuer im Wald (§40) (AT)"
+    },
+    {
+      "naam": "BMLUK: Is camping, tenting or dwelling permitted in forests?",
+      "url": "https://www.bmluk.gv.at/en/topics/forests/forests-and-leisure/behaviour-in-the-forest/is-camping,-tenting-or-dwelling-permitted-in-forests.html",
+      "wat": "Toestemming eigenaar voor kamperen in bos (AT, controle)"
+    },
+    {
+      "naam": "zakonyprolidi.cz: Zákon č. 289/1995 Sb. o lesích §20",
+      "url": "https://www.zakonyprolidi.cz/cs/1995-289",
+      "wat": "Kamperen en vuur in bos (CZ; privé juridisch portaal)"
+    },
+    {
+      "naam": "Slovenský skauting: Skautské tábory",
+      "url": "https://skauting.sk/ustredie/administrativa/skautske-tabory/",
+      "wat": "Kamperen op beschermingsniveau 1 en 2 met toestemming (SK)"
+    },
+    {
+      "naam": "Regione Piemonte: D.D. 40/2022",
+      "url": "https://www.regione.piemonte.it/governo/bollettino/abbonati/2022/04/attach/dda1820000040_10500.pdf",
+      "wat": "Periodes van massima pericolosità (IT, kamp_vuur)"
+    },
+    {
+      "naam": "Beobachter/TCS: Wild campen, Kantonsoverzicht (6-7-2026)",
+      "url": "https://www.beobachter.ch/arbeit-bildung/freizeit/hier-konnen-sie-in-ruhe-ihr-zelt-aufschlagen-624417",
+      "wat": "Kantonale regels, niet in groepen (CH, kamp_wild)"
+    },
+    {
+      "naam": "BAFU: waldbrandgefahr.ch",
+      "url": "https://www.waldbrandgefahr.ch/",
+      "wat": "Kantonale Feuerverbote (CH, kamp_vuur; dynamische pagina niet uitgelezen)"
+    },
+    {
+      "naam": "Irish Statute Book: Wildlife Act 1976, s.40",
+      "url": "https://www.irishstatutebook.ie/eli/1976/act/39/section/40/enacted/en/html",
+      "wat": "Verbranden van begroeiing 15 april-31 augustus (IE, kamp_vuur)"
+    },
+    {
+      "naam": "Wikipedia: Freedom to roam",
+      "url": "https://en.wikipedia.org/wiki/Freedom_to_roam",
+      "wat": "Overzicht per land als wegwijzer (IE, BY, IT)"
+    },
+    {
+      "naam": "Wikipedia (nl): Wildkamperen",
+      "url": "https://nl.wikipedia.org/wiki/Wildkamperen",
+      "wat": "Verbod en boete (NL, kamp_wild)"
+    },
+    {
+      "naam": "Brandweer Nederland: Natuurbrandrisico",
+      "url": "https://www.brandweer.nl/natuurbrandrisico/",
+      "wat": "Natuurbrandrisicofases (NL, kamp_vuur)"
+    },
+    {
+      "naam": "NatureScot: Scottish Outdoor Access Code, Camping",
+      "url": "https://www.outdooraccess-scotland.scot/practical-guide-all/camping",
+      "wat": "Schotland: tenten en vuur (GB)"
+    },
+    {
+      "naam": "legislation.gov.uk: Countryside and Rights of Way Act 2000, Sch. 2",
+      "url": "https://www.legislation.gov.uk/ukpga/2000/37/schedule/2",
+      "wat": "Engeland en Wales: camping en vuur op toegangsland (GB)"
+    },
+    {
+      "naam": "Lëtzebuerger Journal (2021) en Chambre des Députés: Pétition n° 4125",
+      "url": "https://www.petitiounen.lu/en/petition/4125",
+      "wat": "Luxemburg: kamperen en petitie (LU, kamp_wild)"
+    },
+    {
+      "naam": "Préfecture du Val-de-Marne: arrêté 2026-02594",
+      "url": "https://www.villecresnes.fr/UserFiles/File/arretes/ap-2026-02594-restrictions-pour-prevention-et-protection-forets-signe.pdf",
+      "wat": "Vuurverbod bij bos, juli 2026 (FR, kamp_vuur)"
+    },
+    {
+      "naam": "Département de la Savoie: analyse juridique (Bivouac)",
+      "url": "https://www.savoie.fr/upload/docs/application/pdf/2025-07/analyse_juridique_urbanisme.pdf",
+      "wat": "Code de l'urbanisme R.111-32 t/m 34 (FR, kamp_wild)"
+    },
+    {
+      "naam": "Alto.ad: Andorra motorhome fines (27-05-2026)",
+      "url": "https://www.alto.ad/other/2026/05/andorra-motorhome-fines-illegal-camping",
+      "wat": "Verbod en boetes kamperen buiten campings (AD, kamp_wild)"
+    },
+    {
+      "naam": "Legálitas: La acampada libre (2020)",
+      "url": "https://www.legalitas.com/actualidad/multas-acampada-libre",
+      "wat": "Acampada libre prohibida, sancties (ES, kamp_wild)"
+    },
+    {
+      "naam": "BOE: Ley 43/2003 de Montes, art. 67",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-21339",
+      "wat": "Gebruik van vuur in montes (ES, kamp_vuur)"
+    },
+    {
+      "naam": "AGIF: Portugal Chama (affiche)",
+      "url": "https://cm-nisa.pt/images/documentos/areas_atividade/protecao_civil/conselhos_uteis/Cartazes_Portugal_Chama/Cartaz_Risco_A2.pdf",
+      "wat": "Período crítico 1 juli-30 september (PT, kamp_vuur)"
+    },
+    {
+      "naam": "Sábado/Lusa: ICNF-handhaving campismo selvagem (30-05-2020)",
+      "url": "https://www.sabado.pt/portugal/detalhe/autoridades-fiscalizam-praias-na-costa-vicentina-e-levantam-92-contraordenacoes",
+      "wat": "Handhaving wildkamperen (PT, kamp_wild)"
+    },
+    {
+      "naam": "Total Croatia News: Camping in Croatia",
+      "url": "https://total-croatia-news.com/blog/camping-in-croatia/",
+      "wat": "Wildkamperen en vuur verboden (HR)"
+    },
+    {
+      "naam": "Telegraf English: Serbia drones / fires near forests",
+      "url": "https://www.telegraf.rs/english/4409564-serbia-deploys-drones-to-hunt-down-arsonists-starting-wildfires-in-vicinity-of-sokobanja",
+      "wat": "Vuur binnen 200 m van bos (RS, kamp_vuur)"
+    },
+    {
+      "naam": "UNEP LEAP / FAOLEX: Serbia Forest Law",
+      "url": "https://leap.unep.org/en/countries/rs/national-legislation/forest-law",
+      "wat": "Samenvatting bosrecht (RS, geen kampregels)"
+    },
+    {
+      "naam": "Visit Sithonia: Greece's New Law 5170/2025",
+      "url": "https://visitsithonia.com/news/greece-motorhome-law-2025-wild-camping-ban/",
+      "wat": "Wildkamperverbod (GR, kamp_wild)"
+    },
+    {
+      "naam": "Wikivoyage: Greece",
+      "url": "https://en.wikivoyage.org/wiki/Greece",
+      "wat": "Vuurverbod 1 mei-31 oktober (GR, kamp_vuur)"
+    },
+    {
+      "naam": "Sigmalive: Forest Department (2025)",
+      "url": "https://en.sigmalive.com/forest-department-warns-illegal-camping-in-state-forests-forbitten/",
+      "wat": "Kamperen en vuur in staatsbossen (CY)"
+    },
+    {
+      "naam": "OpenVan.camp (2026) en InforMEA/FAO: Law on Forests (BG)",
+      "url": "https://www.informea.org/en/content/legislation/law-forests-0",
+      "wat": "Bulgarije: handhaving en wetscatalogus (BG)"
+    },
+    {
+      "naam": "Verkhnedvinsk District Executive Committee (BY)",
+      "url": "https://verkhnedvinsk.vitebsk-region.gov.by/verkhnedvinskij-rochs-rochs-informiruet-item-2224-mozhno-li-razvodit-kostry-v-lesu/en",
+      "wat": "Vuur in bos alleen op aangewezen plaatsen (BY, kamp_vuur)"
+    },
+    {
+      "naam": "Georgian National Tourism Administration (georgia.travel)",
+      "url": "https://georgia.travel/wild-camping-in-georgia",
+      "wat": "Wildkamperen legaal, privéterrein (GE, kamp_wild); kampeerplaatsen (GE, kamp_vuur)"
+    },
+    {
+      "naam": "Wikivoyage (landenpagina's, diverse)",
+      "url": "https://en.wikivoyage.org/wiki/Camping",
+      "wat": "Controle per land waar geen wet beschikbaar was (Andorra, Malta, San Marino, Bosnië, Montenegro, Kosovo, Noord-Macedonië, Moldavië, Oekraïne, Rusland, Armenië, Azerbeidzjan, Liechtenstein, Turkije, Bulgarije)"
+    },
+    {
+      "naam": "ÖAMTC/ÖCC: Wildcamping in Europa (17-07-2024)",
+      "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068",
+      "wat": "Controlebron (14 landen), niet als primaire bron gebruikt"
+    },
+    {
+      "naam": "Guide Me Malta: camping sites (2020)",
+      "url": "https://www.guidememalta.com/these-exciting-camping-sites-in-malta-will-make-you-go-wild/",
+      "wat": "Malta: beperkte regels (MT, kamp_wild)"
+    },
+    {
+      "naam": "OpenVan.camp en Telegraf (aanvullend)",
+      "url": "https://openvan.camp/en/news/ban/aktsiya-kray-pasha-dere-desetki-karavani-kemperi",
+      "wat": "Handhaving in Bulgarije (BG, kamp_wild)"
+    }
+  ],
+  "problemen": [
+    "Lovdata gaf via curl een 405 (Varnish IPS) en daarna een verbindingsreset. De wettekst is daarom via WebFetch gelezen (friluftsloven §9 en forskrift §3). Dit is een gelezen bron, geen spiegel.",
+    "journal.lu gaf een verbindingsreset (proxy-tunnel gesloten). De Luxemburgse wettekst is daarom alleen via de 2021-artikel-citaten in de referentie beoordeeld; de parlementaire petitie (2026) is als tweede bron gebruikt.",
+    "Légifrance (FR) gaf 403. De Code de l'urbanisme is via het juridisch advies van het departement Savoie beoordeeld (zekerheid midden).",
+    "Finlex HTML-pagina (FI) bevat alleen de titel en een PDF-link. §6 is gelezen in de English translation PDF.",
+    "De Sábado-pagina (PT) is van 30-05-2020; de referentie noemde 2026. Gebruikt als 2020.",
+    "waldbrandgefahr.ch (CH) is een dynamische pagina zonder leesbare maatregelen; het vuurniveau van CH is niet geverifieerd (zekerheid laag).",
+    "Wettelijke grondslag niet gelezen voor onder andere ES (regionale wetten), IE (Ierse wet, latere wijziging van de vuurperiode niet geverifieerd), IT (buiten Piemonte), SK (slov-lex onbereikbaar), TR (Orman Kanunu), BG (Ordinance 8/2012), RS (wettekst), HR (wet), MT (MaltaToday 403).",
+    "Voor landen met alleen Wikivoyage of een reisblog als bron is het niveau laag gezet of het voorstel overgenomen. Dit geldt voor AD (vuur), AM, AZ, BA, LI, MD, ME, MK, RU, SM, TR, UA, XK, IT (kamp_wild) en MT (kamp_vuur).",
+    "Turkije (kamp_wild): de Wikivoyage-bewering 'OK' is niet als basis gebruikt omdat die reisblog-niveau is; het voorstel 30 is overgenomen met zekerheid laag.",
+    "Oostenrijk (kamp_wild): het regionale gemiddelde is niet exact berekend. De uitkomst (ca. 67,5) ligt precies tussen 55 en 80; naar beneden afgerond op 55.",
+    "Verenigd Koninkrijk (kamp_wild): gemiddelde van Schotland 100 (~32%) en Engeland/Wales 55 (~68%) = 77,5, afgerond op 80.",
+    "Zwitserland (kamp_wild): regionaal gewogen gemiddelde niet berekend; 55 is afgeleid van het kantonsoverzicht.",
+    "Sommige voorstellen zijn niet opnieuw gecontroleerd en zijn overgenomen met zekerheid laag (o.a. LI, SM, MD, MK, XK, ME, BA, AZ, AM, RU, UA). Dat staat per land in de opmerking.",
+    "Aantal opzoekingen: ca. 100 (incl. herhalingen en aanvullingen), tegen een geschatte ±90. Gedeeld WebSearch-budget niet gebruikt.",
+    "Russland, Oekraïne en Belarus zijn gewoon gewaardeerd (volgens de opdracht). Hun bronnen zijn zwak (Wikivoyage, Wikipedia-sectie of een lokale overheidspagina) en zijn met zekerheid laag gemarkeerd."
+  ]
+}

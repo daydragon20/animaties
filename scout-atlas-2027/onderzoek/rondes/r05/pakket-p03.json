@@ -1,0 +1,1975 @@
+{
+  "ronde": 5,
+  "pakket": "p03",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "av_bergen": {
+        "waarde": 1993,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Opdracht-regel: Serra da Estrela / Torre 1.993 m (niet Pico 2.351 m op de Azoren). De bronpagina noemt Torre als hoogste punt van continentaal Portugal, maar geeft het hoogtegetal niet."
+      },
+      "av_kust": {
+        "waarde": 1793.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 0.45,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 23,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "12 showcaves + 11 caves + 0 gorges."
+      }
+    },
+    "Spanje": {
+      "av_bergen": {
+        "waarde": 3479,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Opdracht-regel: Mulhacén 3.479 m (niet Teide 3.715 m). De bronpagina noemt Mulhacén als hoogste punt van continentaal Spanje, maar geeft het hoogtegetal niet."
+      },
+      "av_kust": {
+        "waarde": 4964.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 1.3,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 144,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "86 showcaves + 51 caves + 7 gorges."
+      }
+    },
+    "Andorra": {
+      "av_bergen": {
+        "waarde": 2943.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 0.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 0,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in showcaves.com; ook niet in Wikipedia 'Category: Show caves by country' (gecontroleerd 10-10-2026). Waarde 0 volgens ontbrekend-regel."
+      }
+    },
+    "Frankrijk": {
+      "av_bergen": {
+        "waarde": 4806.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Mont Blanc (4.806 m) gedeeld met Italië/Frankrijk."
+      },
+      "av_kust": {
+        "waarde": 4853.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 0.5,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 195,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "112 showcaves + 70 caves + 13 gorges."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "av_bergen": {
+        "waarde": 1345.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 12429.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 0.7,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 74,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "26 showcaves + 41 caves + 7 gorges. In bron: 'Great Britain'."
+      }
+    },
+    "Ierland": {
+      "av_bergen": {
+        "waarde": 1039.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 1448.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 2.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 14,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "6 showcaves + 8 caves + 0 gorges."
+      }
+    },
+    "IJsland": {
+      "av_bergen": {
+        "waarde": 2109.6,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Hvannadalshnúkur, waarde zoals in bron (2109,6)."
+      },
+      "av_kust": {
+        "waarde": 4970.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 2.1,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 27,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "4 showcaves + 20 caves + 3 gorges."
+      }
+    },
+    "Nederland": {
+      "av_bergen": {
+        "waarde": 322,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Vaalserberg 322 m volgens opdracht (bronpagina noemt 322,7 m; niet Mount Scenery op Saba, 870 m)."
+      },
+      "av_kust": {
+        "waarde": 451.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 19.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Nederland proper (incl. Caribisch Nederland) volgens bron."
+      },
+      "av_grotten": {
+        "waarde": 0,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 0 caves + 0 gorges."
+      }
+    },
+    "Luxemburg": {
+      "av_bergen": {
+        "waarde": 560.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 0.6,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 5,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 2 caves + 3 gorges."
+      }
+    },
+    "Duitsland": {
+      "av_bergen": {
+        "waarde": 2962.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 2389.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 2.2,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 156,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "54 showcaves + 79 caves + 23 gorges."
+      }
+    },
+    "Denemarken": {
+      "av_bergen": {
+        "waarde": 171,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Møllehøj 171 m volgens opdracht (bronpagina: 170,86 m; afgerond)"
+      },
+      "av_kust": {
+        "waarde": 7314.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 1.5,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 3,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 3 caves + 0 gorges."
+      }
+    },
+    "Noorwegen": {
+      "av_bergen": {
+        "waarde": 2469.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 83281.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 5.1,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Totale oppervlakte incl. Svalbard/Jan Mayen (5,1); vasteland alleen: 6,0."
+      },
+      "av_grotten": {
+        "waarde": 18,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "1 showcaves + 16 caves + 1 gorges."
+      }
+    },
+    "Zweden": {
+      "av_bergen": {
+        "waarde": 2097.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 3218.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 9.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 29,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "2 showcaves + 25 caves + 2 gorges."
+      }
+    },
+    "Finland": {
+      "av_bergen": {
+        "waarde": 1324.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 1250.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 10.2,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 17,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 11 caves + 6 gorges."
+      }
+    },
+    "Estland": {
+      "av_bergen": {
+        "waarde": 318.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 3794.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 6.3,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 4,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 4 caves + 0 gorges."
+      }
+    },
+    "Letland": {
+      "av_bergen": {
+        "waarde": 312.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 498.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 3.7,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 3,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 3 caves + 0 gorges."
+      }
+    },
+    "Litouwen": {
+      "av_bergen": {
+        "waarde": 293.84,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 90.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 4.1,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 0,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 0 caves + 0 gorges."
+      }
+    },
+    "Zwitserland": {
+      "av_bergen": {
+        "waarde": 4634.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 4.3,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 57,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "9 showcaves + 18 caves + 30 gorges."
+      }
+    },
+    "Liechtenstein": {
+      "av_bergen": {
+        "waarde": 2599.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 0.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 0,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in showcaves.com; ook niet in Wikipedia 'Category: Show caves by country' (gecontroleerd 10-10-2026). Waarde 0 volgens ontbrekend-regel."
+      }
+    },
+    "Oostenrijk": {
+      "av_bergen": {
+        "waarde": 3798.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 1.6,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 82,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "25 showcaves + 20 caves + 37 gorges."
+      }
+    },
+    "Tsjechië": {
+      "av_bergen": {
+        "waarde": 1603.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 2.1,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 37,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "15 showcaves + 12 caves + 10 gorges."
+      }
+    },
+    "Slowakije": {
+      "av_bergen": {
+        "waarde": 2654.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 1.9,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 27,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "18 showcaves + 2 caves + 7 gorges."
+      }
+    },
+    "Italië": {
+      "av_bergen": {
+        "waarde": 4806.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Mont Blanc (4.806 m) gedeeld met Italië/Frankrijk."
+      },
+      "av_kust": {
+        "waarde": 7600.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 2.1,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 182,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "68 showcaves + 95 caves + 19 gorges."
+      }
+    },
+    "San Marino": {
+      "av_bergen": {
+        "waarde": 739.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 0.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 0,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 0 caves + 0 gorges."
+      }
+    },
+    "Malta": {
+      "av_bergen": {
+        "waarde": 253.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 252.8,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 0.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 15,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "4 showcaves + 11 caves + 0 gorges."
+      }
+    },
+    "Kroatië": {
+      "av_bergen": {
+        "waarde": 1831.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 5835.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 1.1,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 42,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "24 showcaves + 16 caves + 2 gorges."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "av_bergen": {
+        "waarde": 2386.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 20.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 0.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Bron toont 0,0 (10 km² water); bijna 0."
+      },
+      "av_grotten": {
+        "waarde": 18,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "11 showcaves + 7 caves + 0 gorges."
+      }
+    },
+    "Montenegro": {
+      "av_bergen": {
+        "waarde": 2534.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 293.5,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 3.2,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 10,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "1 showcaves + 9 caves + 0 gorges."
+      }
+    },
+    "Servië": {
+      "av_bergen": {
+        "waarde": 2169.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 0.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rivieren niet meegeteld volgens bron (0)."
+      },
+      "av_grotten": {
+        "waarde": 25,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "13 showcaves + 10 caves + 2 gorges."
+      }
+    },
+    "Kosovo": {
+      "av_bergen": {
+        "waarde": 2660.2,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Velika Rudoka volgens de bronpagina (rij met {{flagicon}}, niet met landcode)."
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 0.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Rivieren niet meegeteld volgens bron (0)."
+      },
+      "av_grotten": {
+        "waarde": 0,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in showcaves.com; ook niet in Wikipedia 'Category: Show caves by country' (gecontroleerd 10-10-2026). Waarde 0 volgens ontbrekend-regel."
+      }
+    },
+    "Noord-Macedonië": {
+      "av_bergen": {
+        "waarde": 2764.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 1.9,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 9,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "2 showcaves + 7 caves + 0 gorges."
+      }
+    },
+    "Griekenland": {
+      "av_bergen": {
+        "waarde": 2918.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 13676.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 2.3,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 103,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "26 showcaves + 71 caves + 6 gorges."
+      }
+    },
+    "Bulgarije": {
+      "av_bergen": {
+        "waarde": 2925.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 354.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 2.2,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 36,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "14 showcaves + 18 caves + 4 gorges."
+      }
+    },
+    "Cyprus": {
+      "av_bergen": {
+        "waarde": 1952.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 648.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 0.1,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 3,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "1 showcaves + 1 caves + 1 gorges. Staat in bron in de statistiektabel (transcontinentaal)."
+      }
+    },
+    "Turkije": {
+      "av_bergen": {
+        "waarde": 5137.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 7200.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 1.8,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 58,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "33 showcaves + 18 caves + 7 gorges. Staat in bron in de statistiektabel (transcontinentaal)."
+      }
+    },
+    "Moldavië": {
+      "av_bergen": {
+        "waarde": 430.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 2.6,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 2,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 2 caves + 0 gorges."
+      }
+    },
+    "Oekraïne": {
+      "av_bergen": {
+        "waarde": 2061.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 2782.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 4.0,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 5,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "2 showcaves + 3 caves + 0 gorges."
+      }
+    },
+    "Belarus": {
+      "av_bergen": {
+        "waarde": 345.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 2.3,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 0,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 0 caves + 0 gorges."
+      }
+    },
+    "Rusland": {
+      "av_bergen": {
+        "waarde": 5642.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 37653.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 4.2,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 35,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "16 showcaves + 17 caves + 2 gorges. Staat in bron in de statistiektabel (transcontinentaal)."
+      }
+    },
+    "Georgië": {
+      "av_bergen": {
+        "waarde": 5203.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 310.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_meren": {
+        "waarde": 0.3,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 14,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "6 showcaves + 5 caves + 3 gorges. Staat in bron in de statistiektabel (transcontinentaal)."
+      }
+    },
+    "Armenië": {
+      "av_bergen": {
+        "waarde": 4090.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Landlocked volgens bron (0)."
+      },
+      "av_meren": {
+        "waarde": 4.3,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 5,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "2 showcaves + 2 caves + 1 gorges. Staat in bron in de statistiektabel (transcontinentaal)."
+      }
+    },
+    "Azerbeidzjan": {
+      "av_bergen": {
+        "waarde": 4466.0,
+        "eenheid": "meter boven zeeniveau",
+        "bron": {
+          "naam": "Wikipedia, List of elevation extremes by country (doorverwijzing vanaf 'List of countries by highest point')",
+          "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_kust": {
+        "waarde": 0.0,
+        "eenheid": "kilometer kustlijn",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by length of coastline (kolom CIA)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "CIA-kolom toont 0 (landlocked volgens opdracht); WRI-kolom 871 km, niet als waarde gebruikt."
+      },
+      "av_meren": {
+        "waarde": 4.6,
+        "eenheid": "% binnenwater van de oppervlakte",
+        "bron": {
+          "naam": "Wikipedia, List of countries and dependencies by area (kolom % water)",
+          "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "av_grotten": {
+        "waarde": 1,
+        "eenheid": "aantal grotten en kloven",
+        "bron": {
+          "naam": "showcaves.com, Statistics (Showcaves + Caves + Gorges)",
+          "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "0 showcaves + 1 caves + 0 gorges. Staat in bron in de statistiektabel (transcontinentaal)."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Wikipedia, List of elevation extremes by country",
+      "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country",
+      "wat": "av_bergen: maximale hoogte per land (kolom 'Maximum elevation'); de URL 'List of countries by highest point' is een doorverwijzing naar deze pagina"
+    },
+    {
+      "naam": "Wikipedia, List of countries and dependencies by length of coastline",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline",
+      "wat": "av_kust: kustlijn in km, kolom CIA (de URL 'List of countries by length of coastline' is een doorverwijzing)"
+    },
+    {
+      "naam": "Wikipedia, List of countries and dependencies by area",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+      "wat": "av_meren: kolom '% water' per land (volledige pagina, 42 van 42 gevonden)"
+    },
+    {
+      "naam": "showcaves.com, Statistics",
+      "url": "https://www.showcaves.com/english/explain/Index/Statistics.html",
+      "wat": "av_grotten: kolommen Showcaves, Caves, Gorges per land (entries as of 10-OCT-2026)"
+    },
+    {
+      "naam": "Wikipedia, Category: Show caves by country",
+      "url": "https://en.wikipedia.org/wiki/Category:Show_caves_by_country",
+      "wat": "av_grotten: controle voor AD, LI en XK (niet vermeld, waarde 0 laag)"
+    }
+  ],
+  "problemen": [
+    "av_bergen: bron 1 (List of countries by highest point) is een doorverwijzing naar List of elevation extremes by country. Bron 2 is dus dezelfde tabel; geen onafhankelijke controle.",
+    "av_bergen: PT (1993 m) en ES (3479 m) komen uit de opdracht-regel; de bronpagina bevat de namen Torre en Mulhacén maar niet de hoogtegetallen (zekerheid midden). NL en DK zijn afgerond volgens opdracht (322 en 171 m).",
+    "av_kust: bron 1 (List of countries by length of coastline) is een doorverwijzing naar List of countries and dependencies by length of coastline; CIA-kolom gebruikt, WRI niet als waarde.",
+    "De Wikipedia-lijsten zijn met curl als ruwe wikitekst (action=raw) opgehaald, niet via WebFetch; daardoor geen afkapping en geen samenvatting, dus geen offset nodig. showcaves.com is met curl als HTML opgehaald en geparst.",
+    "av_grotten: AD, LI en XK staan niet in showcaves.com en ook niet in de Wikipedia-categorie; waarde 0 met zekerheid laag. CY, GE, AM, AZ, RU en TR staan in de gewone statistiektabel, niet in een apart 'transcontinental'-blok.",
+    "Eén HTTP 429 van Wikipedia bij een extra controleaanroep op de kust-doorverwijzing; die aanroep is niet herhaald, want de doelpagina was al binnen.",
+    "WebSearch is niet gebruikt. Het aantal aanroepen is klein: 4 bronpagina's, 2 doorverwijzingscontroles, 1 categoriepagina."
+  ]
+}

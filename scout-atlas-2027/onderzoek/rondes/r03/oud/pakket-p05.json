@@ -1,0 +1,194 @@
+{
+  "ronde": 3,
+  "pakket": "p05",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "kamp_wild": { "waarde": 0, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "ÖAMTC/ÖCC, Wildcamping in Europa: ein Überblick", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "midden", "opmerking": "ÖAMTC (2024): wildcampen buiten gemarkeerde plaatsen strikt verboden. Model-oriëntatie 0. Nationale wet niet zelf geraadpleegd." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "EFFIS startpagina; regel alleen uit het model.json-voorbeeld 'período crítico'", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Structureel zomerverbod (período crítico) uit model.json als voorbeeld; niet extern geverifieerd (WebSearch-limiet)." }
+    },
+    "Spanje": {
+      "kamp_wild": { "waarde": 0, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Portugal", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "laag", "opmerking": "Null: geen officiële bron gevonden (WebSearch-limiet bereikt, es.wikipedia niet bereikbaar). Ontbrekend-regel: buurland Portugal (0). Regionaal verschillend; te verifiëren." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Portugal (zomerbrandregime)", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron voor Spanje. Ontbrekend-regel: niveau Portugal (50)." }
+    },
+    "Andorra": {
+      "kamp_wild": { "waarde": 0, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Spanje", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Spanje (0)." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Spanje", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Spanje (50)." }
+    },
+    "Frankrijk": {
+      "kamp_wild": { "waarde": 55, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (fr), Camping sauvage", "url": "https://fr.wikipedia.org/wiki/Camping_sauvage", "jaar": "onbekend" }, "zekerheid": "midden", "opmerking": "fr.wikipedia: niet algemeen toegestaan, wel verboden in kustzones en bij bezienswaardigheden; ÖAMTC: verboden op sommige plaatsen. Toestemming van de grondeigenaar nodig: niveau 55 volgens model-oriëntatie." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "EFFIS startpagina; model.json noemt prefectuurbesluiten als 75-voorbeeld", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen landbron gevonden; regionale zomerbeperkingen (prefectuurbesluiten) niet geverifieerd." }
+    },
+    "Verenigd Koninkrijk": {
+      "kamp_wild": { "waarde": 80, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (en), Wild camping", "url": "https://en.wikipedia.org/wiki/Wild_camping", "jaar": "onbekend" }, "zekerheid": "midden", "opmerking": "Regionaal gemiddelde (≥25% grondgebied): Engeland/Wales 55 (geen recht zonder toestemming van de grondeigenaar, wel doorgaans te krijgen) en Schotland 100 (kamperen op de meeste onbebouwde grond). (55+100)/2 = 77,5, afgerond op 80. Noord-Ierland (zeer beperkt, minder dan 25%) telt niet mee." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Frankrijk", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron voor het VK. Ontbrekend-regel: buurland Frankrijk (75)." }
+    },
+    "Ierland": {
+      "kamp_wild": { "waarde": 55, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: model.json oriëntatie 55 (toestemming grondeigenaar)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Wikipedia-overzicht en Wikivoyage: beperkte toegang, geen algemeen recht om te kamperen; geen Ierse regeltekst gevonden." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Verenigd Koninkrijk", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron. Ontbrekend-regel: buurland VK (75)." }
+    },
+    "IJsland": {
+      "kamp_wild": { "waarde": 80, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (en), Right of public access to the wilderness", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "Wikipedia-overzicht: tenten één nacht, tot drie nachten, op onbewoond onbeschermd land zonder nabije camping; campers alleen op campings. Gekozen 80 (beperkte duur, dus geen 100). Officiële wet niet zelf geraadpleegd." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Noorwegen", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron voor IJsland. Ontbrekend-regel: buurland Noorwegen (50)." }
+    },
+    "Nederland": {
+      "kamp_wild": { "waarde": 55, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (nl), Wildkamperen", "url": "https://nl.wikipedia.org/wiki/Wildkamperen", "jaar": "onbekend" }, "zekerheid": "laag", "opmerking": "nl.wikipedia: wildkamperen niet toegestaan, boete 150 euro (2022); fr.wikipedia: algemeen verboden. Gekozen 55 vanwege officiële natuurkampeerterreinen en toestemmingsroute (criterium 55, model-oriëntatie). De bronnen wijzen eerder naar 0: conflict, daarom laag." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Duitsland", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron. Ontbrekend-regel: buurland Duitsland (75)." }
+    },
+    "Luxemburg": {
+      "kamp_wild": { "waarde": 55, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Frankrijk", "url": "https://fr.wikipedia.org/wiki/Camping_sauvage", "jaar": "onbekend" }, "zekerheid": "laag", "opmerking": "Null: Luxemburg niet vermeld in de gevonden bronnen. Ontbrekend-regel: buurland Frankrijk (55)." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Frankrijk", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron. Ontbrekend-regel: buurland Frankrijk (75)." }
+    },
+    "Duitsland": {
+      "kamp_wild": { "waarde": 55, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (de), Wildcampen", "url": "https://de.wikipedia.org/wiki/Wildcampen", "jaar": "onbekend" }, "zekerheid": "midden", "opmerking": "de.wikipedia: per deelstaat verschillend; in Brandenburg, Mecklenburg-Vorpommern en Schleswig-Holstein is één nacht in een zelt toegestaan mits de grondeigenaar instemt; elders is toestemming nodig. fr.wikipedia: in het algemeen verboden. Model-oriëntatie 55. ÖAMTC noemt alleen een korte rustpauze voor campers." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "EFFIS startpagina; model.json noemt Waldbrandstufen als 75-voorbeeld", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen landbron gevonden; periodieke regionale beperkingen (Waldbrandstufen) niet geverifieerd." }
+    },
+    "Denemarken": {
+      "kamp_wild": { "waarde": 55, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Duitsland", "url": "https://de.wikipedia.org/wiki/Wildcampen", "jaar": "onbekend" }, "zekerheid": "laag", "opmerking": "fr.wikipedia: wildkamperen in het algemeen verboden; geen Deense regeltekst gevonden. Ontbrekend-regel: buurland Duitsland (55)." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Duitsland", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron. Ontbrekend-regel: buurland Duitsland (75)." }
+    },
+    "Noorwegen": {
+      "kamp_wild": { "waarde": 100, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (en), Right of public access to the wilderness", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "Wikipedia-overzicht: allemansrett. Tenten toegestaan, minimaal 150 m van bewoonde huizen; zonder toestemming hooguit twee dagen op dezelfde plek (behalve in bergen en nationale parken). Officiële wet niet zelf geraadpleegd." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (en), Right of public access to the wilderness", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "Wikipedia-overzicht: vuurverbod in of bij bos van 15 april tot 15 september, met uitzonderingen. Zelfde voorbeeld als in model.json (50)." }
+    },
+    "Zweden": {
+      "kamp_wild": { "waarde": 100, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (en), Right of public access to the wilderness", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "Wikipedia-overzicht: allemansrätt. Tenten op onbebouwde grond één à twee nachten toegestaan. ÖAMTC en nl.wikipedia: met weinig beperkingen / onder voorwaarden toegestaan. Officiële wet niet zelf geraadpleegd." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (en), Right of public access to the wilderness", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "Wikipedia-overzicht: kleine vuren meestal toegestaan, maar lokale overheden kunnen in droge periodes verbieden (regionale beperkingen = 75)." }
+    },
+    "Finland": {
+      "kamp_wild": { "waarde": 100, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (en), Wild camping", "url": "https://en.wikipedia.org/wiki/Wild_camping", "jaar": "onbekend" }, "zekerheid": "midden", "opmerking": "Wikipedia (Wild camping): wildkamperen legaal, ook op privéterrein, onder voorwaarden. Wikipedia-overzicht: tijdelijk kamperen buiten bewoning toegestaan. nl.wikipedia: onder voorwaarden toegestaan (allemansrecht)." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (en), Right of public access to the wilderness", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "Wikipedia-overzicht: open vuur op andermans grond vereist toestemming van de grondeigenaar, behalve bij noodgevallen; gasbranders en houtkachels zijn wel toegestaan. 75 gekozen; regionale zomerbeperkingen niet geverifieerd." }
+    },
+    "Estland": {
+      "kamp_wild": { "waarde": 80, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (en), Wild camping", "url": "https://en.wikipedia.org/wiki/Wild_camping", "jaar": "onbekend" }, "zekerheid": "midden", "opmerking": "Wikipedia (Wild camping): één nacht wildkamperen legaal, ook op privéterrein, mits de eigenaar niet wordt belast. Het Wikipedia-overzicht noemt toestemming voor kamperen en vuur: conflict tussen bronnen. Gekozen 80 (één nacht zonder toestemming). ÖAMTC: met weinig beperkingen." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (en), Right of public access to the wilderness", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "Wikipedia-overzicht: kamperen en vuur maken vereisen toestemming van de grondeigenaar of bezitter; geen structureel zomerverbod genoemd. 75 gekozen; zomerbeperkingen niet geverifieerd." }
+    },
+    "Letland": {
+      "kamp_wild": { "waarde": 80, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "ÖAMTC/ÖCC, Wildcamping in Europa: ein Überblick", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "midden", "opmerking": "ÖAMTC (2024): 'im Baltikum' met weinig beperkingen toegestaan; groepsoordeel, geen Letse wettekst gevonden. Gekozen 80 (100 niet onderbouwd)." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Estland", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron voor Letland. Ontbrekend-regel: buurland Estland (75)." }
+    },
+    "Litouwen": {
+      "kamp_wild": { "waarde": 80, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "ÖAMTC/ÖCC, Wildcamping in Europa: ein Überblick", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "midden", "opmerking": "ÖAMTC (2024): 'im Baltikum' met weinig beperkingen toegestaan; groepsoordeel, geen Litouwse wettekst gevonden. Gekozen 80." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Letland", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron voor Litouwen. Ontbrekend-regel: buurland Letland (75)." }
+    },
+    "Zwitserland": {
+      "kamp_wild": { "waarde": 55, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (de), Wildcampen", "url": "https://de.wikipedia.org/wiki/Wildcampen", "jaar": "onbekend" }, "zekerheid": "laag", "opmerking": "de.wikipedia: klein zelt of bivak 'grundsätzlich erlaubt' (Jedermannsrecht, 80); in Schutzgebieten verboten; kantons en gemeenten beperken (55). fr.wikipedia: geen federale verbodswet, wel cantonale beperkingen. Gemiddelde van 55 en 80 is 67,5 (precies in het midden): naar beneden afgerond op 55 als voorzichtige keuze. ÖAMTC: onduidelijk." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Frankrijk", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron voor Zwitserland. Ontbrekend-regel: buurland Frankrijk (75)." }
+    },
+    "Liechtenstein": {
+      "kamp_wild": { "waarde": 55, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Zwitserland", "url": "https://de.wikipedia.org/wiki/Wildcampen", "jaar": "onbekend" }, "zekerheid": "laag", "opmerking": "Null: Liechtenstein niet in de overzichten gevonden. Ontbrekend-regel: buurland Zwitserland (55)." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Zwitserland", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron. Ontbrekend-regel: buurland Zwitserland (75)." }
+    },
+    "Oostenrijk": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "ÖAMTC/ÖCC, Wildcamping in Europa: ein Überblick", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "midden", "opmerking": "Regionaal: de meeste deelstaten verbieden wildcampen (ÖAMTC; de.wikipedia: 'grundsätzlich untersagt'), strengste regime ca. 0. Soepelste regime met minstens 25% grondgebied: één nacht bivak boven de boomgrens (Kärnten, Steiermark, Salzburg) en tenten in Burgenland, ca. 80. (0+80)/2 = 40, afgerond op 30. Kamperen in bossen alleen met toestemming van de eigenaar." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Duitsland", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron voor Oostenrijk. Ontbrekend-regel: buurland Duitsland (75)." }
+    },
+    "Tsjechië": {
+      "kamp_wild": { "waarde": 55, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Duitsland", "url": "https://de.wikipedia.org/wiki/Wildcampen", "jaar": "onbekend" }, "zekerheid": "laag", "opmerking": "Wikipedia-overzicht (en): recht op toegang tot open land en bossen, behalve privéperceel; kampeerregel niet gevonden. Ontbrekend-regel: buurland Duitsland (55)." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Duitsland", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron. Ontbrekend-regel: buurland Duitsland (75)." }
+    },
+    "Slowakije": {
+      "kamp_wild": { "waarde": 0, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "ÖAMTC/ÖCC, Wildcamping in Europa: ein Überblick", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "midden", "opmerking": "ÖAMTC (2024): buiten gemarkeerde plaatsen streng verboden. Model-oriëntatie 0. Slowaakse wet niet zelf geraadpleegd." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Tsjechië", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron. Ontbrekend-regel: buurland Tsjechië (75)." }
+    },
+    "Italië": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Oostenrijk", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "laag", "opmerking": "ÖAMTC (2024): 'onduidelijk, bij lokale autoriteiten nachfragen'; it.wikipedia niet bereikbaar. Null: geen Italiaanse regeltekst. Ontbrekend-regel: buurland Oostenrijk (30)." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: vergelijkbaar zomerbrandregime, Spanje", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron. Ontbrekend-regel: meest vergelijkbaar zuid-Europees land, Spanje (50)." }
+    },
+    "San Marino": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Italië", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Italië (30)." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Italië", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Italië (50)." }
+    },
+    "Malta": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Italië", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden (eilandstaat). Ontbrekend-regel: buurland Italië (30)." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Italië", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Italië (50)." }
+    },
+    "Kroatië": {
+      "kamp_wild": { "waarde": 0, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "ÖAMTC/ÖCC, Wildcamping in Europa: ein Überblick", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "midden", "opmerking": "ÖAMTC (2024): strikt verboden buiten gemarkeerde plaatsen. fr.wikipedia: verboden, boetes van 150 tot 1.000 euro. Model-oriëntatie 0." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Italië", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Italië (50)." }
+    },
+    "Bosnië en Herzegovina": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: model.json oriëntatie Balkan (30)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden (Wikipedia-overzicht dun voor de Balkan). Ontbrekend-regel: oriëntatie 'delen van de Balkan' = 30." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Kroatië", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Kroatië (50)." }
+    },
+    "Montenegro": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: model.json oriëntatie Balkan (30)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: oriëntatie 'delen van de Balkan' = 30." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Kroatië", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Kroatië (50)." }
+    },
+    "Servië": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: model.json oriëntatie Balkan (30)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: oriëntatie 'delen van de Balkan' = 30." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Montenegro", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Montenegro (50)." }
+    },
+    "Kosovo": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: model.json oriëntatie Balkan (30)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: oriëntatie 'delen van de Balkan' = 30." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Servië", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Servië (50)." }
+    },
+    "Noord-Macedonië": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: model.json oriëntatie Balkan (30)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: oriëntatie 'delen van de Balkan' = 30." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Griekenland", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Griekenland (50)." }
+    },
+    "Griekenland": {
+      "kamp_wild": { "waarde": 0, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "ÖAMTC/ÖCC, Wildcamping in Europa: ein Überblick", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "midden", "opmerking": "ÖAMTC (2024): strikt verboden buiten gemarkeerde plaatsen. Model.json noemt wet 5170/2025 met boetes tot 3.000 euro; wet niet zelf geraadpleegd." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: vergelijkbaar zomerbrandregime, Spanje", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: vergelijkbaar Zuid-Europees zomerbrandregime, Spanje (50)." }
+    },
+    "Bulgarije": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: model.json oriëntatie Balkan (30)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: oriëntatie 'delen van de Balkan' = 30." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Griekenland", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Griekenland (50)." }
+    },
+    "Cyprus": {
+      "kamp_wild": { "waarde": 0, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Griekenland", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "jaar": "2024" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden (eilandstaat). Ontbrekend-regel: buurland Griekenland (0)." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Griekenland", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Griekenland (50)." }
+    },
+    "Turkije": {
+      "kamp_wild": { "waarde": 55, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Wikipedia (nl), Wildkamperen", "url": "https://nl.wikipedia.org/wiki/Wildkamperen", "jaar": "onbekend" }, "zekerheid": "laag", "opmerking": "nl.wikipedia: wildkamperen 'legaal en veelgebruikt', zonder regeltekst. Regime niet vastgesteld; voorzichtig 55 (toestemming of gedoogd). Laag." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Griekenland", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Griekenland (50)." }
+    },
+    "Moldavië": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: standaardniveau 30 (geen bron, geen buurland met bron)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden (WebSearch-limiet). Standaard 30 voor Oost-Europese landen zonder bron, gelijk aan de Balkan-oriëntatie." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Oekraïne", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Oekraïne (75)." }
+    },
+    "Oekraïne": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: standaardniveau 30 (geen bron, geen buurland met bron)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden (WebSearch-limiet). Standaard 30 voor Oost-Europese landen zonder bron." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Slowakije", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Slowakije (75)." }
+    },
+    "Belarus": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: standaardniveau 30 (geen bron, geen buurland met bron)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Wikipedia-overzicht: burgers mogen in bossen verblijven voor eigen behoeften; geen kampeerregel gevonden. Null, daarna standaard 30." },
+      "kamp_vuur": { "waarde": 75, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Litouwen", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Litouwen (75)." }
+    },
+    "Rusland": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: standaardniveau 30 (geen bron, geen buurland met bron)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden (ru.wikipedia niet bereikbaar). Standaard 30, laag." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: aangenomen zomerverbod in bosgebied (standaard 50)", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Aangenomen structureel bosbrandverbod in de zomer (50), laag." }
+    },
+    "Georgië": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: model.json oriëntatie Kaukasus (30)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: oriëntatie 'delen van de Kaukasus' = 30." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Turkije", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Turkije (50)." }
+    },
+    "Armenië": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: model.json oriëntatie Kaukasus (30)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: oriëntatie 'delen van de Kaukasus' = 30." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Georgië", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Georgië (50)." }
+    },
+    "Azerbeidzjan": {
+      "kamp_wild": { "waarde": 30, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: model.json oriëntatie Kaukasus (30)", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: oriëntatie 'delen van de Kaukasus' = 30." },
+      "kamp_vuur": { "waarde": 50, "eenheid": "niveau 0 tot 100 (rubriek)", "bron": { "naam": "Ontbrekend-regel: buurland Georgië", "url": "https://forest-fire.emergency.copernicus.eu/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Null: geen bron gevonden. Ontbrekend-regel: buurland Georgië (50)." }
+    }
+  },
+  "bronnenlijst": [
+    { "naam": "Wikipedia (en), Right of public access to the wilderness", "url": "https://en.wikipedia.org/wiki/Right_of_public_access_to_the_wilderness", "wat": "Wegwijzer nationale wet: wildkamperen NO, SE, FI, IS, EE, AT, CH, CZ; vuurregel Noorwegen (15 april tot 15 september). Eerste 100.000 tekens gelezen; het restant bevat geen campingregels." },
+    { "naam": "ÖAMTC/ÖCC, Wildcamping in Europa: ein Überblick", "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068", "wat": "Controle wildcampen (14 landen, 2024): PT, FR, DE, NO, SE, EE, LV, LT, CH, AT, SK, IT, HR, GR, plus enkele extra landen. Geen zomervuurregels." },
+    { "naam": "Wikivoyage, Camping", "url": "https://en.wikivoyage.org/wiki/Camping", "wat": "Algemene regels: Noordse landen (recht van toegang), Schotland; overige landen niet bruikbaar." },
+    { "naam": "Wikipedia (en), Wild camping", "url": "https://en.wikipedia.org/wiki/Wild_camping", "wat": "VK (Schotland: wildkamperen toegestaan; Engeland/Wales: toestemming vereist), Finland (legaal onder voorwaarden), Estland (één nacht legaal)." },
+    { "naam": "Wikipedia (de), Wildcampen", "url": "https://de.wikipedia.org/wiki/Wildcampen", "wat": "Duitsland per deelstaat (BB, MV, SH: één nacht met toestemming), Zwitserland (Jedermannsrecht, kleine tent/bivak toegestaan), Oostenrijk (grundsätzlich untersagt)." },
+    { "naam": "Wikipedia (fr), Camping sauvage", "url": "https://fr.wikipedia.org/wiki/Camping_sauvage", "wat": "Frankrijk (beperkt toegestaan), Kroatië (verboden, boetes), Zwitserland (geen federaal verbod), Duitsland/Oostenrijk/Denemarken/Nederland (algemeen verboden). Bronnen gedateerd (2012 tot 2018)." },
+    { "naam": "Wikipedia (nl), Wildkamperen", "url": "https://nl.wikipedia.org/wiki/Wildkamperen", "wat": "Nederland (verboden, boete 150 euro in 2022), Noorwegen/Zweden/Finland (onder voorwaarden), Turkije (legaal en veelgebruikt, zonder regeltekst), Schotland, Britse eilanden." },
+    { "naam": "EFFIS (Copernicus), startpagina", "url": "https://forest-fire.emergency.copernicus.eu/", "wat": "Gecontroleerd: bevat geen landspecifieke regels over open vuur of zomerverboden; alleen gebruikt als laatste-redmiddel-bron voor vuurvariabele." }
+  ],
+  "problemen": [
+    "WebSearch-budget van deze beurt was op (limiet 200, gedeeld met andere agents) voordat ik een zoekopdracht kon uitvoeren. Alleen WebFetch op bekende URL's is gebruikt; geen zoekmachines via curl of proxies.",
+    "Officiële wetteksten en overheidspagina's per land zijn niet bereikt. Alle waarden zijn gebaseerd op Wikipedia-, ÖAMTC- en Wikivoyage-overzichten of op de oriëntatie in model.json.",
+    "Kampvuur: alleen Noorwegen, Zweden en Finland (en Estland deels) hebben een bron met een regel; voor de overige landen is het niveau via de ontbrekend-regel bepaald (laag).",
+    "Tegenstrijdige bronnen: Estland (één nacht legaal versus toestemming voor kamperen en vuur), Nederland (verboden met boete versus criterium 55), Zwitserland (ÖAMTC 'onduidelijk' versus de.wikipedia 'grundsätzlich erlaubt').",
+    "Regionale gemiddelden: VK (55 en 100 gaf 77,5, afgerond op 80); Zwitserland (55 en 80 gaf 67,5, precies tussen twee niveaus, naar beneden afgerond op 55); Oostenrijk (0 en 80 gaf 40, afgerond op 30). Het strengste en soepelste regime zijn schattingen op basis van de beschikbare bronnen.",
+    "Wikipedia-talenversies voor Spanje, Italië, Portugal en Rusland gaven HTTP 404; de Wikipedia-overzichtspagina is voor LV, LT, de Balkan en de Kaukasus dun. Voor die landen is het niveau via oriëntatie of buurland bepaald (laag).",
+    "Turkije, Moldavië, Oekraïne, Belarus en Rusland (wildkamperen) hebben geen bron; Moldavië, Oekraïne, Belarus en Rusland krijgen het standaardniveau 30 (laag), omdat er geen buurland met bron was."
+  ]
+}

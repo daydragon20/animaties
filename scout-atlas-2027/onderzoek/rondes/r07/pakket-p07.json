@@ -1,0 +1,1969 @@
+{
+  "ronde": 7,
+  "pakket": "p07",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "vei_vrede": {
+        "waarde": 1.427,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 7.15,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 83,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 1.31382,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Spanje": {
+      "vei_vrede": {
+        "waarde": 1.654,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 3.51,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 84,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.33507,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Andorra": {
+      "vei_vrede": {
+        "waarde": 1.8685,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de GPI-tabel; gemiddelde van ES en FR (ontbrekend-regel)."
+      },
+      "vei_verkeer": {
+        "waarde": 2.53,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 75,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaren; de dataset geeft 0 in alle jaren 2015-2025."
+      }
+    },
+    "Frankrijk": {
+      "vei_vrede": {
+        "waarde": 2.083,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 4.7,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 82,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.0720126,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "vei_vrede": {
+        "waarde": 1.73,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 2.39,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 88,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.0662042,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Ierland": {
+      "vei_vrede": {
+        "waarde": 1.371,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 2.83,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 82,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.072973,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "IJsland": {
+      "vei_vrede": {
+        "waarde": 1.161,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 2.43,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 90,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.0867873,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Nederland": {
+      "vei_vrede": {
+        "waarde": 1.566,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 3.43,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 85,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.00900118,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Luxemburg": {
+      "vei_vrede": {
+        "waarde": 1.7827,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de GPI-tabel; gemiddelde van BE, DE en FR (ontbrekend-regel)."
+      },
+      "vei_verkeer": {
+        "waarde": 3.93,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 83,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaren; de dataset geeft 0 in alle jaren 2015-2025."
+      }
+    },
+    "Duitsland": {
+      "vei_vrede": {
+        "waarde": 1.657,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 3.33,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 87,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.0145247,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Denemarken": {
+      "vei_vrede": {
+        "waarde": 1.504,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 2.29,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 85,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.0171694,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Noorwegen": {
+      "vei_vrede": {
+        "waarde": 1.688,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 1.52,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 89,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.00123255,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Zweden": {
+      "vei_vrede": {
+        "waarde": 1.732,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 2.11,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 85,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.0111852,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Finland": {
+      "vei_vrede": {
+        "waarde": 1.478,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 4.19,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 86,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.00354499,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Estland": {
+      "vei_vrede": {
+        "waarde": 1.623,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 4.4,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 79,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.00387978,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Letland": {
+      "vei_vrede": {
+        "waarde": 1.589,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 10.11,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 77,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.0149432,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Litouwen": {
+      "vei_vrede": {
+        "waarde": 1.62,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 6.38,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 78,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.00902547,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Zwitserland": {
+      "vei_vrede": {
+        "waarde": 1.363,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 2.37,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 87,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.00583887,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Liechtenstein": {
+      "vei_vrede": {
+        "waarde": 1.392,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de GPI-tabel; gemiddelde van CH en AT (ontbrekend-regel)."
+      },
+      "vei_verkeer": {
+        "waarde": 2.37,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de OWID-reeks; waarde van Zwitserland (CH) gebruikt (ontbrekend-regel)."
+      },
+      "vei_zorg": {
+        "waarde": 87,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Leeg in de OWID-reeks; waarde van Zwitserland (87) gebruikt (ontbrekend-regel)."
+      },
+      "vei_brand": {
+        "waarde": 0,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaren; de dataset geeft 0 in alle jaren 2015-2025."
+      }
+    },
+    "Oostenrijk": {
+      "vei_vrede": {
+        "waarde": 1.421,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 4.58,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 84,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.00767231,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Tsjechië": {
+      "vei_vrede": {
+        "waarde": 1.517,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 5.21,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 83,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.00591757,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Slowakije": {
+      "vei_vrede": {
+        "waarde": 1.661,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 6.43,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 78,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.0109877,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Italië": {
+      "vei_vrede": {
+        "waarde": 1.712,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 5,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 82,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.484727,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "San Marino": {
+      "vei_vrede": {
+        "waarde": 1.712,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de GPI-tabel; gelijk aan Italië (ontbrekend-regel)."
+      },
+      "vei_verkeer": {
+        "waarde": 5.93,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 74,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaren; de dataset geeft 0 in alle jaren 2015-2025."
+      }
+    },
+    "Malta": {
+      "vei_vrede": {
+        "waarde": 1.712,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de GPI-tabel; gelijk aan Italië (ontbrekend-regel)."
+      },
+      "vei_verkeer": {
+        "waarde": 1.99,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 82,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.0494318,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Kroatië": {
+      "vei_vrede": {
+        "waarde": 1.619,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 8.08,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 76,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.248157,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "vei_vrede": {
+        "waarde": 1.81,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 13.67,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 64,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 1.13791,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Montenegro": {
+      "vei_vrede": {
+        "waarde": 1.672,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 9.08,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 70,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 2.33867,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Servië": {
+      "vei_vrede": {
+        "waarde": 1.919,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 7.36,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 73,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.811103,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Kosovo": {
+      "vei_vrede": {
+        "waarde": 1.83,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 7.3833,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de OWID-reeks; gemiddelde van ME, MK en RS (ontbrekend-regel)."
+      },
+      "vei_zorg": {
+        "waarde": 69.5,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in de OWID-reeks; gemiddelde van ME en MK (ontbrekend-regel)."
+      },
+      "vei_brand": {
+        "waarde": 1.45545,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Kosovo-rij in de GWIS-reeks; gemiddelde van ME, MK en RS (ontbrekend-regel). EFFIS meldt voor 2024 ca. 1,2 % (13.250 ha), niet zelf geverifieerd."
+      }
+    },
+    "Noord-Macedonië": {
+      "vei_vrede": {
+        "waarde": 1.792,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 5.71,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 69,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 1.21658,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Griekenland": {
+      "vei_vrede": {
+        "waarde": 1.828,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 7.21,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 77,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.504515,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Bulgarije": {
+      "vei_vrede": {
+        "waarde": 1.628,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 8.39,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 73,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.743253,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Cyprus": {
+      "vei_vrede": {
+        "waarde": 1.967,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 3.94,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 76,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.199912,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Turkije": {
+      "vei_vrede": {
+        "waarde": 2.605,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 6.52,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 77,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.491891,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Moldavië": {
+      "vei_vrede": {
+        "waarde": 1.836,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 9.15,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 71,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.591811,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Oekraïne": {
+      "vei_vrede": {
+        "waarde": 3.184,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 10.47,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 80,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 1.57671,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Belarus": {
+      "vei_vrede": {
+        "waarde": 2.216,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 7.37,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 80,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.220991,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Rusland": {
+      "vei_vrede": {
+        "waarde": 3.367,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 10.57,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 81,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.771595,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Georgië": {
+      "vei_vrede": {
+        "waarde": 2.066,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 12.67,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 71,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.528287,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Armenië": {
+      "vei_vrede": {
+        "waarde": 1.825,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 13.58,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 69,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 0.541227,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    },
+    "Azerbeidzjan": {
+      "vei_vrede": {
+        "waarde": 2.142,
+        "eenheid": "GPI-score (1 tot 5)",
+        "bron": {
+          "naam": "Wikipedia, Global Peace Index (landentabel, editie 2026)",
+          "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+          "jaar": "2026"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_verkeer": {
+        "waarde": 17.15,
+        "eenheid": "doden per 100.000 inwoners",
+        "bron": {
+          "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe",
+          "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+          "jaar": "2021"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_zorg": {
+        "waarde": 67,
+        "eenheid": "index 0 tot 100",
+        "bron": {
+          "naam": "Our World in Data / WHO, universal-health-coverage-index",
+          "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+          "jaar": "2023"
+        },
+        "zekerheid": "hoog",
+        "opmerking": ""
+      },
+      "vei_brand": {
+        "waarde": 1.02928,
+        "eenheid": "% van het landoppervlak per jaar (gemiddelde 2015 tot 2025)",
+        "bron": {
+          "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+          "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+          "jaar": "2015-2025"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Gemiddelde van 11 jaarwaarden 2015-2025 (2026 niet meegerekend)."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Wikipedia, Global Peace Index (2026 landentabel)",
+      "url": "https://en.wikipedia.org/wiki/Global_Peace_Index",
+      "wat": "vei_vrede: GPI-score 2026 (tabel gelezen uit de brontekst via action=raw)"
+    },
+    {
+      "naam": "Our World in Data / WHO, death-rate-from-road-accidents-ghe (2021)",
+      "url": "https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe.csv?csvType=filtered&time=2021",
+      "wat": "vei_verkeer: doden per 100.000 inwoners, 2021"
+    },
+    {
+      "naam": "Our World in Data / WHO, universal-health-coverage-index (2023)",
+      "url": "https://ourworldindata.org/grapher/universal-health-coverage-index.csv",
+      "wat": "vei_zorg: UHC service coverage index 2023"
+    },
+    {
+      "naam": "Our World in Data / GWIS, Annual share of the total land area burnt by wildfires each year",
+      "url": "https://ourworldindata.org/grapher/share-of-the-total-land-area-burnt-by-wildfires-each-year.csv",
+      "wat": "vei_brand: gemiddeld jaarlijks verbrand aandeel landoppervlak 2015-2025"
+    }
+  ],
+  "problemen": [
+    "vei_vrede: AD, LI, SM, LU en MT staan niet in de GPI 2026-tabel; ontbrekend-regel toegepast, zekerheid laag.",
+    "vei_verkeer: LI en XK ontbreken in de OWID/WHO-reeks 2021; LI = CH, XK = gemiddelde ME/MK/RS, zekerheid laag. Wereldbank-alternatief niet nodig.",
+    "vei_zorg: LI (leeg in OWID) en XK ontbreken; LI = CH (87), XK = gemiddelde ME/MK, zekerheid laag.",
+    "vei_brand: XK ontbreekt in de GWIS-reeks; gemiddelde ME/MK/RS (1.45545 %) gebruikt. EFFIS 2024 (ca. 1,2 %) niet zelf geverifieerd. AD, LI, LU en SM hebben 0 in alle jaren 2015-2025.",
+    "Alle bronnen met curl opgehaald en lokaal uitgelezen (geen WebFetch-samenvatting, om landenverwisseling te voorkomen). Alle controlegetallen uit de opdracht kloppen.",
+    "Visie-of-Humanity-kaart niet als waardebron gebruikt: de landentabel is JavaScript. De Wikipedia-tabel is de voorkeursbron en is op de controlegetallen gecontroleerd."
+  ]
+}

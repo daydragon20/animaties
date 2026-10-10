@@ -1,0 +1,1036 @@
+{
+  "ronde": 5,
+  "pakket": "p09",
+  "datum": "2026-10-10",
+  "landen": {
+    "Portugal": {
+      "weer_temp": {
+        "waarde": 28.2,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Lisbon (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Lisbon",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Lisboa (Instituto Geofísico D. Luís). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 2.6,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Lisbon (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Lisbon",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Lisboa (Instituto Geofísico D. Luís). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Spanje": {
+      "weer_temp": {
+        "waarde": 32.8,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Madrid (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Madrid",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Madrid Retiro (Buen Retiro Park, centrum). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 9.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Madrid (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Madrid",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Madrid Retiro (Buen Retiro Park, centrum). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Andorra": {
+      "weer_temp": {
+        "waarde": 26.2,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Andorra la Vella (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Andorra_la_Vella",
+          "jaar": "1971-2000"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Station: Andorra la Vella (Roc de Sant Pere). Normaal 1971-2000. Enige tabel op Wikipedia is 1971-2000; geen 1991-2020 gevonden; nationale meteodienst niet nagelopen. Afgeleid van laatst beschikbare normaalperiode."
+      },
+      "weer_regen": {
+        "waarde": 60.7,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Andorra la Vella (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Andorra_la_Vella",
+          "jaar": "1971-2000"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Station: Andorra la Vella (Roc de Sant Pere). Normaal 1971-2000. Veld 'Jul precipitation mm'. Enige tabel op Wikipedia is 1971-2000; geen 1991-2020 gevonden; nationale meteodienst niet nagelopen. Afgeleid van laatst beschikbare normaalperiode."
+      }
+    },
+    "Frankrijk": {
+      "weer_temp": {
+        "waarde": 25.7,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Paris (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Paris",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Paris (Parc Montsouris), tabel via sjabloon Paris weatherbox. Normaal 1991-2020. De pagina Paris bevat de tabel via een transclusie-sjabloon."
+      },
+      "weer_regen": {
+        "waarde": 59.4,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Paris (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Paris",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Paris (Parc Montsouris), tabel via sjabloon Paris weatherbox. Normaal 1991-2020. Veld 'Jul precipitation mm'. De pagina Paris bevat de tabel via een transclusie-sjabloon."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "weer_temp": {
+        "waarde": 23.9,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel London (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/London",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: London Heathrow (LHR), tabel via sjabloon London weatherbox. Normaal 1991-2020. De pagina London bevat de tabel via een transclusie-sjabloon."
+      },
+      "weer_regen": {
+        "waarde": 45.8,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel London (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/London",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: London Heathrow (LHR), tabel via sjabloon London weatherbox. Normaal 1991-2020. Veld 'Jul precipitation mm'. De pagina London bevat de tabel via een transclusie-sjabloon."
+      }
+    },
+    "Ierland": {
+      "weer_temp": {
+        "waarde": 20.1,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Dublin (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Dublin",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Dublin Merrion Square. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 57.9,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Dublin (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Dublin",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Dublin Merrion Square. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "IJsland": {
+      "weer_temp": {
+        "waarde": 14.9,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Reykjavík (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Reykjavík",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Reykjavík, tabel via sjabloon Reykjavík weatherbox. Normaal 1991-2020. De pagina Reykjavík bevat de tabel via een transclusie-sjabloon."
+      },
+      "weer_regen": {
+        "waarde": 49.9,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Reykjavík (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Reykjavík",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Reykjavík, tabel via sjabloon Reykjavík weatherbox. Normaal 1991-2020. Veld 'Jul precipitation mm'. De pagina Reykjavík bevat de tabel via een transclusie-sjabloon."
+      }
+    },
+    "Nederland": {
+      "weer_temp": {
+        "waarde": 22.5,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Amsterdam (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Amsterdam",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Amsterdam Schiphol. Normaal 1991-2020. Station Schiphol, niet het centrum."
+      },
+      "weer_regen": {
+        "waarde": 82.3,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Amsterdam (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Amsterdam",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Amsterdam Schiphol. Normaal 1991-2020. Veld 'Jul precipitation mm'. Station Schiphol, niet het centrum."
+      }
+    },
+    "Luxemburg": {
+      "weer_temp": {
+        "waarde": 23.9,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Luxembourg City (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Luxembourg_City",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Luxembourg Airport (LUX). Normaal 1991-2020. Station luchthaven, niet de stad zelf."
+      },
+      "weer_regen": {
+        "waarde": 71.5,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Luxembourg City (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Luxembourg_City",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Luxembourg Airport (LUX). Normaal 1991-2020. Veld 'Jul precipitation mm'. Station luchthaven, niet de stad zelf."
+      }
+    },
+    "Duitsland": {
+      "weer_temp": {
+        "waarde": 25.0,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Berlin (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Berlin",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Berlin (Brandenburg). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 70.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Berlin (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Berlin",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Berlin (Brandenburg). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Denemarken": {
+      "weer_temp": {
+        "waarde": 22.7,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Copenhagen (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Copenhagen",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Copenhagen Airport. Normaal 1991-2020. De eerste tabel op de pagina (Copenhagen, 1981-2010, DMI) is niet gebruikt omdat de meter 1991-2020 vraagt."
+      },
+      "weer_regen": {
+        "waarde": 51.4,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Copenhagen (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Copenhagen",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Copenhagen Airport. Normaal 1991-2020. Veld 'Jul precipitation mm'. De eerste tabel op de pagina (Copenhagen, 1981-2010, DMI) is niet gebruikt omdat de meter 1991-2020 vraagt."
+      }
+    },
+    "Noorwegen": {
+      "weer_temp": {
+        "waarde": 22.7,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Oslo (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Oslo",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Oslo (Blindern). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 86.7,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Oslo (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Oslo",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Oslo (Blindern). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Zweden": {
+      "weer_temp": {
+        "waarde": 23.6,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Stockholm (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Stockholm",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Stockholm (Observatorielunden). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 61.5,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Stockholm (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Stockholm",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Stockholm (Observatorielunden). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Finland": {
+      "weer_temp": {
+        "waarde": 21.9,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Helsinki (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Helsinki",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Helsinki Kaisaniemi (centrum). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 57.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Helsinki (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Helsinki",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Helsinki Kaisaniemi (centrum). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Estland": {
+      "weer_temp": {
+        "waarde": 22.2,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Tallinn (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Tallinn",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Tallinn. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 82.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Tallinn (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Tallinn",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Tallinn. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Letland": {
+      "weer_temp": {
+        "waarde": 23.8,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Riga (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Riga",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Riga. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 79.5,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Riga (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Riga",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Riga. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Litouwen": {
+      "weer_temp": {
+        "waarde": 23.8,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Vilnius (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Vilnius",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Vilnius. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 92.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Vilnius (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Vilnius",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Vilnius. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Zwitserland": {
+      "weer_temp": {
+        "waarde": 24.6,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Bern (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Bern",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Bern (Zollikofen). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 108.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Bern (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Bern",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Bern (Zollikofen). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Liechtenstein": {
+      "weer_temp": {
+        "waarde": 24.9,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Vaduz (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Vaduz",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Vaduz. Normaal 1991-2020. Controlegetallen Vaduz 24,9 °C en 130,3 mm kloppen."
+      },
+      "weer_regen": {
+        "waarde": 130.3,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Vaduz (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Vaduz",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Vaduz. Normaal 1991-2020. Veld 'Jul precipitation mm'. Controlegetallen Vaduz 24,9 °C en 130,3 mm kloppen."
+      }
+    },
+    "Oostenrijk": {
+      "weer_temp": {
+        "waarde": 26.9,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Vienna (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Vienna",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Wenen Innere Stadt. Normaal 1991-2020. Eerste tabel op de pagina (centrum); de tabel Hohe Warte is 1961-1990 en niet gebruikt."
+      },
+      "weer_regen": {
+        "waarde": 80.3,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Vienna (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Vienna",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Wenen Innere Stadt. Normaal 1991-2020. Veld 'Jul precipitation mm'. Eerste tabel op de pagina (centrum); de tabel Hohe Warte is 1961-1990 en niet gebruikt."
+      }
+    },
+    "Tsjechië": {
+      "weer_temp": {
+        "waarde": 26.5,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Prague (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Prague",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Praag (Klementinum). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 67.4,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Prague (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Prague",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Praag (Klementinum). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Slowakije": {
+      "weer_temp": {
+        "waarde": 28.0,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Bratislava (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Bratislava",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Bratislava Airport. Normaal 1991-2020. Station luchthaven."
+      },
+      "weer_regen": {
+        "waarde": 61.8,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Bratislava (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Bratislava",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Bratislava Airport. Normaal 1991-2020. Veld 'Jul precipitation mm'. Station luchthaven."
+      }
+    },
+    "Italië": {
+      "weer_temp": {
+        "waarde": 32.6,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Rome (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Rome",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Rome Urbe Airport. Normaal 1991-2020. Eerste tabel op de pagina; station Urbe (Ciampino heeft dezelfde neerslag, 31,0 °C)."
+      },
+      "weer_regen": {
+        "waarde": 19.8,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Rome (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Rome",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Rome Urbe Airport. Normaal 1991-2020. Veld 'Jul precipitation mm'. Eerste tabel op de pagina; station Urbe (Ciampino heeft dezelfde neerslag, 31,0 °C)."
+      }
+    },
+    "San Marino": {
+      "weer_temp": {
+        "waarde": 28.5,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel City of San Marino (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/City_of_San_Marino",
+          "jaar": "onbekend (niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Station: City of San Marino. Normaal onbekend (niet vermeld). De tabel 'City of San Marino' vermeldt geen normaalperiode (bron volgens tabel: Weather.Directory); niet als 1991-2020 bevestigd."
+      },
+      "weer_regen": {
+        "waarde": 37.2,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel City of San Marino (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/City_of_San_Marino",
+          "jaar": "onbekend (niet vermeld)"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Station: City of San Marino. Normaal onbekend (niet vermeld). Veld 'Jul precipitation mm'. De tabel 'City of San Marino' vermeldt geen normaalperiode (bron volgens tabel: Weather.Directory); niet als 1991-2020 bevestigd."
+      }
+    },
+    "Malta": {
+      "weer_temp": {
+        "waarde": 31.7,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Valletta (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Valletta",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Malta (Luqa Airport). Normaal 1991-2020. Station Luqa, in de buurt van Valletta."
+      },
+      "weer_regen": {
+        "waarde": 0.2,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Valletta (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Valletta",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Malta (Luqa Airport). Normaal 1991-2020. Veld 'Jul precipitation mm'. Station Luqa, in de buurt van Valletta."
+      }
+    },
+    "Kroatië": {
+      "weer_temp": {
+        "waarde": 28.1,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Zagreb (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Zagreb",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Zagreb Maksimir. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 80.4,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Zagreb (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Zagreb",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Zagreb Maksimir. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "weer_temp": {
+        "waarde": 27.8,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Sarajevo (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Sarajevo",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Sarajevo. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 75.1,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Sarajevo (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Sarajevo",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Sarajevo. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Montenegro": {
+      "weer_temp": {
+        "waarde": 33.9,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Podgorica (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Podgorica",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Podgorica. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 36.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Podgorica (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Podgorica",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Podgorica. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Servië": {
+      "weer_temp": {
+        "waarde": 29.3,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Belgrade (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Belgrade",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Belgrade. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 66.5,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Belgrade (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Belgrade",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Belgrade. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Kosovo": {
+      "weer_temp": {
+        "waarde": 28.8,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Pristina (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Pristina",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Pristina (Velania-station). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 46.1,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Pristina (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Pristina",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Pristina (Velania-station). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Noord-Macedonië": {
+      "weer_temp": {
+        "waarde": 32.0,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Skopje (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Skopje",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Skopje Airport. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 38.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Skopje (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Skopje",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Skopje Airport. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Griekenland": {
+      "weer_temp": {
+        "waarde": 34.3,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Athens (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Athens",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Athene downtown (1991-2020). Normaal 1991-2020. Neerslag uit veld 'Jul rain mm' van dezelfde tabel (gemiddelde neerslag)."
+      },
+      "weer_regen": {
+        "waarde": 10.7,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Athens (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Athens",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Athene downtown (1991-2020). Normaal 1991-2020. Veld 'Jul rain mm' (gemiddelde neerslag)."
+      }
+    },
+    "Bulgarije": {
+      "weer_temp": {
+        "waarde": 27.8,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Sofia (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Sofia",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Sofia (NIMH-BAS). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 64.7,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Sofia (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Sofia",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Sofia (NIMH-BAS). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Cyprus": {
+      "weer_temp": {
+        "waarde": 37.5,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Nicosia (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Nicosia",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Nicosia (Athalassa). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 3.4,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Nicosia (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Nicosia",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Nicosia (Athalassa). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Turkije": {
+      "weer_temp": {
+        "waarde": 31.0,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Ankara (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Ankara",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Ankara (Keçiören, meteodienst). Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 14.8,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Ankara (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Ankara",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Ankara (Keçiören, meteodienst). Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Moldavië": {
+      "weer_temp": {
+        "waarde": 28.4,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Chișinău (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Chișinău",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Chișinău. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 67.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Chișinău (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Chișinău",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Chișinău. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Oekraïne": {
+      "weer_temp": {
+        "waarde": 26.5,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Kyiv (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Kyiv",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Kyiv. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 68.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Kyiv (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Kyiv",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Kyiv. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Belarus": {
+      "weer_temp": {
+        "waarde": 24.3,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Minsk (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Minsk",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Minsk. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 97.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Minsk (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Minsk",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Minsk. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Rusland": {
+      "weer_temp": {
+        "waarde": 24.7,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Moscow (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Moscow",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Moskou VDNKh, tabel via sjabloon Moscow weatherbox. Normaal 1991-2020. De pagina Moscow bevat de tabel via een transclusie-sjabloon; het station VDNKh."
+      },
+      "weer_regen": {
+        "waarde": 84.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Moscow (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Moscow",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Moskou VDNKh, tabel via sjabloon Moscow weatherbox. Normaal 1991-2020. Veld 'Jul precipitation mm'. De pagina Moscow bevat de tabel via een transclusie-sjabloon; het station VDNKh."
+      }
+    },
+    "Georgië": {
+      "weer_temp": {
+        "waarde": 31.5,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Tbilisi (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Tbilisi",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Tbilisi. Normaal 1991-2020. Controlegetallen Tbilisi 31,5 °C en 41,6 mm kloppen."
+      },
+      "weer_regen": {
+        "waarde": 41.6,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Tbilisi (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Tbilisi",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Tbilisi. Normaal 1991-2020. Veld 'Jul precipitation mm'. Controlegetallen Tbilisi 31,5 °C en 41,6 mm kloppen."
+      }
+    },
+    "Armenië": {
+      "weer_temp": {
+        "waarde": 34.5,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Yerevan (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Yerevan",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Yerevan. Normaal 1991-2020."
+      },
+      "weer_regen": {
+        "waarde": 17.0,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Yerevan (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Yerevan",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Yerevan. Normaal 1991-2020. Veld 'Jul precipitation mm'."
+      }
+    },
+    "Azerbeidzjan": {
+      "weer_temp": {
+        "waarde": 30.5,
+        "eenheid": "°C (gemiddelde maximum in juli)",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Baku (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Baku",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Baku (Maştağa). Normaal 1991-2020. Station Maştağa, buiten het centrum."
+      },
+      "weer_regen": {
+        "waarde": 3.9,
+        "eenheid": "mm neerslag in juli",
+        "bron": {
+          "naam": "Wikipedia (en), klimaattabel Baku (Weather box)",
+          "url": "https://en.wikipedia.org/wiki/Baku",
+          "jaar": "1991-2020"
+        },
+        "zekerheid": "hoog",
+        "opmerking": "Station: Baku (Maştağa). Normaal 1991-2020. Veld 'Jul precipitation mm'. Station Maştağa, buiten het centrum."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "Wikipedia (en), klimaattabellen hoofdsteden (Weather box, normalen 1991-2020)",
+      "url": "https://en.wikipedia.org/wiki/Lisbon",
+      "wat": "Gemiddeld maximum (juli) en gemiddelde neerslag (juli) per hoofdstad, ruwe wikitext via action=raw. 40 van 42 uit 1991-2020; Andorra 1971-2000; San Marino zonder vermelde periode."
+    },
+    {
+      "naam": "Wikipedia (en), sjabloon-tabellen (transclusie)",
+      "url": "https://en.wikipedia.org/wiki/Paris",
+      "wat": "Paris (Template:Paris weatherbox), London (Template:London weatherbox), Reykjavík (Template:Reykjavík weatherbox), Moscow (Template:Moscow weatherbox)."
+    }
+  ],
+  "problemen": [
+    "Wikipedia-pagina's gelezen via de ruwe wikitext (action=raw, curl, User-Agent ScoutAtlas/1.0). De waarden staan in het Weather box-sjabloon en zijn dezelfde als in de gerenderde tabel.",
+    "429 bij Stockholm en Sarajevo: 20 s gewacht, daarna 200. Geen bron gaf 403, 404 of een leeg antwoord.",
+    "Andorra: enige tabel op Wikipedia is 1971-2000 (Roc de Sant Pere). Geen 1991-2020 gevonden; de nationale meteodienst is niet nagelopen (budget). Zekerheid midden.",
+    "San Marino: de tabel 'City of San Marino' vermeldt geen normaalperiode; zekerheid midden.",
+    "Denemarken: de eerste tabel is 1981-2010; gekozen is de 1991-2020-tabel van Copenhagen Airport.",
+    "Stations verschillen per hoofdstad (luchthaven, centrum, park); niet gecorrigeerd. Per record vermeld.",
+    "Controlegetallen Tbilisi (31,5 °C / 41,6 mm) en Vaduz (24,9 °C / 130,3 mm) kloppen met de tabellen."
+  ]
+}
