@@ -20,7 +20,7 @@ Voorstellen per land voor `kamp_wild`, `kamp_vuur` en `kamp_groepsterrein`, met 
 | Finland | 100 | [Luontoon.fi (Metsähallitus), Jokaisenoikeudet](https://www.luontoon.fi/fi/lajit/retkeily-ja-ulkoilu/jokaisenoikeudet) | 100 | [Finlex, Rescue Act 379/2011 (Engelse vertaling, pdf via de F](https://www.finlex.fi/en/legislation/translations/2011/eng/379) | 0 | ···· |  |
 | Estland | 80 | [RMK (Riigimetsa Majandamise Keskus), Igaüheõigus](https://rmk.ee/looduses-liikumine/juhised/igauheoigus/) | 75 | [RMK, Igaüheõigus](https://rmk.ee/looduses-liikumine/juhised/igauheoigus/) | 25 | ··C· | Tagametsa Jahiloss ja Skaudilaagrikeskus (Eesti Skautide Ühing) |
 | Letland | 100 | [likumi.lv, Meža likums, 5. pants (tiesības uzturēties mežā)](https://likumi.lv/ta/id/2825-meza-likums) | 75 | [Cēsis Municipality, Campfire in Nature (verwijst naar LVM)](https://visit.cesis.lv/en/campfire-in-nature/) | 0 | ···· |  |
-| Litouwen | 55 | [VMU (Valstybinių miškų urėdija), FAQ: Where can I stay or ca](https://vmu.lt/en/frequently-asked-questions/) | 75 | [VMU, FAQ: Is it allowed to make a fire in the forest?](https://vmu.lt/en/frequently-asked-questions/) | 25 | ··C· | Skautų slėnis / Scout Valley (Woodside en Lakeside) |
+| Litouwen | 55 | [VMU (Valstybinių miškų urėdija), FAQ: Where can I stay or ca](https://vmu.lt/en/frequently-asked-questions/) | 75 | [VMU, FAQ: Is it allowed to make a fire in the forest?](https://vmu.lt/en/frequently-asked-questions/) | 25 | ··C· | Skautų slėnis [WOODSIDE] stovyklavietė (Scout Valley); Skautų slėnis [LAKESIDE] stovyklavietė (Scout Valley) |
 | Zwitserland | 55 | [Beobachter/TCS, Wild campen: Wo das erlaubt ist - der schwei](https://www.beobachter.ch/arbeit-bildung/freizeit/hier-konnen-sie-in-ruhe-ihr-zelt-aufschlagen-624417) | 75 | [BAFU, waldbrandgefahr.ch (aktuelle Gefahrenlage en Massnahme](https://www.waldbrandgefahr.ch/) | 25 | ··C· | Kandersteg International Scout Centre (KISC) |
 | Liechtenstein | 55 | [Wikivoyage, Liechtenstein](https://en.wikivoyage.org/wiki/Liechtenstein) | 75 | [Wikivoyage, Liechtenstein](https://en.wikivoyage.org/wiki/Liechtenstein) | 0 | ···· |  |
 | Oostenrijk | 55 | [RIS (Bundeskanzleramt), Forstgesetz 1975 § 33 Betreten des W](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010371&Artikel=&Paragraf=33&Anlage=&Uebergangsrecht=) | 75 | [RIS, Forstgesetz 1975 § 40 Feuerentzünden im Wald](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10010371&Artikel=&Paragraf=40&Anlage=&Uebergangsrecht=) | 25 | ··C· | Pfadfinderdorf Zellhof (International Scout and Guide Centre); TECHUANA International Scout and Guide Center |
@@ -30,22 +30,22 @@ Voorstellen per land voor `kamp_wild`, `kamp_vuur` en `kamp_groepsterrein`, met 
 | San Marino | 30 | [Wikivoyage, San Marino](https://en.wikivoyage.org/wiki/San_Marino) | 75 | [Wikivoyage, San Marino](https://en.wikivoyage.org/wiki/San_Marino) | 0 | ···· |  |
 | Malta | 30 | [Guide Me Malta, These exciting camping sites in Malta will m](https://www.guidememalta.com/these-exciting-camping-sites-in-malta-will-make-you-go-wild/) | 25 | [Wikivoyage, Malta](https://en.wikivoyage.org/wiki/Malta) | 0 | ···· |  |
 | Kroatië | 0 | [ÖAMTC/ÖCC, Wildcamping in Europa: ein Überblick (17 juli 202](https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068) | 25 | [Total Croatia News, Dos and Don'ts When Camping in Croatia (](https://total-croatia-news.com/blog/camping-in-croatia/) | 0 | ···· |  |
-| Bosnië en Herzegovina | – | | – | | – | | |
-| Montenegro | – | | – | | – | | |
-| Servië | – | | – | | – | | |
-| Kosovo | – | | – | | – | | |
-| Noord-Macedonië | – | | – | | – | | |
-| Griekenland | – | | – | | – | | |
-| Bulgarije | – | | – | | – | | |
-| Cyprus | – | | – | | – | | |
-| Turkije | – | | – | | – | | |
-| Moldavië | – | | – | | – | | |
-| Oekraïne | – | | – | | – | | |
-| Belarus | – | | – | | – | | |
-| Rusland | – | | – | | – | | |
-| Georgië | – | | – | | – | | |
-| Armenië | – | | – | | – | | |
-| Azerbeidzjan | – | | – | | – | | |
+| Bosnië en Herzegovina | 30 | [Wikivoyage, Bosnia and Herzegovina](https://en.wikivoyage.org/wiki/Bosnia_and_Herzegovina) | 50 | [Wikivoyage, Bosnia and Herzegovina](https://en.wikivoyage.org/wiki/Bosnia_and_Herzegovina) | 0 | ···· |  |
+| Montenegro | 30 | [Wikivoyage, Montenegro](https://en.wikivoyage.org/wiki/Montenegro) | 50 | [Wikivoyage, Montenegro](https://en.wikivoyage.org/wiki/Montenegro) | 0 | ···· |  |
+| Servië | 30 | [UNEP LEAP / FAOLEX, Serbia: Forest Law (2010, laatste wijzig](https://leap.unep.org/en/countries/rs/national-legislation/forest-law) | 50 | [Telegraf.rs (English), Serbia deploys drones to hunt down ar](https://www.telegraf.rs/english/4409564-serbia-deploys-drones-to-hunt-down-arsonists-starting-wildfires-in-vicinity-of-sokobanja) | 0 | ···· |  |
+| Kosovo | 30 | [Wikivoyage, Kosovo](https://en.wikivoyage.org/wiki/Kosovo) | 50 | [Wikivoyage, Kosovo](https://en.wikivoyage.org/wiki/Kosovo) | 0 | ···· |  |
+| Noord-Macedonië | 30 | [Wikivoyage, North Macedonia](https://en.wikivoyage.org/wiki/North_Macedonia) | 50 | [Wikivoyage, North Macedonia](https://en.wikivoyage.org/wiki/North_Macedonia) | 0 | ···· |  |
+| Griekenland | 0 | [Visit Sithonia, Greece's New Law 5170/2025: Stricter Rules f](https://visitsithonia.com/news/greece-motorhome-law-2025-wild-camping-ban/) | 25 | [Wikivoyage, Greece](https://en.wikivoyage.org/wiki/Greece) | 0 | ···· |  |
+| Bulgarije | 30 | [Wikivoyage, Bulgaria](https://en.wikivoyage.org/wiki/Bulgaria) | 50 | [InforMEA/FAO, Bulgaria: Law on Forests](https://www.informea.org/en/content/legislation/law-forests-0) | 0 | ···· |  |
+| Cyprus | 0 | [Sigmalive English, Forest Department warns: Illegal camping ](https://en.sigmalive.com/forest-department-warns-illegal-camping-in-state-forests-forbitten/) | 25 | [Sigmalive English, Forest Department warns ...](https://en.sigmalive.com/forest-department-warns-illegal-camping-in-state-forests-forbitten/) | 0 | ···· |  |
+| Turkije | 30 | [Wikivoyage, Turkey](https://en.wikivoyage.org/wiki/Turkey) | 50 | [Wikivoyage, Turkey](https://en.wikivoyage.org/wiki/Turkey) | 0 | ···· |  |
+| Moldavië | 30 | [Wikivoyage, Moldova](https://en.wikivoyage.org/wiki/Moldova) | 50 | [Wikivoyage, Moldova](https://en.wikivoyage.org/wiki/Moldova) | 0 | ···· |  |
+| Oekraïne | 30 | [Wikivoyage, Ukraine](https://en.wikivoyage.org/wiki/Ukraine) | 50 | [Wikivoyage, Ukraine](https://en.wikivoyage.org/wiki/Ukraine) | 0 | ···· |  |
+| Belarus | 55 | [Wikipedia, Freedom to roam (landsecties)](https://en.wikipedia.org/wiki/Freedom_to_roam) | 50 | [Verkhnedvinsk District Executive Committee, Is it permissibl](https://verkhnedvinsk.vitebsk-region.gov.by/verkhnedvinskij-rochs-rochs-informiruet-item-2224-mozhno-li-razvodit-kostry-v-lesu/en) | 0 | ···· |  |
+| Rusland | 55 | [Wikivoyage, Russia](https://en.wikivoyage.org/wiki/Russia) | 50 | [Wikivoyage, Russia](https://en.wikivoyage.org/wiki/Russia) | 0 | ···· |  |
+| Georgië | 80 | [Georgian National Tourism Administration, Wild Camping in Re](https://georgia.travel/wild-camping-in-georgia) | 75 | [Georgian National Tourism Administration, Camping places in ](https://georgia.travel/camping-places-in-georgia) | 50 | ·BC· | International Scout Centre Rustavi (camping area); Scout Campsite Pona; Aragvi River Campsite (Scout River Lodge Chinti) |
+| Armenië | 30 | [Wikivoyage, Armenia](https://en.wikivoyage.org/wiki/Armenia) | 75 | [Wikivoyage, Armenia](https://en.wikivoyage.org/wiki/Armenia) | 0 | ···· |  |
+| Azerbeidzjan | 30 | [Wikivoyage, Azerbaijan](https://en.wikivoyage.org/wiki/Azerbaijan) | 75 | [Wikivoyage, Azerbaijan](https://en.wikivoyage.org/wiki/Azerbaijan) | 0 | ···· |  |
 
 ## Landen waar ik twijfel
 
@@ -75,6 +75,22 @@ Voorstellen per land voor `kamp_wild`, `kamp_vuur` en `kamp_groepsterrein`, met 
 - **San Marino**: alles afgeleid van Italië; niets over San Marino zelf gevonden.
 - **Malta**: alles zwak gestaafd: één toeristenmagazine over kamperen; vuur afgeleid; terrein niet onderzocht.
 - **Kroatië**: wild 0 (ÖAMTC + perssite, geen wet); vuur 25 vs 50 (perssite); terrein niet onderzocht (0).
+- **Bosnië en Herzegovina**: alles afgeleid van buurlanden; enige bron is Wikivoyage ('wild camping is often no problem, mines').
+- **Montenegro**: alles afgeleid; één zoekopdracht gaf alleen een forumdraad.
+- **Servië**: wild niet gevonden (afgeleid); vuur 50 steunt op één persbericht (verbod binnen 200 m van bossen).
+- **Kosovo**: alles afgeleid; geen enkele bron over kamperen in Kosovo.
+- **Noord-Macedonië**: alles afgeleid; geen enkele inhoudelijke bron.
+- **Griekenland**: wild 0 steunt op toeristische perssites, vuur 25 op Wikivoyage; terrein niet onderzocht.
+- **Bulgarije**: wild 30 steunt op Wikivoyage en een nieuwsaggregator; vuur 50 op een catalogusrecord van de wet; terrein niet onderzocht.
+- **Cyprus**: wild 0 en vuur 25 steunen op persberichten over het Forest Department; terrein niet onderzocht.
+- **Turkije**: wild 30 en vuur 50 steunen enkel op Wikivoyage; geen Turkse bron.
+- **Moldavië**: alles afgeleid; geen bron over kamperen.
+- **Oekraïne**: doet niet mee door het reisadvies; niets onderzocht, voorstel afgeleid.
+- **Belarus**: doet niet mee door het reisadvies; vuur uit een lokale overheidspagina, rest afgeleid.
+- **Rusland**: doet niet mee door het reisadvies; niets onderzocht, voorstel afgeleid van Belarus.
+- **Georgië**: wild 80 vs 55/100 (tourismebureau zegt legaal; geen wet); vuur 75 is een neutrale schatting zonder bron; terrein 50 steunt op ISCR (site mogelijk verouderd).
+- **Armenië**: alles zonder officiële bron (Wikivoyage); groepsterrein niet onderzocht.
+- **Azerbeidzjan**: alles afgeleid; geen enkele inhoudelijke bron.
 
 ## Werkwijze
 

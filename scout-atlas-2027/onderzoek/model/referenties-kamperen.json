@@ -1492,13 +1492,19 @@
     },
     "B": {
      "vervuld": false,
-     "bewijs": "Alleen Scout Valley (2 locaties) met naam en contact geopend; prijs en tentcapaciteit niet bevestigd.",
+     "bewijs": "Alleen Scout Valley (2 locaties, Woodside met prijzen en tentcapaciteit gelezen); er zijn geen drie verschillende organisaties/terreinen bevestigd.",
      "terreinen": [
       {
-       "naam": "Skautų slėnis / Scout Valley (Woodside en Lakeside)",
-       "plaats": "Sukinių k. (Ukmergės r.) en Špokiškio k. (Širvintų r.)",
-       "url": "https://www.skautuslenis.lt/en/",
-       "details": "Eerste scoutscentrum van Litouwen (2014), sociale onderneming; internationale kampen, zomerkampen, weekenden; contact +370 663 64451 / skautu.slenis@gmail.com; de pagina Kainos (prijzen) is niet gelezen."
+       "naam": "Skautų slėnis [WOODSIDE] stovyklavietė (Scout Valley)",
+       "plaats": "Sukinių k., Ukmergės r.",
+       "url": "https://www.skautuslenis.lt/skautu-slenio-woodside-stovyklaviete/",
+       "details": "Tentenkamp voor 150-200 kampeerders (tentgroepen van 15-20 met eigen kampvuurplaats); tentverblijf 8 euro p.p. per dag, tent huren 15 euro, hutten 17 euro p.p.; hele terrein 1700 euro tot 200 personen; contact +370 663 64451, skautu.slenis@gmail.com."
+      },
+      {
+       "naam": "Skautų slėnis [LAKESIDE] stovyklavietė (Scout Valley)",
+       "plaats": "Špokiškio k., Širvintų r.",
+       "url": "https://www.skautuslenis.lt/skautu-slenio-lakeside-stovyklaviete/",
+       "details": "Tweede locatie van Scout Valley; pagina niet gelezen (prijzen op https://www.skautuslenis.lt/kainos/)."
       }
      ],
      "url": ""
@@ -2201,6 +2207,1009 @@
     },
     "voorstel": 0,
     "opmerking": "Niet onderzocht; een groep zou op een commerciële camping of Zeltcamp terechtkomen."
+   }
+  },
+  "Bosnië en Herzegovina": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Niet gevonden; Wikivoyage: wildkamperen is 'often no problem' maar let op mijnen (niet ontmijnde gebieden); afgeleid van Kroatië/Servië (officieel verboden, gedoogd buiten parken)",
+    "regionaal": "Mijnen buiten gemarkeerde paden: veiligheidsrisico voor een groep.",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Bosnia and Herzegovina",
+      "url": "https://en.wikivoyage.org/wiki/Bosnia_and_Herzegovina",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "'Campsites are not very common ... Wild camping is often no problem, but be careful for mines.'"
+     }
+    ],
+    "groepen": "",
+    "opmerking": "Geen officiële bron geopend. Zekerheid laag; veiligheid (mijnen) is hier belangrijker dan de wet."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Niet gevonden; afgeleid van Servië en Kroatië (vuur in en binnen ca. 200 m van bossen verboden; extra verboden in de zomer)",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Bosnia and Herzegovina",
+      "url": "https://en.wikivoyage.org/wiki/Bosnia_and_Herzegovina",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen vuurregels."
+     }
+    ],
+    "opmerking": "afgeleid van Servië (Telegraf: vuur in of binnen 200 m van het bos verboden)."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht; geen Bosnische scoutssite geopend."
+   }
+  },
+  "Montenegro": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Niet gevonden; afgeleid van Kroatië/Albanië: officieel verboden of beperkt in nationale parken, gedoogd daarbuiten",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Montenegro",
+      "url": "https://en.wikivoyage.org/wiki/Montenegro",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen informatie over wildkamperen gevonden. Eén zoekopdracht gaf alleen een forum over gastenregistratie (60-600 euro boete bij onvolledig register)."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "afgeleid van Kroatië. Zekerheid laag; nationale parken (Durmitor, Biogradska Gora) hebben eigen regels."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Niet gevonden; afgeleid van Kroatië/Servië (vuurverbod in en nabij bossen in de zomer)",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Montenegro",
+      "url": "https://en.wikivoyage.org/wiki/Montenegro",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen vuurregels."
+     }
+    ],
+    "opmerking": "afgeleid van Servië/Kroatië."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht."
+   }
+  },
+  "Servië": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Niet gevonden; Zakon o šumama (Forest Law, 2010, gewijzigd 2018) regelt gebruik van bossen; kamperen buiten campings niet geopend; afgeleid van de buurlanden (gedoogd)",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "UNEP LEAP / FAOLEX, Serbia: Forest Law (2010, laatste wijziging 8 dec 2018)",
+      "url": "https://leap.unep.org/en/countries/rs/national-legislation/forest-law",
+      "jaar": "2018",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Samenvatting: de wet regelt behoud, bescherming, planning, kweek, gebruik en beheer van bossen; geen kampeerregels in de samenvatting."
+     },
+     {
+      "naam": "Wikivoyage, Serbia",
+      "url": "https://en.wikivoyage.org/wiki/Serbia",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen informatie over wildkamperen."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "Een oud forumcommentaar (niet gebruikt) zegt dat kamperen vrij is; niet betrouwbaar. Zekerheid laag."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Wet op brandbeveiliging en andere wetten: verboden om vuur te maken in het bos of binnen 200 m van de bosrand en gras of gewasresten te verbranden; boetes voor individuen 10.000-50.000 dinar",
+    "bronnen": [
+     {
+      "naam": "Telegraf.rs (English), Serbia deploys drones to hunt down arsonists ... Sokobanja",
+      "url": "https://www.telegraf.rs/english/4409564-serbia-deploys-drones-to-hunt-down-arsonists-starting-wildfires-in-vicinity-of-sokobanja",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "'The law on fire protection and other laws prohibit the burning of grass ..., as well as ... starting fires in the forest or within a distance of 200 meters from the edge of a forest. Individuals face fines ranging from 10,000 to 50,000 dinars.'"
+     }
+    ],
+    "opmerking": "Perssite; wettekst niet geopend. Het verbod is structureel (geen periode genoemd) voor bossen; elders is vuur mogelijk. Niveau 50 is een inschatting."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht; geen Servische scoutssite geopend."
+   }
+  },
+  "Kosovo": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Niet gevonden; afgeleid van de westelijke Balkan (officieel beperkt, gedoogd buiten natuurparken)",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Kosovo",
+      "url": "https://en.wikivoyage.org/wiki/Kosovo",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen informatie over wildkamperen gevonden."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "afgeleid van Albanië/Noord-Macedonië/Servië. Zekerheid laag; reisadvies voor delen van Kosovo apart nakijken."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Niet gevonden; afgeleid van Servië (verbod op vuur in en nabij bossen)",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Kosovo",
+      "url": "https://en.wikivoyage.org/wiki/Kosovo",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen vuurregels."
+     }
+    ],
+    "opmerking": "afgeleid van Servië."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht."
+   }
+  },
+  "Noord-Macedonië": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Niet gevonden; afgeleid van de buurlanden (officieel beperkt in nationale parken, gedoogd daarbuiten)",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, North Macedonia",
+      "url": "https://en.wikivoyage.org/wiki/North_Macedonia",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen informatie over wildkamperen gevonden."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "afgeleid van Griekenland/Bulgarije/Servië. Zekerheid laag."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Niet gevonden; afgeleid van Servië en Bulgarije (vuurverboden in en nabij bossen)",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, North Macedonia",
+      "url": "https://en.wikivoyage.org/wiki/North_Macedonia",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen vuurregels."
+     }
+    ],
+    "opmerking": "afgeleid."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht."
+   }
+  },
+  "Griekenland": {
+   "kamp_wild": {
+    "voorstel": 0,
+    "regeling": "Wet 5170/2025 (naast wet 392/1976 art. 10 en wet 4276/2014 art. 7): tenten of caravans buiten ingerichte campings verboden (stranden, bosranden, bossen, archeologische sites, openbare ruimte >24 u); boetes tot 3.000 euro en tot 3 maanden cel volgens de bronnen",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Visit Sithonia, Greece's New Law 5170/2025: Stricter Rules for Motorhome Parking and Wild Camping (7 mei 2025)",
+      "url": "https://visitsithonia.com/news/greece-motorhome-law-2025-wild-camping-ban/",
+      "jaar": "2025",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Wet 5170/2025 versterkt het verbod op wildkamperen en onbevoegd parkeren van campers; verwijst naar art. 10 wet 392/1976 en art. 7 wet 4276/2014; boetes tot 3.000 euro en tot drie maanden gevangenis."
+     },
+     {
+      "naam": "ÖAMTC/ÖCC, Wildcamping in Europa: ein Überblick (17 juli 2024)",
+      "url": "https://www.oeamtc.at/presse/oecc-informiert-wildcamping-in-europa-ein-ueberblick-72446068",
+      "jaar": "2024",
+      "taal": "de",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Persbericht: Kroatië, Slowakije, Slovenië, Hongarije, Portugal en Griekenland verbieden wildkamperen buiten gemarkeerde plaatsen strikt."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "Perssite van een toeristisch portaal; de wettekst (ΦΕΚ) niet geopend. Modelmeter noemt ook 'wet 5170/2025, boetes tot 3.000 euro'."
+   },
+   "kamp_vuur": {
+    "voorstel": 25,
+    "regeling": "Strikt vuurverbod in heel Griekenland van 1 mei tot 31 oktober voor alle activiteiten die een bosbrand kunnen veroorzaken, ook kampvuren, bonfires en barbecues",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Greece",
+      "url": "https://en.wikivoyage.org/wiki/Greece",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "'a strict fire ban in all of Greece from May 1 until October 31 ... bans for every outdoor activity that could cause a forest fire, including campfires, bonfires, barbecues/cookouts and fireworks. There are stiff penalties.'"
+     }
+    ],
+    "opmerking": "Wikivoyage; civilprotection.gov.gr gaf 403. Twijfel 0-25: of ingerichte barbecueplaatsen op campings uitgezonderd zijn is niet geopend."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht; sep.gr (Σώμα Ελλήνων Προσκόπων) geopend maar geen lijst van terreinen gevonden.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht."
+   }
+  },
+  "Bulgarije": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Vrij kamperen is niet legaal buiten campings (boetes volgens het Forestry Act en de Black Sea Coast Act: 500-1.000 leva voor een tent), maar op rustige plaatsen wordt het in de praktijk gedoogd; gemeenten (Tsarevo) wijzen eigen tijdelijke kampeerplaatsen aan",
+    "regionaal": "Zwarte Zeekust strenger (Black Sea Coast Act).",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Bulgaria",
+      "url": "https://en.wikivoyage.org/wiki/Bulgaria",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "'Pitching a tent anywhere else (free camping) is not legal, but if done in an inconspicuous place, no one will bother you.'"
+     },
+     {
+      "naam": "OpenVan.camp, Dozens of caravans and campers must leave unauthorized campsite near Pasha Dere",
+      "url": "https://openvan.camp/en/news/ban/aktsiya-kray-pasha-dere-desetki-karavani-kemperi",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Controle bij Varna: eigenaars van tenten en caravans riskeren sancties volgens het Forestry Act en de Black Sea Coast Act; nieuwsaggregator met AI-vertalingen."
+     },
+     {
+      "naam": "InforMEA/FAO, Bulgaria: Law on Forests (2011, laatste wijziging 7 nov 2025)",
+      "url": "https://www.informea.org/en/content/legislation/law-forests-0",
+      "jaar": "2025",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Wet regelt bescherming en gebruik van bossen, inclusief maatregelen tegen branden; verwijst naar Ordinance No. 8 van 11 mei 2012 over brandbescherming van bossen."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "Wettekst niet geopend; zekerheid laag-midden."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Wet op de bossen en Ordinance No. 8/2012 over brandbescherming van bossen (inhoud niet gelezen); afgeleid: vuur in bossen alleen op aangewezen plaatsen",
+    "bronnen": [
+     {
+      "naam": "InforMEA/FAO, Bulgaria: Law on Forests",
+      "url": "https://www.informea.org/en/content/legislation/law-forests-0",
+      "jaar": "2025",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Vermeldt 'measures against fires' en Ordinance No. 8 van 11 mei 2012 over de voorwaarden voor brandbescherming van bosgebieden; inhoud van de bepalingen niet beschikbaar op deze pagina."
+     }
+    ],
+    "opmerking": "Zwakke bron: alleen een catalogusrecord. Niveau 50 is een inschatting."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht."
+   }
+  },
+  "Cyprus": {
+   "kamp_wild": {
+    "voorstel": 0,
+    "regeling": "Kamperen in staatsbossen zonder vergunning is verboden (Forests Law; tot 1 jaar cel en/of 5.000 euro boete); kamperen alleen op aangewezen kampeerplaatsen",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Sigmalive English, Forest Department warns: Illegal camping in state forests forbidden (11 aug 2025)",
+      "url": "https://en.sigmalive.com/forest-department-warns-illegal-camping-in-state-forests-forbitten/",
+      "jaar": "2025",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Forest Department: 'unauthorized camping in state forests is illegal, punishable by up to one year imprisonment, a EUR 5,000 fine, or both, under the Forests Law'; 'camping within state forests is only permitted in designated camping areas'."
+     },
+     {
+      "naam": "FastForward (CY), What to Know Before Camping in Cyprus Forests (20 juni 2025)",
+      "url": "https://fastforward.com.cy/life/what-know-camping-cyprus-forests",
+      "jaar": "2025",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Zelfde waarschuwing van het Forestry Department (ministerie van Landbouw): kamperen in staatsbossen zonder vergunning en vuur maken zijn strikt verboden."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "Persberichten over de waarschuwing van het Forest Department; wettekst niet geopend."
+   },
+   "kamp_vuur": {
+    "voorstel": 25,
+    "regeling": "Vuur maken in het platteland is verboden, enige uitzondering is koken in speciaal ingerichte voorzieningen op georganiseerde picknick- en kampeerplaatsen; vuur binnen staatsbossen of 2 km eromheen is strafbaar met tot 12 jaar cel en 100.000 euro boete (Forests Amendment Law 2025)",
+    "bronnen": [
+     {
+      "naam": "Sigmalive English, Forest Department warns ...",
+      "url": "https://en.sigmalive.com/forest-department-warns-illegal-camping-in-state-forests-forbitten/",
+      "jaar": "2025",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "'lighting a fire anywhere in the countryside is forbidden, with the only exception being the preparation of food within specially arranged and permitted areas, located in organized picnic and camping sites'; binnen staatsbossen of tot 2 km: tot 12 jaar cel en 100.000 euro."
+     }
+    ],
+    "opmerking": "Perskanaal; ministeriële bron niet rechtstreeks geopend."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht."
+   }
+  },
+  "Turkije": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Wikivoyage: wildkamperen in het bos zonder toestemming 'is OK' tenzij beschermd gebied; officieel zijn kampeerplaatsen en recreatiegebieden aangewezen; toestemming van muhtar/jandarma gebruikelijk",
+    "regionaal": "Nationale parken en beschermde gebieden strenger; kustgebieden vaak verboden.",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Turkey",
+      "url": "https://en.wikivoyage.org/wiki/Turkey",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "'Wild camping in the forest without permission is OK, unless the area is under environmental protection. Regardless of the conservational status, a campfire anywhere in forests apart from the designated fireplaces in recreational (picnic) areas is forbidden.'"
+     }
+    ],
+    "groepen": "",
+    "opmerking": "Orman Kanunu 6831 (bosrecht) ken ik uit mijn geheugen maar niet geopend; ogm.gov.tr (Orman Genel Müdürlüğü) startpagina is geopend zonder relevante tekst. Zekerheid laag."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Wikivoyage: vuur in het bos buiten de aangewezen vuurplaatsen (picknickplaatsen) is verboden; in de zomer sluiten bosdiensten vaak bossen bij brandgevaar (niet geopend)",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Turkey",
+      "url": "https://en.wikivoyage.org/wiki/Turkey",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Zie hierboven: vuur alleen op de aangewezen vuurplaatsen in recreatiegebieden."
+     }
+    ],
+    "opmerking": "Wikivoyage is de enige bron; OGM-pagina's niet geopend."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht; Türkiye İzcilik Federasyonu niet geraadpleegd."
+   }
+  },
+  "Moldavië": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Niet gevonden; afgeleid van Roemenië/Oekraïne-regio (gedoogd buiten natuurgebieden)",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Moldova",
+      "url": "https://en.wikivoyage.org/wiki/Moldova",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen informatie over wildkamperen gevonden."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "afgeleid; zekerheid laag. Transnistrië apart behandelen (reisadvies)."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Niet gevonden; afgeleid van de buurlanden (vuur in bossen alleen op aangewezen plaatsen)",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Moldova",
+      "url": "https://en.wikivoyage.org/wiki/Moldova",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen vuurregels."
+     }
+    ],
+    "opmerking": "afgeleid."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht."
+   }
+  },
+  "Oekraïne": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Doet niet mee (reisadvies); alleen een korte vermelding: niet onderzocht, voorstel afgeleid van de regio",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Ukraine",
+      "url": "https://en.wikivoyage.org/wiki/Ukraine",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen specifieke regels over wildkamperen gelezen. Het land doet niet mee aan de reisselectie."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "Niet onderzocht wegens reisadvies; afgeleid van Moldavië/Polen-regio. Gebruik niet voor de eindscore."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Doet niet mee (reisadvies); niet onderzocht",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Ukraine",
+      "url": "https://en.wikivoyage.org/wiki/Ukraine",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen vuurregels gelezen."
+     }
+    ],
+    "opmerking": "Niet onderzocht wegens reisadvies; afgeleid."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht wegens reisadvies."
+   }
+  },
+  "Belarus": {
+   "kamp_wild": {
+    "voorstel": 55,
+    "regeling": "Bosreglement (Forest Code art. 13): burgers hebben het recht vrij in het bos te verblijven en bessen/paddenstoelen te plukken; kamperen niet apart geopend; doet niet mee (reisadvies)",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Wikipedia, Freedom to roam (landsecties)",
+      "url": "https://en.wikipedia.org/wiki/Freedom_to_roam",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Landsecties NO/SE/FI/IS/EE/BY/AT/CZ/IT/CH/DE/GB/IE met verwijzing naar de wet; Wikipedia is hier alleen wegwijzer."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "Niet onderzocht wegens reisadvies; Wikipedia-sectie 'Belarus' citeert Forest Code art. 13 ('citizens have the right to freely stay in the forest'). Gebruik niet voor de eindscore."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Vuur alleen op aangewezen, gemarkeerde plaatsen en niet tijdens de brandgevaarperiode wanneer het bos gesloten is (district executive committee Verkhnedvinsk)",
+    "bronnen": [
+     {
+      "naam": "Verkhnedvinsk District Executive Committee, Is it permissible to light fires in the forest?",
+      "url": "https://verkhnedvinsk.vitebsk-region.gov.by/verkhnedvinskij-rochs-rochs-informiruet-item-2224-mozhno-li-razvodit-kostry-v-lesu/en",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "'Campfires are permitted in forests only in designated areas, which are determined and marked by forestry workers ... during the fire hazard period, when forest access is prohibited, campfires are naturally also not allowed.'"
+     }
+    ],
+    "opmerking": "Doet niet mee (reisadvies); alleen een lokale overheidspagina."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht wegens reisadvies."
+   }
+  },
+  "Rusland": {
+   "kamp_wild": {
+    "voorstel": 55,
+    "regeling": "Doet niet mee (reisadvies); niet onderzocht; algemeen: kamperen in bossen met tentjes is zonder toestemming gedoogd buiten beschermde gebieden (niet gestaafd)",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Russia",
+      "url": "https://en.wikivoyage.org/wiki/Russia",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen specifieke regels over wildkamperen gelezen. Het land doet niet mee aan de reisselectie."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "Niet onderzocht wegens reisadvies; afgeleid van Belarus. Gebruik niet voor de eindscore."
+   },
+   "kamp_vuur": {
+    "voorstel": 50,
+    "regeling": "Doet niet mee (reisadvies); niet onderzocht; afgeleid van Belarus (vuur alleen op aangewezen plaatsen, verbod tijdens brandgevaar)",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Russia",
+      "url": "https://en.wikivoyage.org/wiki/Russia",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen vuurregels gelezen."
+     }
+    ],
+    "opmerking": "Niet onderzocht wegens reisadvies."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht wegens reisadvies."
+   }
+  },
+  "Georgië": {
+   "kamp_wild": {
+    "voorstel": 80,
+    "regeling": "Het Georgische toerismebureau stelt dat wildkamperen legaal en populair is; niet op privéterrein zonder toestemming; in nationale parken en beschermde gebieden alleen op aangewezen plaatsen (soms met vergunning of reservering)",
+    "regionaal": "Nationale parken en beschermde gebieden: alleen aangewezen plaatsen.",
+    "bronnen": [
+     {
+      "naam": "Georgian National Tourism Administration, Wild Camping in Republic of Georgia",
+      "url": "https://georgia.travel/wild-camping-in-georgia",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "'wild camping is legal and immensely popular'; 'it's not legal to camp on private property without permission'; 'camping is allowed in Georgia's national parks and protected areas, you're only allowed to set up a tent in specifically designated camping areas'; fines bij overtredingen."
+     }
+    ],
+    "groepen": "Geen groepsgrootte genoemd; groep van 10-15 personen valt onder dezelfde regels.",
+    "opmerking": "Geen wettekst geopend (Agency of Protected Areas: apa.gov.ge gaf een reset). Niveau 80 (legaal, geen wettelijke garantie voor groepen); twijfel 55-100."
+   },
+   "kamp_vuur": {
+    "voorstel": 75,
+    "regeling": "Niet gevonden voor Georgië; neutraal gekozen als afgeleid van de regio (vuur mogelijk met toestemming, zomerverboden tijdens droogte)",
+    "bronnen": [
+     {
+      "naam": "Georgian National Tourism Administration, Camping places in Georgia",
+      "url": "https://georgia.travel/camping-places-in-georgia",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Overzicht van 15 kampeerplaatsen; geen vuurregels op de geopende pagina."
+     }
+    ],
+    "opmerking": "Geen bron over vuur. Niveau 75 is een neutrale schatting. Zekerheid laag."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Geen lijst van >=10 terreinen gevonden.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": true,
+     "bewijs": "Drie terreinen van het International Scout Centre Rustavi (ISCR) met capaciteit en boekingsprogramma.",
+     "terreinen": [
+      {
+       "naam": "International Scout Centre Rustavi (camping area)",
+       "plaats": "Rustavi",
+       "url": "https://iscr.ge/stay-at-iscr/rustavi/accomodation/",
+       "details": "13 kamers/72 bedden en kampeerterrein voor maximaal 300 personen; regionale en internationale jeugdgroepen; 'Program ISCR'-boeking."
+      },
+      {
+       "naam": "Scout Campsite Pona",
+       "plaats": "Pona",
+       "url": "https://iscr.ge/stay-at-iscr/pona/accomodation/",
+       "details": "Kampeerterrein voor 150 personen met overdekte eetplaatsen, sanitair, sportvelden en omheining."
+      },
+      {
+       "naam": "Aragvi River Campsite (Scout River Lodge Chinti)",
+       "plaats": "Chinti (Aragvi-rivier)",
+       "url": "https://iscr.ge/stay-at-iscr/scout-river-lodge-chinti/accommodation/",
+       "details": "Derde locatie van ISCR; accommodatiepagina leeg, details niet gelezen."
+      }
+     ],
+     "url": ""
+    },
+    "C": {
+     "vervuld": true,
+     "bewijs": "ISCR (International Scout Centre Rustavi) staat op de lijst van bekendste scoutscentra (Slovenský skauting) en richt zich expliciet op internationale groepen; project van de Caucasus Cooperation Foundation for Youth Development.",
+     "url": "https://iscr.ge/"
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 50,
+    "opmerking": "Site iscr.ge draagt copyright 2015-2018; actualiteit en prijzen niet bevestigd. Niet-vervuld betekent: niet kunnen staven met een geopende bron, niet: bestaat niet."
+   }
+  },
+  "Armenië": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Niet gecodificeerd; wildkamperen wordt gedoogd in afgelegen en bergachtige gebieden (reisbronnen); op privéland toestemming; beschermde gebieden eigen regels (Ministerie van Milieu)",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Armenia",
+      "url": "https://en.wikivoyage.org/wiki/Armenia",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "'The Debed Canyon and Stepanavan areas are great for hiking, wild camping ...'; geen wettelijke regels."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "Eén zoekopdracht gaf alleen reisblogs (geen officiële bron); forest.am gaf 403. Zekerheid laag."
+   },
+   "kamp_vuur": {
+    "voorstel": 75,
+    "regeling": "Niet gevonden; neutraal gekozen als afgeleid van de regio",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Armenia",
+      "url": "https://en.wikivoyage.org/wiki/Armenia",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen vuurregels."
+     }
+    ],
+    "opmerking": "Geen bron. Niveau 75 is een neutrale schatting."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht."
+   }
+  },
+  "Azerbeidzjan": {
+   "kamp_wild": {
+    "voorstel": 30,
+    "regeling": "Niet gevonden; afgeleid van Georgië/Armenië (gedoogd buiten beschermde gebieden); delen van het land (grens met Armenië, Nagorno-Karabach) hebben reisbeperkingen",
+    "regionaal": "",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Azerbaijan",
+      "url": "https://en.wikivoyage.org/wiki/Azerbaijan",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen informatie over wildkamperen gevonden."
+     }
+    ],
+    "groepen": "",
+    "opmerking": "afgeleid; zekerheid laag."
+   },
+   "kamp_vuur": {
+    "voorstel": 75,
+    "regeling": "Niet gevonden; neutraal gekozen als afgeleid van Georgië/Armenië",
+    "bronnen": [
+     {
+      "naam": "Wikivoyage, Azerbaijan",
+      "url": "https://en.wikivoyage.org/wiki/Azerbaijan",
+      "jaar": "2026",
+      "taal": "en",
+      "bereikbaar": "ja",
+      "wat_staat_er": "Pagina geopend; geen vuurregels."
+     }
+    ],
+    "opmerking": "Geen bron."
+   },
+   "kamp_groepsterrein": {
+    "A": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "B": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "terreinen": [],
+     "url": ""
+    },
+    "C": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "D": {
+     "vervuld": false,
+     "bewijs": "Niet onderzocht.",
+     "url": ""
+    },
+    "voorstel": 0,
+    "opmerking": "Niet onderzocht."
    }
   }
  },
