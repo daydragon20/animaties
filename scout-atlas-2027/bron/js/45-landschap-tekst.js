@@ -11,7 +11,7 @@
   el("div", { class: "kick", style: `color:${COL.gold}` }, B, "Pieken en dalen");
   const bw = words(el("div", { class: "serif", style: "font-size:76px;line-height:1.05;margin-top:22px;color:#efe9da" }, B), "Samen vormen ze *een landschap.*");
   const ROWS = TERRAIN.ROWS;
-  const lo = ROWS.flatMap((c) => c.scores.map((s, i) => ({ s: s == null ? 0 : s, c, v: V[i] }))).reduce((a, b) => (b.s < a.s ? b : a));
+  const lo = ROWS.flatMap((c) => c.scores.map((s, i) => ({ s, c, v: V[i] }))).filter((x) => x.s != null).reduce((a, b) => (b.s < a.s ? b : a));
   el("div", { class: "mono", style: `font-size:28px;color:${COL.soft};margin-top:30px;line-height:1.55` }, B,
     `<span style="color:${COL.gold}">■</span> ${nl(TERRAIN.n100, 0)} keer een perfecte 100<br>laagste score: ${nl(lo.s, 1)}<br><span style="font-size:26px;color:${COL.soft}">${escapeHtml(lo.c.name)} · ${escapeHtml(lo.v.naam.toLowerCase())}</span>`);
   const Cc = el("div", { class: "a", style: "left:0;width:1920px;text-align:center;top:116px" }, L);
