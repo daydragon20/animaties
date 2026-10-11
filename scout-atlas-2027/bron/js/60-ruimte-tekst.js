@@ -37,7 +37,7 @@
     op(sub, win(t, RU_.dots + 0.4, T.s7 - 0.3, 0.4, 0.3));
     const flat = E.inOut(seg(t, RU_.flat[0], RU_.flat[1]));
     // kwadrantlabels op de achterwand
-    const corners = [[-SZ, SZ + 5], [SZ, SZ + 5], [-SZ, -SZ - 5], [SZ, -SZ - 5]]; // net buiten het vlak, boven en onder
+    const corners = [[-SZ, SZ + 16], [SZ, SZ + 16], [-SZ, -SZ - 12], [SZ, -SZ - 12]]; // net buiten het vlak, boven en onder
     qs.forEach((q, i) => {
       const [x, y, ok] = project(SPACE.cam, corners[i][0], corners[i][1], -SZ + 0.5);
       q.style.transform = `translate(${x}px,${y}px) ${QA[i]}`;
