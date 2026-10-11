@@ -1,0 +1,180 @@
+{
+  "iso2": "FR",
+  "naam": "Frankrijk",
+  "datum": "2026-10-11",
+  "slogan": "Tenten vanaf 5,50 euro, Parijs op 307 km, Mont Blanc en Côte d'Opale",
+  "activiteiten": [
+    {
+      "titel": "Gratis het Musée Carnavalet in Parijs",
+      "plek": "Musée Carnavalet - Histoire de Paris, 23 rue de Sévigné, Parijs (3e)",
+      "variabele": "kost_reis",
+      "uitleg": "Brussel-Parijs is 307 km over de weg: modelprijs 49 euro p.p. heen en terug (geen offerte). Vaste collectie gratis, maar een groep boekt online en betaalt 15 euro (tot 12 pers.) of 30 euro (13-18).",
+      "bron": {
+        "naam": "Musée Carnavalet, Practical information",
+        "url": "https://www.carnavalet.paris.fr/en/visit/pratical-information"
+      },
+      "foto": 0
+    },
+    {
+      "titel": "Met de kabelbaan naar de Aiguille du Midi",
+      "plek": "Aiguille du Midi, Chamonix, Mont Blanc-massief (Haute-Savoie)",
+      "variabele": "av_bergen",
+      "uitleg": "Mont Blanc (4.806 m) is de hoogste top van de Alpen; de beklimming vraagt alpiene ervaring en uitrusting. Kabelbaan naar 3.842 m in 20 min: retour 83 euro, 70,60 euro t/m 14 jaar, groepstarief vanaf 20 personen.",
+      "bron": {
+        "naam": "Chamonix.com, Téléphérique de l'Aiguille du Midi (tarifs)",
+        "url": "https://www.chamonix.com/activites/informations-pratiques-remontees-mecaniques/telepherique-de-l-aiguille-du-midi"
+      },
+      "foto": 1
+    },
+    {
+      "titel": "Wandelen langs de krijtkliffen van Deux-Caps",
+      "plek": "Grand Site de France Les Deux-Caps: Cap Blanc-Nez en Cap Gris-Nez (Pas-de-Calais)",
+      "variabele": "av_kust",
+      "uitleg": "23 km kust tussen Sangatte en Wimereux; belvedere-wandelingen van 1 km (15 min) per kaap, langere tochten tot 13 km. Bus 427, in de zomer Imag'in lijn 5 vanaf Calais; trein tot Calais-Fréthun. Toegangsprijs niet vermeld.",
+      "bron": {
+        "naam": "Grand Site de France Les Deux-Caps, Balades et randonnées à pied",
+        "url": "https://www.lesdeuxcaps.fr/balades-et-randonnees-pied"
+      },
+      "foto": 2
+    },
+    {
+      "titel": "Tenten op het SGDF-scoutsterrein Jambville",
+      "plek": "Domaine de Jambville (Vexin, Yvelines), minder dan 1 u van Parijs",
+      "variabele": "kamp_groepsterrein",
+      "uitleg": "40 kampplaatsen in een park van 52 ha; WOSM-SCENES-centrum. Prijs enkel op offerte via het boekingsformulier; buiten SGDF is een SIRET-nummer verplicht, dat Belgische groepen niet hebben. Shuttle vanaf Meulan.",
+      "bron": {
+        "naam": "Centre d'activités de Jambville (SGDF), Vos espaces pour dormir",
+        "url": "https://jambville.sgdf.fr/vos-espaces-pour-dormir/"
+      },
+      "foto": 3
+    },
+    {
+      "titel": "Bivakzone bij een refuge in de Vanoise",
+      "plek": "Parc national de la Vanoise, o.a. Refuge de l'Arpont (Termignon)",
+      "variabele": "kamp_wild",
+      "uitleg": "Vrij bivakkeren mag niet zomaar: in de Vanoise enkel bij bepaalde refuges, in de zomer, met verplichte reservatie. Tent alleen van 19 tot 8 u, geen vuur (kooktoestel wel), boete 68 euro. Prijs staat niet online.",
+      "bron": {
+        "naam": "Parc national de la Vanoise, L'art du bivouac responsable en Vanoise",
+        "url": "https://www.vanoise-parcnational.fr/fr/des-decouvertes/sejourner-dans-le-parc/lart-du-bivouac-responsable-en-vanoise"
+      },
+      "foto": 4
+    },
+    {
+      "titel": "Camp Allemand: tentenweide vanaf 5,50 euro",
+      "plek": "Camp Allemand, Le Chambon-sur-Lignon (Haute-Loire)",
+      "variabele": "kost_kampplaats",
+      "uitleg": "2 ha tentenweide met vaste vuurplaats, 5,50 tot 15 euro p.p. per nacht, mei-oktober, al vanaf 5 personen. Een gewone camping kost volgens het model 26,4 euro per nacht voor 2 pers. met plaats. Supermarkt 15 min te voet.",
+      "bron": {
+        "naam": "gruppenhaus.de, Camp Allemand Le Chambon-sur-Lignon",
+        "url": "https://www.gruppenhaus.de/camp-allemand-le-chambon-sur-lignon-hs10529.html"
+      }
+    }
+  ],
+  "kampplaatsen": [
+    {
+      "naam": "Centre d'activités de Jambville (Scouts et Guides de France)",
+      "plaats": "Jambville (Vexin, Yvelines), minder dan 1 u van Parijs",
+      "url": "https://jambville.sgdf.fr/",
+      "details": "voor jeugdgroepen met tenten ('séjour campé') · 40 kampplaatsen in 52 ha park, prijs enkel op offerte via het boekingsformulier, SIRET verplicht buiten SGDF · shuttle Meulan-Jambville in het boekingsformulier, afstand tot station niet gevonden"
+    },
+    {
+      "naam": "Camp Allemand",
+      "plaats": "Le Chambon-sur-Lignon (Haute-Loire), 40 km van Le Puy-en-Velay",
+      "url": "https://www.gruppenhaus.de/camp-allemand-le-chambon-sur-lignon-hs10529.html",
+      "details": "voor jeugdgroepen met tenten · tentenweide van ±2 ha voor 70 pers., 5,50 tot 15 euro p.p. per nacht (zelfverzorging), alleenbezetting vanaf 5 pers., mei-oktober, vaste vuurplaats · station niet gevonden, Valence 80 km"
+    },
+    {
+      "naam": "Pfadfinder Kanucamp Tarnschlucht",
+      "plaats": "Montbrun, Gorges du Tarn (Lozère)",
+      "url": "https://www.gruppenhaus.de/pfadfinder-kanucamp-tarnschlucht-pfadfinderzeltplatz-in-suedfrankreich-montbrun-hs10532.html",
+      "details": "voor scouts- en jeugdgroepen met tenten · plaats voor 70 pers., vanaf 6,50 euro p.p. per nacht, 16 kano's inbegrepen, maar alleenbezetting vanaf 40 pers. (te groot voor 10-15 leden) en strikt vuurverbod · geen station; boodschappen in Ispagnac ±10 km, Florac ±17 km"
+    }
+  ],
+  "fotos": [
+    {
+      "bestand": "fr-1.jpg",
+      "bijschrift": "Gevel in de Cour Louis XIV van het Hôtel Carnavalet (Musée Carnavalet), Parijs",
+      "auteur": "GFreihalter",
+      "licentie": "CC BY-SA 4.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Paris_3e_Mus%C3%A9e_Carnavalet_Cour_Louis_XIV_661.jpg"
+    },
+    {
+      "bestand": "fr-2.jpg",
+      "bijschrift": "De Aiguille du Midi (3.842 m) in de zomer, Mont Blanc-massief bij Chamonix",
+      "auteur": "Martin Janner",
+      "licentie": "CC BY-SA 3.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Aiguille-du-Midi-summer.jpg"
+    },
+    {
+      "bestand": "fr-3.jpg",
+      "bijschrift": "Krijtkliffen van Cap Blanc-Nez bij eb, gezien vanaf het strand, Pas-de-Calais",
+      "auteur": "JackyM59",
+      "licentie": "CC BY-SA 4.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Cap_Blanc-Nez_(vu_de_la_plage).jpg"
+    },
+    {
+      "bestand": "fr-4.jpg",
+      "bijschrift": "Het kasteel van Jambville (Yvelines), waar het SGDF-activiteitencentrum zit (niet de tentenweide)",
+      "auteur": "Peter Potrowl",
+      "licentie": "CC BY-SA 4.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Jambville_-_Ch%C3%A2teau_-_1.jpg"
+    },
+    {
+      "bestand": "fr-5.jpg",
+      "bijschrift": "Twee tenten bij het Refuge de l'Arpont (2.309 m), Parc national de la Vanoise",
+      "auteur": "Ibex73",
+      "licentie": "CC BY-SA 4.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Refuge_de_l%27Arpont,_2309_m_(9).jpg"
+    }
+  ],
+  "bronnen": [
+    {
+      "naam": "OSRM: wegafstand Brussel-Parijs (307,4 km)",
+      "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;2.3522,48.8566?overview=false"
+    },
+    {
+      "naam": "Musée Carnavalet, Plan your visit",
+      "url": "https://www.carnavalet.paris.fr/en/visit/plan-your-visit"
+    },
+    {
+      "naam": "Wikipedia (EN), Mont Blanc: hoogte en klimroutes",
+      "url": "https://en.wikipedia.org/wiki/Mont_Blanc"
+    },
+    {
+      "naam": "Chamonix.com, Mer de Glace en train du Montenvers (goedkoper alternatief)",
+      "url": "https://www.chamonix.com/activites-en-famille/mer-de-glace-et-train-du-montenvers"
+    },
+    {
+      "naam": "Grand Site de France Les Deux-Caps, Comment venir chez nous",
+      "url": "https://www.lesdeuxcaps.fr/comment-venir-chez-nous"
+    },
+    {
+      "naam": "Grand Site de France Les Deux-Caps, Le Grand Site de France",
+      "url": "https://www.lesdeuxcaps.fr/le-grand-site-de-france-les-deux-caps-0"
+    },
+    {
+      "naam": "Jambville (SGDF), Formulaire de réservation",
+      "url": "https://jambville.sgdf.fr/formulaire-de-reservation/"
+    },
+    {
+      "naam": "WOSM, SCENES (lijst met Jambville en Immenhausen)",
+      "url": "https://www.scout.org/SCENES"
+    },
+    {
+      "naam": "Département de la Savoie, Bivouac et droit de l'urbanisme (Code de l'urbanisme R.111-32 tot 34)",
+      "url": "https://www.savoie.fr/upload/docs/application/pdf/2025-07/analyse_juridique_urbanisme.pdf"
+    }
+  ],
+  "problemen": [
+    "Wildkamperen: buiten ingerichte terreinen mag kamperen enkel met akkoord van wie het genot van de grond heeft (Code de l'urbanisme R.111-32), met verboden en gemeentelijke uitzonderingen (R.111-33 en 34). De Vanoise is daarom gekozen als officiële bivakzone; die vraagt een reservatie per refuge, een lichte tent (geen tent waarin je recht kan staan) en geeft geen groepsgrootte of prijs op de pagina. Het bivak mag ook door gemeenten extra geregeld zijn.",
+    "Aiguille du Midi: 83 euro retour (70,60 euro t/m 14 jaar) is duur voor een beperkt budget en de tarieven zijn niet voor 2027 bevestigd; de Mont Blanc zelf beklimmen is geen scoutsactiviteit. Goedkoper alternatief op dezelfde pagina: de Montenvers-trein naar de Mer de Glace, 31,50 euro retour volwassenen en 26,80 euro jongeren.",
+    "Musée Carnavalet: gratis is enkel de vaste collectie; een groep van 13 tot 18 betaalt verplicht 30 euro boekingskosten (15 euro tot 12 pers.), het museum is gesloten op maandag en groepen moeten vooraf online boeken. De 49 euro is een modelprijs (2 x 307 km x 0,08), geen offerte; een echte bus- of treinprijs is niet gevonden.",
+    "Deux-Caps: de pagina vermeldt geen toegangsprijs en geen scoutsterrein vlakbij; ik heb geen terrein gevonden dat tenten van een jeugdgroep ontvangt bij Cap Blanc-Nez of Cap Gris-Nez.",
+    "Jambville: geen tentprijs online, enkel offerte; het boekingsformulier vraagt een SIRET-nummer voor niet-SGDF-klanten en biedt het eten 'à cuisiner' enkel aan SGDF-leden. Of een Belgische scoutsgroep er kan boeken is niet bevestigd, de pagina zegt niets over buitenlandse groepen.",
+    "Kanucamp Tarnschlucht is wel opgenomen maar vraagt alleenbezetting vanaf 40 personen (een groep van 10-15 kan er waarschijnlijk niet alleen zitten) en heeft een strikt vuurverbod. Naturoase Tendon uit de referentielijst is niet opgenomen: het is een huis met minimaal 15 personen en slechts 1 tot 3 tenten in de tuin.",
+    "Camp Allemand: de prijsvork 5,50 tot 15 euro staat zonder seizoensuitleg op gruppenhaus.de; afstand tot een station niet gevonden en de beschikbaarheid in juli/augustus 2027 niet gecontroleerd (belegungsplan niet uitgelezen).",
+    "Kampvuur is niet als activiteit opgenomen (hoogstens 2 per categorie Kamperen). Prefectuurbesluiten kunnen vuur per departement verbieden (referentie: Val-de-Marne juli 2026, Yvelines jaarlijks); die besluiten heb ik niet zelf geopend. Het vuurverbod in de Tarnschlucht en in de Vanoise-bivakzones is wel gelezen.",
+    "Foto's: er staat geen foto van de tentenweide van Jambville of van Camp Allemand op Commons; de Jambville-foto toont het kasteel, de Aiguille du Midi-foto de rotsnaalden (niet de kabelbaan), de Carnavalet-foto een gevel. Op de Arpont-foto zijn enkele wandelaars klein in beeld.",
+    "Niet zelf bij de bron geopend: kustlijn (4.853 km), de hoogte van de Mont Blanc in het model (4.806 m; Wikipedia noemt 4.805,59 tot 4.807,3 m naargelang het jaar) en de 26,4 euro camping-nachtprijs komen uit het model. reis_direct (Eurostar/TGV 1 u 22) is niet gebruikt omdat de B-Europe-pagina geen reistijd noemt."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "iso2": "SE",
+  "naam": "Zweden",
+  "datum": "2026-10-11",
+  "slogan": "Tenten op Vässarö in de Roslagen: 255 SEK per dag, eten inbegrepen",
+  "activiteiten": [
+    {
+      "titel": "Wildkamperen met allemansrätt: Hälsingholmarna",
+      "plek": "Hälsingholmarna, Stockholms skärgård (Värmdö)",
+      "variabele": "kamp_wild",
+      "uitleg": "Allemansrätt: enkele nachten tenten bijna overal. Op de Hälsingholmarna (±25 holmen) max. 2 nachten per plek, geen vuur en enkel met eigen boot. Grote groep: best vooraf overleggen met de grondeigenaar.",
+      "bron": {
+        "naam": "Länsstyrelsen Stockholm, Hälsingholmarnas naturreservat",
+        "url": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/halsingholmarna.html"
+      },
+      "foto": 0
+    },
+    {
+      "titel": "Kebnekaise beklimmen via de Västra leden",
+      "plek": "Kebnekaise Fjällstation, Zweeds Lapland (vanaf Nikkaluokta)",
+      "variabele": "av_bergen",
+      "uitleg": "Zwedens hoogste berg (±2.097 m). Västra leden naar de zuidtop: 9 km, 5-7 u vanaf de Fjällstation, die 19 km (3-7 u) van Nikkaluokta ligt. Eind juni tot begin september; de noordtop vraagt alpiene techniek.",
+      "bron": {
+        "naam": "Wikipedia (EN), Kebnekaise: climbing routes",
+        "url": "https://en.wikipedia.org/wiki/Kebnekaise"
+      },
+      "foto": 1
+    },
+    {
+      "titel": "Vasamuseum Stockholm: gratis tot 18 jaar",
+      "plek": "Vasamuseet, Djurgården, Stockholm",
+      "variabele": "kost_reis",
+      "uitleg": "Brussel-Stockholm is 1.280 km grootcirkel: modelprijs vlucht 205 euro p.p. heen en terug (geen offerte). Vasamuseum: 18 jaar en jonger gratis, volwassenen 240 SEK (mei-sept); juni-aug dagelijks 8.30-18 u.",
+      "bron": {
+        "naam": "Vasamuseet, Opening Hours & Admission",
+        "url": "https://www.vasamuseet.se/en/visit/hours--admission/"
+      },
+      "foto": 2
+    },
+    {
+      "titel": "Snorkelleder in Kosterhavets nationalpark",
+      "plek": "Rörvik (Sydkoster) of Hasslebukten (Saltö), bij Strömstad",
+      "variabele": "av_kust",
+      "uitleg": "Twee onderwaterpaden van ±200 m op 1-1,5 m diepte met 8 infoborden. Vinnen en wetsuit aangeraden bij koud water, nooit alleen. Kosterbåtarna varen het hele jaar van Strömstad (45 min), prijs niet bevestigd.",
+      "bron": {
+        "naam": "Sveriges Nationalparker, Kosterhavet: Snorkelleder",
+        "url": "https://www.sverigesnationalparker.se/sv/upptack-nationalparkerna/kosterhavets-nationalpark/att-gora-i-parken/aktiviteter/snorkelleder"
+      },
+      "foto": 3
+    },
+    {
+      "titel": "Eigen tenten op Vässarö, het scoutseiland",
+      "plek": "Vässarö, Roslagen-archipel (Stockholms Scoutdistrikt)",
+      "variabele": "kamp_groepsterrein",
+      "uitleg": "Zomer 2027: 13 juni-15 aug. 255 SEK p.p. per dag incl. 4 maaltijden in grondstof, terrein en activiteiten (kano, zeilen); boot t/r 180 SEK p.p. Drukste weken 30-32, rustiger 27-29. Tenten te huur.",
+      "bron": {
+        "naam": "Vässarö, Scoutläger (prijzen 2027)",
+        "url": "https://vassaro.se/lager/scoutlager/"
+      },
+      "foto": 4
+    }
+  ],
+  "kampplaatsen": [
+    {
+      "naam": "Vässarö (Stockholms Scoutdistrikt)",
+      "plaats": "Vässarö, Roslagen-archipel, boot vanaf Strömsviken",
+      "url": "https://vassaro.se/lager/scoutlager/",
+      "details": "voor scoutskårer met eigen tenten op lägerängar · 255 SEK p.p. per dag incl. eten in grondstof en activiteiten, boot t/r 180 SEK p.p., seizoen 13 juni-15 aug 2027 · vanaf Stockholm: metro naar Tekniska högskolan, bus 676 naar Norrtälje, bus 637 tot Ellans Vändplan (bijna 3 u), dan ±1 km te voet naar de steiger"
+    },
+    {
+      "naam": "Kopparbo lägergård (Kopparbostiftelsen)",
+      "plaats": "Söderbärke (Dalarna/Västmanland)",
+      "url": "https://kopparbo.com/scoutlager/",
+      "details": "voor scoutskårer met tenten, in vaste serviceveckor · 2026: 1.700 SEK per volle week en 850 SEK per halve week; water, dass, brandhout voor kampvuur en maaltijdservice met grondstoffen · station Söderbärke, minibus van het terrein 200 SEK per rit (1-8 pers., niet altijd mogelijk)"
+    },
+    {
+      "naam": "Kungshols kurs- och lägergård (Nykterhetsrörelsens Scoutförbund)",
+      "plaats": "bij Rättvik (Dalarna)",
+      "url": "https://www.nsf.scout.se/anlaggningar/vara-anlaggningar/",
+      "details": "voor scoutkårer en anderen, met lägerängar voor tenten · prijs en afstand tot station niet gevonden (pagina uit 2016)"
+    }
+  ],
+  "fotos": [
+    {
+      "bestand": "se-1.jpg",
+      "bijschrift": "Hälsingholmarna ten zuiden van Finnhamn, Stockholms skärgård (op de foto ook huisjes; het reservaat zelf is onbebouwd)",
+      "auteur": "Esquilo",
+      "licentie": "CC BY-SA 3.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:H%C3%A4lsingholmarna.jpg"
+    },
+    {
+      "bestand": "se-2.jpg",
+      "bijschrift": "De toppen van de Kebnekaise gezien vanuit het zuiden, met klimmers op de sneeuwrug, Zweeds Lapland",
+      "auteur": "Carl Månsson",
+      "licentie": "CC BY 2.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Kebnekaise_view_of_the_tops_from_the_south.jpg"
+    },
+    {
+      "bestand": "se-3.jpg",
+      "bijschrift": "De boeg van het koninklijke oorlogsschip Vasa in het Vasamuseum, Stockholm",
+      "auteur": "Peulle",
+      "licentie": "CC BY-SA 4.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Regalskeppet_Vasa_baug_babord_(1).jpg"
+    },
+    {
+      "bestand": "se-4.jpg",
+      "bijschrift": "Helder ondiep water en rotseilandjes in Kosterhavets nationalpark, Zweedse westkust",
+      "auteur": "Petr Vodička",
+      "licentie": "CC BY-SA 4.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Kosterhavet_national_park.jpg"
+    },
+    {
+      "bestand": "se-5.jpg",
+      "bijschrift": "Scoutskamp op de mellanängarna van Vässarö, Roslagen-archipel",
+      "auteur": "Fenrus-",
+      "licentie": "CC BY-SA 4.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:V%C3%A4ssar%C3%B6_camping_scouts.jpg"
+    }
+  ],
+  "bronnen": [
+    {
+      "naam": "Naturvårdsverket, Allemansrätten",
+      "url": "https://www.naturvardsverket.se/allemansratten"
+    },
+    {
+      "naam": "Naturvårdsverket, Allemansrätten: frågor och svar (tälta enstaka dygn, groepen)",
+      "url": "https://www.naturvardsverket.se/vagledning-och-stod/allemansratten/fragor-och-svar/"
+    },
+    {
+      "naam": "Länsstyrelsen Stockholm, Tyresta nationalpark: föreskrifter (strenger dan allemansrätt)",
+      "url": "https://www.lansstyrelsen.se/stockholm/besoksmal/nationalparker/tyresta-nationalpark.html"
+    },
+    {
+      "naam": "MCF, Besluta om eldningsförbud (kommun of länsstyrelse beslist)",
+      "url": "https://www.mcf.se/sv/amnesomraden/skydd-mot-olyckor-och-farliga-amnen/naturolyckor-och-klimat/skogsbrand-och-vegetationsbrand/eldningsforbud/"
+    },
+    {
+      "naam": "Sveriges Nationalparker, Kosterhavets nationalpark: Hitta hit",
+      "url": "https://www.sverigesnationalparker.se/sv/upptack-nationalparkerna/kosterhavets-nationalpark/besok-parken/hitta-hit"
+    },
+    {
+      "naam": "Vässarö, Travel information",
+      "url": "https://vassaro.se/travel-information-how-to-get-to-vassaro/"
+    },
+    {
+      "naam": "Kopparbo, Kontakt och hitta hit",
+      "url": "https://kopparbo.com/kontakt-hitta-hit/"
+    },
+    {
+      "naam": "Grootcirkelafstand (haversine) Brussel-Stockholm, 1.280 km",
+      "url": "https://www.movable-type.co.uk/scripts/latlong.html"
+    },
+    {
+      "naam": "Scouterna, International exchange (scoutstugor en lägerplatser)",
+      "url": "https://www.scouterna.se/languages/english/international-exchange/"
+    }
+  ],
+  "problemen": [
+    "Wildkamperen: de Hälsingholmarna zijn een gekozen, controleerbaar voorbeeld, maar een reservaat is strenger dan de algemene allemansrätt (max. 2 nachten, geen vuur, eigen boot nodig). Naturvårdsverket zegt dat allemansrätten in de basis voor personen geldt en niet voor groepen; een groep met 5-6 tenten moet dus zelf voorzichtig zijn en vooraf overleggen.",
+    "In nationale parken zijn de regels strenger: in Tyresta mag je enkel tenten op de lägerplats in Stensjödal (max. 3 nachten) of op een aangewezen plek (1 nacht), en georganiseerd kamperen kan er enkel na overleg met de beheerder. Vrij kamperen is dus niet overal even vrij.",
+    "Kebnekaise ligt ver in Zweeds Lapland (150 km boven de poolcirkel); de extra reis vanuit Stockholm is niet opgezocht en komt bovenop de 205 euro. De Västra leden leidt naar de zuidtop, een gletsjertop waarvan de hoogte schommelt; het officiële hoogste vaste punt (noordtop, 2.096,8 m) vraagt bergbeklimmersvaardigheden. Prijzen van hutten niet bevestigd.",
+    "Kosterhavet: geen prijs gevonden voor de Kosterbåtarna of voor het huren van vinnen en wetsuits; het snorkelwater kan koud zijn en de pagina raadt af om alleen te snorkelen. De trajecten zijn kort (±200 m).",
+    "Vässarö: de 2027-prijzen staan online, maar een minimale groepsgrootte is niet gevonden; weken 30 tot 32 zijn het drukst, dus vroeg boeken. Aankomst via Stockholm duurt bijna 3 uur per bus plus een boot; prijs van het openbaar vervoer niet opgezocht.",
+    "Kopparbo: enkel de prijzen en weken van 2026 gevonden (vaste serviceveckor); de 2027-data en -prijzen zijn niet bevestigd, en het is niet expliciet gezegd dat 1.700 SEK per persoon geldt (de kindertarieven wijzen erop).",
+    "Kungshol (NSF): de pagina dateert van 2016; geen prijs, capaciteit of stationsafstand gevonden. Scout Camp Ransberg en Storvallen uit de referentielijst zijn niet opgenomen (geen actuele info gelezen).",
+    "Vasamuseum: 18 jaar en jonger gratis, maar begeleiders betalen 240 SEK en het museum ligt in Stockholm, ver van Vässarö. De 205 euro is een modelprijs (90 + 0,09 x 1.280 km), geen offerte.",
+    "Kampvuur is niet als aparte activiteit opgenomen (hoogstens 2 activiteiten per categorie Kamperen). In een droge zomer kunnen kommun of länsstyrelse tijdelijk een eldningsförbud uitvaardigen; op de Hälsingholmarna is vuur sowieso verboden.",
+    "Foto's: het Hälsingholmarna-beeld toont ook huisjes (waarschijnlijk niet in het onbebouwde reservaat zelf) en is op Commons enkel beschreven als 'bij Finnhamn'; de Kebnekaise-foto is een drone-opname met onbekende datum; de Vässarö-foto toont het terrein op afstand, geen herkenbare personen.",
+    "Niet zelf bij de bron geopend: de gemeten kustlijn (3.218 km) en hoogte (2.097 m) komen uit het model, al staat de hoogte (2.096,8 m) ook op Wikipedia."
+  ]
+}
