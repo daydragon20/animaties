@@ -2243,7 +2243,8 @@ const KB = (() => {
   const others = anderen.map((a, i) => {
     const box = el("div", { class: "a", style: `left:${i ? 1010 : 120}px;top:700px;width:790px;white-space:normal` }, L);
     el("div", { class: "kick", style: `color:${D.gold}` }, box, `Nummer ${i + 2} · ${fTot(a.c)} punten`);
-    el("div", { class: "serif", style: `font-size:46px;line-height:1.08;margin-top:10px;color:${D.ink}` }, box, `${escapeHtml(a.c.name)}: <i>${escapeHtml(a.k ? a.k.titel.toLowerCase() : "")}</i>`);
+    el("div", { class: "serif", style: `font-size:46px;line-height:1.05;margin-top:8px;color:${D.ink}` }, box, escapeHtml(a.c.name));
+    el("div", { class: "roman", style: `font-size:30px;line-height:1.2;margin-top:6px;color:${D.ink}` }, box, escapeHtml(a.k ? a.k.titel : ""));
     const f = a.k ? a.c.feiten[a.k.v.id] : null;
     el("div", { class: "mono", style: `font-size:20px;margin-top:8px;color:${D.sub}` }, box, a.k ? `${escapeHtml(a.k.v.naam)}: ${escapeHtml(fmtRaw(f, a.k.v))} · score ${fv1(a.c.scores[a.k.v.i])}${a.k.plek ? " · " + escapeHtml(a.k.plek) : ""}` : "");
     if (a.k && a.k.foto) el("div", { class: "mono", style: `font-size:13px;margin-top:8px;color:${D.sub};letter-spacing:.06em` }, box, fotoCredit(a.k.foto));
