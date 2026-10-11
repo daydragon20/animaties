@@ -36,7 +36,8 @@ systeemgeluid en druk dan op spatie.
   de concrete plekken komen uit een apart kampbeeld-onderzoek (`onderzoek/kampbeeld/`), met foto's van Wikimedia Commons onder vrije licentie.
 - **Verkenner met bronnen**: klik op een cel en je ziet de vraag, de meter, de gemeten waarde met eenheid, de bron (klikbaar), de score
   en de waarden van alle tien rondes. Plus: ranglijst met plaats per ronde, het kampbeeld van de top 3 (activiteiten, foto's, kampplaatsen),
-  gewichten per tier en per categorie, de rondes, bronnen en meters, CSV.
+  gewichten per tier en per categorie (met snelkeuzes zoals "alleen kosten en avontuur" en klik-om-te-markeren, zodat je je eigen
+  prioriteiten kunt uitproberen zonder de feiten te veranderen), de rondes, bronnen en meters, CSV.
 
 ## Het verhaal (tempo 120, 1 tel = 0,5 s)
 
