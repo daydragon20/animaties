@@ -47,7 +47,8 @@
       if (!ok) return;
       const dim = j >= 10 ? 1 - 0.6 * topP : 1;
       op(l.e, lo_ * vis * dim);
-      l.e.style.transform = `translate(${px}px,${py + 12}px) rotate(48deg)`;
+      const stag = j >= labs.length - 10 && j % 2 ? 44 : 0; // rechts drukt het perspectief de labels samen: om en om lager
+      l.e.style.transform = `translate(${px}px,${py + 12 + stag}px) rotate(48deg)`;
       const done = sp(j) > 0.98;
       l.e.innerHTML = (done ? `<span style="color:${j === 0 ? COL.gold : COL.mint}">${j + 1}</span> ` : "") + escapeHtml(LABNAME[l.c.name] || l.c.name);
       l.e.style.color = j === 0 && done ? COL.gold : COL.paper;

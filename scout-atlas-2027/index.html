@@ -1836,7 +1836,8 @@ GL.add({ scene: SPACE.scene, cam: SPACE.cam, update: SPACE.update, hide: SPACE.h
       if (!ok) return;
       const dim = j >= 10 ? 1 - 0.6 * topP : 1;
       op(l.e, lo_ * vis * dim);
-      l.e.style.transform = `translate(${px}px,${py + 12}px) rotate(48deg)`;
+      const stag = j >= labs.length - 10 && j % 2 ? 44 : 0; // rechts drukt het perspectief de labels samen: om en om lager
+      l.e.style.transform = `translate(${px}px,${py + 12 + stag}px) rotate(48deg)`;
       const done = sp(j) > 0.98;
       l.e.innerHTML = (done ? `<span style="color:${j === 0 ? COL.gold : COL.mint}">${j + 1}</span> ` : "") + escapeHtml(LABNAME[l.c.name] || l.c.name);
       l.e.style.color = j === 0 && done ? COL.gold : COL.paper;
@@ -1967,7 +1968,7 @@ GL.add({ scene: SPACE.scene, cam: SPACE.cam, update: SPACE.update, hide: SPACE.h
     op(sub, win(t, RU_.dots + 0.4, T.s7 - 0.3, 0.4, 0.3));
     const flat = E.inOut(seg(t, RU_.flat[0], RU_.flat[1]));
     // kwadrantlabels op de achterwand
-    const corners = [[-SZ, SZ + 5], [SZ, SZ + 5], [-SZ, -SZ - 5], [SZ, -SZ - 5]]; // net buiten het vlak, boven en onder
+    const corners = [[-SZ, SZ + 16], [SZ, SZ + 16], [-SZ, -SZ - 12], [SZ, -SZ - 12]]; // net buiten het vlak, boven en onder
     qs.forEach((q, i) => {
       const [x, y, ok] = project(SPACE.cam, corners[i][0], corners[i][1], -SZ + 0.5);
       q.style.transform = `translate(${x}px,${y}px) ${QA[i]}`;
