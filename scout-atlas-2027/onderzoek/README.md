@@ -34,6 +34,10 @@ node scoor.mjs 3               # feiten.json + variant.json → scores.json (en 
   waarna de tier-aandelen exact hersteld worden. Zo hangt de uitkomst niet aan één gewichtskeuze.
 - De **scorer** (Sonnet) controleert eenheden en uitschieters, vult gaten volgens de regel van de meter, laat de scores berekenen en
   schrijft `verslag.md`. Scores worden nooit met de hand gezet.
+- **Deze uitgave**: de tien rondes van 10 oktober 2026 zijn gescoord met de scripts alleen (`merge-pakketten.mjs` + `scoor.mjs`,
+  gaten volgens de regel van de meter, geen handmatige nalezing per ronde); de aparte scorer-stap is overgeslagen om verbruik te sparen.
+  `bron/controle.mjs` herberekent daarna elke score onafhankelijk. Een scorer-nalezing van uitschieters is de eerste verbetering voor een
+  volgende ronde.
 
 ## De consensus
 

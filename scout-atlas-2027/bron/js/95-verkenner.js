@@ -507,6 +507,24 @@ const VK = (() => {
   }
   CC.forEach((c) => live.appendChild(liveRows[c.name]));
   $v("vkReset").onclick = () => { sl.forEach((s) => { s.inp.value = 100; mult[s.key] = 1; }); weights(); };
+  /* snelkeuzes: alleen de tiers verschuiven, categorieën terug naar 100 %. Veelvouden van 5 %, zodat de schuif exact blijft. */
+  const PRESETS = {
+    kosten: { t1: 1.5, t2: 1, t3: 0.5 },     // kosten en avontuur ongeveer 68 %, kamperen 20 %, de rest 13 %
+    volgorde: { t1: 1.1, t2: 1.25, t3: 0.6 }, // 1 kosten en avontuur, 2 kamperen, 3 de rest: ongeveer 55 / 28 / 17 %
+    alleen: { t1: 1, t2: 0, t3: 0 },          // kamperen en de rest tellen niet mee
+  };
+  $v("vkPresets").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-p]");
+    if (!b) return;
+    const P = PRESETS[b.dataset.p];
+    sl.forEach((s) => {
+      const k = s.key.startsWith("t") && !CATS.includes(s.key) ? P[s.key] : 1;
+      s.inp.value = Math.round(k * 100); mult[s.key] = k;
+    });
+    weights();
+  });
+  /* klik op een land om het te markeren */
+  live.addEventListener("click", (e) => { const li = e.target.closest("li"); if (li) li.classList.toggle("mk"); });
 
   /* de rondes */
   function rounds() {

@@ -1,0 +1,222 @@
+{
+  "iso2": "DE",
+  "naam": "Duitsland",
+  "datum": "2026-10-11",
+  "slogan": "Tenten aan de Seenplatte bij Großzerlang: 9 euro per persoon per nacht",
+  "activiteiten": [
+    {
+      "titel": "Gratis naar de Berlijnse Muur, Bernauer Straße",
+      "plek": "Gedenkstätte Berliner Mauer, Bernauer Straße, Berlin-Mitte",
+      "variabele": "kost_reis",
+      "uitleg": "Brussel-Berlijn is 759 km over de weg: modelprijs 121 euro p.p. heen en terug (geen offerte). Muurgedenkplaats: 1,4 km openluchtexpositie, dagelijks 8-22 u, toegang gratis; groepsrondleiding betaald.",
+      "bron": {
+        "naam": "Stiftung Berliner Mauer, Visitor Information (Admission is free)",
+        "url": "https://www.stiftung-berliner-mauer.de/en/berlin-wall-memorial/visit/information"
+      },
+      "foto": 0
+    },
+    {
+      "titel": "Zugspitze via Partnachklamm en Reintal",
+      "plek": "Garmisch-Partenkirchen, Wettersteingebirge (Beieren)",
+      "variabele": "av_bergen",
+      "uitleg": "Duitslands hoogste top (2.962 m), Reintalroute vanuit Garmisch: 2.232 hoogtemeters, 8 tot 10 uur stappen, laatste stuk verzekerd. Alleen met bergervaren leiding; hutten onderweg, hun prijs niet bevestigd.",
+      "bron": {
+        "naam": "Wikipedia (DE), Zugspitze: Reintal-route",
+        "url": "https://de.wikipedia.org/wiki/Zugspitze"
+      },
+      "foto": 1
+    },
+    {
+      "titel": "Tenten op het VCP-scoutsterrein Großzerlang",
+      "plek": "Großzerlang, Naturpark Stechlin-Ruppiner Land (Brandenburg)",
+      "variabele": "kamp_groepsterrein",
+      "uitleg": "12 ha enkel voor scouts- en jeugdgroepen, aan het water. 9 euro p.p. per nacht voor andere padvindersgroepen; vuurschaal verplicht (17 euro), kano 26 euro per dag. Station Rheinsberg ligt op 16 km, bus 788.",
+      "bron": {
+        "naam": "VCP Bundeszeltplatz Großzerlang, Preise",
+        "url": "https://vcp-bundeszeltplatz.de/eure-buchung/preise/"
+      },
+      "foto": 2
+    },
+    {
+      "titel": "Wadlopen van Sahlenburg naar Neuwerk",
+      "plek": "Cuxhaven-Sahlenburg, Nationalpark Wattenmeer (Nedersaksen)",
+      "variabele": "av_kust",
+      "uitleg": "12 km bij eb over de gemarkeerde Wattweg naar Neuwerk (UNESCO-werelderfgoed); starttijd volgens het getij. Veiliger met een Wattführer, prijs niet bevestigd. Alternatief: wattwagen, ±4 u, plaats voor 10.",
+      "bron": {
+        "naam": "Nordseeheilbad Cuxhaven, Wattwandern und Wattführungen",
+        "url": "https://www.nordseeheilbad-cuxhaven.de/straende/nationalpark-wattenmeer/wattwandern-und-wattfuehrungen"
+      },
+      "foto": 3
+    },
+    {
+      "titel": "Een nacht op een Trekkingplatz in de Pfalz",
+      "plek": "Biosphärenreservat Pfälzerwald (Rijnland-Palts), 15 Trekkingplätze",
+      "variabele": "kamp_wild",
+      "uitleg": "Wildkamperen is in heel de Pfalz verboden; op aangewezen plekken mag je tent wel: 18 euro per tent, max. 4 tenten en 1 nacht per plek (1/4-1/11). Voor 5-6 tenten dus 2 plekken. Vuur alleen in de vuurplaats.",
+      "bron": {
+        "naam": "Trekking Pfalz, Benutzer- und Hygieneordnung",
+        "url": "https://www.trekking-pfalz.de/tourenplanung/benutzerordnung"
+      },
+      "foto": 4
+    },
+    {
+      "titel": "Boodschappen bij Lidl naast station Rheinsberg",
+      "plek": "Rheinsberg, Berliner Straße 41 (16 km van het VCP-terrein)",
+      "variabele": "kost_voeding",
+      "uitleg": "Eten kost er 64,6 op de Numbeo-index (New York = 100). Lidl naast het station (ma-za 7-20 u), ook Aldi, Edeka en Norma in Rheinsberg. Let op: de kiosk op het terrein is gesloten en het kamp ligt 16 km verder.",
+      "bron": {
+        "naam": "VCP Bundeszeltplatz Großzerlang, Versorgung",
+        "url": "https://vcp-bundeszeltplatz.de/euer-aufenthalt/versorgung/"
+      }
+    },
+    {
+      "titel": "Ökopfad in Duits en Engels op het VCP-terrein",
+      "plek": "Großzerlang, VCP Bundeszeltplatz",
+      "variabele": "cul_engels",
+      "uitleg": "Het terrein heeft een Ökopfad met 15 stations over natuur en duurzaamheid, uitgelegd in kind- en jeugdgerichte Duitse en Engelse tekst. Duitsland haalt 615 op de EF-Engelsindex 2025.",
+      "bron": {
+        "naam": "VCP Bundeszeltplatz Großzerlang, Eure Erlebnisse auf dem Platz",
+        "url": "https://vcp-bundeszeltplatz.de/eure-erlebnisse/eure-erlebnisse-auf-dem-platz/"
+      }
+    },
+    {
+      "titel": "Zwemmen in het Strandbad Wannsee",
+      "plek": "Strandbad Wannsee, Berlin-Nikolassee",
+      "variabele": "weer_temp",
+      "uitleg": "Juli in Berlijn: gemiddeld maximum 25,0 °C. Zandstrand van 1,2 km aan de Wannsee, 6,50 euro per persoon (3,80 euro tot en met 14 jaar). Ligt in het zuidwesten van Berlijn, dus te combineren met de Muurdag.",
+      "bron": {
+        "naam": "Berliner Bäder-Betriebe, Strandbad Wannsee",
+        "url": "https://www.berlinerbaeder.de/baeder/detail/strandbad-wannsee/"
+      },
+      "foto": 5
+    }
+  ],
+  "kampplaatsen": [
+    {
+      "naam": "VCP Bundeszeltplatz Großzerlang",
+      "plaats": "Großzerlang (Mecklenburgische Seenplatte, Brandenburg), ±100 km ten noordwesten van Berlijn",
+      "url": "https://vcp-bundeszeltplatz.de/",
+      "details": "voor jeugdgroepen met tenten, enkel scouts- en jeugdgroepen · 12 ha, 9 euro p.p. per nacht voor andere padvindersgroepen (7 euro VCP, 12 euro overige), kanustation · station Rheinsberg ±15-16 km, dan bus 788 tot Großzerlang Dorf"
+    },
+    {
+      "naam": "Zentrum Pfadfinden Immenhausen (Bundeszentrum BdP)",
+      "plaats": "Immenhausen, 20 km ten noorden van Kassel",
+      "url": "https://zentrum.pfadfinden.de/",
+      "details": "voor jeugdgroepen met tenten, ook kleine groepen · 8 ha tentenweide, 5,40 euro p.p. per nacht voor jeugdgroepen plus 2 euro servicetoeslag, 3 vaste vuurplaatsen · Bahnhof Immenhausen, bus 173 en ±800 m stappen"
+    },
+    {
+      "naam": "DPSG Bundeszentrum Westernohe",
+      "plaats": "Westernohe (Hoher Westerwald, Rijnland-Palts)",
+      "url": "http://www.westernohe.org/de",
+      "details": "voor jeugdgroepen met tenten, ook kleine stufenlagers · 28 ha, twee tentenplaatsen (Altenberg, Kirschbaum), 6 euro p.p. per nacht voor andere jeugdgroepen, brandhout inbegrepen (prijslijst vanaf 1-10-2025) · stations Westerburg ±15 km, Limburg Süd ±25 km; bus 477/487 vanaf Rennerod"
+    }
+  ],
+  "fotos": [
+    {
+      "bestand": "de-1.jpg",
+      "bijschrift": "Stuk originele Berlijnse Muur en de voormalige grensstrook aan de Bernauer Straße, Berlijn",
+      "auteur": "Einaz80",
+      "licentie": "CC BY-SA 4.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Berlin_Wall_Bernauer_Strasse.jpg"
+    },
+    {
+      "bestand": "de-2.jpg",
+      "bijschrift": "Het achterste Reintal met het Zugspitzplatt erboven, Wettersteingebirge (Beieren)",
+      "auteur": "Sebastian Stürzl",
+      "licentie": "CC BY-SA 3.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Wetterstein_Reintal_Zugspitzplatt_von_O_2009-09-01.jpg"
+    },
+    {
+      "bestand": "de-3.jpg",
+      "bijschrift": "Großer Stechlinsee in Naturpark Stechlin-Ruppiner Land, hetzelfde natuurpark als het VCP-terrein (niet het terrein zelf)",
+      "auteur": "Leonhard Lenz",
+      "licentie": "CC0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fer_Stechlinsee_2021-06-17_17.jpg"
+    },
+    {
+      "bestand": "de-4.jpg",
+      "bijschrift": "Wadden bij eb voor Duhnen (Cuxhaven) met paardenwagens op weg naar Neuwerk",
+      "auteur": "Karinsigg",
+      "licentie": "CC0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Wattenmeer_Cuxhaven_Duhnen.jpg"
+    },
+    {
+      "bestand": "de-5.jpg",
+      "bijschrift": "Bos en heuvels van het Pfälzerwald, gezien vanaf de Bayrischer Windstein (geen Trekkingplatz)",
+      "auteur": "Ssprmannheim",
+      "licentie": "CC BY-SA 4.0",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Biosph%C3%A4renreservat_Pf%C3%A4lzer_Wald;_Blick_vom_Bayrischen_Windstein.JPG"
+    },
+    {
+      "bestand": "de-6.jpg",
+      "bijschrift": "Zandstrand en badhuizen van het Strandbad Wannsee, Berlin-Nikolassee",
+      "auteur": "Axel Mauruszat",
+      "licentie": "CC BY 2.0 de",
+      "bron_url": "https://commons.wikimedia.org/wiki/File:Strandbad_Wannsee_07.jpg"
+    }
+  ],
+  "bronnen": [
+    {
+      "naam": "VCP Bundeszeltplatz Großzerlang (Preise, Anreise, Versorgung, Erlebnisse)",
+      "url": "https://vcp-bundeszeltplatz.de/"
+    },
+    {
+      "naam": "Zentrum Pfadfinden Immenhausen: Zeltplatz, Preise, Anreise",
+      "url": "https://zentrum.pfadfinden.de/zeltplatz"
+    },
+    {
+      "naam": "DPSG Bundeszentrum Westernohe: Zeltplätze, Preise im Überblick, Anreise",
+      "url": "http://www.westernohe.org/de/buchung/preise-im-ueberblick"
+    },
+    {
+      "naam": "Trekking Pfalz: Buchung (18 euro per tent, 4 tentplaatsen per Trekkingplatz)",
+      "url": "https://www.trekking-pfalz.de/buchung"
+    },
+    {
+      "naam": "Trekking Pfalz: FAQs",
+      "url": "https://www.trekking-pfalz.de/service/faqs"
+    },
+    {
+      "naam": "Trekking Pfalz: Waldbrandgefahr (vuurverbod, stand 9-10-2026)",
+      "url": "https://www.trekking-pfalz.de/tourenplanung/waldbrandgefahr"
+    },
+    {
+      "naam": "Biosphärenreservat Pfälzerwald: Trekking",
+      "url": "https://www.pfaelzerwald.de/trekking/"
+    },
+    {
+      "naam": "OSRM: wegafstand Brussel-Berlijn (758,9 km)",
+      "url": "https://router.project-osrm.org/route/v1/driving/4.3525,50.8467;13.405,52.52?overview=false"
+    },
+    {
+      "naam": "Wikipedia (EN), Berlin: klimaattabel (gemiddeld maximum juli 25,0 °C)",
+      "url": "https://en.wikipedia.org/wiki/Berlin"
+    },
+    {
+      "naam": "Wikipedia (DE), Naturpark Stechlin-Ruppiner Land",
+      "url": "https://de.wikipedia.org/wiki/Naturpark_Stechlin-Ruppiner_Land"
+    },
+    {
+      "naam": "Nordseeheilbad Cuxhaven: Wattwagenfahrten",
+      "url": "https://www.nordseeheilbad-cuxhaven.de/straende/nationalpark-wattenmeer/wattwagenfahrten"
+    },
+    {
+      "naam": "gruppenhaus.de: Jugendzeltplatz Hollfeld (minimumbezetting, niet opgenomen)",
+      "url": "https://www.gruppenhaus.de/jugendzeltplatz-hollfeld-hollfeld-hs6175.html"
+    }
+  ],
+  "problemen": [
+    "Jugendzeltplatz Hollfeld uit de referentielijst is bewust niet opgenomen: gruppenhaus.de vraagt minimaal 30 personen buiten en 60 personen tijdens de Beierse schoolvakantie, en verhuurt enkel aan jeugdorganisaties. Een groep van 10 tot 15 voldoet niet.",
+    "De activiteiten liggen verspreid over heel Duitsland (Berlijn en Brandenburg, Beieren, Noordzeekust, Pfalz): geen programma voor één kamp op één terrein. Enkel Berlijn en het VCP-terrein liggen dicht bij elkaar (volgens het VCP ±100 km).",
+    "Geen 2027-tarieven gevonden: de VCP-prijslijst heeft geen jaartal en de pagina van het Kanustation meldt dat de getoonde prijzen die van 2024 zijn en gestegen zijn; Westernohe geldt vanaf 1-10-2025. Alle bedragen zijn indicatief.",
+    "Zugspitze: de Reintalroute is een zware bergtocht (8 tot 10 uur stappen, verzekerd stuk); prijs van de hutten en van de Partnachklamm niet bevestigd. Enkel met bergervaren leiding.",
+    "Wadlopen: prijs van geleide wadtocht en wattwagen niet bevestigd (de Cuxhavense brochure gaf een 404); de pagina vermeldt wel dat geleide tochten 45 tot 90 minuten duren, korter dan de 12 km naar Neuwerk.",
+    "Trekkingplatz: max. 4 kleine tenten (2-3 personen) en één nacht per plek; 5 à 6 tenten betekent twee plekken, en die moeten beide vrij zijn. Op 9-10-2026 gold er een algemeen vuurverbod wegens droogte; in een droge zomer 2027 kan dat ook, dan is ook gaskoken verboden.",
+    "Kampvuur zelf is niet als aparte activiteit gekozen (hoogstens 2 activiteiten per categorie Kamperen); op het VCP-terrein is een vuurschaal verplicht, in Immenhausen zijn er 3 vaste vuurplaatsen. Brandgevaar kan vuur in de zomer tijdelijk verbieden.",
+    "Berlijn (kost_reis): 121 euro is de modelprijs (2 x 759 km x 0,08), geen offerte; een echte bus- of treinprijs is niet opgezocht.",
+    "Strandbad Wannsee: het verlaagde tarief geldt tot en met 14 jaar, dus 15- en 16-jarigen betalen 6,50 euro. Het bad ligt in het zuidwesten van Berlijn, ver van het VCP-terrein ten noordwesten van de stad; de 25,0 °C is het klimaatnormaal van Berlijn, geen garantie voor 2027.",
+    "Ökopfad (cul_engels): het verband met de Engelse taalvaardigheid van Duitsers is indirect: het cijfer 615 is een nationale EF-score, het pad zelf is enkel tweetalig.",
+    "Foto’s: op Commons staat geen foto van het VCP-terrein zelf (Stechlinsee is uit hetzelfde natuurpark), het Pfälzerwald-beeld is geen Trekkingplatz, en de Wattenzee-foto toont wattwagens, geen wandelaars.",
+    "Niet zelf bij de bron geopend: Numbeo-index (64,6), EF EPI (615) en kustlijn (2.389 km) komen uit het model; de gemeten Zugspitzhoogte (2.962 m) en de 25,0 °C voor Berlijn zijn wel op Wikipedia teruggevonden."
+  ]
+}

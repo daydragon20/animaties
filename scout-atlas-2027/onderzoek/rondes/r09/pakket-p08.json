@@ -1,0 +1,1528 @@
+{
+  "ronde": 9,
+  "pakket": "p08",
+  "datum": "2026-10-11",
+  "landen": {
+    "Portugal": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,0 / 0,0 / 0,0 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Lissabon: lijnvlucht BRU-Lissabon (TAP) en CRL-Lissabon (Ryanair). Frequentie en vliegtijd (ca. 2u45, geschat) niet in bron."
+      },
+      "reis_ov": {
+        "waarde": 12.7,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Spanje": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,0 / 0,0 / 0,0 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Madrid: lijnvlucht BRU-Madrid (Iberia, Air Europa) en CRL-Madrid (Ryanair). Vliegtijd ca. 2u (geschat) en frequentie niet in bron."
+      },
+      "reis_ov": {
+        "waarde": 19.2,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Andorra": {
+      "vei_teken": {
+        "waarde": 0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, TBE risicogebieden (regel uit model.json: geen risicogebied)",
+          "url": "https://www.ecdc.europa.eu/en/tick-borne-encephalitis",
+          "jaar": "2023"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Geen TBE-risicogebied volgens ECDC/WHO (regel); niet in de ECDC-tabel."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels South Charleroi Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_South_Charleroi_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Andorra la Vella heeft geen luchthaven. Girona (CRL, Ryanair, vaste lijn) ligt ca. 110 km ervandaan (afstand geschat). Frequentie niet in bron."
+      },
+      "reis_ov": {
+        "waarde": 18.3,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gemiddelde van ES en FR. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Frankrijk": {
+      "vei_teken": {
+        "waarde": 0.07,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,1 / 0,0 / 0,1 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Seat61, treinreizen vanuit Belgie",
+          "url": "https://www.seat61.com/Belgium.htm",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Parijs: rechtstreekse Eurostat/TGV-trein Brussel-Parijs bestaat, maar de Seat61-pagina noemt alleen Londen-Parijs. Niet in de gebruikte bron geverifieerd. Alternatief: BRU-Parijs-CDG vlucht (80)."
+      },
+      "reis_ov": {
+        "waarde": 17.4,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Verenigd Koninkrijk": {
+      "vei_teken": {
+        "waarde": 0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, TBE risicogebieden (regel uit model.json: geen risicogebied)",
+          "url": "https://www.ecdc.europa.eu/en/tick-borne-encephalitis",
+          "jaar": "2023"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Geen TBE-risicogebied volgens ECDC/WHO (regel); GB: UK na 2019 niet meer gerapporteerd (NA) in de ECDC-tabel."
+      },
+      "reis_direct": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Seat61, treinreizen vanuit Belgie",
+          "url": "https://www.seat61.com/Belgium.htm",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Eurostar Brussel-Londen rechtstreeks, ca. 2u01 (Seat61)."
+      },
+      "reis_ov": {
+        "waarde": 19.75,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gemiddelde van IE en FR. Eurostat-dataset heeft voor Verenigd Koninkrijk (UK) geen waarde voor 2024. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Ierland": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,0 / 0,0 / 0,0 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Dublin: lijnvlucht BRU-Dublin (Aer Lingus) en CRL-Dublin (Ryanair). Vliegtijd ca. 1u50 (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 22.1,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "IJsland": {
+      "vei_teken": {
+        "waarde": 0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel: 0 in 2022 (2018-2021 NDR). Geen risicogebied (regel): 0."
+      },
+      "reis_direct": {
+        "waarde": 60,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Reykjavik: BRU-Keflavik (Icelandair, vaste lijn). Vliegtijd boven 3u (ca. 4u, geschat), frequentie niet in bron."
+      },
+      "reis_ov": {
+        "waarde": 11.6,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024. Geen treinwaarde (TRN) in de dataset; score 100 min CAR gebruikt."
+      }
+    },
+    "Nederland": {
+      "vei_teken": {
+        "waarde": 0.36,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen ECDC-rate voor NL (NRC: dekking onbekend; 5 gevallen in 2022). Ontbrekend-regel: gemiddelde van buurlanden BE (0,03) en DE (0,70)."
+      },
+      "reis_direct": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Seat61, treinreizen vanuit Belgie",
+          "url": "https://www.seat61.com/Belgium.htm",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Amsterdam: rechtstreekse Eurostat-trein (Seat61: de Eurostat rijdt door naar Amsterdam)."
+      },
+      "reis_ov": {
+        "waarde": 14.0,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Luxemburg": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,0 / 0,0 / 0,0 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 100,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Seat61, treinreizen vanuit Belgie",
+          "url": "https://www.seat61.com/Belgium.htm",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Luxemburg-stad: rechtstreekse trein Brussel-Luxemburg (Seat61 toont zo'n trein). Reistijd ca. 2u30 (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 20.0,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Duitsland": {
+      "vei_teken": {
+        "waarde": 0.7,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,9 / 0,5 / 0,7 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Berlijn: lijnvlucht BRU-Berlijn (Brussels Airlines). Vliegtijd ca. 1u15 (geschat). Geen rechtstreekse trein in bron."
+      },
+      "reis_ov": {
+        "waarde": 15.9,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Denemarken": {
+      "vei_teken": {
+        "waarde": 0.1,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,1 / 0,1 / 0,1 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Kopenhagen: lijnvlucht BRU-Kopenhagen (SAS, Brussels Airlines). Vliegtijd ca. 1u30 (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 16.9,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Noorwegen": {
+      "vei_teken": {
+        "waarde": 1.2,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,8 / 1,3 / 1,5 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Oslo: lijnvlucht BRU-Oslo (SAS, Brussels Airlines). Vliegtijd ca. 2u (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 11.4,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Zweden": {
+      "vei_teken": {
+        "waarde": 4.03,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 2,6 / 5,1 / 4,4 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Stockholm-Arlanda: lijnvlucht BRU (SAS, Brussels Airlines) en CRL (Ryanair). Vliegtijd ca. 2u15 (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 19.3,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Finland": {
+      "vei_teken": {
+        "waarde": 2.23,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 1,6 / 2,9 / 2,2 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Helsinki: lijnvlucht BRU-Helsinki (Finnair). Vliegtijd ca. 2u45-3u (afstand ca. 1670 km, geschat)."
+      },
+      "reis_ov": {
+        "waarde": 17.4,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Estland": {
+      "vei_teken": {
+        "waarde": 7.33,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 5,3 / 6,2 / 10,5 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Tallinn: lijnvlucht BRU-Tallinn (airBaltic). Vliegtijd ca. 2u40 (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 14.0,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Letland": {
+      "vei_teken": {
+        "waarde": 9.53,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2022: NDR (Letland leverde geen data). Gemiddelde van de laatste 3 beschikbare jaren 2019-2021 (9,1 / 7,8 / 11,7)."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Riga: lijnvlucht BRU-Riga (airBaltic) en CRL-Riga (Ryanair). Vliegtijd ca. 2u30 (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 16.5,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Litouwen": {
+      "vei_teken": {
+        "waarde": 16.93,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 24,3 / 13,1 / 13,4 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Vilnius: lijnvlucht BRU-Vilnius (Brussels Airlines). Vliegtijd ca. 2u30-3u (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 9.0,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Zwitserland": {
+      "vei_teken": {
+        "waarde": 0.61,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; BAG (nationaal instituut) niet geraadpleegd (geen URL in opdracht, geen WebSearch). Ontbrekend-regel: gemiddelde buurlanden AT, DE, FR, IT, LI. Waarschijnlijk te laag."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Bern heeft geen grote luchthaven. Zurich (BRU, Swiss/Brussels Airlines, vaste lijn) ligt ca. 95 km van Bern (afstand geschat)."
+      },
+      "reis_ov": {
+        "waarde": 28.0,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Liechtenstein": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel: 2020 NDR; 2021 en 2022 0,0. Gemiddelde van de 2 beschikbare jaren 2021-2022."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Vaduz: via Zurich (BRU, vaste lijn), ca. 75 km (afstand geschat). Geen eigen luchthaven."
+      },
+      "reis_ov": {
+        "waarde": 25.9,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gemiddelde van CH en AT. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Oostenrijk": {
+      "vei_teken": {
+        "waarde": 2.2,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 2,8 / 1,5 / 2,3 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Wenen: lijnvlucht BRU-Wenen (Austrian, Brussels Airlines) en CRL-Wenen (Ryanair). Nachttrein Brussel-Wenen niet in bronnen gevonden."
+      },
+      "reis_ov": {
+        "waarde": 23.8,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Tsjechië": {
+      "vei_teken": {
+        "waarde": 6.77,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 7,9 / 5,7 / 6,7 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Praag: lijnvlucht BRU-Praag (Smartwings, Brussels Airlines) en CRL-Praag (Ryanair). Nachttrein Brussel-Praag niet in bron geverifieerd."
+      },
+      "reis_ov": {
+        "waarde": 18.8,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Slowakije": {
+      "vei_teken": {
+        "waarde": 2.53,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 3,4 / 1,3 / 2,9 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels South Charleroi Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_South_Charleroi_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Bratislava: CRL-Bratislava (Ryanair, vaste lijn). Vliegtijd ca. 1u50 (geschat). Geen BRU-vlucht in tabel."
+      },
+      "reis_ov": {
+        "waarde": 21.5,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Italië": {
+      "vei_teken": {
+        "waarde": 0.1,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,1 / 0,0 / 0,2 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Rome: lijnvlucht BRU-Rome-Fiumicino (ITA, easyJet) en CRL-Rome (Ryanair). Vliegtijd ca. 2u (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 16.7,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "San Marino": {
+      "vei_teken": {
+        "waarde": 0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, TBE risicogebieden (regel uit model.json: geen risicogebied)",
+          "url": "https://www.ecdc.europa.eu/en/tick-borne-encephalitis",
+          "jaar": "2023"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Geen TBE-risicogebied volgens ECDC/WHO (regel); niet in de ECDC-tabel."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "San Marino heeft geen luchthaven. Bologna (BRU, Brussels Airlines, vaste lijn) ligt ca. 110 km ervandaan (afstand geschat)."
+      },
+      "reis_ov": {
+        "waarde": 16.7,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: IT (enige buurland). Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Malta": {
+      "vei_teken": {
+        "waarde": 0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel: 0 in 2022 (2018-2021 NDR). Geen risicogebied (regel): 0."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Valletta: lijnvlucht BRU-Malta (KM Malta Airlines) en CRL-Malta (Ryanair). Vliegtijd ca. 2u50 (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 19.7,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024. Geen treinwaarde (TRN) in de dataset; score 100 min CAR gebruikt."
+      }
+    },
+    "Kroatië": {
+      "vei_teken": {
+        "waarde": 0.33,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,3 / 0,1 / 0,6 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Zagreb: lijnvlucht BRU-Zagreb (Brussels Airlines, Croatia Airlines) en CRL-Zagreb (Ryanair). Vliegtijd ca. 2u (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 17.0,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Bosnië en Herzegovina": {
+      "vei_teken": {
+        "waarde": 0.33,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: buurland HR (enig buurland met bronwaarde)."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels South Charleroi Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_South_Charleroi_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Sarajevo: CRL-Ryanair staat alleen als 'seasonal' in de tabel; frequentie in juli onbekend. Score 80 onder voorbehoud."
+      },
+      "reis_ov": {
+        "waarde": 11.0,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gemiddelde van HR, RS en ME. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Montenegro": {
+      "vei_teken": {
+        "waarde": 0.33,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: buurland HR (enig buurland met bronwaarde)."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels South Charleroi Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_South_Charleroi_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Podgorica: CRL-Ryanair staat alleen als 'seasonal' in de tabel; frequentie in juli onbekend. Score 80 onder voorbehoud."
+      },
+      "reis_ov": {
+        "waarde": 2.2,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Servië": {
+      "vei_teken": {
+        "waarde": 0.13,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: gemiddelde buurlanden HU, RO, BG, HR."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Belgrado: lijnvlucht BRU-Belgrado (Air Serbia). Vliegtijd ca. 2u (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 13.8,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Kosovo": {
+      "vei_teken": {
+        "waarde": 0.15,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; geen buurland met bronwaarde. Ketenschatting: gemiddelde van geschatte buurlanden RS, ME en MK."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels South Charleroi Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_South_Charleroi_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Pristina: CRL-Wizz Air, nieuwe route vanaf 17 november 2026; frequentie onbekend. Score 80 onder voorbehoud."
+      },
+      "reis_ov": {
+        "waarde": 7.8,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gemiddelde van RS, ME en MK (AL niet in de lijst). Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Noord-Macedonië": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: gemiddelde buurlanden GR en BG."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels South Charleroi Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_South_Charleroi_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Skopje: CRL-Wizz Air, vaste lijn. Vliegtijd ca. 2u30 (geschat); frequentie niet in bron."
+      },
+      "reis_ov": {
+        "waarde": 7.4,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Griekenland": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020/2021/2022: 0,0 / 0,0 / 0,0 per 100.000; gemiddelde van de 3 jaar."
+      },
+      "reis_direct": {
+        "waarde": 60,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Athene: lijnvlucht BRU-Athene (Aegean) en CRL-Athene (Ryanair). Vliegtijd ca. 3u15 (boven 3u, geschat), daarom 60."
+      },
+      "reis_ov": {
+        "waarde": 15.9,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024. Eurostat-code EL voor Griekenland."
+      }
+    },
+    "Bulgarije": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "midden",
+        "opmerking": "ECDC-tabel 2020-2022: 0,0 per jaar (gemiddelde 2020-2022)."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Sofia: lijnvlucht BRU-Sofia (Bulgaria Air). Vliegtijd ca. 2u40 (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 11.2,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Cyprus": {
+      "vei_teken": {
+        "waarde": 0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, TBE risicogebieden (regel uit model.json: geen risicogebied)",
+          "url": "https://www.ecdc.europa.eu/en/tick-borne-encephalitis",
+          "jaar": "2023"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Cyprus: ECDC-tabel geeft NRC/NDR (geen rate). Geen TBE-risicogebied volgens de regel: 0."
+      },
+      "reis_direct": {
+        "waarde": 60,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Nicosia: Larnaca (BRU, Cyprus Airways, vaste lijn) ligt ca. 40 km van Nicosia. Vliegtijd ca. 4u30 (geschat), daarom 60."
+      },
+      "reis_ov": {
+        "waarde": 17.2,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024. Geen treinwaarde (TRN) in de dataset; score 100 min CAR gebruikt."
+      }
+    },
+    "Turkije": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: gemiddelde buurlanden met bronwaarde (GR, BG)."
+      },
+      "reis_direct": {
+        "waarde": 60,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Ankara: alleen seizoensvluchten (AJet, SunExpress vanuit BRU); vliegtijd boven 3u; frequentie onbekend."
+      },
+      "reis_ov": {
+        "waarde": 26.2,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Afgeleid: 100 min aandeel personenauto's (CAR) 2024."
+      }
+    },
+    "Moldavië": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: buurland RO (enig buurland met bronwaarde)."
+      },
+      "reis_direct": {
+        "waarde": 80,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Chisinau: lijnvlucht BRU-Chisinau (FlyOne) en CRL-Chisinau (Wizz Air). Vliegtijd ca. 2u50 (geschat)."
+      },
+      "reis_ov": {
+        "waarde": 17.9,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: RO (UA heeft geen waarde). Bus- en marshroetka-landen zijn waarschijnlijk te laag geschat. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Oekraïne": {
+      "vei_teken": {
+        "waarde": 0.83,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: gemiddelde buurlanden PL, SK, HU, RO."
+      },
+      "reis_direct": {
+        "waarde": 20,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Kyiv: geen lijndienst naar Kyiv in de bronnen. Omweg via Warschau (LOT, BRU-Warschau vaste lijn) plus bus of trein, geschat 12-24 u."
+      },
+      "reis_ov": {
+        "waarde": 22.88,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gemiddelde van PL, SK, HU en RO. Bus- en marshroetka-landen zijn waarschijnlijk te laag geschat. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Belarus": {
+      "vei_teken": {
+        "waarde": 9.02,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: gemiddelde buurlanden PL, LT, LV."
+      },
+      "reis_direct": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Minsk: geen lijndienst in de bronnen. Omweg via Vilnius (BRU-Vilnius) plus bus, een overstap, geschat ca. 8-10 u."
+      },
+      "reis_ov": {
+        "waarde": 14.83,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gemiddelde van PL, LT en LV. Bus- en marshroetka-landen zijn waarschijnlijk te laag geschat. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Rusland": {
+      "vei_teken": {
+        "waarde": 6.3,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; Rospotrebnadzor niet geraadpleegd. Ontbrekend-regel: gemiddelde buurlanden NO, FI, EE, LV, LT, PL. Waarschijnlijk te laag (in de meter verwacht hoog)."
+      },
+      "reis_direct": {
+        "waarde": 0,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Moskou: BRU-Moskou staat alleen als vracht (Suparna) in de tabel; geen passagierslijndienst. Score 0."
+      },
+      "reis_ov": {
+        "waarde": 14.55,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gemiddelde van NO, FI, EE, LV, LT en PL. Bus- en marshroetka-landen zijn waarschijnlijk te laag geschat. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Georgië": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: buurland TR (enig buurland met bronwaarde)."
+      },
+      "reis_direct": {
+        "waarde": 40,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Tbilisi: geen rechtstreekse vlucht in de bronnen. Omweg via Istanbul (BRU-Istanbul, Turkish Airlines) met vervolgvlucht, een overstap, geschat ca. 12 u."
+      },
+      "reis_ov": {
+        "waarde": 26.2,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gelijk aan TR (regel GE, AM, AZ = TR). Bus- en marshroetka-landen zijn waarschijnlijk te laag geschat. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Armenië": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: buurland TR (enig buurland met bronwaarde)."
+      },
+      "reis_direct": {
+        "waarde": 60,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "midden",
+        "opmerking": "Yerevan: lijnvlucht BRU-Yerevan (Brussels Airlines, FlyOne). Vliegtijd boven 4u (geschat), daarom 60; frequentie niet in bron."
+      },
+      "reis_ov": {
+        "waarde": 26.2,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gelijk aan TR (regel GE, AM, AZ = TR). Bus- en marshroetka-landen zijn waarschijnlijk te laag geschat. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    },
+    "Azerbeidzjan": {
+      "vei_teken": {
+        "waarde": 0.0,
+        "eenheid": "gevallen per 100.000 inwoners per jaar",
+        "bron": {
+          "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022, tabel 1",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+          "jaar": "2020-2022"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Niet in ECDC-tabel; nationaal instituut niet geraadpleegd. Ontbrekend-regel: buurland TR (enig buurland met bronwaarde). Caucasus-buren RU, GE en AM hebben geen bronwaarde."
+      },
+      "reis_direct": {
+        "waarde": 60,
+        "eenheid": "niveau 0 tot 100 (rubriek)",
+        "bron": {
+          "naam": "Wikipedia: Brussels Airport, tabel Airlines and destinations",
+          "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+          "jaar": "2026"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Baku: Azerbaijan Airlines vanaf BRU vanaf 8 mei 2027; vliegtijd boven 3u; frequentie onbekend."
+      },
+      "reis_ov": {
+        "waarde": 26.2,
+        "eenheid": "% van het personenvervoer per bus of trein",
+        "bron": {
+          "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer, 2024: 100 min CAR)",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+          "jaar": "2024"
+        },
+        "zekerheid": "laag",
+        "opmerking": "Geen Eurostat-waarde. Ontbrekend-regel: gelijk aan TR (regel GE, AM, AZ = TR). Bus- en marshroetka-landen zijn waarschijnlijk te laag geschat. Wereldbank IS.RRS.PASG.KM is alleen spoor en niet bruikbaar als bus/auto-aandeel."
+      }
+    }
+  },
+  "bronnenlijst": [
+    {
+      "naam": "ECDC, Tick-borne encephalitis Annual Epidemiological Report 2022 (tabel 1: rates 2018-2022)",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/tick-borne-encephalitis-annual-epidemiological-report-2022",
+      "wat": "Notification rates per land 2020-2022 (gemiddelde), EU/EEA; basis vei_teken"
+    },
+    {
+      "naam": "ECDC, Notification rates of locally-acquired TBE cases 2023 (kaart)",
+      "url": "https://www.ecdc.europa.eu/en/publications-data/notification-rates-locally-acquired-tick-borne-encephalitis-cases-reported-2023",
+      "wat": "Geraadpleegd: alleen klassen per regio, geen landwaarden; niet gebruikt als waarde"
+    },
+    {
+      "naam": "ECDC, Tick-borne encephalitis (pagina)",
+      "url": "https://www.ecdc.europa.eu/en/tick-borne-encephalitis",
+      "wat": "Geraadpleegd voor risicogebieden"
+    },
+    {
+      "naam": "Eurostat, tran_hv_psmod (modal split personenvervoer)",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tran_hv_psmod?format=JSON&lang=EN&unit=PC&sinceTimePeriod=2021",
+      "wat": "Basis reis_ov (2024, 100 min CAR); controlegetallen PT, CH, TR gecontroleerd"
+    },
+    {
+      "naam": "Wereldbank WDI, IS.RRS.PASG.KM (reizigerskilometers per spoor)",
+      "url": "https://api.worldbank.org/v2/country/PRT;ESP;AND;FRA;GBR;IRL;ISL;NLD;LUX;DEU;DNK;NOR;SWE;FIN;EST;LVA;LTU;CHE;LIE;AUT;CZE;SVK;ITA;SMR;MLT;HRV;BIH;MNE;SRB;XKX;MKD;GRC;BGR;CYP;TUR;MDA;UKR;BLR;RUS;GEO;ARM;AZE/indicator/IS.RRS.PASG.KM?format=json&date=2015:2024&mrnev=1&per_page=100",
+      "wat": "Geraadpleegd; alleen spoor, niet als waarde gebruikt"
+    },
+    {
+      "naam": "Wikipedia: Brussels Airport (Airlines and destinations)",
+      "url": "https://en.wikipedia.org/wiki/Brussels_Airport",
+      "wat": "Basis reis_direct (vluchten vanaf BRU)"
+    },
+    {
+      "naam": "Wikipedia: Brussels South Charleroi Airport (Airlines and destinations)",
+      "url": "https://en.wikipedia.org/wiki/Brussels_South_Charleroi_Airport",
+      "wat": "Basis reis_direct (vluchten vanaf CRL)"
+    },
+    {
+      "naam": "Seat61, Belgium (treinreizen vanuit Brussel)",
+      "url": "https://www.seat61.com/Belgium.htm",
+      "wat": "Basis reis_direct (treinen: Londen, Amsterdam, Luxemburg)"
+    }
+  ],
+  "problemen": [
+    "vei_teken: de ECDC-kaart 2023 is een afbeelding met klassen per regio; geen exacte landwaarden. Gebruikt: ECDC AER 2022, tabel 1, gemiddelde 2020-2022.",
+    "vei_teken: Letland 2022 is NDR; gemiddelde over 2019-2021. Liechtenstein 2020 NDR; gemiddelde over 2021-2022. IJsland en Malta enkel 2022 beschikbaar.",
+    "vei_teken: Nederland heeft geen ECDC-rate (NRC); ontbrekend-regel toegepast. Niet-ECDC-landen (CH, BA, ME, RS, XK, MK, TR, MD, UA, BY, RU, GE, AM, AZ) zijn zonder nationaal instituut geschat (zekerheid laag); de nationale bronnen (BAG, Rospotrebnadzor e.a.) zijn niet geraadpleegd omdat er geen URL in de opdracht stond en WebSearch niet is gebruikt.",
+    "reis_ov: 29 landen uit Eurostat (GR als EL). GB heeft in de dataset geen 2024-waarde; 13 landen via ontbrekend-regel (buurlanden, laag). Wereldbank-spoordata geeft geen bus/auto-aandeel en is niet gebruikt als waarde.",
+    "reis_direct: Wikipedia-tabellen geven geen frequenties of vliegtijden; die zijn geschat op afstand (zekerheid midden/laag). Zomer 2027-dienstregeling niet bevestigd. Treinen buiten Londen, Amsterdam en Luxemburg niet in de bron geverifieerd (Seat61-pagina per bestemming niet bekeken).",
+    "reis_direct: Parijs (100) berust op een bekende rechtstreekse Eurostat-trein die niet in de gebruikte bron staat; zonder die trein zou de score 80 zijn.",
+    "reis_direct: Kyiv, Minsk, Moskou en Tbilisi hebben geen rechtstreekse lijndienst in de bronnen; scores 0-40 zijn geschat (laag). Ankara, Baku, Pristina, Sarajevo en Podgorica zijn alleen seizoens- of nieuwe routes; frequentie onbekend."
+  ]
+}
