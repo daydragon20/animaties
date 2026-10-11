@@ -1,0 +1,175 @@
+{
+  "ronde": 1,
+  "pakket": "p06",
+  "datum": "2026-10-11",
+  "landen": {
+    "Portugal": {
+      "kamp_groepsterrein": { "waarde": 75, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "CNE Diretório Centros e Campos Escutistas", "url": "https://centros.escutismo.pt/diretorio/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A ja: directory toont 15 campos met Acampamento/Acantonamento op pagina 1 (3 pagina's). B ja: Campo Escutista de Tavira, CNAE Idanha-a-Nova en Campo Escola de Fraião gezien in de directory; contact uit referentie (Tavira-pagina gaf 503). C ja: Drave Scout Centre op SCENES (https://www.scout.org/SCENES). D nee: niet onderzocht." }
+    },
+    "Spanje": {
+      "kamp_groepsterrein": { "waarde": 75, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Fundació Escolta Josep Carol – terrenys d'acampada", "url": "https://www.josepcarol.cat/acampada/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A ja: 16 terrenys in de lijst (zelf gezien). B ja: Dègons, Mas Ciutadia, La Riba en Les Vinyes met prijs; contact fundacio@josepcarol.cat en 932 689 111 op de site (gezien). C ja (midden): Griebal Scout Centre (ASDE-Scouts de Aragón) biedt acampada aan (https://griebal.org/); teller 'visitantes extranjeros' stond op 0; geen Spaans centrum op SCENES. D nee: niet onderzocht." }
+    },
+    "Andorra": {
+      "kamp_groepsterrein": { "waarde": 75, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Spanje", "url": "https://www.josepcarol.cat/acampada/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht. Ontbrekend-regel: niveau van het meest vergelijkbare buurland (Spanje, Catalaans scoutsnetwerk), score 75. Niet gecontroleerd; zeer onzeker." }
+    },
+    "Frankrijk": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "SGDF Domaine de Jambville + gruppenhaus.de", "url": "https://jambville.sgdf.fr/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A nee: geen lijst van >=10 jeugdkampterreinen gevonden. B ja: Jambville (boekingsformulier, tent onder de sterren; prijs niet getoond); Pfadfinder Kanucamp Tarnschlucht (70 plaatsen, vanaf 6,50 EUR p.p., gezien op https://www.gruppenhaus.de/pfadfinder-kanucamp-tarnschlucht-pfadfinderzeltplatz-in-suedfrankreich-montbrun-hs10532.html); Camp Allemand en Naturoase Tendon uit referentie. C ja: Jambville is SGDF-centrum op SCENES (gezien); buitenlandse groepen niet expliciet gelezen. D nee: niet onderzocht." }
+    },
+    "Verenigd Koninkrijk": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "SCENES-lijst (Brownsea Island) + scouts.org.uk-referentie", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "A nee: scouts.org.uk-lijst niet leesbaar (WebFetch 403; web.archive-kopie gaf verbindingsfout). B ja (voorstel overgenomen): Fordell Firs, Meggernie en Great Tower uit referentie, niet zelf geopend. C ja: Brownsea Island op SCENES (gezien). D nee: niet onderzocht." }
+    },
+    "Ierland": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Scouting Ireland – nationale scoutcentra + SCENES", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A nee: natcentres.ie 'Network Campsites List' toont geen telbare lijst (alleen de 4 nationale centra genoemd). B ja (midden): Larch Hill, Lough Dan en Castle Saunderson uit referentie; scouts.ie-listing gaf 404, niet zelf geopend. C ja: alle 3 op SCENES (gezien). D nee: niet onderzocht." }
+    },
+    "IJsland": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Úlfljótsvatn Scout Centre – International Scouts", "url": "https://ulfljotsvatn.is/international-scouts/", "jaar": "2027" }, "zekerheid": "midden", "opmerking": "A nee: geen lijst gevonden. B nee: 1 terrein (Úlfljótsvatn) gezien. C ja: eigen pagina 'International Scouts' met tentenverhuur en boeking (ulfljotsvatn@skatar.is); domein skatar.is; letterlijk als centrum van de nationale organisatie niet vermeld. D nee: niet onderzocht." }
+    },
+    "Nederland": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "WOSM SCENES-lijst + terreinen Scouting Nederland", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A nee: lijst op scouting.nl niet te tellen. B ja: Scouting Kampeerterrein Staelduin (11 kampeervelden, online reservering; https://staelduin.scouting.nl/ gezien) en Scouting Campsite St. Walrick (26 kampeervelden, online reservering; https://www.stwalrick.nl/en/ gezien); Ada's Hoeve en Zeewolde uit referentie. C ja: 7 NL-centra op SCENES (gezien). D nee: niet onderzocht." }
+    },
+    "Luxemburg": {
+      "kamp_groepsterrein": { "waarde": 75, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "chalets.lu (jeugdaccommodaties SNJ/LGS/FNEL)", "url": "https://chalets.lu/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A ja: chalets.lu toont 55 jeugdaccommodaties (met 'Afficher plus'); meerdere met terrain de camping gezien; referentie noemt 23. B ja: Fënsterdall (50 p.), Wiltz (700 p.), Beim Bëschhaus, St Benoit Clervaux, Chalet/Terrain Rollinger (100 p.) en Relais et Terrain de l'Amitié (120 p.) gezien; contact per profiel niet geopend. C ja: Misaershaff en Neihaischen op SCENES (gezien). D nee: niet onderzocht." }
+    },
+    "Duitsland": {
+      "kamp_groepsterrein": { "waarde": 75, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "gruppenhaus.de Zeltplatz-overzicht", "url": "https://www.gruppenhaus.de/zeltplatz.html", "jaar": "2026" }, "zekerheid": "hoog", "opmerking": "A ja: 'Treffer: 546 Zeltplätze' gezien. B ja: Jugendzeltplatz Hollfeld (ab 5 EUR), Pöhlde, Joshofen, Hilst, Breitenbrunn en Pfadfinderheim Rachtig met prijs gezien. C ja: Zentrum Pfadfinden Immenhausen, VCP-centrum en Westernohe op SCENES (gezien). D nee: gruppenhaus is een groepsportaal, geen campingportaal; niet als campingvoorziening gelezen." }
+    },
+    "Denemarken": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Houens Odde International Scout Centre", "url": "https://houensodde.dk/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A nee: niet geteld. B ja: Houens Odde (online boeking van shelters en teltpladser, telefoon en e-mail gezien); Næsbycentret en Stevninghus uit referentie; Trevældcentret gaf 503. C ja: 4 DK-centra op SCENES (gezien). D nee: niet onderzocht." }
+    },
+    "Noorwegen": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Norges speiderforbund – Tredalen", "url": "https://speiding.no/om-oss/generelt/vare-eiendommer/nye-eventyr-pa-tredalen/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A nee: speiding.no is een Angular-app zonder telbare lijst. B ja: Tredalen (4 leirplasser, ca. 100 tentplaatsen per veld, telefoon en e-mail gezien) en Leikvinjar (20+ tenten, weekendprijs 3800-5800 NOK, https://vestmarka.speiding.no/leikvinjar/ gezien); Nordtangen en Kvamsøy uit referentie. C ja: Tredalen wordt verhuurd aan 'medlemmer ... og ikke-medlemmer' van NSF (gezien); buitenlandse groepen niet expliciet. D nee: niet onderzocht." }
+    },
+    "Zweden": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Scouterna – international exchange / scoutstuga.se", "url": "https://www.scouterna.se/languages/english/international-exchange/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A ja (midden): Scouterna noemt ~1000 lokale groepen met scoutstugor en verwijst naar het register scoutstuga.se (gezien); aantal kampterreinen niet geteld. B ja: Vässarö (255 kr p.p./dag, zomer 2027, verhuur aan scoutgroepen; https://vassaro.se/lager/scoutlager/ gezien; eigenaar Stockholms Scoutdistrikt); Kopparbo en Scout Camp Ransberg uit referentie. C nee: Vässarö is van een district, niet van de nationale organisatie; de Scouterna-pagina noemt lokale groepen en geen buitenlandse groepen; referentie-claim over Azimuth niet bevestigd. D nee: niet onderzocht." }
+    },
+    "Finland": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Suomen Partiolaiset – Hämeen partiopiiri, Vaakaniemi", "url": "https://hp.partio.fi/hameen-partiopiiri/kokoustilat-ja-leirialueet/vaakaniemi/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A nee: lijsten per piiri, geen landelijke databank van >=10 gevonden. B ja: Vaakaniemi (tentplaatsen voor >500, boekingscontact partiotoimisto.tampere@partio.fi; gezien); Pajaniemi, Lapinhäme en Ruislehdonmäki uit referentie. C nee (niet bevestigd): Evon (https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/ulkoilu-ja-retkeily/evon-ja-taruksen-retkeilyalueet/) beschrijft Finnjamboree-kampen met buitenlandse deelnemers, maar geen vaste verhuur van de nationale organisatie; Yle-bron uit referentie niet opnieuw geopend. D nee: niet onderzocht." }
+    },
+    "Estland": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Tagametsa Jahiloss ja Skaudilaagrikeskus", "url": "http://tagametsa.ee/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A nee: geen lijst van >=10 gevonden. B nee: 1 terrein (Tagametsa) gezien. C nee: eigendom van Eesti Skautide Ühing (1999) en camps genoemd, maar geen verhuur aan buitenlandse groepen gelezen; referentie was 'ruim gelezen' (nu strikt). D nee: niet onderzocht." }
+    },
+    "Letland": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "WOSM SCENES-lijst (geen Letse centra)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Voorstel overgenomen: A, B, C en D nee. SCENES toont geen Letse centra (gezien). Referentie-URL's niet opnieuw gecontroleerd; 0 omdat geen enkel criterium met bewijs is vervuld." }
+    },
+    "Litouwen": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "WOSM SCENES-lijst (Scout Valley)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A nee: VMU-databank is geen lijst van jeugdkampterreinen. B nee: 2 locaties van Scout Valley (Woodside, Lakeside) gezien, geen derde terrein. C ja: Scout Valley op SCENES (gezien). D nee: niet onderzocht." }
+    },
+    "Zwitserland": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Kandersteg International Scout Centre (SCENES)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A nee: pfadiheime.ch gaf 403. B nee: alleen KISC is als terrein gelezen; geen drie terreinen bevestigd. C ja: KISC op SCENES (gezien). D nee: niet onderzocht." }
+    },
+    "Liechtenstein": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Pfadfinder und Pfadfinderinnen Liechtensteins – Lagerplatz Oberäckerle", "url": "https://pfadi.li/organisation/lagerplaetzeheime/lagerplatz-oberaeckerle", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "B: Oberäckerle zelf gezien (Vermietung ja, CHF 3 p.p./nacht, contact Gemeinde Balzers); Dux en Obere Burg uit referentie, niet opnieuw geopend (pfadi.li-overzicht gaf geen lijst). A nee: 17 vermeldingen in referentie, niet bevestigd. C nee: Lagerplätze van gemeenten en afdelingen, geen nationaal scoutscentrum gevonden. D nee: niet onderzocht." }
+    },
+    "Oostenrijk": {
+      "kamp_groepsterrein": { "waarde": 75, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "PPOE – PfadfinderInnen-Lagerplätze in Österreich", "url": "https://ppoe.at/lagerplaetze/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A ja (midden): lijst van 11 centra/Lagerplätze gezien; zes met expliciete camp- of Zeltplatzcapaciteit. B ja: Pfadfinderdorf Zellhof (Lagerplatz 7,10 EUR p.p./nacht in 2027, https://www.zellhof.at/buchung/preise/ gezien), Scout Camp Austria (Zeltplatz 50.000 m2) en Techuana (kampeerdelen) gezien. C ja: Wassergspreng, Zellhof en Techuana op SCENES (gezien). D nee: niet onderzocht." }
+    },
+    "Tsjechië": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Junák – Databáze základen", "url": "https://zakladny.skaut.cz/", "jaar": "2026" }, "zekerheid": "midden", "opmerking": "A ja (midden): database met 400 scoutsbases en tábořiště (filter Tábořiště gezien); aantal tábořiště niet apart geteld. B nee: alleen Kaprálův mlýn met contact en prijs bevestigd. C ja: Kaprálův mlýn (Scout Environmental Education Centre) op SCENES (gezien). D nee: niet onderzocht." }
+    },
+    "Slowakije": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Slovenský skauting – Odporúčané ubytovanie", "url": "https://www.skauting.sk/kontakt/odporucame/ubytovanie/", "jaar": "2026" }, "zekerheid": "hoog", "opmerking": "A nee: 3 voorzieningen op de pagina, geen lijst van >=10. B nee: Hodruša en Chata Kanné gezien (2 terreinen, geen derde). C ja: pagina zegt 'pre skautov i neskautov, slovenských i zahraničných' (gezien). D nee: niet onderzocht." }
+    },
+    "Italië": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Piazzole (Fondazione San Giorgio) en Campi Scout La Selva", "url": "https://www.piazzole.org/", "jaar": "2026" }, "zekerheid": "hoog", "opmerking": "A nee: AGESCI gaf connection reset; geen lijst gezien. B ja: Campi Scout La Selva (40+ kampplaatsen, contact, https://www.campiscout.it/ gezien) en piazzole.org met 4 bases (Piazzole, Brominetto, Carvanno, Cler) met booking en contact (gezien). C ja: Base Scout Piazzole op SCENES (gezien). D nee: niet onderzocht." }
+    },
+    "San Marino": {
+      "kamp_groepsterrein": { "waarde": 50, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Italië", "url": "https://www.piazzole.org/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht (microstaat). Ontbrekend-regel: niveau van het enige buurland Italië (score 50). Niet gecontroleerd; zeer onzeker." }
+    },
+    "Malta": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "The Scout Association of Malta – Where to Stay", "url": "https://scouts.mt/about-us/where-to-stay/", "jaar": "2026" }, "zekerheid": "hoog", "opmerking": "A nee: 2 centra genoemd. B nee: 2 centra (Għajn Tuffieħa, Rinella) gezien. C ja: Għajn Tuffieħa als 'International Scout Centre' en Rinella voor local en international scouts (gezien). D nee: niet onderzocht." }
+    },
+    "Kroatië": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "izvidjaci.hr (niet bereikbaar) en SCENES-lijst", "url": "https://izvidjaci.hr/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen criterium met bewijs: izvidjaci.hr gaf DNS-fout (ENOTFOUND); SCENES toont geen Kroatisch centrum (gezien); gruppenhaus toont alleen commerciële Zeltcamps (referentie). 0 als niet vervuld." }
+    },
+    "Bosnië en Herzegovina": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Kroatië", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht; geen Bosnische scoutssite of SCENES-centrum gevonden (SCENES gezien). Ontbrekend-regel: buurland Kroatië (score 0)." }
+    },
+    "Montenegro": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Kroatië", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Ontbrekend-regel: buurland Kroatië (score 0)." }
+    },
+    "Servië": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurlanden BA, ME, MK, XK, BG", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Alle in de lijst voorkomende buurlanden hebben 0 zonder eigen bewijs; 0." }
+    },
+    "Kosovo": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurlanden RS, MK, ME", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Buurlanden hebben 0 zonder eigen bewijs; 0." }
+    },
+    "Noord-Macedonië": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurlanden GR, BG, RS, XK", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Buurlanden hebben 0 zonder eigen bewijs; 0." }
+    },
+    "Griekenland": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurlanden BG, MK (sep.gr niet bruikbaar)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "sep.gr-URL uit de referentie is een uitgeverij, geen scoutssite; SCENES toont geen Grieks centrum (gezien). Buurlanden hebben 0 zonder eigen bewijs; 0." }
+    },
+    "Bulgarije": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurlanden GR, MK, RS", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Buurlanden hebben 0 zonder eigen bewijs; 0." }
+    },
+    "Cyprus": {
+      "kamp_groepsterrein": { "waarde": 0, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Griekenland (eiland, veerboot)", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Ontbrekend-regel: Griekenland (score 0)." }
+    },
+    "Turkije": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Georgië", "url": "https://iscr.ge/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Enige in de lijst voorkomende buurland met eigen bewijs is Georgië (score 25); ontbrekend-regel toegepast. Zeer onzeker, Georgië is geen vergelijkbaar land." }
+    },
+    "Moldavië": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Oekraïne", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Ontbrekend-regel: buurland Oekraïne (score 25, zelf ontbrekend-regel)." }
+    },
+    "Oekraïne": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Slowakije", "url": "https://www.skauting.sk/kontakt/odporucame/ubytovanie/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht wegens reisadvies (FOD: alle reizen afgeraden). Ontbrekend-regel: buurland Slowakije (score 25). Knock-out in model.json; waarde blijft voor latere afval." }
+    },
+    "Belarus": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Litouwen", "url": "https://www.scout.org/SCENES", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht wegens reisadvies (FOD: alle reizen afgeraden). Ontbrekend-regel: buurland Litouwen (score 25). Knock-out in model.json." }
+    },
+    "Rusland": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Finland", "url": "https://hp.partio.fi/hameen-partiopiiri/kokoustilat-ja-leirialueet/vaakaniemi/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Niet onderzocht wegens reisadvies (FOD: alle reizen afgeraden). Ontbrekend-regel: buurland met langste grens, Finland (score 25). Knock-out in model.json." }
+    },
+    "Georgië": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "International Scout Centre Rustavi (ISCR)", "url": "https://iscr.ge/stay-at-iscr/rustavi/accomodation/", "jaar": "2015-2018 (copyright site)" }, "zekerheid": "laag", "opmerking": "A nee: geen lijst gevonden. B ja (laag): Rustavi (kamp voor 300 personen, contact via contactpagina; gezien); Pona en Chinti uit referentie. C nee: ISCR wordt beheerd door de Caucasus Cooperation Foundation for Youth Development, niet door de nationale scoutsorganisatie; niet op SCENES (gezien); site copyright 2015-2018. D nee: niet onderzocht." }
+    },
+    "Armenië": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Georgië", "url": "https://iscr.ge/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht. Ontbrekend-regel: buurland Georgië (score 25). Niet gecontroleerd." }
+    },
+    "Azerbeidzjan": {
+      "kamp_groepsterrein": { "waarde": 25, "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)", "bron": { "naam": "Ontbrekend-regel: buurland Georgië", "url": "https://iscr.ge/", "jaar": "2026" }, "zekerheid": "laag", "opmerking": "Geen referentie en niet onderzocht. Ontbrekend-regel: buurland Georgië (score 25). Niet gecontroleerd." }
+    }
+  },
+  "bronnenlijst": [
+    { "naam": "WOSM SCENES-lijst van scoutscentra", "url": "https://www.scout.org/SCENES", "wat": "Criterium C per land (gezien: PT, FR, GB, IE, NL, LU, DE, DK, LT, CH, AT, CZ, IT, MT)" },
+    { "naam": "gruppenhaus.de Zeltplatz-overzicht", "url": "https://www.gruppenhaus.de/zeltplatz.html", "wat": "Criterium A en B voor Duitsland (546 Zeltplätze, prijzen)" },
+    { "naam": "gruppenhaus.de Pfadfinder Kanucamp Tarnschlucht", "url": "https://www.gruppenhaus.de/pfadfinder-kanucamp-tarnschlucht-pfadfinderzeltplatz-in-suedfrankreich-montbrun-hs10532.html", "wat": "Criterium B voor Frankrijk" },
+    { "naam": "CNE Diretório Centros e Campos Escutistas", "url": "https://centros.escutismo.pt/diretorio/", "wat": "Criterium A voor Portugal" },
+    { "naam": "Fundació Escolta Josep Carol – terrenys d'acampada", "url": "https://www.josepcarol.cat/acampada/", "wat": "Criterium A en B voor Spanje" },
+    { "naam": "Griebal Scout Centre (ASDE-Scouts de Aragón)", "url": "https://griebal.org/", "wat": "Criterium C voor Spanje (midden)" },
+    { "naam": "SGDF Domaine de Jambville", "url": "https://jambville.sgdf.fr/", "wat": "Criterium B en C voor Frankrijk" },
+    { "naam": "Úlfljótsvatn Scout Centre – International Scouts", "url": "https://ulfljotsvatn.is/international-scouts/", "wat": "Criterium C voor IJsland" },
+    { "naam": "Scouting Kampeerterrein Staelduin", "url": "https://staelduin.scouting.nl/", "wat": "Criterium B voor Nederland" },
+    { "naam": "Scouting Campsite St. Walrick", "url": "https://www.stwalrick.nl/en/", "wat": "Criterium B voor Nederland" },
+    { "naam": "chalets.lu (jeugdaccommodaties)", "url": "https://chalets.lu/", "wat": "Criterium A en B voor Luxemburg" },
+    { "naam": "Houens Odde International Scout Centre", "url": "https://houensodde.dk/", "wat": "Criterium B voor Denemarken" },
+    { "naam": "Norges speiderforbund – Tredalen", "url": "https://speiding.no/om-oss/generelt/vare-eiendommer/nye-eventyr-pa-tredalen/", "wat": "Criterium B en C voor Noorwegen" },
+    { "naam": "Vestmarka krets – Leikvinjar", "url": "https://vestmarka.speiding.no/leikvinjar/", "wat": "Criterium B voor Noorwegen" },
+    { "naam": "Scouterna – international exchange", "url": "https://www.scouterna.se/languages/english/international-exchange/", "wat": "Criterium A (register) en C-check voor Zweden" },
+    { "naam": "Vässarö (Stockholms Scoutdistrikt)", "url": "https://vassaro.se/lager/scoutlager/", "wat": "Criterium B en C-check voor Zweden" },
+    { "naam": "Hämeen partiopiiri – Vaakaniemi", "url": "https://hp.partio.fi/hameen-partiopiiri/kokoustilat-ja-leirialueet/vaakaniemi/", "wat": "Criterium B voor Finland" },
+    { "naam": "Evon retkeilyalue (Hämeenlinna)", "url": "https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/ulkoilu-ja-retkeily/evon-ja-taruksen-retkeilyalueet/", "wat": "Criterium C-check voor Finland (niet bevestigd)" },
+    { "naam": "Tagametsa Jahiloss ja Skaudilaagrikeskus", "url": "http://tagametsa.ee/", "wat": "Criterium C-check voor Estland" },
+    { "naam": "Pfadi Liechtenstein – Lagerplatz Oberäckerle", "url": "https://pfadi.li/organisation/lagerplaetzeheime/lagerplatz-oberaeckerle", "wat": "Criterium B voor Liechtenstein (1 terrein)" },
+    { "naam": "PPOE – PfadfinderInnen-Lagerplätze in Österreich", "url": "https://ppoe.at/lagerplaetze/", "wat": "Criterium A en B voor Oostenrijk" },
+    { "naam": "Zellhof – Preise", "url": "https://www.zellhof.at/buchung/preise/", "wat": "Criterium B (prijzen) voor Oostenrijk" },
+    { "naam": "Junák – Databáze základen", "url": "https://zakladny.skaut.cz/", "wat": "Criterium A voor Tsjechië" },
+    { "naam": "Slovenský skauting – Odporúčané ubytovanie", "url": "https://www.skauting.sk/kontakt/odporucame/ubytovanie/", "wat": "Criterium C voor Slowakije" },
+    { "naam": "Piazzole (Fondazione San Giorgio)", "url": "https://www.piazzole.org/", "wat": "Criterium B voor Italië" },
+    { "naam": "Campi Scout La Selva", "url": "https://www.campiscout.it/", "wat": "Criterium B voor Italië" },
+    { "naam": "The Scout Association of Malta – Where to Stay", "url": "https://scouts.mt/about-us/where-to-stay/", "wat": "Criterium B en C voor Malta" },
+    { "naam": "International Scout Centre Rustavi (ISCR)", "url": "https://iscr.ge/stay-at-iscr/rustavi/accomodation/", "wat": "Criterium B en C-check voor Georgië" }
+  ],
+  "problemen": [
+    "Oneven-ronde-bronnen: gruppenhaus.de gaf eerst 429 (niet na 20 s gewacht, daarna opnieuw geopend en gelukt); Jambville en pfadi.li werkten met de hoofd-URL's uit de referentie.",
+    "WebFetch weigert web.archive.org; curl naar de archiefkopie van scouts.org.uk gaf de eerste keer 200 en de tweede keer een verbindingsreset. Criterium A voor Verenigd Koninkrijk daarom niet gecontroleerd en het voorstel is overgenomen (laag).",
+    "pfadi.li overzichtspagina (Liechtenstein) toonde geen lijst; alleen Oberäckerle zelf gezien. Dux en Obere Burg uit referentie, daarom laag.",
+    "scouts.ie/scout-centres gaf 404; natcentres.ie toont geen telbare Network-lijst (A nee). Larch Hill, Lough Dan en Castle Saunderson via SCENES bevestigd, de eigen sites niet.",
+    "Trevældcentret (DK) en Tavira (PT) gaven 503; izvidjaci.hr (HR) geeft DNS-fout; sep.gr-URL uit de referentie is een uitgeverij, geen scoutssite.",
+    "C voor Finland, Estland en Zweden niet bevestigd: Evon, Tagametsa en Vässarö/Scouterna noemen geen verhuur aan buitenlandse groepen door de nationale organisatie. Strikt gelezen, ik heb de referentie-claims daarom bijgesteld (FI 50 naar 25, EE 25 naar 0, SE 75 naar 50).",
+    "C voor Georgië niet bevestigd: ISCR wordt door CCFYD beheerd, niet door de nationale scoutsorganisatie. Daarom GE van 50 naar 25 bijgesteld.",
+    "Landen zonder referentie (AD, SM, BA, ME, RS, XK, MK, GR, BG, CY, TR, MD, UA, BY, RU, AM, AZ): ontbrekend-regel toegepast (buurland). Keten van buurlanden: Turkije, Moldavië, Oekraïne, Belarus, Rusland, Armenië en Azerbeidzjan krijgen daardoor een score die ik niet zelf heb gemeten; Turkije op basis van Georgië is zeer onzeker.",
+    "Budget per land: maximaal 2 opvragingen gehouden; per land zijn daardoor niet alle referentie-terreinen geopend. Voor een deel van de B-criteria is de telling (3 terreinen) gedeeltelijk op referentie gebaseerd en daarom midden of laag.",
+    "Per abuis is een niet-relevante pagina opgevraagd (eesti.ee); die bevatte een instructie die ik genegeerd heb. Het resultaat is niet gebruikt."
+  ]
+}
