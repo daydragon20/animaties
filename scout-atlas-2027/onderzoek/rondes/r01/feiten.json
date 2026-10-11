@@ -1,7 +1,7 @@
 {
  "ronde": 1,
  "datum": "2026-10-11",
- "bron": "samengevoegd uit pakket-p01.json, pakket-p02.json, pakket-p03.json, pakket-p04.json, pakket-p05.json, pakket-p07.json, pakket-p08.json, pakket-p09.json, pakket-p10.json, pakket-p11.json, pakket-p12.json",
+ "bron": "samengevoegd uit pakket-p01.json, pakket-p02.json, pakket-p03.json, pakket-p04.json, pakket-p05.json, pakket-p06.json, pakket-p07.json, pakket-p08.json, pakket-p09.json, pakket-p10.json, pakket-p11.json, pakket-p12.json",
  "landen": {
   "Portugal": {
    "kost_voeding": {
@@ -168,6 +168,17 @@
     },
     "zekerheid": "hoog",
     "opmerking": "Periodo crítico 1 juli-30 september: vuur maken (fogueiras) in bos en veld verboden, ook buiten die dagen bij zeer hoog risico; vuur alleen op toegestane plaatsen. Voorstel 50 bevestigd."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 75,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "CNE Diretório Centros e Campos Escutistas",
+     "url": "https://centros.escutismo.pt/diretorio/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A ja: directory toont 15 campos met Acampamento/Acantonamento op pagina 1 (3 pagina's). B ja: Campo Escutista de Tavira, CNAE Idanha-a-Nova en Campo Escola de Fraião gezien in de directory; contact uit referentie (Tavira-pagina gaf 503). C ja: Drave Scout Centre op SCENES (https://www.scout.org/SCENES). D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.427,
@@ -512,6 +523,17 @@
     "zekerheid": "laag",
     "opmerking": "Art. 67 d/e: gebruik van vuur in bossen onder niet-toegestane voorwaarden, tijden of plaatsen is overtreding. Regionale 'épocas de peligro' (zomer) niet geopend en niet in de geopende tekst gevonden. Voorstel 50 overgenomen."
    },
+   "kamp_groepsterrein": {
+    "waarde": 75,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Fundació Escolta Josep Carol – terrenys d'acampada",
+     "url": "https://www.josepcarol.cat/acampada/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A ja: 16 terrenys in de lijst (zelf gezien). B ja: Dègons, Mas Ciutadia, La Riba en Les Vinyes met prijs; contact fundacio@josepcarol.cat en 932 689 111 op de site (gezien). C ja (midden): Griebal Scout Centre (ASDE-Scouts de Aragón) biedt acampada aan (https://griebal.org/); teller 'visitantes extranjeros' stond op 0; geen Spaans centrum op SCENES. D nee: niet onderzocht."
+   },
    "vei_vrede": {
     "waarde": 1.654,
     "eenheid": "GPI-score (1 tot 5)",
@@ -854,6 +876,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Pagina bevat geen regels over open vuur. Voorstel afgeleid van Spanje/Frankrijk overgenomen."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 75,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Spanje",
+     "url": "https://www.josepcarol.cat/acampada/",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht. Ontbrekend-regel: niveau van het meest vergelijkbare buurland (Spanje, Catalaans scoutsnetwerk), score 75. Niet gecontroleerd; zeer onzeker."
    },
    "vei_vrede": {
     "waarde": 1.8685,
@@ -1198,6 +1231,17 @@
     "zekerheid": "midden",
     "opmerking": "Verbiedt vuur (ook kook- en veillée-vuren) in en binnen 200 m van bossen in juli 2026, op grond van art. L.131-6 Code forestier. Yvelines: jaarlijks verbod in en binnen 200 m van bossen. Verschilt per departement. Voorstel 75 bevestigd."
    },
+   "kamp_groepsterrein": {
+    "waarde": 50,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "SGDF Domaine de Jambville + gruppenhaus.de",
+     "url": "https://jambville.sgdf.fr/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A nee: geen lijst van >=10 jeugdkampterreinen gevonden. B ja: Jambville (boekingsformulier, tent onder de sterren; prijs niet getoond); Pfadfinder Kanucamp Tarnschlucht (70 plaatsen, vanaf 6,50 EUR p.p., gezien op https://www.gruppenhaus.de/pfadfinder-kanucamp-tarnschlucht-pfadfinderzeltplatz-in-suedfrankreich-montbrun-hs10532.html); Camp Allemand en Naturoase Tendon uit referentie. C ja: Jambville is SGDF-centrum op SCENES (gezien); buitenlandse groepen niet expliciet gelezen. D nee: niet onderzocht."
+   },
    "vei_vrede": {
     "waarde": 2.083,
     "eenheid": "GPI-score (1 tot 5)",
@@ -1540,6 +1584,17 @@
     },
     "zekerheid": "midden",
     "opmerking": "Geen structureel zomerverbod. Schotland: geen open vuur bij hoog brandrisico, bij bos, landbouwgrond of veen. Engeland/Wales: CROW Act verbiedt vuur op toegangsland. Lokale tijdelijke verboden bij droogte. Voorstel 100 bevestigd; twijfel 75."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 50,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "SCENES-lijst (Brownsea Island) + scouts.org.uk-referentie",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "A nee: scouts.org.uk-lijst niet leesbaar (WebFetch 403; web.archive-kopie gaf verbindingsfout). B ja (voorstel overgenomen): Fordell Firs, Meggernie en Great Tower uit referentie, niet zelf geopend. C ja: Brownsea Island op SCENES (gezien). D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.73,
@@ -1884,6 +1939,17 @@
     "zekerheid": "midden",
     "opmerking": "S. 40 verbiedt het verbranden van begroeiing op onbewerkt land van 15 april tot 31 augustus (enacted tekst; latere wijziging niet geverifieerd). Gaat over vegetatie, niet over kampvuren. Larch Hill heeft kampvuurcirkels. NPWS niet geopend. Voorstel 100 bevestigd; twijfel 75."
    },
+   "kamp_groepsterrein": {
+    "waarde": 50,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Scouting Ireland – nationale scoutcentra + SCENES",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A nee: natcentres.ie 'Network Campsites List' toont geen telbare lijst (alleen de 4 nationale centra genoemd). B ja (midden): Larch Hill, Lough Dan en Castle Saunderson uit referentie; scouts.ie-listing gaf 404, niet zelf geopend. C ja: alle 3 op SCENES (gezien). D nee: niet onderzocht."
+   },
    "vei_vrede": {
     "waarde": 1.371,
     "eenheid": "GPI-score (1 tot 5)",
@@ -2226,6 +2292,17 @@
     },
     "zekerheid": "midden",
     "opmerking": "Art. 28: vuur maken op 'víðavangi' verboden waar gevaar of schade voor vegetatie, dieren of gebouwen kan ontstaan. Geen vaste zomerperiode; campingregels niet geopend. Voorstel 50 gewijzigd naar 75; twijfel 50/100."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Úlfljótsvatn Scout Centre – International Scouts",
+     "url": "https://ulfljotsvatn.is/international-scouts/",
+     "jaar": "2027"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A nee: geen lijst gevonden. B nee: 1 terrein (Úlfljótsvatn) gezien. C ja: eigen pagina 'International Scouts' met tentenverhuur en boeking (ulfljotsvatn@skatar.is); domein skatar.is; letterlijk als centrum van de nationale organisatie niet vermeld. D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.161,
@@ -2570,6 +2647,17 @@
     "zekerheid": "hoog",
     "opmerking": "Natuurbrandrisico-fases: in hoge fase meestal niet stoken; in sommige gebieden verbieden eigenaren open vuur; vuur-ton op Scouting-kampeerterreinen. Periodieke regionale beperkingen. Voorstel 75 bevestigd."
    },
+   "kamp_groepsterrein": {
+    "waarde": 50,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "WOSM SCENES-lijst + terreinen Scouting Nederland",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A nee: lijst op scouting.nl niet te tellen. B ja: Scouting Kampeerterrein Staelduin (11 kampeervelden, online reservering; https://staelduin.scouting.nl/ gezien) en Scouting Campsite St. Walrick (26 kampeervelden, online reservering; https://www.stwalrick.nl/en/ gezien); Ada's Hoeve en Zeewolde uit referentie. C ja: 7 NL-centra op SCENES (gezien). D nee: niet onderzocht."
+   },
    "vei_vrede": {
     "waarde": 1.566,
     "eenheid": "GPI-score (1 tot 5)",
@@ -2912,6 +3000,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Overzichtspagina bevat geen vuurregels. Voorstel afgeleid van Duitsland/Frankrijk overgenomen; referentie niet opnieuw gecontroleerd."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 75,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "chalets.lu (jeugdaccommodaties SNJ/LGS/FNEL)",
+     "url": "https://chalets.lu/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A ja: chalets.lu toont 55 jeugdaccommodaties (met 'Afficher plus'); meerdere met terrain de camping gezien; referentie noemt 23. B ja: Fënsterdall (50 p.), Wiltz (700 p.), Beim Bëschhaus, St Benoit Clervaux, Chalet/Terrain Rollinger (100 p.) en Relais et Terrain de l'Amitié (120 p.) gezien; contact per profiel niet geopend. C ja: Misaershaff en Neihaischen op SCENES (gezien). D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.7827,
@@ -3256,6 +3355,17 @@
     "zekerheid": "midden",
     "opmerking": "Art. 17: in of binnen 100 m van bos vuur alleen met vergunning; DWD-Waldbrandgefahrenstufen met tijdelijke district-verboden. Alleen Beieren gelezen. Voorstel 75 bevestigd."
    },
+   "kamp_groepsterrein": {
+    "waarde": 75,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "gruppenhaus.de Zeltplatz-overzicht",
+     "url": "https://www.gruppenhaus.de/zeltplatz.html",
+     "jaar": "2026"
+    },
+    "zekerheid": "hoog",
+    "opmerking": "A ja: 'Treffer: 546 Zeltplätze' gezien. B ja: Jugendzeltplatz Hollfeld (ab 5 EUR), Pöhlde, Joshofen, Hilst, Breitenbrunn en Pfadfinderheim Rachtig met prijs gezien. C ja: Zentrum Pfadfinden Immenhausen, VCP-centrum en Westernohe op SCENES (gezien). D nee: gruppenhaus is een groepsportaal, geen campingportaal; niet als campingvoorziening gelezen."
+   },
    "vei_vrede": {
     "waarde": 1.657,
     "eenheid": "GPI-score (1 tot 5)",
@@ -3598,6 +3708,17 @@
     },
     "zekerheid": "hoog",
     "opmerking": "Open vuur in de natuur over het algemeen niet toegestaan; in bos verboden tenzij eigenaar toestemming geeft (adgangsbekendtgørelse §26 en §25 stk. 2); bålpladser zijn aangelegd; bij droogte kan politie of gemeente een verbod uitvaardigen, ook op bålpladser. Voorstel 50 bevestigd; twijfel 75."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 50,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Houens Odde International Scout Centre",
+     "url": "https://houensodde.dk/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A nee: niet geteld. B ja: Houens Odde (online boeking van shelters en teltpladser, telefoon en e-mail gezien); Næsbycentret en Stevninghus uit referentie; Trevældcentret gaf 503. C ja: 4 DK-centra op SCENES (gezien). D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.504,
@@ -3942,6 +4063,17 @@
     "zekerheid": "hoog",
     "opmerking": "§3 derde ledd (gelezen via WebFetch): 15 april-15 september verboden vuur te maken in of nabij bos en utmark, tenzij de gemeente toestaat, lokale forskrift het toelaat, of brand 'åpenbart ikke kan oppstå'. Voorstel 50 bevestigd."
    },
+   "kamp_groepsterrein": {
+    "waarde": 50,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Norges speiderforbund – Tredalen",
+     "url": "https://speiding.no/om-oss/generelt/vare-eiendommer/nye-eventyr-pa-tredalen/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A nee: speiding.no is een Angular-app zonder telbare lijst. B ja: Tredalen (4 leirplasser, ca. 100 tentplaatsen per veld, telefoon en e-mail gezien) en Leikvinjar (20+ tenten, weekendprijs 3800-5800 NOK, https://vestmarka.speiding.no/leikvinjar/ gezien); Nordtangen en Kvamsøy uit referentie. C ja: Tredalen wordt verhuurd aan 'medlemmer ... og ikke-medlemmer' van NSF (gezien); buitenlandse groepen niet expliciet. D nee: niet onderzocht."
+   },
    "vei_vrede": {
     "waarde": 1.688,
     "eenheid": "GPI-score (1 tot 5)",
@@ -4284,6 +4416,17 @@
     },
     "zekerheid": "midden",
     "opmerking": "Regering, kommun of länsstyrelse kan tijdelijk eldningsförbud afkondigen bij droogte; geen vaste zomerperiode. In droge zomers grote regio's (volgens voorstel 2018, 2025). Voorstel 100 bevestigd; twijfel 75."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 50,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Scouterna – international exchange / scoutstuga.se",
+     "url": "https://www.scouterna.se/languages/english/international-exchange/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A ja (midden): Scouterna noemt ~1000 lokale groepen met scoutstugor en verwijst naar het register scoutstuga.se (gezien); aantal kampterreinen niet geteld. B ja: Vässarö (255 kr p.p./dag, zomer 2027, verhuur aan scoutgroepen; https://vassaro.se/lager/scoutlager/ gezien; eigenaar Stockholms Scoutdistrikt); Kopparbo en Scout Camp Ransberg uit referentie. C nee: Vässarö is van een district, niet van de nationale organisatie; de Scouterna-pagina noemt lokale groepen en geen buitenlandse groepen; referentie-claim over Azimuth niet bevestigd. D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.732,
@@ -4628,6 +4771,17 @@
     "zekerheid": "hoog",
     "opmerking": "§6: geen kampvuur bij manifest brandgevaar; niet op andermans grond zonder toestemming van de eigenaar; regionale autoriteit kan tijdelijk verbieden. Geen vast zomerverbod. Voorstel 100 bevestigd."
    },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Suomen Partiolaiset – Hämeen partiopiiri, Vaakaniemi",
+     "url": "https://hp.partio.fi/hameen-partiopiiri/kokoustilat-ja-leirialueet/vaakaniemi/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A nee: lijsten per piiri, geen landelijke databank van >=10 gevonden. B ja: Vaakaniemi (tentplaatsen voor >500, boekingscontact partiotoimisto.tampere@partio.fi; gezien); Pajaniemi, Lapinhäme en Ruislehdonmäki uit referentie. C nee (niet bevestigd): Evon (https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/ulkoilu-ja-retkeily/evon-ja-taruksen-retkeilyalueet/) beschrijft Finnjamboree-kampen met buitenlandse deelnemers, maar geen vaste verhuur van de nationale organisatie; Yle-bron uit referentie niet opnieuw geopend. D nee: niet onderzocht."
+   },
    "vei_vrede": {
     "waarde": 1.478,
     "eenheid": "GPI-score (1 tot 5)",
@@ -4970,6 +5124,17 @@
     },
     "zekerheid": "midden",
     "opmerking": "Landelijk afgekondigde 'tuleohtlik aeg' (vanaf 14 juni 2023): vuur, grillen en roken in bos- en veengebieden verboden; kampvuur alleen met toestemming van de eigenaar (RMK). Periodiek en tijdelijk. Wettekst niet geopend. Voorstel 75 bevestigd."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Tagametsa Jahiloss ja Skaudilaagrikeskus",
+     "url": "http://tagametsa.ee/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A nee: geen lijst van >=10 gevonden. B nee: 1 terrein (Tagametsa) gezien. C nee: eigendom van Eesti Skautide Ühing (1999) en camps genoemd, maar geen verhuur aan buitenlandse groepen gelezen; referentie was 'ruim gelezen' (nu strikt). D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.623,
@@ -5314,6 +5479,17 @@
     "zekerheid": "midden",
     "opmerking": "Vuur in bos alleen op aangewezen vuurplaatsen; tijdens officieel afgekondigde brandgevaarperiodes alleen op speciaal aangewezen plekken. Wettekst niet geopend. Voorstel 75 bevestigd."
    },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "WOSM SCENES-lijst (geen Letse centra)",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Voorstel overgenomen: A, B, C en D nee. SCENES toont geen Letse centra (gezien). Referentie-URL's niet opnieuw gecontroleerd; 0 omdat geen enkel criterium met bewijs is vervuld."
+   },
    "vei_vrede": {
     "waarde": 1.589,
     "eenheid": "GPI-score (1 tot 5)",
@@ -5656,6 +5832,17 @@
     },
     "zekerheid": "midden",
     "opmerking": "'Fires can only be made in designated and appropriately marked fire pits'; periodieke brandgevaarbeperkingen niet geopend. Voorstel 75 bevestigd."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "WOSM SCENES-lijst (Scout Valley)",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A nee: VMU-databank is geen lijst van jeugdkampterreinen. B nee: 2 locaties van Scout Valley (Woodside, Lakeside) gezien, geen derde terrein. C ja: Scout Valley op SCENES (gezien). D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.62,
@@ -6000,6 +6187,17 @@
     "zekerheid": "laag",
     "opmerking": "Portaal is dynamisch (JavaScript); geen inhoud gelezen. Kantonale vuurverboden bij hoog bosbrandgevaar, tijdelijk en regionaal. Voorstel 75 overgenomen; referentie niet opnieuw gecontroleerd."
    },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Kandersteg International Scout Centre (SCENES)",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A nee: pfadiheime.ch gaf 403. B nee: alleen KISC is als terrein gelezen; geen drie terreinen bevestigd. C ja: KISC op SCENES (gezien). D nee: niet onderzocht."
+   },
    "vei_vrede": {
     "waarde": 1.363,
     "eenheid": "GPI-score (1 tot 5)",
@@ -6342,6 +6540,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Pagina bevat geen vuurregels. Voorstel afgeleid van Zwitserland/Oostenrijk overgenomen."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Pfadfinder und Pfadfinderinnen Liechtensteins – Lagerplatz Oberäckerle",
+     "url": "https://pfadi.li/organisation/lagerplaetzeheime/lagerplatz-oberaeckerle",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "B: Oberäckerle zelf gezien (Vermietung ja, CHF 3 p.p./nacht, contact Gemeinde Balzers); Dux en Obere Burg uit referentie, niet opnieuw geopend (pfadi.li-overzicht gaf geen lijst). A nee: 17 vermeldingen in referentie, niet bevestigd. C nee: Lagerplätze van gemeenten en afdelingen, geen nationaal scoutscentrum gevonden. D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.392,
@@ -6686,6 +6895,17 @@
     "zekerheid": "midden",
     "opmerking": "§40(1): in het bos en in Waldnähe (Gefährdungsbereich) vuur maken door onbevoegden verboden; §40(2)b: met schriftelijke toestemming van de eigenaar toegestaan. Structureel (niet seizoensgebonden). Regionale Waldbrandverbote niet geopend. Voorstel 75 gewijzigd naar 50 (zoals Tsjechië); twijfel 75."
    },
+   "kamp_groepsterrein": {
+    "waarde": 75,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "PPOE – PfadfinderInnen-Lagerplätze in Österreich",
+     "url": "https://ppoe.at/lagerplaetze/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A ja (midden): lijst van 11 centra/Lagerplätze gezien; zes met expliciete camp- of Zeltplatzcapaciteit. B ja: Pfadfinderdorf Zellhof (Lagerplatz 7,10 EUR p.p./nacht in 2027, https://www.zellhof.at/buchung/preise/ gezien), Scout Camp Austria (Zeltplatz 50.000 m2) en Techuana (kampeerdelen) gezien. C ja: Wassergspreng, Zellhof en Techuana op SCENES (gezien). D nee: niet onderzocht."
+   },
    "vei_vrede": {
     "waarde": 1.421,
     "eenheid": "GPI-score (1 tot 5)",
@@ -7028,6 +7248,17 @@
     },
     "zekerheid": "midden",
     "opmerking": "Open vuur in het bos en binnen 50 m van de bosrand verboden; uitzondering door de bosbezitter. Structureel, niet alleen in de zomer. Buiten het bos vrijer. Voorstel 75 gewijzigd naar 50; twijfel 75."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 50,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Junák – Databáze základen",
+     "url": "https://zakladny.skaut.cz/",
+     "jaar": "2026"
+    },
+    "zekerheid": "midden",
+    "opmerking": "A ja (midden): database met 400 scoutsbases en tábořiště (filter Tábořiště gezien); aantal tábořiště niet apart geteld. B nee: alleen Kaprálův mlýn met contact en prijs bevestigd. C ja: Kaprálův mlýn (Scout Environmental Education Centre) op SCENES (gezien). D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.517,
@@ -7372,6 +7603,17 @@
     "zekerheid": "laag",
     "opmerking": "Pagina geeft geen vuurregels. Voorstel 50 (uit geheugen, Zákon 326/2005 §30, niet geopend) overgenomen."
    },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Slovenský skauting – Odporúčané ubytovanie",
+     "url": "https://www.skauting.sk/kontakt/odporucame/ubytovanie/",
+     "jaar": "2026"
+    },
+    "zekerheid": "hoog",
+    "opmerking": "A nee: 3 voorzieningen op de pagina, geen lijst van >=10. B nee: Hodruša en Chata Kanné gezien (2 terreinen, geen derde). C ja: pagina zegt 'pre skautov i neskautov, slovenských i zahraničných' (gezien). D nee: niet onderzocht."
+   },
    "vei_vrede": {
     "waarde": 1.661,
     "eenheid": "GPI-score (1 tot 5)",
@@ -7714,6 +7956,17 @@
     },
     "zekerheid": "midden",
     "opmerking": "In periode van maximaal gevaar: binnen 100 m van bossen geen ongecontroleerde vlam (l.r. 15/2018 art. 10 c.7). Slechts één regio gelezen; nationale wet 353/2000 niet geopend. Voorstel 75 bevestigd."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 50,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Piazzole (Fondazione San Giorgio) en Campi Scout La Selva",
+     "url": "https://www.piazzole.org/",
+     "jaar": "2026"
+    },
+    "zekerheid": "hoog",
+    "opmerking": "A nee: AGESCI gaf connection reset; geen lijst gezien. B ja: Campi Scout La Selva (40+ kampplaatsen, contact, https://www.campiscout.it/ gezien) en piazzole.org met 4 bases (Piazzole, Brominetto, Carvanno, Cler) met booking en contact (gezien). C ja: Base Scout Piazzole op SCENES (gezien). D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.712,
@@ -8058,6 +8311,17 @@
     "zekerheid": "laag",
     "opmerking": "Pagina bevat geen informatie over open vuur. Voorstel afgeleid van Italië overgenomen."
    },
+   "kamp_groepsterrein": {
+    "waarde": 50,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Italië",
+     "url": "https://www.piazzole.org/",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht (microstaat). Ontbrekend-regel: niveau van het enige buurland Italië (score 50). Niet gecontroleerd; zeer onzeker."
+   },
    "vei_vrede": {
     "waarde": 1.712,
     "eenheid": "GPI-score (1 tot 5)",
@@ -8400,6 +8664,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Pagina bevat geen vuurregels; Majjistral-verbod (MaltaToday, 403) niet geopend. Voorstel 25 overgenomen."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "The Scout Association of Malta – Where to Stay",
+     "url": "https://scouts.mt/about-us/where-to-stay/",
+     "jaar": "2026"
+    },
+    "zekerheid": "hoog",
+    "opmerking": "A nee: 2 centra genoemd. B nee: 2 centra (Għajn Tuffieħa, Rinella) gezien. C ja: Għajn Tuffieħa als 'International Scout Centre' en Rinella voor local en international scouts (gezien). D nee: niet onderzocht."
    },
    "vei_vrede": {
     "waarde": 1.712,
@@ -8744,6 +9019,17 @@
     "zekerheid": "midden",
     "opmerking": "Van 1 juni tot 31 oktober geen open vuur of barbecue buiten aangewezen plaatsen; boete ca. 2.000-20.000 euro bij brandstichting. Zoekresultaat noemde 30 september, de pagina zegt 31 oktober. Wet niet geopend. Voorstel 25 bevestigd."
    },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "izvidjaci.hr (niet bereikbaar) en SCENES-lijst",
+     "url": "https://izvidjaci.hr/",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen criterium met bewijs: izvidjaci.hr gaf DNS-fout (ENOTFOUND); SCENES toont geen Kroatisch centrum (gezien); gruppenhaus toont alleen commerciële Zeltcamps (referentie). 0 als niet vervuld."
+   },
    "vei_vrede": {
     "waarde": 1.619,
     "eenheid": "GPI-score (1 tot 5)",
@@ -9086,6 +9372,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Pagina bevat geen vuurregels. Voorstel afgeleid van Servië/Kroatië overgenomen."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Kroatië",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht; geen Bosnische scoutssite of SCENES-centrum gevonden (SCENES gezien). Ontbrekend-regel: buurland Kroatië (score 0)."
    },
    "vei_vrede": {
     "waarde": 1.81,
@@ -9430,6 +9727,17 @@
     "zekerheid": "laag",
     "opmerking": "Pagina bevat geen vuurregels. Voorstel overgenomen."
    },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Kroatië",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Ontbrekend-regel: buurland Kroatië (score 0)."
+   },
    "vei_vrede": {
     "waarde": 1.672,
     "eenheid": "GPI-score (1 tot 5)",
@@ -9772,6 +10080,17 @@
     },
     "zekerheid": "midden",
     "opmerking": "Wet verbiedt vuur maken in het bos of binnen 200 m van de bosrand en het verbranden van gras; boete 10.000-50.000 dinar voor individuen. Structureel (geen periode genoemd); wettekst niet geopend. Voorstel 50 bevestigd."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurlanden BA, ME, MK, XK, BG",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Alle in de lijst voorkomende buurlanden hebben 0 zonder eigen bewijs; 0."
    },
    "vei_vrede": {
     "waarde": 1.919,
@@ -10116,6 +10435,17 @@
     "zekerheid": "laag",
     "opmerking": "Pagina bevat geen vuurregels. Voorstel afgeleid van Servië overgenomen."
    },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurlanden RS, MK, ME",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Buurlanden hebben 0 zonder eigen bewijs; 0."
+   },
    "vei_vrede": {
     "waarde": 1.83,
     "eenheid": "GPI-score (1 tot 5)",
@@ -10458,6 +10788,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Pagina bevat geen vuurregels. Voorstel overgenomen."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurlanden GR, BG, RS, XK",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Buurlanden hebben 0 zonder eigen bewijs; 0."
    },
    "vei_vrede": {
     "waarde": 1.792,
@@ -10802,6 +11143,17 @@
     "zekerheid": "laag",
     "opmerking": "'strict fire ban in all of Greece from May 1 until October 31 ... every outdoor activity that could cause a forest fire, including campfires, bonfires, barbecues'; stiff penalties. Uitzondering voor campings niet gevonden (civilprotection.gov.gr 403). Voorstel 25 gewijzigd naar 0; twijfel 25."
    },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurlanden BG, MK (sep.gr niet bruikbaar)",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "sep.gr-URL uit de referentie is een uitgeverij, geen scoutssite; SCENES toont geen Grieks centrum (gezien). Buurlanden hebben 0 zonder eigen bewijs; 0."
+   },
    "vei_vrede": {
     "waarde": 1.828,
     "eenheid": "GPI-score (1 tot 5)",
@@ -11144,6 +11496,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Alleen een catalogusrecord: 'measures against fires' en Ordinance No. 8/2012. Inhoud niet gelezen. Voorstel 50 overgenomen."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurlanden GR, MK, RS",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Buurlanden hebben 0 zonder eigen bewijs; 0."
    },
    "vei_vrede": {
     "waarde": 1.628,
@@ -11488,6 +11851,17 @@
     "zekerheid": "midden",
     "opmerking": "Vuur maken op het platteland verboden; alleen koken in ingerichte voorzieningen op georganiseerde picknick- en kampeerplaatsen. Binnen staatsbossen of 2 km: tot 12 jaar en 100.000 euro. Voorstel 25 bevestigd."
    },
+   "kamp_groepsterrein": {
+    "waarde": 0,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Griekenland (eiland, veerboot)",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Ontbrekend-regel: Griekenland (score 0)."
+   },
    "vei_vrede": {
     "waarde": 1.967,
     "eenheid": "GPI-score (1 tot 5)",
@@ -11829,6 +12203,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Vuurregel uit het voorstel niet in de geopende tekst teruggevonden. Voorstel (vuur alleen op aangewezen plaatsen; bosdienst sluit in zomer) overgenomen."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Georgië",
+     "url": "https://iscr.ge/",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Enige in de lijst voorkomende buurland met eigen bewijs is Georgië (score 25); ontbrekend-regel toegepast. Zeer onzeker, Georgië is geen vergelijkbaar land."
    },
    "vei_vrede": {
     "waarde": 2.605,
@@ -12173,6 +12558,17 @@
     "zekerheid": "laag",
     "opmerking": "Geen vuurregels gevonden. Voorstel afgeleid van buurlanden overgenomen."
    },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Oekraïne",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht; geen SCENES-centrum (gezien). Ontbrekend-regel: buurland Oekraïne (score 25, zelf ontbrekend-regel)."
+   },
    "vei_vrede": {
     "waarde": 1.836,
     "eenheid": "GPI-score (1 tot 5)",
@@ -12515,6 +12911,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Geen vuurregels gelezen; niet onderzocht (reisadvies). Voorstel overgenomen."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Slowakije",
+     "url": "https://www.skauting.sk/kontakt/odporucame/ubytovanie/",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Niet onderzocht wegens reisadvies (FOD: alle reizen afgeraden). Ontbrekend-regel: buurland Slowakije (score 25). Knock-out in model.json; waarde blijft voor latere afval."
    },
    "vei_vrede": {
     "waarde": 3.184,
@@ -12859,6 +13266,17 @@
     "zekerheid": "midden",
     "opmerking": "'Campfires are permitted in forests only in designated areas'; tijdens de brandgevaarperiode (bos gesloten) ook geen kampvuur. Lokale overheid, geen nationale regel. Voorstel 50 gewijzigd naar 75; twijfel 50."
    },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Litouwen",
+     "url": "https://www.scout.org/SCENES",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Niet onderzocht wegens reisadvies (FOD: alle reizen afgeraden). Ontbrekend-regel: buurland Litouwen (score 25). Knock-out in model.json."
+   },
    "vei_vrede": {
     "waarde": 2.216,
     "eenheid": "GPI-score (1 tot 5)",
@@ -13201,6 +13619,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Geen vuurregels gelezen. Voorstel afgeleid van Belarus overgenomen."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Finland",
+     "url": "https://hp.partio.fi/hameen-partiopiiri/kokoustilat-ja-leirialueet/vaakaniemi/",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Niet onderzocht wegens reisadvies (FOD: alle reizen afgeraden). Ontbrekend-regel: buurland met langste grens, Finland (score 25). Knock-out in model.json."
    },
    "vei_vrede": {
     "waarde": 3.367,
@@ -13545,6 +13974,17 @@
     "zekerheid": "laag",
     "opmerking": "Overzicht van kampeerplaatsen zonder vuurregels. Voorstel (neutraal) 75 overgenomen."
    },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "International Scout Centre Rustavi (ISCR)",
+     "url": "https://iscr.ge/stay-at-iscr/rustavi/accomodation/",
+     "jaar": "2015-2018 (copyright site)"
+    },
+    "zekerheid": "laag",
+    "opmerking": "A nee: geen lijst gevonden. B ja (laag): Rustavi (kamp voor 300 personen, contact via contactpagina; gezien); Pona en Chinti uit referentie. C nee: ISCR wordt beheerd door de Caucasus Cooperation Foundation for Youth Development, niet door de nationale scoutsorganisatie; niet op SCENES (gezien); site copyright 2015-2018. D nee: niet onderzocht."
+   },
    "vei_vrede": {
     "waarde": 2.066,
     "eenheid": "GPI-score (1 tot 5)",
@@ -13888,6 +14328,17 @@
     "zekerheid": "laag",
     "opmerking": "Pagina bevat geen vuurregels. Voorstel (neutraal) 75 overgenomen."
    },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Georgië",
+     "url": "https://iscr.ge/",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht. Ontbrekend-regel: buurland Georgië (score 25). Niet gecontroleerd."
+   },
    "vei_vrede": {
     "waarde": 1.825,
     "eenheid": "GPI-score (1 tot 5)",
@@ -14230,6 +14681,17 @@
     },
     "zekerheid": "laag",
     "opmerking": "Geen vuurregels gevonden. Voorstel (neutraal) 75 overgenomen."
+   },
+   "kamp_groepsterrein": {
+    "waarde": 25,
+    "eenheid": "score 0 tot 100 (aantal vervulde criteria x 25)",
+    "bron": {
+     "naam": "Ontbrekend-regel: buurland Georgië",
+     "url": "https://iscr.ge/",
+     "jaar": "2026"
+    },
+    "zekerheid": "laag",
+    "opmerking": "Geen referentie en niet onderzocht. Ontbrekend-regel: buurland Georgië (score 25). Niet gecontroleerd."
    },
    "vei_vrede": {
     "waarde": 2.142,
