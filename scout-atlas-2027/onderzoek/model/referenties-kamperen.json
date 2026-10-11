@@ -1077,13 +1077,25 @@
    "kamp_groepsterrein": {
     "A": {
      "vervuld": false,
-     "bewijs": "Geen landelijke lijst van >=10 leirsteder gevonden: speiding.no is een Angular-app zonder leesbare inhoud voor curl/WebFetch, speiderne.no heeft geen leirsteder-lijst. Zoekopdracht 'speiderhytter leirsteder oversikt Norge' gaf alleen losse plaatsen.",
-     "url": ""
+     "bewijs": "Geen landelijke lijst van 10 leirsteder gevonden: speiding.no is een Angular-app (de API-routes uit main.js gaven weer de app terug); booking.speiding.no (bookingsysteem van Norges speiderforbund, geopend) bevat alleen de eigen eigendommen (Tredalen, Solstølen, Havbraatt) en 5 resources; speiding.no/om-oss/generelt/vare-eiendommer/ noemt 3 eigendommen; Oslospeiderne en Grenland krets hebben elk een eigen kleine lijst.",
+     "url": "https://speiding.no/om-oss/generelt/vare-eiendommer/"
     },
     "B": {
-     "vervuld": false,
-     "bewijs": "Twee terreinen met naam, plaats, prijs en capaciteit geopend (Kvamsøy en Nordtangen); er moeten 3 zijn.",
+     "vervuld": true,
+     "bewijs": "Vier Noorse scoutsterreinen met eigen pagina, tentenveld en prijs of contact geopend: Tredalen (Norges speiderforbund), Leikvinjar (Vestmarka krets), Nordtangen (KFUK-KFUM-speiderne) en Kvamsøy (Hordaland krins).",
      "terreinen": [
+      {
+       "naam": "Tredalen leirsted (Norges speiderforbund)",
+       "plaats": "Spjærøy, Hvaler (Østfold)",
+       "url": "https://speiding.no/om-oss/generelt/vare-eiendommer/nye-eventyr-pa-tredalen/",
+       "details": "Aan zee; 50 slaapplaatsen binnen en 300 personen in eigen tenten op vier leirplasser (Piratsletta 100, Sauehagen ca. 100, Squawfield ca. 100, Idrettsplassen ca. 130); stroom en water; verhuur aan leden en niet-leden, prijslijst en booking via booking.speiding.no; nsf@speiding.no, +47 22 99 22 30."
+      },
+      {
+       "naam": "Leikvinjar (Vestmarka krets, Norges speiderforbund)",
+       "plaats": "bij Hønefoss, minder dan een uur van Oslo",
+       "url": "https://vestmarka.speiding.no/leikvinjar/",
+       "details": "Speiderhytte met 30 slaapplaatsen en grote tuin met plaats voor meer dan 20 tenten; weekendprijs (vr-zo) 3800 NOK voor NSF-groepen uit de eigen krets, 4800 NOK voor speidergroepen uit andere kretser, 5800 NOK extern, plus 50 NOK per persoon per nacht boven 20 personen (prijzen sinds 1-4-2024); vestmarka@speiding.no, +47 970 67 987."
+      },
       {
        "naam": "Nordtangen speidersenter (KFUK-KFUM-speiderne)",
        "plaats": "Jarenvatnet bij Gran, Hadeland",
@@ -1101,16 +1113,16 @@
     },
     "C": {
      "vervuld": true,
-     "bewijs": "Nordtangen speidersenter van KFUK-KFUM-speiderne (WOSM/WAGGGS-organisatie) verhuurt het leirområde (800 plasser) aan leden en 'andre'; buitenlandse groepen worden niet apart genoemd (ruim gelezen). Er is geen SCENES-centrum in Noorwegen.",
-     "url": "https://kmspeider.no/kontakt-oss/nordtangen/"
+     "bewijs": "Norges speiderforbund (WOSM-lid) verhuurt Tredalen uitdrukkelijk aan leden en niet-leden ('Tredalen leies ut til både medlemmer av Norges speiderforbund og ikke-medlemmer') en KFUK-KFUM-speiderne verhuurt het leirområde van Nordtangen (800 plasser) aan leden en 'andre'; buitenlandse groepen worden niet apart genoemd (ruim gelezen). Er is geen SCENES-centrum in Noorwegen.",
+     "url": "https://speiding.no/om-oss/generelt/vare-eiendommer/nye-eventyr-pa-tredalen/"
     },
     "D": {
      "vervuld": false,
-     "bewijs": "Geen campingportaal met groepsfilter bereikbaar gevonden (niet gezocht op camping.no).",
+     "bewijs": "Geen campingportaal met groepsfilter bereikbaar gevonden (camping.no niet geprobeerd).",
      "url": ""
     },
-    "voorstel": 25,
-    "opmerking": "Zoekopdrachten (4): speiderhytter/leirsteder Norge, Norges Speiderforbund leirplass, speidersenter leirsted; de bruikbare vondsten kwamen van kmspeider.no en ut.no. Niet-vervuld betekent: niet kunnen staven met een geopende bron, niet: bestaat niet. Noorwegen heeft ~600 speidergrupper (speiderne.no); er zijn in werkelijkheid veel meer terreinen; A, B (derde terrein) en D zijn onbeslist, geen bewijs van afwezigheid."
+    "voorstel": 50,
+    "opmerking": "tweede pas: B nu vervuld (was 25, nu 50) dankzij Tredalen en Leikvinjar, gevonden via een WebSearch beperkt tot speiding.no; de statische subpagina's van speiding.no en de krets-subdomeinen (vestmarka., grenland., oslo.speiding.no) zijn wel leesbaar, alleen de root-app niet. Gezien maar niet als terrein opgenomen: Grenland krets (Skien: speiderhytte Gråkallen, 50 NOK per persoon per nacht, min. 500 NOK; Bugodt, verhuur aan andere speidergrupper) en Oslospeiderne (Blåhaug, Krakosseter). Hove Leirsenter (Arendal, commercieel) kwam in de zoekresultaten maar de eigen site was onbereikbaar. A en D niet vervuld; 'niet gevonden' is hier geen 'bestaat niet'. 3 WebSearch-aanroepen voor dit land."
    }
   },
   "Zweden": {
@@ -1275,13 +1287,38 @@
    "kamp_groepsterrein": {
     "A": {
      "vervuld": false,
-     "bewijs": "Geen lijst van 10 Finse leirialueet geopend: partio.fi/lippukunnille/partio-ohjelma/leirit/ (geopend, 200) bevat geen terreinlijst; partioaitta.fi gaf 403 ('Access Temporarily Restricted'); leirialueet./tilat.partio.fi, partiotilat.fi, hameenpartiopiiri.fi, evonleirialue.fi bestaan niet of gaven een proxyfout (502/DNS).",
-     "url": "https://www.partio.fi/lippukunnille/partio-ohjelma/leirit/"
+     "bewijs": "Geen landelijke lijst van 10 leirialueet gevonden: partio.fi/lippukunnille/partio-ohjelma/leirit/ (200) bevat geen terreinlijst; de lijsten staan per partiopiiri (Hämeen Partiopiiri 7 vermeldingen: Lapinhäme, Nurmela, Pajaniemi, Vaakaniemi, Rismalahti, Laitikkala, Nokka; Kymenlaakso 1 leirialue), samen wel meer dan 10 maar verspreid over meerdere sites. partioaitta.fi gaf 403.",
+     "url": "https://hp.partio.fi/hameen-partiopiiri/kokoustilat-ja-leirialueet/"
     },
     "B": {
-     "vervuld": false,
-     "bewijs": "Geen enkel Fins terrein met eigen pagina, prijs of contact geopend.",
-     "terreinen": [],
+     "vervuld": true,
+     "bewijs": "Vier Finse scoutsterreinen met eigen pagina, tentenveld en boekingscontact of tarief geopend: Vaakaniemi, Pajaniemi en Lapinhäme (Hämeen Partiopiiri, reservaties via partiotoimisto.tampere@partio.fi, 03 3123 4900) en Ruislehdonmäki (Kymenlaakso, tarief voor groepen van buiten het district 60 EUR/dag + 1 EUR per persoon/dag).",
+     "terreinen": [
+      {
+       "naam": "Vaakaniemi leirialue (Hämeen Partiopiiri)",
+       "plaats": "Kuru / Parkkuu (Ylöjärvi), Näsijärvi, Pirkanmaa",
+       "url": "https://hp.partio.fi/hameen-partiopiiri/kokoustilat-ja-leirialueet/vaakaniemi/",
+       "details": "Ca. 6 ha, 700 m oever, tentplaatsen voor meer dan 500 kampers; retkimaja met sauna, kookhut met houtfornuis voor ca. 40 personen, leirikirkko; reservering via partiotoimisto.tampere@partio.fi; annuleringsvergoeding 100-200 EUR."
+      },
+      {
+       "naam": "Pajaniemi leirialue (Hämeen Partiopiiri)",
+       "plaats": "Lempäälä (Tervajärvi), ca. 20 km van Tampere",
+       "url": "https://hp.partio.fi/hameen-partiopiiri/kokoustilat-ja-leirialueet/pajaniemi/",
+       "details": "Ca. 2,5 ha; één landtong voor tenten, op de andere Pajapirtti (ca. 20 matrasplaatsen) en sauna; weekenden alleen als geheel (vr 15.00 tot zo 15.00); info en boekingen via partiotoimisto.tampere@partio.fi."
+      },
+      {
+       "naam": "Lapinhäme leirikeskus (Hämeen Partiopiiri)",
+       "plaats": "Sodankylä (bij Kiilopää en Saariselkä, Lapland)",
+       "url": "https://hp.partio.fi/hameen-partiopiiri/kokoustilat-ja-leirialueet/lapinhame/",
+       "details": "7 ha; tentveld voor ca. 100 kampers in de zomer, 6 blokhutten voor ca. 50 personen, 3 sauna's, kook- en eetoverkapping; boekingen via partiotoimisto.tampere@partio.fi."
+      },
+      {
+       "naam": "Ruislehdonmäki leirialue (Kymenlaakson partiopiiri)",
+       "plaats": "Kouvola, Kymenlaakso",
+       "url": "https://kymenlaakso.partio.fi/piiri/leirialue/varausohjeet/",
+       "details": "Kampeerveld met veldkeuken, houtopslag, overdekte vuurplaats en parkeerplaats voor ca. 100 auto's; reserveren via formulier en kalender; leden van het district 10 EUR (3-5 dagen) of 20 EUR (>5 dagen); groepen van buiten het district 60 EUR/dag + 1 EUR per persoon/dag; contact toni.sakki@partio.fi."
+      }
+     ],
      "url": ""
     },
     "C": {
@@ -1294,8 +1331,8 @@
      "bewijs": "Niet onderzocht (geen Fins campingportaal met groepsfilter geopend).",
      "url": ""
     },
-    "voorstel": 25,
-    "opmerking": "tweede pas: C ruim gelezen (was 0, nu 25) via Evo (Yle + stad Hämeenlinna); dit blijft het zwakste bewijs van alle tweede-pas-verbeteringen. A en B niet gestaafd omdat de scoutssites van de partiopiirit niet te bereiken waren; Finland heeft aantoonbaar veel leirialueet, dus 'niet gevonden' is hier geen 'bestaat niet'. 2 WebSearch-aanroepen voor dit land (1 zonder bruikbaar resultaat)."
+    "voorstel": 50,
+    "opmerking": "tweede pas: B nu gestaafd, C ruim gelezen (was 0, nu 50). De piirisites zijn subdomeinen van partio.fi (hp., kymenlaakso., jarvisuomi., papa.partio.fi) die wel bereikbaar zijn; ze werden gevonden via een WebSearch beperkt tot partio.fi. Prijzen staan bij Hämeen Partiopiiri niet op de pagina's (alleen boeking per e-mail), bij Kymenlaakso wel. A niet vervuld omdat er geen landelijke lijst bestaat. C is het zwakste criterium: Evo is een grootkamplocatie, geen verhuurpagina voor buitenlandse groepen. 3 WebSearch-aanroepen voor dit land (2 zonder bruikbaar resultaat)."
    }
   },
   "Estland": {
